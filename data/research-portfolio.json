@@ -1,10 +1,10 @@
 {
   "schema": "anaxia-public-portfolio-v1",
   "captured_on": "2026-11-01",
-  "repository_count": 145,
-  "readme_count": 130,
+  "repository_count": 146,
+  "readme_count": 131,
   "release_count": 74,
-  "fork_count": 51,
+  "fork_count": 52,
   "assessment": "Reading a source records its claims; it does not certify its proofs. No private repositories or credentials are included.",
   "repositories": [
     {
@@ -128,6 +128,22 @@
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope.",
       "scope_note_commit": "465931b71d1bda04bd6c79461e8edc9af64bbacd"
+    },
+    {
+      "name": "awesome-ML-in-plasma-physics",
+      "url": "https://github.com/creelie/awesome-ML-in-plasma-physics",
+      "commit": "205502299f40a58aa1eeedacb1d0f1ba9b5a8f0a",
+      "fork": true,
+      "archived": false,
+      "description": "⚛️ ML in fusion industry/science 🍩⚡",
+      "pushed_at": "2026-11-01T06:09:01Z",
+      "readme_url": "https://github.com/creelie/awesome-ML-in-plasma-physics/blob/205502299f40a58aa1eeedacb1d0f1ba9b5a8f0a/README.md",
+      "readme_blob_sha": "80ff3f0760ef271967415840f9fbe246fe765b4a",
+      "readme_excerpt": "# Awesome Machine Learning in Plasma Physics [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) A curated list of awesome machine learning resources for plasma physics, tokamaks, and stellarators. ## Contents | Section | Description | |---------|-------------| | [Tools](#tools) | Simulat",
+      "latest_release": null,
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
     },
     {
       "name": "baez-duarte-kalman",

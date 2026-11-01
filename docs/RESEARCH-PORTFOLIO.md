@@ -1,6 +1,6 @@
 # Public research portfolio
 
-Public source snapshot: 2026-11-01. 145 repositories; 130 READMEs; 74 stable releases.
+Public source snapshot: 2026-11-01. 146 repositories; 131 READMEs; 74 stable releases.
 
 Source claims retain their original authors and hypotheses. No entry is an independent proof audit. A scope note marked for review belongs to an earlier commit.
 
@@ -13,6 +13,7 @@ Source claims retain their original authors and hypotheses. No entry is an indep
 | [alphaproof-nexus-results](https://github.com/creelie/alphaproof-nexus-results) | No stable release | [0647711a71](https://github.com/creelie/alphaproof-nexus-results/tree/0647711a71183c1ea492ad60860776617ce1ea88) | Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope. |
 | [artemis](https://github.com/creelie/artemis) | No stable release | [351ca8422f](https://github.com/creelie/artemis/tree/351ca8422f7b5b54e80a9c1ce03a222e02415b6b) | Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope. |
 | [automatic-memory](https://github.com/creelie/automatic-memory) | [v2.2.1](https://github.com/creelie/automatic-memory/releases/tag/v2.2.1) | [465931b71d](https://github.com/creelie/automatic-memory/tree/465931b71d1bda04bd6c79461e8edc9af64bbacd) | Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope. |
+| [awesome-ML-in-plasma-physics](https://github.com/creelie/awesome-ML-in-plasma-physics) | No stable release | [205502299f](https://github.com/creelie/awesome-ML-in-plasma-physics/tree/205502299f40a58aa1eeedacb1d0f1ba9b5a8f0a) | New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review. |
 | [baez-duarte-kalman](https://github.com/creelie/baez-duarte-kalman) | [v1](https://github.com/creelie/baez-duarte-kalman/releases/tag/v1) | [3f241e3435](https://github.com/creelie/baez-duarte-kalman/tree/3f241e34358b6e26ca3b6e627243a738409155e6) | Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope. |
 | [brane-cluster-gases](https://github.com/creelie/brane-cluster-gases) | [v3.4.0](https://github.com/creelie/brane-cluster-gases/releases/tag/v3.4.0) | [4eac7cbf92](https://github.com/creelie/brane-cluster-gases/tree/4eac7cbf921574c8173797838e813d1b41ac8ead) | Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope. |
 | [Breakthrough-problems-1](https://github.com/creelie/Breakthrough-problems-1) | [v1.1.0](https://github.com/creelie/Breakthrough-problems-1/releases/tag/v1.1.0) | [3c3598e2c3](https://github.com/creelie/Breakthrough-problems-1/tree/3c3598e2c3d563947e91c85e913c0b701d50ed8b) | Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope. |
