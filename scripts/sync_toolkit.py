@@ -102,7 +102,7 @@ def main():
     old = json.loads(path.read_text(encoding='utf-8'))
     updated = [refresh(item) for item in old['repositories']]
     if updated == old['repositories']:
-        print('All selected mathematical libraries and Anaxia are current.')
+        print('All selected toolkit sources are current.')
         return
     for before, after in zip(old['repositories'], updated):
         if before != after:

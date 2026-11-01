@@ -15,7 +15,7 @@ Quantum software, mathematical constructions and inspectable evidence in one rep
 
 | Quantum laboratory | Construction engine | Mathematical toolkit | Research memory |
 | :--- | :--- | :--- | :--- |
-| **17** quantumlib projects | **Anaxia / eBLLM** | **4** source libraries | **145** public sources |
+| **17** quantumlib projects | **Anaxia / eBLLM** | **4** libraries + Harmonic Lean examples | **145** public sources |
 | Circuits · simulation · decoding | **14** targeted routes | Lean mathlib · SymPy | Pinned commits · release links |
 | Chemistry · fermions · units | Exact rational LDLᵀ certificates | FLINT · GAP | Claims retain their proof scope |
 
@@ -35,6 +35,8 @@ python opengluon.py certify examples/rational-psd.json
 
 **[Public upstream watch](docs/PUBLIC-UPSTREAM-WATCH.md)** · **[Research portfolio](docs/RESEARCH-PORTFOLIO.md)** · **[Construction routes](docs/CONSTRUCTION-ROUTES.md)** · **[Quantumlib inventory](docs/QUANTUMLIB.md)** · **[Automatic updates](docs/AUTOMATIC-UPDATES.md)** · **[Verification](docs/VERIFICATION.md)**
 
+**[Harmonic tools](docs/HARMONIC.md)**: pinned IMO proof examples and the optional Aristotle client. The current client verifies supported programming languages through a hosted service; it does not accept pure mathematics or Lean-only projects as verification targets. Cloning it does not install the model or start an API run.
+
 <details>
 <summary><b>What is inside</b></summary>
 
@@ -46,6 +48,8 @@ python opengluon.py certify examples/rational-psd.json
 | `mathematics/sympy/` | Symbolic algebra and exact expressions. |
 | `mathematics/flint/` | Exact and rigorous arithmetic source library. |
 | `mathematics/gap/` | Computational discrete algebra source library. |
+| `mathematics/harmonic-imo2025/` | Harmonic's IMO 2025 Lean examples with their original toolchain and source files. Statement templates are distinguished from completed proof files. |
+| `engines/aristotle/` | Unmodified optional client for Harmonic's hosted code-verification API. Its original license and API terms apply. |
 | `scripts/` | Metadata-only upstream sync; upstream code is not executed by the sync job. |
 
 Source checkouts are not preinstalled runtimes. Follow each project's own build and dependency instructions. The four external mathematical checkouts initially use shallow pinned source snapshots; quantumlib's 17 initial clones have full history.
@@ -55,7 +59,7 @@ Source checkouts are not preinstalled runtimes. Follow each project's own build 
 <details>
 <summary><b>How automatic updates work</b></summary>
 
-Anaxia refreshes public inventories from Google, Google DeepMind, quantumlib and creelie hourly at minute 7 UTC. OpenGluon checks source default branches and transfers Anaxia’s refreshed catalogues hourly at minute 17 UTC. Changed commits update the submodule pins and lock files. Newly discovered quantumlib repositories are included; disappeared ones retain their previous pin with a note. Use **Actions → Sync quantumlib → Run workflow** for a manual refresh. This polls upstreams; it is not an immediate Google webhook. GitHub can delay scheduled runs.
+Anaxia refreshes public inventories from Google, Google DeepMind, quantumlib and creelie hourly at minute 7 UTC. OpenGluon checks source default branches, including the two selected Harmonic repositories, and transfers Anaxia’s refreshed catalogues hourly at minute 17 UTC. Changed commits update the submodule pins and lock files. Newly discovered quantumlib repositories are included; disappeared ones retain their previous pin with a note. Use **Actions → Sync quantumlib → Run workflow** for a manual refresh. This polls upstreams; it is not an immediate Google webhook. GitHub can delay scheduled runs.
 
 Update a local checkout after a remote sync:
 

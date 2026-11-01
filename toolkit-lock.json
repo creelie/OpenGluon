@@ -1,5 +1,5 @@
 {
-  "captured_at_utc": "2026-11-01T14:00:14.475915+00:00",
+  "captured_at_utc": "2026-11-01T15:31:49+00:00",
   "repositories": [
     {
       "upstream": "leanprover-community/mathlib4",
@@ -35,6 +35,23 @@
       "role": "construction engine and public research source catalogue",
       "commit": "9ef0454294c8dd293f1ce9c51f7937fbc785bd97",
       "default_branch": "main"
+    },
+    {
+      "upstream": "harmonic-ai/IMO2025",
+      "path": "mathematics/harmonic-imo2025",
+      "role": "worked Lean proof examples for IMO 2025; statements and proofs have different scopes",
+      "commit": "72b62405a176a7eaeadb335a7fa6ee80b6667161",
+      "default_branch": "main",
+      "lean_toolchain": "leanprover/lean4:v4.20.0-rc5",
+      "license_note": "No top-level license file at capture; original upstream rights retained."
+    },
+    {
+      "upstream": "harmonic-ai/aristotle",
+      "path": "engines/aristotle",
+      "role": "optional hosted code-verification client; current API is not a pure-mathematics or Lean verification service",
+      "commit": "52e3639009b4afd9f09982bbd17e8ebc0cb1b80f",
+      "default_branch": "main",
+      "license_note": "Proprietary Aristotle API terms, with MIT-licensed vendored tomli; source retained unmodified."
     }
   ]
 }

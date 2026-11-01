@@ -90,3 +90,11 @@
 	path = engines/anaxia
 	url = https://github.com/creelie/eBLLM.git
 	branch = main
+[submodule "mathematics/harmonic-imo2025"]
+	path = mathematics/harmonic-imo2025
+	url = https://github.com/harmonic-ai/IMO2025.git
+	branch = main
+[submodule "engines/aristotle"]
+	path = engines/aristotle
+	url = https://github.com/harmonic-ai/aristotle.git
+	branch = main
