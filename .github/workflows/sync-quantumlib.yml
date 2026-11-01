@@ -1,0 +1,41 @@
+name: Sync quantumlib
+
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-quantumlib
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out OpenGluon
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          submodules: false
+
+      - name: Refresh upstream commits and inventory
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/sync_quantumlib.py
+
+      - name: Commit and push upstream changes
+        shell: bash
+        run: |
+          if git diff --cached --quiet; then
+            echo "All quantumlib repositories are already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Sync quantumlib upstream repositories"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

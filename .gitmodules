@@ -1,0 +1,68 @@
+[submodule "quantumlib/.allstar"]
+	path = quantumlib/.allstar
+	url = https://github.com/quantumlib/.allstar.git
+	branch = master
+[submodule "quantumlib/.github"]
+	path = quantumlib/.github
+	url = https://github.com/quantumlib/.github.git
+	branch = main
+[submodule "quantumlib/chromobius"]
+	path = quantumlib/chromobius
+	url = https://github.com/quantumlib/chromobius.git
+	branch = main
+[submodule "quantumlib/Cirq"]
+	path = quantumlib/Cirq
+	url = https://github.com/quantumlib/Cirq.git
+	branch = main
+[submodule "quantumlib/OpenFermion"]
+	path = quantumlib/OpenFermion
+	url = https://github.com/quantumlib/OpenFermion.git
+	branch = main
+[submodule "quantumlib/OpenFermion-Cirq"]
+	path = quantumlib/OpenFermion-Cirq
+	url = https://github.com/quantumlib/OpenFermion-Cirq.git
+	branch = master
+[submodule "quantumlib/OpenFermion-FQE"]
+	path = quantumlib/OpenFermion-FQE
+	url = https://github.com/quantumlib/OpenFermion-FQE.git
+	branch = main
+[submodule "quantumlib/OpenFermion-Psi4"]
+	path = quantumlib/OpenFermion-Psi4
+	url = https://github.com/quantumlib/OpenFermion-Psi4.git
+	branch = main
+[submodule "quantumlib/OpenFermion-PySCF"]
+	path = quantumlib/OpenFermion-PySCF
+	url = https://github.com/quantumlib/OpenFermion-PySCF.git
+	branch = main
+[submodule "quantumlib/qchack-2021-challenge"]
+	path = quantumlib/qchack-2021-challenge
+	url = https://github.com/quantumlib/qchack-2021-challenge.git
+	branch = main
+[submodule "quantumlib/qsim"]
+	path = quantumlib/qsim
+	url = https://github.com/quantumlib/qsim.git
+	branch = main
+[submodule "quantumlib/Qualtran"]
+	path = quantumlib/Qualtran
+	url = https://github.com/quantumlib/Qualtran.git
+	branch = main
+[submodule "quantumlib/ReCirq"]
+	path = quantumlib/ReCirq
+	url = https://github.com/quantumlib/ReCirq.git
+	branch = main
+[submodule "quantumlib/Stim"]
+	path = quantumlib/Stim
+	url = https://github.com/quantumlib/Stim.git
+	branch = main
+[submodule "quantumlib/tesseract-decoder"]
+	path = quantumlib/tesseract-decoder
+	url = https://github.com/quantumlib/tesseract-decoder.git
+	branch = main
+[submodule "quantumlib/TypedUnits"]
+	path = quantumlib/TypedUnits
+	url = https://github.com/quantumlib/TypedUnits.git
+	branch = main
+[submodule "quantumlib/unitary"]
+	path = quantumlib/unitary
+	url = https://github.com/quantumlib/unitary.git
+	branch = main
