@@ -1,72 +1,76 @@
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="docs/assets/opengluon.png">
+  <img src="docs/assets/opengluon.gif" alt="OpenGluon animated workspace connecting quantum software, research sources, exact certificates and upstream synchronization" width="100%">
+</picture>
+
+<p align="center">
+  <a href="https://github.com/creelie/OpenGluon/actions/workflows/sync-quantumlib.yml"><img src="https://img.shields.io/badge/upstream_sync-hourly-34d6bf?style=for-the-badge" alt="hourly upstream sync"></a>
+  <a href="docs/EXACT-CONSTRUCTIONS.md"><img src="https://img.shields.io/badge/arithmetic-exact_rational-a894ff?style=for-the-badge" alt="exact rational certificates"></a>
+  <a href="CONTRIBUTORS.md"><img src="https://img.shields.io/badge/Deep_Bhattacharjee-project_maintainer-f3bd6f?style=for-the-badge" alt="maintained by Deep Bhattacharjee"></a>
+</p>
+
 # OpenGluon
 
-A workspace containing all **17 public repositories** listed under [quantumlib](https://github.com/quantumlib) when this inventory was captured. Each project is a Git submodule pinned to an exact upstream commit, with a full local Git history. Archived repositories and organization configuration repositories are included.
+Quantum software, mathematical constructions and inspectable evidence in one reproducible workspace. **Deep Bhattacharjee** maintains the project material. Every upstream library keeps its original authorship and license.
 
-## Clone the workspace
+| Quantum laboratory | Construction engine | Mathematical toolkit | Research memory |
+| :--- | :--- | :--- | :--- |
+| **17** quantumlib projects | **Anaxia / eBLLM** | **4** source libraries | **145** public sources |
+| Circuits · simulation · decoding | **14** targeted routes | Lean mathlib · SymPy | Pinned commits · release links |
+| Chemistry · fermions · units | Exact rational LDLᵀ certificates | FLINT · GAP | Claims retain their proof scope |
+
+<p align="center"><img src="docs/assets/workspace-stats.svg" alt="Current source inventory counts" width="100%"></p>
+
+<p align="center"><img src="docs/assets/architecture.svg" alt="OpenGluon architecture: pinned sources flow into typed construction routes, exact finite certificates, and source-linked evidence" width="100%"></p>
 
 ```sh
 git clone --recurse-submodules https://github.com/creelie/OpenGluon.git
 cd OpenGluon
+python opengluon.py doctor
+python opengluon.py upstreams quantum
+python opengluon.py portfolio seed
+python opengluon.py routes Yang-Mills
+python opengluon.py certify examples/rational-psd.json
 ```
 
-For an existing checkout:
+**[Public upstream watch](docs/PUBLIC-UPSTREAM-WATCH.md)** · **[Research portfolio](docs/RESEARCH-PORTFOLIO.md)** · **[Construction routes](docs/CONSTRUCTION-ROUTES.md)** · **[Quantumlib inventory](docs/QUANTUMLIB.md)** · **[Automatic updates](docs/AUTOMATIC-UPDATES.md)** · **[Verification](docs/VERIFICATION.md)**
 
-```sh
-git submodule update --init --recursive
-```
+<details>
+<summary><b>What is inside</b></summary>
 
-On Windows, enabling `git config --global core.longpaths true` may help with long upstream paths.
+| Directory | Contents |
+| --- | --- |
+| `quantumlib/` | Every public repository owned by quantumlib at capture, including archived/configuration repositories. Initial local clones have full Git history. |
+| `engines/anaxia/` | The eBLLM engine as a pinned submodule, including the new portfolio, construction routes and exact finite matrix certificates. |
+| `mathematics/mathlib4/` | Lean's mathematical library; use its pinned toolchain for formal work. |
+| `mathematics/sympy/` | Symbolic algebra and exact expressions. |
+| `mathematics/flint/` | Exact and rigorous arithmetic source library. |
+| `mathematics/gap/` | Computational discrete algebra source library. |
+| `scripts/` | Metadata-only upstream sync; upstream code is not executed by the sync job. |
 
-## Repository inventory
+Source checkouts are not preinstalled runtimes. Follow each project's own build and dependency instructions. The four external mathematical checkouts initially use shallow pinned source snapshots; quantumlib's 17 initial clones have full history.
 
-| Project | Local path | Pinned commit | Archived | Description |
-| --- | --- | --- | --- | --- |
-| [.allstar](https://github.com/quantumlib/.allstar) | `quantumlib/.allstar` | `7208ff64daa1` | Yes |  |
-| [.github](https://github.com/quantumlib/.github) | `quantumlib/.github` | `b6845829c0c6` | No |  |
-| [chromobius](https://github.com/quantumlib/chromobius) | `quantumlib/chromobius` | `e2d8d4b2c0d2` | No | Open-source implementation of a Möbius decoder for color codes used in quantum error correction (QEC) |
-| [Cirq](https://github.com/quantumlib/Cirq) | `quantumlib/Cirq` | `3006c4c50463` | No | Python framework for creating, editing, and running Noisy Intermediate-Scale Quantum (NISQ) circuits. |
-| [OpenFermion](https://github.com/quantumlib/OpenFermion) | `quantumlib/OpenFermion` | `34adf3196cd5` | No | Python package for compiling and analyzing quantum algorithms to simulate electronic structures. |
-| [OpenFermion-Cirq](https://github.com/quantumlib/OpenFermion-Cirq) | `quantumlib/OpenFermion-Cirq` | `655b00fee21c` | Yes | Quantum circuits for simulations of quantum chemistry and materials. |
-| [OpenFermion-FQE](https://github.com/quantumlib/OpenFermion-FQE) | `quantumlib/OpenFermion-FQE` | `37d451e0611b` | No | The Fermionic Quantum Emulator (FQE) is a fermionic simulation research tool specializing in quantum circuits emulating fermion dynamics. |
-| [OpenFermion-Psi4](https://github.com/quantumlib/OpenFermion-Psi4) | `quantumlib/OpenFermion-Psi4` | `36bd888b1b38` | No | OpenFermion plugin to interface with the electronic structure package Psi4. |
-| [OpenFermion-PySCF](https://github.com/quantumlib/OpenFermion-PySCF) | `quantumlib/OpenFermion-PySCF` | `4a8675107544` | No | OpenFermion plugin to interface with the electronic structure package PySCF. |
-| [qchack-2021-challenge](https://github.com/quantumlib/qchack-2021-challenge) | `quantumlib/qchack-2021-challenge` | `80c227033c1a` | Yes | The <G\|oogl\|e> challenge for Quantum Coalition Hackathon 2021 |
-| [qsim](https://github.com/quantumlib/qsim) | `quantumlib/qsim` | `241569e539d3` | No | Fast C++ and Python library for state-vector simulation of quantum circuits. |
-| [Qualtran](https://github.com/quantumlib/Qualtran) | `quantumlib/Qualtran` | `c9025be9e376` | No | Qᴜᴀʟᴛʀᴀɴ is a Python library for expressing and analyzing Fault Tolerant Quantum algorithms. |
-| [ReCirq](https://github.com/quantumlib/ReCirq) | `quantumlib/ReCirq` | `93d6fe58af8d` | No | Python modules for quantum computing applications and experiments using Cirq. Research using Cirq! |
-| [Stim](https://github.com/quantumlib/Stim) | `quantumlib/Stim` | `ffe0d043598e` | No | A fast stabilizer circuit library. |
-| [tesseract-decoder](https://github.com/quantumlib/tesseract-decoder) | `quantumlib/tesseract-decoder` | `838d4f64acc1` | No | Search-based decoder for quantum error correction (QEC) written in C++ and Python. |
-| [TypedUnits](https://github.com/quantumlib/TypedUnits) | `quantumlib/TypedUnits` | `efc0bb4efd1e` | No | A fast units and dimensions library with support for static dimensionality checking and protobuffer serialization. |
-| [unitary](https://github.com/quantumlib/unitary) | `quantumlib/unitary` | `a5eea27be2d7` | No | Open-source API library providing common operations for adding quantum behaviors to games. |
+</details>
 
-The complete commit IDs, upstream URLs, default branches, licenses reported by GitHub, and capture time are in [`quantumlib-lock.json`](quantumlib-lock.json). The inventory covers repositories owned by the quantumlib organization; projects linked from its profile but hosted under other owners are separate projects.
+<details>
+<summary><b>How automatic updates work</b></summary>
 
-## Work with a project
+Anaxia refreshes public inventories from Google, Google DeepMind, quantumlib and creelie hourly at minute 7 UTC. OpenGluon checks source default branches and transfers Anaxia’s refreshed catalogues hourly at minute 17 UTC. Changed commits update the submodule pins and lock files. Newly discovered quantumlib repositories are included; disappeared ones retain their previous pin with a note. Use **Actions → Sync quantumlib → Run workflow** for a manual refresh. This polls upstreams; it is not an immediate Google webhook. GitHub can delay scheduled runs.
 
-Each upstream project retains its own build instructions, dependencies, tests, and license. Enter its directory and follow its documentation. Creating this workspace does not install dependencies or run upstream code.
-
-To intentionally advance all projects to their upstream default branches, review the changes produced by:
-
-```sh
-git submodule update --remote --recursive
-git diff --submodule=log
-```
-
-Commit updated submodule pointers only after reviewing them. Refresh `quantumlib-lock.json` to match any newly selected commits.
-
-## Attribution and licensing
-
-The upstream projects were created by their respective authors and contributors. Their original histories, copyright notices, licenses, and attribution remain in the submodules. OpenGluon is an independent collection maintained under the creelie account; it is not an official Google or quantumlib distribution. No new license is applied here to upstream material.
-
-## Automatic upstream updates
-
-[Sync quantumlib](https://github.com/creelie/OpenGluon/actions/workflows/sync-quantumlib.yml) runs hourly at minute 17 UTC and can also be started with **Actions → Sync quantumlib → Run workflow**. It checks all public repositories owned by quantumlib, advances submodule pins to their current default-branch commits, and refreshes the inventory. Newly discovered repositories are included automatically. Existing entries are retained if an upstream repository disappears, so an upstream removal never silently deletes a checkout.
-
-The scheduled job reads GitHub metadata and updates Git links; it does not execute upstream code, install project dependencies, or rewrite upstream repositories. It uses the repository's built-in `GITHUB_TOKEN` with `contents: write`; no personal token or additional secret is required. GitHub may delay scheduled jobs or disable them after prolonged repository inactivity. Branch protection rules can prevent automatic pushes; use the workflow's manual run and logs to inspect failures.
-
-The workflow updates the repository on GitHub. To bring an existing local checkout up to date:
+Update a local checkout after a remote sync:
 
 ```sh
 git pull --ff-only
 git submodule update --init --recursive
 ```
+
+</details>
+
+<details>
+<summary><b>What a certificate means</b></summary>
+
+The rational checker constructs and separately reconstructs A = L D Lᵀ, with D ≥ 0, over exact fractions. Its result proves positivity of the supplied finite matrix. Construction-route cards carry their remaining assumptions. Source records describe what the linked repository reports; this workspace does not turn them into independently audited proofs or claim a new Hodge, Lehmer, GSC or continuum Yang–Mills closure.
+
+</details>
+
+Upstream source and license details are in the submodules and [third-party notes](THIRD_PARTY.md). Commit pins are recorded in [`quantumlib-lock.json`](quantumlib-lock.json) and [`toolkit-lock.json`](toolkit-lock.json).

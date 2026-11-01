@@ -1,0 +1,22 @@
+name: Workspace checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test metadata synchronization
+        run: python3 -m unittest discover -s tests -v
+      - name: Validate manifests
+        run: |
+          python3 -m json.tool quantumlib-lock.json > /dev/null
+          python3 -m json.tool toolkit-lock.json > /dev/null
+          python3 -m json.tool data/research-portfolio.json > /dev/null

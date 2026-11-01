@@ -141,14 +141,14 @@ def main():
     if retained:
         updated['retained_missing_upstreams'] = retained
     (ROOT / 'quantumlib-lock.json').write_text(json.dumps(updated, indent=2) + '\n', encoding='utf-8', newline='\n')
-    readme_path = ROOT / 'README.md'
+    readme_path = ROOT / 'docs/QUANTUMLIB.md'
     readme = readme_path.read_text(encoding='utf-8')
     start = readme.index('| Project | Local path | Pinned commit | Archived | Description |')
     end = readme.index('\n\nThe complete commit IDs', start)
     readme = readme[:start] + inventory_table(records, retained) + readme[end:]
     readme = re.sub(r'\*\*\d+ public repositories\*\*', f'**{len(records)} public repositories**', readme, count=1)
     readme_path.write_text(readme, encoding='utf-8', newline='\n')
-    git('add', '.gitmodules', 'quantumlib-lock.json', 'README.md')
+    git('add', '.gitmodules', 'quantumlib-lock.json', 'docs/QUANTUMLIB.md')
     print(f'Updated and staged {len(records)} repository pins. Upstream code was not executed.')
 
 

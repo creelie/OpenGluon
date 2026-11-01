@@ -1,0 +1,301 @@
+{
+  "schema": "anaxia-construction-routes-v1",
+  "routes": [
+    {
+      "id": "exact-psd",
+      "name": "Rational Gram and LDL certificates",
+      "tags": [
+        "positivity",
+        "matrix",
+        "semidefinite",
+        "quantum"
+      ],
+      "inputs": "A finite symmetric rational matrix.",
+      "outputs": "A = L diag(d) L^T with d >= 0, independently reconstructed.",
+      "obligations": [
+        "Every entry is rational, with no rounded float conversion.",
+        "Reconstruct the entire input matrix and check each diagonal sign."
+      ],
+      "failure_check": "Positive diagonal entries alone do not imply positive semidefiniteness: [[1,2],[2,1]] is indefinite.",
+      "sources": [
+        "https://github.com/creelie/eBLLM/blob/main/docs/EXACT-CERTIFICATES.md"
+      ],
+      "executable_certificate": true
+    },
+    {
+      "id": "minimal-rank",
+      "name": "Rank bounds for graph constructions",
+      "tags": [
+        "graph",
+        "Grundy",
+        "product",
+        "rank"
+      ],
+      "inputs": "A graph represented by a matrix whose support is its closed neighbourhood relation.",
+      "outputs": "Tensor-product rank bounds and a candidate extremal family.",
+      "obligations": [
+        "Verify the exact support pattern over a single common field.",
+        "Supply a construction attaining the rank bound before claiming equality."
+      ],
+      "failure_check": "An upper rank bound alone never proves a matching lower bound.",
+      "sources": [
+        "https://github.com/creelie/Paper_1"
+      ],
+      "executable_certificate": false
+    },
+    {
+      "id": "finite-field-trace",
+      "name": "Trace and kernel dimensions over finite fields",
+      "tags": [
+        "Welch",
+        "trace",
+        "finite field",
+        "sum-free"
+      ],
+      "inputs": "A linearised polynomial over a specified finite field.",
+      "outputs": "Exact kernel conditions and a character-sum counting identity.",
+      "obligations": [
+        "Derive the kernel equivalence for every parameter.",
+        "Check the small exceptional dimensions separately and justify the all-dimension estimate."
+      ],
+      "failure_check": "Enumeration in small fields is not a proof for every odd extension degree.",
+      "sources": [
+        "https://github.com/creelie/eConjectureWelchSumFree"
+      ],
+      "executable_certificate": false
+    },
+    {
+      "id": "prefix-completion",
+      "name": "Exact final-prime completion",
+      "tags": [
+        "Lehmer",
+        "totient",
+        "prime",
+        "divisibility"
+      ],
+      "inputs": "An ordered prime prefix and exact divisibility equations.",
+      "outputs": "At most the explicitly derived candidate(s) for the next prime.",
+      "obligations": [
+        "Prove the algebraic reduction and all denominator/sign conditions.",
+        "A full exclusion requires every possible prefix length, not a finite search cutoff."
+      ],
+      "failure_check": "Millions of empty finite searches do not exclude unbounded numbers of prime factors.",
+      "sources": [
+        "https://github.com/creelie/eLhmr"
+      ],
+      "executable_certificate": false
+    },
+    {
+      "id": "polytope-chain",
+      "name": "Certified reflexive descent chains",
+      "tags": [
+        "seed",
+        "Calabi-Yau",
+        "polytope",
+        "census"
+      ],
+      "inputs": "Exact lattice vertices and a specified complete census.",
+      "outputs": "A replayable upper bound on shortest descent for each covered object.",
+      "obligations": [
+        "Certify each lattice cut and cover relation.",
+        "Check complete census coverage, every row group, and any external completeness assumption."
+      ],
+      "failure_check": "A maximum upper bound is not the exact maximum without a matching lower construction.",
+      "sources": [
+        "https://github.com/creelie/seed"
+      ],
+      "executable_certificate": false
+    },
+    {
+      "id": "blowup-descent",
+      "name": "Blow-up and finite-cover descent",
+      "tags": [
+        "Hodge",
+        "algebraic cycle",
+        "blow-up",
+        "residue"
+      ],
+      "inputs": "A proper algebraic map with explicit exceptional divisor and pullback/pushforward data.",
+      "outputs": "A transport statement for classes that are actually constructed.",
+      "obligations": [
+        "Track rational versus integral coefficients and every exceptional class.",
+        "Provide an algebraic representative; do not replace it by a motivated or numerical class."
+      ],
+      "failure_check": "Changing a variety or passing to a cover does not create an unconstructed algebraic representative.",
+      "sources": [
+        "https://github.com/creelie/fermat-hodge-"
+      ],
+      "executable_certificate": false
+    },
+    {
+      "id": "cube-response",
+      "name": "Rare-event boundary-response transfer",
+      "tags": [
+        "Yang-Mills",
+        "cube",
+        "contraction",
+        "renormalization"
+      ],
+      "inputs": "Full and restricted block laws with a uniform response estimate.",
+      "outputs": "A two-sided error budget between their boundary influence coefficients.",
+      "obligations": [
+        "Bound derivatives or transport responses, not only bad-event probability.",
+        "Prove a retained contraction margin uniformly along the physical tuning."
+      ],
+      "failure_check": "A rare event can have a large derivative; deterministic gauge isometries preserve Wasserstein influence coefficients.",
+      "sources": [
+        "https://github.com/creelie/4Y-M"
+      ],
+      "executable_certificate": false
+    },
+    {
+      "id": "continuum-tightness",
+      "name": "Tightness with non-escaping observables",
+      "tags": [
+        "continuum",
+        "Yang-Mills",
+        "mass gap",
+        "compactness"
+      ],
+      "inputs": "Renormalized observables and a common state space at every cutoff.",
+      "outputs": "A candidate subsequential law with precisely stated moment transfers.",
+      "obligations": [
+        "Prove uniform moment/tree bounds and a nonzero fixed-distance observable.",
+        "Establish uniqueness, locality, rotational invariance and the required positive physical gap."
+      ],
+      "failure_check": "Unit normalization does not prevent mass from escaping to infinite physical energy.",
+      "sources": [
+        "https://github.com/creelie/4Y-M"
+      ],
+      "executable_certificate": false
+    },
+    {
+      "id": "vacuum-witness",
+      "name": "One-witness vacuum verification",
+      "tags": [
+        "GSC",
+        "strings",
+        "vacuum",
+        "moduli"
+      ],
+      "inputs": "One explicit compactification and nine precisely formulated tests.",
+      "outputs": "A nine-entry obligation table for the same object.",
+      "obligations": [
+        "Use one common vacuum, not nine unrelated examples.",
+        "Specify moduli stabilization, hierarchies and breaking tests and prove them."
+      ],
+      "failure_check": "A geometric construction or vanishing index alone does not verify all physical conditions.",
+      "sources": [
+        "https://github.com/creelie/geometric-selection-conjecture"
+      ],
+      "executable_certificate": false
+    },
+    {
+      "id": "spectral-determinant",
+      "name": "Skew-spectrum determinant identities",
+      "tags": [
+        "tournament",
+        "Hamilton",
+        "Wormald",
+        "determinant"
+      ],
+      "inputs": "A real skew adjacency matrix with its exact nullspace.",
+      "outputs": "A paired-eigenvalue factorization and a rational-square candidate.",
+      "obligations": [
+        "Treat the zero eigenvalue and normalizing determinant explicitly.",
+        "Justify the limiting product rather than extrapolating numerical values."
+      ],
+      "failure_check": "A floating determinant near zero is not a proof of singularity.",
+      "sources": [
+        "https://github.com/creelie/Paper_8"
+      ],
+      "executable_certificate": false
+    },
+    {
+      "id": "clifford-graph",
+      "name": "Clifford traces and graph invariants",
+      "tags": [
+        "sl2",
+        "spin",
+        "graph invariant",
+        "Clifford"
+      ],
+      "inputs": "A fixed Clifford algebra convention and graph-state sum.",
+      "outputs": "An exact trace identity compatible with the four-term relation.",
+      "obligations": [
+        "Track normalizations, signs and exceptional specialization values.",
+        "Prove the identity for arbitrary diagrams before using finite tests."
+      ],
+      "failure_check": "Agreement on small chord diagrams alone does not prove an all-diagram identity.",
+      "sources": [
+        "https://github.com/creelie/Paper_7"
+      ],
+      "executable_certificate": false
+    },
+    {
+      "id": "monotone-support",
+      "name": "Finite support for monotone coverage",
+      "tags": [
+        "sensor",
+        "engineering",
+        "convex",
+        "coverage"
+      ],
+      "inputs": "A compact polytope and functions sharing a convex part with affine differences.",
+      "outputs": "A finite candidate support set reusable for monotone failure rules.",
+      "obligations": [
+        "Check the common convex-part hypothesis on every target face.",
+        "A support theorem needs attainment and a matching design certificate for optimization."
+      ],
+      "failure_check": "A finite grid need not contain the weakest coverage point.",
+      "sources": [
+        "https://github.com/creelie/sensor-resilience-certificates"
+      ],
+      "executable_certificate": false
+    },
+    {
+      "id": "deletion-contraction",
+      "name": "Deletion-contraction with an explicit cost ledger",
+      "tags": [
+        "Tutte",
+        "counting",
+        "constraint",
+        "complexity"
+      ],
+      "inputs": "A graph or constraint family with a costed branching recurrence.",
+      "outputs": "An exact recurrence and a candidate subexponential algorithm on its proved parameter range.",
+      "obligations": [
+        "Solve the recurrence with all density/constraint parameters retained.",
+        "Prove a reduction and worst-case bound before claiming a complexity separation."
+      ],
+      "failure_check": "An exponent that grows with the number of constraints cannot be silently declared uniform.",
+      "sources": [
+        "https://github.com/sympy/sympy"
+      ],
+      "executable_certificate": false
+    },
+    {
+      "id": "groebner-residue",
+      "name": "Elimination with exceptional-locus accounting",
+      "tags": [
+        "Groebner",
+        "residue",
+        "algebraic geometry",
+        "saturation"
+      ],
+      "inputs": "An ideal over an exact field with stated denominators and exceptional sets.",
+      "outputs": "Elimination or saturation certificates for a specified algebraic implication.",
+      "obligations": [
+        "Retain every denominator-zero branch and distinguish radical from ordinary ideal membership.",
+        "Give exact combination witnesses; analytic or arithmetic existence is a separate step."
+      ],
+      "failure_check": "Dividing by a parameter can delete precisely the solutions one is trying to exclude.",
+      "sources": [
+        "https://github.com/sympy/sympy",
+        "https://github.com/flintlib/flint"
+      ],
+      "executable_certificate": false
+    }
+  ],
+  "scope": "Planning routes carry hypotheses; only exact-psd has a new executable certificate checker in this revision."
+}
