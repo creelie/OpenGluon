@@ -1870,7 +1870,8 @@
       "latest_release": null,
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
-      "scope_note_commit": null
+      "scope_note_commit": null,
+      "monitoring_note": "Managed workspace: preserve its pinned research snapshot to avoid self-generated catalogue commits causing a refresh loop. OpenGluon separately tracks the live Anaxia source pin."
     },
     {
       "name": "Openproblemsforfieldsmedal1",

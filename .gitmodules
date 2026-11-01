@@ -70,18 +70,22 @@
 	path = mathematics/flint
 	url = https://github.com/flintlib/flint.git
 	shallow = true
+	branch = main
 [submodule "mathematics/sympy"]
 	path = mathematics/sympy
 	url = https://github.com/sympy/sympy.git
 	shallow = true
+	branch = master
 [submodule "mathematics/gap"]
 	path = mathematics/gap
 	url = https://github.com/gap-system/gap.git
 	shallow = true
+	branch = master
 [submodule "mathematics/mathlib4"]
 	path = mathematics/mathlib4
 	url = https://github.com/leanprover-community/mathlib4.git
 	shallow = true
+	branch = master
 [submodule "engines/anaxia"]
 	path = engines/anaxia
 	url = https://github.com/creelie/eBLLM.git

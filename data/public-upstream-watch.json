@@ -1,6 +1,6 @@
 {
   "schema": "anaxia-public-upstream-watch-v1",
-  "captured_at_utc": "2026-11-01T13:47:20.874651+00:00",
+  "captured_at_utc": "2026-11-01T13:57:30.617431+00:00",
   "repository_count": 3513,
   "owners": {
     "creelie": 145,
@@ -7482,8 +7482,8 @@
       "fork": false,
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-11-01T11:41:03Z",
-      "updated_at": "2026-11-01T12:03:40Z",
+      "pushed_at": "2026-11-01T13:55:04Z",
+      "updated_at": "2026-11-01T13:55:09Z",
       "monitoring": "public-metadata"
     },
     {
@@ -8911,7 +8911,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-01T21:37:15Z",
-      "updated_at": "2026-11-01T13:46:46Z",
+      "updated_at": "2026-11-01T13:54:29Z",
       "monitoring": "public-metadata"
     },
     {
@@ -9487,7 +9487,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-30T23:25:04Z",
-      "updated_at": "2026-11-01T13:08:37Z",
+      "updated_at": "2026-11-01T13:55:20Z",
       "monitoring": "public-metadata"
     },
     {
@@ -15018,7 +15018,7 @@
       "fork": false,
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-11-01T12:51:49Z",
+      "pushed_at": "2026-11-01T13:47:27Z",
       "updated_at": "2026-11-01T12:51:41Z",
       "monitoring": "public-metadata"
     },
@@ -16411,7 +16411,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-11-01T13:38:10Z",
-      "updated_at": "2026-11-01T13:46:45Z",
+      "updated_at": "2026-11-01T13:55:29Z",
       "monitoring": "public-metadata"
     },
     {
@@ -20190,7 +20190,7 @@
       "fork": false,
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-11-01T11:33:18Z",
+      "pushed_at": "2026-11-01T13:56:37Z",
       "updated_at": "2026-11-01T11:33:16Z",
       "monitoring": "public-metadata"
     },
@@ -26755,7 +26755,7 @@
       "archived": false,
       "default_branch": "master",
       "pushed_at": "2026-10-23T02:18:57Z",
-      "updated_at": "2026-11-01T13:03:20Z",
+      "updated_at": "2026-11-01T13:55:29Z",
       "monitoring": "public-metadata"
     },
     {
