@@ -1,7 +1,7 @@
 {
   "organization": "quantumlib",
   "inventory_source": "https://api.github.com/orgs/quantumlib/repos?type=public&per_page=100",
-  "captured_at_utc": "2026-11-02T11:01:56.216824+00:00",
+  "captured_at_utc": "2026-11-02T20:46:53.825301+00:00",
   "repository_count": 17,
   "repositories": [
     {
@@ -35,7 +35,7 @@
       "clone_url": "https://github.com/quantumlib/chromobius.git",
       "path": "quantumlib/chromobius",
       "default_branch": "main",
-      "commit": "e2d8d4b2c0d2afb3d1d47a53bc4638ffcc1846c5",
+      "commit": "5d64ee7848d567a1c8af6c613cd8c03abc19ecb2",
       "archived": false,
       "description": "Open-source implementation of a M\u00f6bius decoder for color codes used in quantum error correction (QEC)",
       "license_spdx": "Apache-2.0"
@@ -131,7 +131,7 @@
       "clone_url": "https://github.com/quantumlib/qsim.git",
       "path": "quantumlib/qsim",
       "default_branch": "main",
-      "commit": "241569e539d35f99e9e1f6c1cdb87218adeced8d",
+      "commit": "50cac4b3fa331450b70387735479a00e223b8d25",
       "archived": false,
       "description": "Fast C++ and Python library for state-vector simulation of quantum circuits.",
       "license_spdx": "Apache-2.0"
@@ -143,7 +143,7 @@
       "clone_url": "https://github.com/quantumlib/Qualtran.git",
       "path": "quantumlib/Qualtran",
       "default_branch": "main",
-      "commit": "c9025be9e376ae36e76db38b5ab72e951f4fa6d4",
+      "commit": "9a0c11a4ee7697c082fbf8f2e1e8bf4a71fcb453",
       "archived": false,
       "description": "Q\u1d1c\u1d00\u029f\u1d1b\u0280\u1d00\u0274 is a Python library for expressing and analyzing Fault Tolerant Quantum algorithms.",
       "license_spdx": "Apache-2.0"

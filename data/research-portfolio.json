@@ -2,31 +2,32 @@
   "schema": "anaxia-public-portfolio-v1",
   "captured_on": "2026-11-02",
   "repository_count": 146,
-  "readme_count": 131,
-  "release_count": 74,
+  "readme_count": 134,
+  "release_count": 77,
   "fork_count": 52,
   "assessment": "Reading a source records its claims; it does not certify its proofs. No private repositories or credentials are included.",
   "repositories": [
     {
       "name": "4Y-M",
       "url": "https://github.com/creelie/4Y-M",
-      "commit": "5ca904fd842845689f706a88840f293eb9bdbf4f",
+      "commit": "9d63d233dc06cef5fed626b1bd4cf728e347568f",
       "fork": false,
       "archived": false,
       "description": "",
-      "pushed_at": "2026-10-31T17:49:28Z",
-      "readme_url": "https://github.com/creelie/4Y-M/blob/5ca904fd842845689f706a88840f293eb9bdbf4f/README.md",
-      "readme_blob_sha": "44b7737c82decb5cf2ae7a09c956e24650415ed1",
-      "readme_excerpt": "# Explicit Lattice Yang–Mills Mass Gap for Every Compact Simple Group Reducing the Continuum Gap to One Cube Deep Bhattacharjee, Ushashi Bhattacharya, James Montgomery Lockwood and Tristan Romanov. Archived on Zenodo; the concept DOI [10.5281/zenodo.23444338](https://doi.org/10.5281/zenodo.23444338)",
+      "pushed_at": "2026-11-02T19:34:57Z",
+      "readme_url": "https://github.com/creelie/4Y-M/blob/9d63d233dc06cef5fed626b1bd4cf728e347568f/README.md",
+      "readme_blob_sha": "a1965a0dacc1f23ec696448e18235f8da736f8d3",
+      "readme_excerpt": "# Yang–Mills Mass Gap on the Lattice and One Cube from the Continuum Deep Bhattacharjee, Ushashi Bhattacharya, James Montgomery Lockwood and Tristan Romanov. Archived on Zenodo; the concept DOI [10.5281/zenodo.23444338](https://doi.org/10.5281/zenodo.23444338) resolves to the latest release. | Relea",
       "latest_release": {
-        "tag": "v4.29.0",
-        "url": "https://github.com/creelie/4Y-M/releases/tag/v4.29.0",
-        "published_at": "2026-10-31T17:48:13Z",
+        "tag": "v4.31.0",
+        "url": "https://github.com/creelie/4Y-M/releases/tag/v4.31.0",
+        "published_at": "2026-11-02T19:32:16Z",
         "excerpt": "Papers: tex/main.tex (main.pdf), strong-coupling/prd/main.tex (preprintYangMillsDobrushinCeiling/YangMillsDobrushinCeiling.pdf) and strong-coupling/forest/main.tex (preprintYangMillsForestGauge/YangMillsForestGauge.pdf). Lean 4/Mathlib certificate in YangMills/ (lake build; no sorry, standard axioms only). Authors: Deep Bhattacharjee (ORCID 0000-0003-0466-750X; itsdeep@live.com, d.bhattacharjee@erl-forschung.de), Ushashi Bhattacharya, James Montgomery Lockwood, Tristan Romano"
       },
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "Lattice strong-coupling results and a conditional continuum programme. Uniform physical-scale cube contraction and a nontrivial continuum construction remain obligations; no full Yang-Mills closure is certified here.",
-      "scope_note_commit": "5ca904fd842845689f706a88840f293eb9bdbf4f"
+      "scope_note_commit": "5ca904fd842845689f706a88840f293eb9bdbf4f",
+      "scope_note_requires_review": true
     },
     {
       "name": "advanced-reasoning-mcp",
@@ -1160,7 +1161,7 @@
       "fork": false,
       "archived": false,
       "description": "",
-      "pushed_at": "2026-11-02T10:33:17Z",
+      "pushed_at": "2026-11-02T13:02:12Z",
       "readme_url": "https://github.com/creelie/fermat-hodge-/blob/c8b9feb359a0ef0873e197685074ffaadc6e990c/README.md",
       "readme_blob_sha": "1f77ba15340f2edc866897636bf1f2eed8322493",
       "readme_excerpt": "# Dense Algebraic Loci of Hodge Classes ## v2.9.0 — corrected manuscript (journal version of hexagonmath.org 2610.00315v2) The paper in `paper/` (`main_journal.tex`, compiled to `preprints/HodgeConjecture.pdf` and shipped in `HodgeConjecture_tex.zip`) now carries the corrections of the v2.8.0 audit ",
@@ -1707,18 +1708,24 @@
     {
       "name": "McCarty",
       "url": "https://github.com/creelie/McCarty",
-      "commit": "7564fa5863e5f015eee2c62e74cfc61eee26f247",
+      "commit": "35a792b725b29e12d88e8b8b91f9c7843a456f73",
       "fork": false,
       "archived": false,
       "description": "",
-      "pushed_at": "2026-10-14T19:47:32Z",
-      "readme_url": null,
-      "readme_blob_sha": null,
-      "readme_excerpt": "",
-      "latest_release": null,
+      "pushed_at": "2026-11-02T13:01:35Z",
+      "readme_url": "https://github.com/creelie/McCarty/blob/35a792b725b29e12d88e8b8b91f9c7843a456f73/README.md",
+      "readme_blob_sha": "ae3ead4880830ba753a228e995ec528dc2736e89",
+      "readme_excerpt": "# Algebraic Loci of Weil Classes on Abelian Varieties Deep Bhattacharjee and Ushashi Bhattacharya. This repository holds the LaTeX source (`tex/`: one continuous `main.tex` and the figures) and the compiled paper (`main.pdf`). It is one of three companion papers that together replace the earlier pap",
+      "latest_release": {
+        "tag": "v1.0.1",
+        "url": "https://github.com/creelie/McCarty/releases/tag/v1.0.1",
+        "published_at": "2026-11-02T12:53:29Z",
+        "excerpt": "Records the Zenodo DOIs of the three companion papers in the paper Algebraic Loci of Weil Classes on Abelian Varieties (Deep Bhattacharjee and Ushashi Bhattacharya)"
+      },
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope.",
-      "scope_note_commit": "7564fa5863e5f015eee2c62e74cfc61eee26f247"
+      "scope_note_commit": "7564fa5863e5f015eee2c62e74cfc61eee26f247",
+      "scope_note_requires_review": true
     },
     {
       "name": "mh-phys",
@@ -1931,18 +1938,24 @@
     {
       "name": "Paper_10",
       "url": "https://github.com/creelie/Paper_10",
-      "commit": "b3b15207e5a49a772387308fefb07d45125c5701",
+      "commit": "835ec03424edb5f251ffa62b3db1b13eb40ac85a",
       "fork": false,
       "archived": false,
       "description": "",
-      "pushed_at": "2026-10-24T04:33:00Z",
-      "readme_url": null,
-      "readme_blob_sha": null,
-      "readme_excerpt": "",
-      "latest_release": null,
+      "pushed_at": "2026-11-02T13:02:06Z",
+      "readme_url": "https://github.com/creelie/Paper_10/blob/835ec03424edb5f251ffa62b3db1b13eb40ac85a/README.md",
+      "readme_blob_sha": "e5ec0d3deceefd8d63fb755bec0584b0b25e2444",
+      "readme_excerpt": "# Hodge Classes beyond the Weil Lines Deep Bhattacharjee and Ushashi Bhattacharya. This repository holds the LaTeX source (`tex/`: one continuous `main.tex` and the figures) and the compiled paper (`main.pdf`). It is one of three companion papers that together replace the earlier paper *Algebraic lo",
+      "latest_release": {
+        "tag": "v1.0.1",
+        "url": "https://github.com/creelie/Paper_10/releases/tag/v1.0.1",
+        "published_at": "2026-11-02T12:53:52Z",
+        "excerpt": "Records the Zenodo DOIs of the three companion papers in the paper Hodge Classes beyond the Weil Lines (Deep Bhattacharjee and Ushashi Bhattacharya)"
+      },
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope.",
-      "scope_note_commit": "b3b15207e5a49a772387308fefb07d45125c5701"
+      "scope_note_commit": "b3b15207e5a49a772387308fefb07d45125c5701",
+      "scope_note_requires_review": true
     },
     {
       "name": "Paper_11",
@@ -2111,18 +2124,24 @@
     {
       "name": "Paper_9",
       "url": "https://github.com/creelie/Paper_9",
-      "commit": "bc80c261460933af664b1eea090c044c6dc80f0b",
+      "commit": "f98300491c1bd6c884920da2478b203476e9d0f8",
       "fork": false,
       "archived": false,
       "description": "",
-      "pushed_at": "2026-10-24T04:32:32Z",
-      "readme_url": null,
-      "readme_blob_sha": null,
-      "readme_excerpt": "",
-      "latest_release": null,
+      "pushed_at": "2026-11-02T13:01:51Z",
+      "readme_url": "https://github.com/creelie/Paper_9/blob/f98300491c1bd6c884920da2478b203476e9d0f8/README.md",
+      "readme_blob_sha": "b457910a7c290b1fa49b059661a4fb97f135ba9c",
+      "readme_excerpt": "# Secant Objects for Weil Classes on Abelian Varieties Deep Bhattacharjee and Ushashi Bhattacharya. This repository holds the LaTeX source (`tex/`: one continuous `main.tex` and the figures) and the compiled paper (`main.pdf`). It is one of three companion papers that together replace the earlier pa",
+      "latest_release": {
+        "tag": "v1.0.1",
+        "url": "https://github.com/creelie/Paper_9/releases/tag/v1.0.1",
+        "published_at": "2026-11-02T12:53:40Z",
+        "excerpt": "Records the Zenodo DOIs of the three companion papers in the paper Secant Objects for Weil Classes on Abelian Varieties (Deep Bhattacharjee and Ushashi Bhattacharya)"
+      },
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope.",
-      "scope_note_commit": "bc80c261460933af664b1eea090c044c6dc80f0b"
+      "scope_note_commit": "bc80c261460933af664b1eea090c044c6dc80f0b",
+      "scope_note_requires_review": true
     },
     {
       "name": "PaperBanana",
@@ -2475,7 +2494,7 @@
       "fork": false,
       "archived": false,
       "description": "",
-      "pushed_at": "2026-10-10T18:59:58Z",
+      "pushed_at": "2026-11-02T20:41:15Z",
       "readme_url": null,
       "readme_blob_sha": null,
       "readme_excerpt": "",
