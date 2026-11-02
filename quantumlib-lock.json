@@ -1,7 +1,7 @@
 {
   "organization": "quantumlib",
   "inventory_source": "https://api.github.com/orgs/quantumlib/repos?type=public&per_page=100",
-  "captured_at_utc": "2026-11-01T13:21:20.632126+00:00",
+  "captured_at_utc": "2026-11-02T02:29:26.938409+00:00",
   "repository_count": 17,
   "repositories": [
     {
@@ -179,7 +179,7 @@
       "clone_url": "https://github.com/quantumlib/tesseract-decoder.git",
       "path": "quantumlib/tesseract-decoder",
       "default_branch": "main",
-      "commit": "838d4f64acc16b5c15adda01302a719400329d4b",
+      "commit": "1c1ab2a3942fcbf637079bb20d6810dbf1eac3a2",
       "archived": false,
       "description": "Search-based decoder for quantum error correction (QEC) written in C++ and Python.",
       "license_spdx": "Apache-2.0"

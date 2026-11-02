@@ -35,7 +35,7 @@ On Windows, enabling `git config --global core.longpaths true` may help with lon
 | [Qualtran](https://github.com/quantumlib/Qualtran) | `quantumlib/Qualtran` | `c9025be9e376` | No | Qᴜᴀʟᴛʀᴀɴ is a Python library for expressing and analyzing Fault Tolerant Quantum algorithms. |
 | [ReCirq](https://github.com/quantumlib/ReCirq) | `quantumlib/ReCirq` | `93d6fe58af8d` | No | Python modules for quantum computing applications and experiments using Cirq. Research using Cirq! |
 | [Stim](https://github.com/quantumlib/Stim) | `quantumlib/Stim` | `ffe0d043598e` | No | A fast stabilizer circuit library. |
-| [tesseract-decoder](https://github.com/quantumlib/tesseract-decoder) | `quantumlib/tesseract-decoder` | `838d4f64acc1` | No | Search-based decoder for quantum error correction (QEC) written in C++ and Python. |
+| [tesseract-decoder](https://github.com/quantumlib/tesseract-decoder) | `quantumlib/tesseract-decoder` | `1c1ab2a3942f` | No | Search-based decoder for quantum error correction (QEC) written in C++ and Python. |
 | [TypedUnits](https://github.com/quantumlib/TypedUnits) | `quantumlib/TypedUnits` | `efc0bb4efd1e` | No | A fast units and dimensions library with support for static dimensionality checking and protobuffer serialization. |
 | [unitary](https://github.com/quantumlib/unitary) | `quantumlib/unitary` | `a5eea27be2d7` | No | Open-source API library providing common operations for adding quantum behaviors to games. |
 
