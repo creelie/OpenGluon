@@ -1,6 +1,6 @@
 # Public research portfolio
 
-Public source snapshot: 2026-11-02. 146 repositories; 134 READMEs; 77 stable releases.
+Public source snapshot: 2026-11-03. 146 repositories; 135 READMEs; 78 stable releases.
 
 Source claims retain their original authors and hypotheses. No entry is an independent proof audit. A scope note marked for review belongs to an earlier commit.
 
@@ -137,7 +137,7 @@ Source claims retain their original authors and hypotheses. No entry is an indep
 | [seed](https://github.com/creelie/seed) | [v2.0.0](https://github.com/creelie/seed/releases/tag/v2.0.0) | [5e5f514e44](https://github.com/creelie/seed/tree/5e5f514e449324993636a1146df863c7ee4dbcb7) | Release v2.0.0 reports 22 <= D4 <= 50 relative to the supplied census and a complete chain replay. The exact maximum remains open. The replay was not rerun for this catalogue. |
 | [sensor-resilience-certificates](https://github.com/creelie/sensor-resilience-certificates) | [v1.1.1](https://github.com/creelie/sensor-resilience-certificates/releases/tag/v1.1.1) | [a3c0ed2013](https://github.com/creelie/sensor-resilience-certificates/tree/a3c0ed20133431a30fed5c1d76c95c0dd147372a) | Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope. |
 | [seti](https://github.com/creelie/seti) | No stable release | [c9d4bd8a37](https://github.com/creelie/seti/tree/c9d4bd8a37283ed86a3b35841f1a8448d9e9808d) | Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope. |
-| [shiny-bassoon-AnnalsOfMath](https://github.com/creelie/shiny-bassoon-AnnalsOfMath) | No stable release | [67172d2f89](https://github.com/creelie/shiny-bassoon-AnnalsOfMath/tree/67172d2f895d709c8e0c0d49ad7cff9ba264510f) | Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope. |
+| [shiny-bassoon-AnnalsOfMath](https://github.com/creelie/shiny-bassoon-AnnalsOfMath) | [v1.0.1](https://github.com/creelie/shiny-bassoon-AnnalsOfMath/releases/tag/v1.0.1) | [aef0c43517](https://github.com/creelie/shiny-bassoon-AnnalsOfMath/tree/aef0c435174d35608ab856911609b421ab53edbd) | **Prior scope note; review new commit.** Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope. |
 | [silver-system](https://github.com/creelie/silver-system) | No stable release | [5109db823a](https://github.com/creelie/silver-system/tree/5109db823a4484553f290e6612f16712dd3f912d) | Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope. |
 | [Stim](https://github.com/creelie/Stim) | No stable release | [ffe0d04359](https://github.com/creelie/Stim/tree/ffe0d043598ed5df0851a3e6b4920359a23fafbd) | Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope. |
 | [strings](https://github.com/creelie/strings) | [v1.2.0](https://github.com/creelie/strings/releases/tag/v1.2.0) | [2f39bd8ff9](https://github.com/creelie/strings/tree/2f39bd8ff9ac01df93394ec3e4a7453a8a21546a) | Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope. |

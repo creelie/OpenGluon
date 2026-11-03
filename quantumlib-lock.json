@@ -1,7 +1,7 @@
 {
   "organization": "quantumlib",
   "inventory_source": "https://api.github.com/orgs/quantumlib/repos?type=public&per_page=100",
-  "captured_at_utc": "2026-11-02T20:46:53.825301+00:00",
+  "captured_at_utc": "2026-11-03T02:54:42.884830+00:00",
   "repository_count": 17,
   "repositories": [
     {
@@ -35,7 +35,7 @@
       "clone_url": "https://github.com/quantumlib/chromobius.git",
       "path": "quantumlib/chromobius",
       "default_branch": "main",
-      "commit": "5d64ee7848d567a1c8af6c613cd8c03abc19ecb2",
+      "commit": "c407dd3c8cbac1ace62dcf39d42b7df364461673",
       "archived": false,
       "description": "Open-source implementation of a M\u00f6bius decoder for color codes used in quantum error correction (QEC)",
       "license_spdx": "Apache-2.0"
@@ -47,7 +47,7 @@
       "clone_url": "https://github.com/quantumlib/Cirq.git",
       "path": "quantumlib/Cirq",
       "default_branch": "main",
-      "commit": "cba03e529902e5954357260a2fa2c77901c01cd9",
+      "commit": "7d1e623ff5f8f2b076010541c81ff248ea1eee22",
       "archived": false,
       "description": "Python framework for creating, editing, and running Noisy Intermediate-Scale Quantum (NISQ) circuits.",
       "license_spdx": "Apache-2.0"
@@ -179,7 +179,7 @@
       "clone_url": "https://github.com/quantumlib/tesseract-decoder.git",
       "path": "quantumlib/tesseract-decoder",
       "default_branch": "main",
-      "commit": "136afc0ea51051869291663aeecf4287dcd39034",
+      "commit": "8b2b916708de7c2faab6bc223a556636dca22747",
       "archived": false,
       "description": "Search-based decoder for quantum error correction (QEC) written in C++ and Python.",
       "license_spdx": "Apache-2.0"

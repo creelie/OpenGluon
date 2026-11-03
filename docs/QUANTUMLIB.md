@@ -23,8 +23,8 @@ On Windows, enabling `git config --global core.longpaths true` may help with lon
 | --- | --- | --- | --- | --- |
 | [.allstar](https://github.com/quantumlib/.allstar) | `quantumlib/.allstar` | `7208ff64daa1` | Yes |  |
 | [.github](https://github.com/quantumlib/.github) | `quantumlib/.github` | `b6845829c0c6` | No |  |
-| [chromobius](https://github.com/quantumlib/chromobius) | `quantumlib/chromobius` | `5d64ee7848d5` | No | Open-source implementation of a Möbius decoder for color codes used in quantum error correction (QEC) |
-| [Cirq](https://github.com/quantumlib/Cirq) | `quantumlib/Cirq` | `cba03e529902` | No | Python framework for creating, editing, and running Noisy Intermediate-Scale Quantum (NISQ) circuits. |
+| [chromobius](https://github.com/quantumlib/chromobius) | `quantumlib/chromobius` | `c407dd3c8cba` | No | Open-source implementation of a Möbius decoder for color codes used in quantum error correction (QEC) |
+| [Cirq](https://github.com/quantumlib/Cirq) | `quantumlib/Cirq` | `7d1e623ff5f8` | No | Python framework for creating, editing, and running Noisy Intermediate-Scale Quantum (NISQ) circuits. |
 | [OpenFermion](https://github.com/quantumlib/OpenFermion) | `quantumlib/OpenFermion` | `34adf3196cd5` | No | Python package for compiling and analyzing quantum algorithms to simulate electronic structures. |
 | [OpenFermion-Cirq](https://github.com/quantumlib/OpenFermion-Cirq) | `quantumlib/OpenFermion-Cirq` | `655b00fee21c` | Yes | Quantum circuits for simulations of quantum chemistry and materials. |
 | [OpenFermion-FQE](https://github.com/quantumlib/OpenFermion-FQE) | `quantumlib/OpenFermion-FQE` | `37d451e0611b` | No | The Fermionic Quantum Emulator (FQE) is a fermionic simulation research tool specializing in quantum circuits emulating fermion dynamics. |
@@ -35,7 +35,7 @@ On Windows, enabling `git config --global core.longpaths true` may help with lon
 | [Qualtran](https://github.com/quantumlib/Qualtran) | `quantumlib/Qualtran` | `9a0c11a4ee76` | No | Qᴜᴀʟᴛʀᴀɴ is a Python library for expressing and analyzing Fault Tolerant Quantum algorithms. |
 | [ReCirq](https://github.com/quantumlib/ReCirq) | `quantumlib/ReCirq` | `93d6fe58af8d` | No | Python modules for quantum computing applications and experiments using Cirq. Research using Cirq! |
 | [Stim](https://github.com/quantumlib/Stim) | `quantumlib/Stim` | `ffe0d043598e` | No | A fast stabilizer circuit library. |
-| [tesseract-decoder](https://github.com/quantumlib/tesseract-decoder) | `quantumlib/tesseract-decoder` | `136afc0ea510` | No | Search-based decoder for quantum error correction (QEC) written in C++ and Python. |
+| [tesseract-decoder](https://github.com/quantumlib/tesseract-decoder) | `quantumlib/tesseract-decoder` | `8b2b916708de` | No | Search-based decoder for quantum error correction (QEC) written in C++ and Python. |
 | [TypedUnits](https://github.com/quantumlib/TypedUnits) | `quantumlib/TypedUnits` | `efc0bb4efd1e` | No | A fast units and dimensions library with support for static dimensionality checking and protobuffer serialization. |
 | [unitary](https://github.com/quantumlib/unitary) | `quantumlib/unitary` | `a5eea27be2d7` | No | Open-source API library providing common operations for adding quantum behaviors to games. |
 

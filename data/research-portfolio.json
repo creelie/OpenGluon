@@ -1,9 +1,9 @@
 {
   "schema": "anaxia-public-portfolio-v1",
-  "captured_on": "2026-11-02",
+  "captured_on": "2026-11-03",
   "repository_count": 146,
-  "readme_count": 134,
-  "release_count": 77,
+  "readme_count": 135,
+  "release_count": 78,
   "fork_count": 52,
   "assessment": "Reading a source records its claims; it does not certify its proofs. No private repositories or credentials are included.",
   "repositories": [
@@ -2490,18 +2490,24 @@
     {
       "name": "shiny-bassoon-AnnalsOfMath",
       "url": "https://github.com/creelie/shiny-bassoon-AnnalsOfMath",
-      "commit": "67172d2f895d709c8e0c0d49ad7cff9ba264510f",
+      "commit": "aef0c435174d35608ab856911609b421ab53edbd",
       "fork": false,
       "archived": false,
       "description": "",
-      "pushed_at": "2026-11-02T20:41:15Z",
-      "readme_url": null,
-      "readme_blob_sha": null,
-      "readme_excerpt": "",
-      "latest_release": null,
+      "pushed_at": "2026-11-02T22:20:09Z",
+      "readme_url": "https://github.com/creelie/shiny-bassoon-AnnalsOfMath/blob/aef0c435174d35608ab856911609b421ab53edbd/README.md",
+      "readme_blob_sha": "0b691c197cf8c11629d6673120d6fc4f70a647b3",
+      "readme_excerpt": "# Torsion D-Brane Charges from H-Flux on Calabi–Yau Threefolds LaTeX source and verification code for the paper *Torsion D-Brane Charges from H-Flux on Calabi–Yau Threefolds* by Deep Bhattacharjee and Ushashi Bhattacharya. ## Layout | Path | Contents | | --- | --- | | `tex/main.tex` | the paper (ams",
+      "latest_release": {
+        "tag": "v1.0.1",
+        "url": "https://github.com/creelie/shiny-bassoon-AnnalsOfMath/releases/tag/v1.0.1",
+        "published_at": "2026-11-02T22:20:09Z",
+        "excerpt": "Records the Zenodo DOI of v1.0.0 in the paper, README and CITATION.cff"
+      },
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope.",
-      "scope_note_commit": "67172d2f895d709c8e0c0d49ad7cff9ba264510f"
+      "scope_note_commit": "67172d2f895d709c8e0c0d49ad7cff9ba264510f",
+      "scope_note_requires_review": true
     },
     {
       "name": "silver-system",
