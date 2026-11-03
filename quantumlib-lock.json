@@ -1,7 +1,7 @@
 {
   "organization": "quantumlib",
   "inventory_source": "https://api.github.com/orgs/quantumlib/repos?type=public&per_page=100",
-  "captured_at_utc": "2026-11-03T10:50:16.132194+00:00",
+  "captured_at_utc": "2026-11-03T23:58:27.605973+00:00",
   "repository_count": 17,
   "repositories": [
     {
@@ -47,7 +47,7 @@
       "clone_url": "https://github.com/quantumlib/Cirq.git",
       "path": "quantumlib/Cirq",
       "default_branch": "main",
-      "commit": "63dc86faa008e2495582451209426b50522a9493",
+      "commit": "540fbf1ecf9bbbc7f4de5049b8e16fbcc781c047",
       "archived": false,
       "description": "Python framework for creating, editing, and running Noisy Intermediate-Scale Quantum (NISQ) circuits.",
       "license_spdx": "Apache-2.0"
@@ -179,7 +179,7 @@
       "clone_url": "https://github.com/quantumlib/tesseract-decoder.git",
       "path": "quantumlib/tesseract-decoder",
       "default_branch": "main",
-      "commit": "8b2b916708de7c2faab6bc223a556636dca22747",
+      "commit": "54569b4af741423708922a1c033feb483fc034c1",
       "archived": false,
       "description": "Search-based decoder for quantum error correction (QEC) written in C++ and Python.",
       "license_spdx": "Apache-2.0"
