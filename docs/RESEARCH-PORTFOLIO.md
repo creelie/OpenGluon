@@ -1,6 +1,6 @@
 # Public research portfolio
 
-Public source snapshot: 2026-11-03. 146 repositories; 136 READMEs; 78 stable releases.
+Public source snapshot: 2026-11-03. 147 repositories; 137 READMEs; 78 stable releases.
 
 Source claims retain their original authors and hypotheses. No entry is an independent proof audit. A scope note marked for review belongs to an earlier commit.
 
@@ -144,6 +144,7 @@ Source claims retain their original authors and hypotheses. No entry is an indep
 | [super-bassoon-fieldsMedal2](https://github.com/creelie/super-bassoon-fieldsMedal2) | No stable release | [8850e19c32](https://github.com/creelie/super-bassoon-fieldsMedal2/tree/8850e19c322f7c1da983897a44593d2535142980) | Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope. |
 | [ten-proofs](https://github.com/creelie/ten-proofs) | No stable release | [94bc0feb6a](https://github.com/creelie/ten-proofs/tree/94bc0feb6a9ff12c7d31d6de640a725c9d43d2b6) | Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope. |
 | [tesseract-decoder](https://github.com/creelie/tesseract-decoder) | No stable release | [838d4f64ac](https://github.com/creelie/tesseract-decoder/tree/838d4f64acc16b5c15adda01302a719400329d4b) | Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope. |
+| [The-Birch-and-Swinnerton-Dyer-BSD-conjecture](https://github.com/creelie/The-Birch-and-Swinnerton-Dyer-BSD-conjecture) | No stable release | [ef9fd46ef1](https://github.com/creelie/The-Birch-and-Swinnerton-Dyer-BSD-conjecture/tree/ef9fd46ef142ebfdd7310c32e4f016c96876b1b1) | New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review. |
 | [trureturing-OpenRefute](https://github.com/creelie/trureturing-OpenRefute) | No stable release | [fa35d5b92f](https://github.com/creelie/trureturing-OpenRefute/tree/fa35d5b92f08d07c133bfdb44ecc1966ee2247a3) | Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope. |
 | [twisted-hodge-ci](https://github.com/creelie/twisted-hodge-ci) | No stable release | [c821b37f6c](https://github.com/creelie/twisted-hodge-ci/tree/c821b37f6c478730c54f028e1ff68d67b1b1b78c) | Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope. |
 | [unitary](https://github.com/creelie/unitary) | No stable release | [a5eea27be2](https://github.com/creelie/unitary/tree/a5eea27be2d7ea32f55751f8ef845c766ca0f2d1) | Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope. |

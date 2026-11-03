@@ -1,8 +1,8 @@
 {
   "schema": "anaxia-public-portfolio-v1",
   "captured_on": "2026-11-03",
-  "repository_count": 146,
-  "readme_count": 136,
+  "repository_count": 147,
+  "readme_count": 137,
   "release_count": 78,
   "fork_count": 52,
   "assessment": "Reading a source records its claims; it does not certify its proofs. No private repositories or credentials are included.",
@@ -13,7 +13,7 @@
       "commit": "fdd2dc52d591ad5506b4a5b985e7feb74cfa8155",
       "fork": false,
       "archived": false,
-      "description": "",
+      "description": "In Progress: Yang--Mills Mass Gap on the Lattice and One Cube from the Continuum",
       "pushed_at": "2026-11-03T03:26:42Z",
       "readme_url": "https://github.com/creelie/4Y-M/blob/fdd2dc52d591ad5506b4a5b985e7feb74cfa8155/README.md",
       "readme_blob_sha": "a1965a0dacc1f23ec696448e18235f8da736f8d3",
@@ -2610,6 +2610,22 @@
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope.",
       "scope_note_commit": "838d4f64acc16b5c15adda01302a719400329d4b"
+    },
+    {
+      "name": "The-Birch-and-Swinnerton-Dyer-BSD-conjecture",
+      "url": "https://github.com/creelie/The-Birch-and-Swinnerton-Dyer-BSD-conjecture",
+      "commit": "ef9fd46ef142ebfdd7310c32e4f016c96876b1b1",
+      "fork": false,
+      "archived": false,
+      "description": "",
+      "pushed_at": "2026-11-03T16:18:46Z",
+      "readme_url": "https://github.com/creelie/The-Birch-and-Swinnerton-Dyer-BSD-conjecture/blob/ef9fd46ef142ebfdd7310c32e4f016c96876b1b1/README.md",
+      "readme_blob_sha": "262d02d8eaee23fd950f1600652c199f1d280642",
+      "readme_excerpt": "# The Birch and Swinnerton-Dyer conjecture A curated, checked record of what is known about the Birch and Swinnerton-Dyer (BSD) conjecture, kept up to date, and the base for new results on it. Maintainer: Deep Bhattacharjee. Last updated 3 November 2026. ## The conjecture For an elliptic curve $E/\\m",
+      "latest_release": null,
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
     },
     {
       "name": "trureturing-OpenRefute",
