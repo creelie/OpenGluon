@@ -10,19 +10,19 @@
     {
       "name": "4Y-M",
       "url": "https://github.com/creelie/4Y-M",
-      "commit": "de6ea7b56bf7138a5b92c69e35c934dd34de8e17",
+      "commit": "4f8e703084c03f2e2ec6461d2d3ab46f1a470839",
       "fork": false,
       "archived": false,
       "description": "In Progress: Yang--Mills Mass Gap on the Lattice and One Cube from the Continuum",
-      "pushed_at": "2026-11-04T13:59:50Z",
-      "readme_url": "https://github.com/creelie/4Y-M/blob/de6ea7b56bf7138a5b92c69e35c934dd34de8e17/README.md",
-      "readme_blob_sha": "10214e5804c3b79c6f8942c384baa8c2e33aada3",
-      "readme_excerpt": "# Yang–Mills Mass Gap Follows from One Cube Deep Bhattacharjee, Ushashi Bhattacharya, James Montgomery Lockwood and Tristan Romanov. The paper is `strong-coupling/forest/main.tex` (REVTeX, two columns; PDF at `preprintYangMillsForestGauge/YangMillsForestGauge.pdf`), with a one-column version in `str",
+      "pushed_at": "2026-11-04T21:06:18Z",
+      "readme_url": "https://github.com/creelie/4Y-M/blob/4f8e703084c03f2e2ec6461d2d3ab46f1a470839/README.md",
+      "readme_blob_sha": "cb5fabe6170a5e1a61b84cc58bf62320f84de04d",
+      "readme_excerpt": "# One Cube Estimate Implies the Yang–Mills Mass Gap Deep Bhattacharjee, Ushashi Bhattacharya, James Montgomery Lockwood and Tristan Romanov. The paper is `strong-coupling/forest/main.tex` (REVTeX, two columns; PDF at `preprints/preprintshexagon/YangMills_Hexagon.pdf`), with a one-column version in `",
       "latest_release": {
-        "tag": "v4.33.0",
-        "url": "https://github.com/creelie/4Y-M/releases/tag/v4.33.0",
-        "published_at": "2026-11-04T05:39:29Z",
-        "excerpt": "Papers: tex/main.tex (main.pdf), strong-coupling/prd/main.tex (preprintYangMillsDobrushinCeiling/YangMillsDobrushinCeiling.pdf) and strong-coupling/forest/main.tex (preprintYangMillsForestGauge/YangMillsForestGauge.pdf). Lean 4/Mathlib certificate in YangMills/ (lake build; no sorry, standard axioms only). Authors: Deep Bhattacharjee (ORCID 0000-0003-0466-750X; itsdeep@live.com, d.bhattacharjee@erl-forschung.de), Ushashi Bhattacharya, James Montgomery Lockwood, Tristan Romano"
+        "tag": "v4.36.0",
+        "url": "https://github.com/creelie/4Y-M/releases/tag/v4.36.0",
+        "published_at": "2026-11-04T20:49:37Z",
+        "excerpt": "Papers: tex/main.tex (tex/main.pdf), strong-coupling/prd/main.tex (preprintYangMillsDobrushinCeiling/YangMillsDobrushinCeiling.pdf) and strong-coupling/forest/main.tex (preprints/preprintshexagon/YangMills_Hexagon.pdf; one-column version preprints/preprintsmdpi/YangMills_MDPI.pdf). Lean 4/Mathlib certificate in YangMills/ (lake build; no sorry, standard axioms only). Authors: Deep Bhattacharjee (ORCID 0000-0003-0466-750X; itsdeep@live.com, d.bhattacharjee@erl-forschung.de), U"
       },
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "Lattice strong-coupling results and a conditional continuum programme. Uniform physical-scale cube contraction and a nontrivial continuum construction remain obligations; no full Yang-Mills closure is certified here.",
