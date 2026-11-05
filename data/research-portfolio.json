@@ -1,6 +1,6 @@
 {
   "schema": "anaxia-public-portfolio-v1",
-  "captured_on": "2026-11-04",
+  "captured_on": "2026-11-05",
   "repository_count": 149,
   "readme_count": 139,
   "release_count": 80,
@@ -10,12 +10,12 @@
     {
       "name": "4Y-M",
       "url": "https://github.com/creelie/4Y-M",
-      "commit": "4f8e703084c03f2e2ec6461d2d3ab46f1a470839",
+      "commit": "1282bc70a3587baee2f95430a858458eb0e1c180",
       "fork": false,
       "archived": false,
       "description": "In Progress: Yang--Mills Mass Gap on the Lattice and One Cube from the Continuum",
-      "pushed_at": "2026-11-04T21:06:18Z",
-      "readme_url": "https://github.com/creelie/4Y-M/blob/4f8e703084c03f2e2ec6461d2d3ab46f1a470839/README.md",
+      "pushed_at": "2026-11-04T23:38:28Z",
+      "readme_url": "https://github.com/creelie/4Y-M/blob/1282bc70a3587baee2f95430a858458eb0e1c180/README.md",
       "readme_blob_sha": "cb5fabe6170a5e1a61b84cc58bf62320f84de04d",
       "readme_excerpt": "# One Cube Estimate Implies the Yang–Mills Mass Gap Deep Bhattacharjee, Ushashi Bhattacharya, James Montgomery Lockwood and Tristan Romanov. The paper is `strong-coupling/forest/main.tex` (REVTeX, two columns; PDF at `preprints/preprintshexagon/YangMills_Hexagon.pdf`), with a one-column version in `",
       "latest_release": {
