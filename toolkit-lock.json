@@ -1,11 +1,11 @@
 {
-  "captured_at_utc": "2026-11-05T02:27:43.279889+00:00",
+  "captured_at_utc": "2026-11-05T10:53:17.176644+00:00",
   "repositories": [
     {
       "upstream": "leanprover-community/mathlib4",
       "path": "mathematics/mathlib4",
       "role": "formal mathematical library",
-      "commit": "805bbc496804387c2c87f9773b149ddd3a5286d2",
+      "commit": "994fb8edc8fe317229965ae18d488144e3fab7e3",
       "default_branch": "master"
     },
     {
@@ -19,7 +19,7 @@
       "upstream": "flintlib/flint",
       "path": "mathematics/flint",
       "role": "exact and rigorous arithmetic",
-      "commit": "b325b6cf14d72cb4693f4c955d4236ab4ef67770",
+      "commit": "fd92a56737b9c86511e385c9ef3298a333e922d1",
       "default_branch": "main"
     },
     {
@@ -33,7 +33,7 @@
       "upstream": "creelie/eBLLM",
       "path": "engines/anaxia",
       "role": "construction engine and public research source catalogue",
-      "commit": "817b09270772f2a68fc01daa795204bd7b35fcb3",
+      "commit": "0023b4209c139417dddd601a4896d253abd29c44",
       "default_branch": "main"
     },
     {
