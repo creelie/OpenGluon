@@ -1,10 +1,10 @@
 {
   "schema": "anaxia-public-portfolio-v1",
   "captured_on": "2026-11-06",
-  "repository_count": 149,
-  "readme_count": 139,
-  "release_count": 80,
-  "fork_count": 52,
+  "repository_count": 150,
+  "readme_count": 141,
+  "release_count": 81,
+  "fork_count": 53,
   "assessment": "Reading a source records its claims; it does not certify its proofs. No private repositories or credentials are included.",
   "repositories": [
     {
@@ -684,6 +684,22 @@
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope.",
       "scope_note_commit": "2c5513e7cc004765018e4691f214fa3b20ecb9c4"
+    },
+    {
+      "name": "diophantine-z-q",
+      "url": "https://github.com/creelie/diophantine-z-q",
+      "commit": "28e87b1b62af0effd954605af7f70b2699dd5672",
+      "fork": true,
+      "archived": false,
+      "description": "A proof that Z is Diophantine in Q.",
+      "pushed_at": "2026-11-06T03:00:30Z",
+      "readme_url": "https://github.com/creelie/diophantine-z-q/blob/28e87b1b62af0effd954605af7f70b2699dd5672/README.md",
+      "readme_blob_sha": "45db574980e5c38caff65f720248d88450f491eb",
+      "readme_excerpt": "# Z is Diophantine in Q ## Version 2 This repository contains the manuscript *Z is Diophantine in Q*, Version 2, and its explicit quartic polynomial in 12,504 variables. The complete polynomial, its source system, and the certificate checks accompany the manuscript. Version 2 is a collaboration usin",
+      "latest_release": null,
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
     },
     {
       "name": "Donaldson_Algorithm",
@@ -1918,18 +1934,24 @@
     {
       "name": "Openproblemsforfieldsmedal1",
       "url": "https://github.com/creelie/Openproblemsforfieldsmedal1",
-      "commit": "49c3bd996ae18ccf9294572b631f20fe77ed6df0",
+      "commit": "821b5822b513724f0a3246196c82de81df76c662",
       "fork": false,
       "archived": false,
       "description": "",
-      "pushed_at": "2026-10-11T01:25:08Z",
-      "readme_url": null,
-      "readme_blob_sha": null,
-      "readme_excerpt": "",
-      "latest_release": null,
+      "pushed_at": "2026-11-06T15:40:36Z",
+      "readme_url": "https://github.com/creelie/Openproblemsforfieldsmedal1/blob/821b5822b513724f0a3246196c82de81df76c662/README.md",
+      "readme_blob_sha": "6ce9934d746fb4680890b17f2796a54d6e13c52d",
+      "readme_excerpt": "# Riemann Hypothesis research **Signed Liouville energies and the limits of maximal correlation bounds** Deep Bhattacharjee and Ushashi Bhattacharya. Version 2 research draft, 6 November 2026. This revises [Preprints.org version 1](https://doi.org/10.20944/preprints202606.1350.v1). It develops two r",
+      "latest_release": {
+        "tag": "v2.0.0",
+        "url": "https://github.com/creelie/Openproblemsforfieldsmedal1/releases/tag/v2.0.0",
+        "published_at": "2026-11-06T15:28:58Z",
+        "excerpt": "# Version 2.0.0 research revision The maximal correlation estimate in the June 2026 paper concealed stronger consequences and obstructions. This revision gives its Dirichlet GRH implication, proves a deterministic lower bound for every sign sequence, and replaces the absolute energy with a signed Fejér energy whose growth exponent is determined by the rightmost zeta zeros. The paper also develops two routes that bypass Chowla. A single exponential smoothing gives an equivalen"
+      },
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope.",
-      "scope_note_commit": "49c3bd996ae18ccf9294572b631f20fe77ed6df0"
+      "scope_note_commit": "49c3bd996ae18ccf9294572b631f20fe77ed6df0",
+      "scope_note_requires_review": true
     },
     {
       "name": "Paper_1",

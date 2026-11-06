@@ -1,25 +1,25 @@
 {
-  "captured_at_utc": "2026-11-06T15:02:18.162560+00:00",
+  "captured_at_utc": "2026-11-06T20:53:40.432484+00:00",
   "repositories": [
     {
       "upstream": "leanprover-community/mathlib4",
       "path": "mathematics/mathlib4",
       "role": "formal mathematical library",
-      "commit": "a08dab646d0f3467f8bb100d3339e9eb839f6e92",
+      "commit": "e293c42021c641734f10655c39b8023fa88ff6ee",
       "default_branch": "master"
     },
     {
       "upstream": "sympy/sympy",
       "path": "mathematics/sympy",
       "role": "symbolic algebra",
-      "commit": "48651d5dbad0992eb3b4ca0412a52328da8362b9",
+      "commit": "337a57463b8fdf534542db3c69885fdd5c723541",
       "default_branch": "master"
     },
     {
       "upstream": "flintlib/flint",
       "path": "mathematics/flint",
       "role": "exact and rigorous arithmetic",
-      "commit": "9d519fbc1d1b186d44fa649a7dee27ea5f58f68a",
+      "commit": "f5c2181a43be3a2ec01c0be5ad1e0dcdb5f96a32",
       "default_branch": "main"
     },
     {
@@ -33,7 +33,7 @@
       "upstream": "creelie/eBLLM",
       "path": "engines/anaxia",
       "role": "construction engine and public research source catalogue",
-      "commit": "58ef6ae7d1ffefd0549ba61e84a79936470d369c",
+      "commit": "82bfebd31b3a3dc2955ce003175658d912cbe025",
       "default_branch": "main"
     },
     {
@@ -49,7 +49,7 @@
       "upstream": "harmonic-ai/aristotle",
       "path": "engines/aristotle",
       "role": "optional hosted code-verification client; current API is not a pure-mathematics or Lean verification service",
-      "commit": "52e3639009b4afd9f09982bbd17e8ebc0cb1b80f",
+      "commit": "66e7c7a8c67bffeda58055c93db5f3013c4fef94",
       "default_branch": "main",
       "license_note": "Proprietary Aristotle API terms, with MIT-licensed vendored tomli; source retained unmodified."
     }
