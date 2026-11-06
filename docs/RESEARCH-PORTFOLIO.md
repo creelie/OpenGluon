@@ -1,12 +1,12 @@
 # Public research portfolio
 
-Public source snapshot: 2026-11-05. 149 repositories; 139 READMEs; 80 stable releases.
+Public source snapshot: 2026-11-06. 149 repositories; 139 READMEs; 80 stable releases.
 
 Source claims retain their original authors and hypotheses. No entry is an independent proof audit. A scope note marked for review belongs to an earlier commit.
 
 | Repository | Latest release | Snapshot | Scope |
 | --- | --- | --- | --- |
-| [4Y-M](https://github.com/creelie/4Y-M) | [v4.36.0](https://github.com/creelie/4Y-M/releases/tag/v4.36.0) | [95ce84988f](https://github.com/creelie/4Y-M/tree/95ce84988f84a61874f81b6363e014e70ad79316) | **Prior scope note; review new commit.** Lattice strong-coupling results and a conditional continuum programme. Uniform physical-scale cube contraction and a nontrivial continuum construction remain obligations; no full Yang-Mills closure is certified here. |
+| [4Y-M](https://github.com/creelie/4Y-M) | [v4.37.0](https://github.com/creelie/4Y-M/releases/tag/v4.37.0) | [f303f6ad54](https://github.com/creelie/4Y-M/tree/f303f6ad54734aac6c2352d488fe2003a10a5c59) | **Prior scope note; review new commit.** Lattice strong-coupling results and a conditional continuum programme. Uniform physical-scale cube contraction and a nontrivial continuum construction remain obligations; no full Yang-Mills closure is certified here. |
 | [advanced-reasoning-mcp](https://github.com/creelie/advanced-reasoning-mcp) | No stable release | [29bc37fb11](https://github.com/creelie/advanced-reasoning-mcp/tree/29bc37fb1118e0a69132420dac586175165a7067) | Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope. |
 | [AGI-Alpha-Agent-v0](https://github.com/creelie/AGI-Alpha-Agent-v0) | No stable release | [a6d20a93c7](https://github.com/creelie/AGI-Alpha-Agent-v0/tree/a6d20a93c7c5b7430bf42d2367701b350513e90d) | Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope. |
 | [airllm](https://github.com/creelie/airllm) | No stable release | [b0b1a7efc0](https://github.com/creelie/airllm/tree/b0b1a7efc033360e1d9e799f14287b8d4fe154bc) | Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope. |

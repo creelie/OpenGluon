@@ -1,6 +1,6 @@
 {
   "schema": "anaxia-public-portfolio-v1",
-  "captured_on": "2026-11-05",
+  "captured_on": "2026-11-06",
   "repository_count": 149,
   "readme_count": 139,
   "release_count": 80,
@@ -10,18 +10,18 @@
     {
       "name": "4Y-M",
       "url": "https://github.com/creelie/4Y-M",
-      "commit": "95ce84988f84a61874f81b6363e014e70ad79316",
+      "commit": "f303f6ad54734aac6c2352d488fe2003a10a5c59",
       "fork": false,
       "archived": false,
       "description": "In Progress: Yang--Mills Mass Gap on the Lattice and One Cube from the Continuum",
-      "pushed_at": "2026-11-05T03:43:27Z",
-      "readme_url": "https://github.com/creelie/4Y-M/blob/95ce84988f84a61874f81b6363e014e70ad79316/README.md",
+      "pushed_at": "2026-11-06T03:28:41Z",
+      "readme_url": "https://github.com/creelie/4Y-M/blob/f303f6ad54734aac6c2352d488fe2003a10a5c59/README.md",
       "readme_blob_sha": "cb5fabe6170a5e1a61b84cc58bf62320f84de04d",
       "readme_excerpt": "# One Cube Estimate Implies the Yang–Mills Mass Gap Deep Bhattacharjee, Ushashi Bhattacharya, James Montgomery Lockwood and Tristan Romanov. The paper is `strong-coupling/forest/main.tex` (REVTeX, two columns; PDF at `preprints/preprintshexagon/YangMills_Hexagon.pdf`), with a one-column version in `",
       "latest_release": {
-        "tag": "v4.36.0",
-        "url": "https://github.com/creelie/4Y-M/releases/tag/v4.36.0",
-        "published_at": "2026-11-04T20:49:37Z",
+        "tag": "v4.37.0",
+        "url": "https://github.com/creelie/4Y-M/releases/tag/v4.37.0",
+        "published_at": "2026-11-06T01:48:39Z",
         "excerpt": "Papers: tex/main.tex (tex/main.pdf), strong-coupling/prd/main.tex (preprintYangMillsDobrushinCeiling/YangMillsDobrushinCeiling.pdf) and strong-coupling/forest/main.tex (preprints/preprintshexagon/YangMills_Hexagon.pdf; one-column version preprints/preprintsmdpi/YangMills_MDPI.pdf). Lean 4/Mathlib certificate in YangMills/ (lake build; no sorry, standard axioms only). Authors: Deep Bhattacharjee (ORCID 0000-0003-0466-750X; itsdeep@live.com, d.bhattacharjee@erl-forschung.de), U"
       },
       "review_status": "source-recorded-not-independently-audited",
