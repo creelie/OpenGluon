@@ -1,25 +1,25 @@
 {
-  "captured_at_utc": "2026-11-05T18:44:20.959372+00:00",
+  "captured_at_utc": "2026-11-06T00:16:03.241097+00:00",
   "repositories": [
     {
       "upstream": "leanprover-community/mathlib4",
       "path": "mathematics/mathlib4",
       "role": "formal mathematical library",
-      "commit": "442ab0d377fbfa9ff1d7188ce02f26e52b07cbed",
+      "commit": "5216ddb52620579dcc4b3bbbddedb45191643e0a",
       "default_branch": "master"
     },
     {
       "upstream": "sympy/sympy",
       "path": "mathematics/sympy",
       "role": "symbolic algebra",
-      "commit": "77a1e4c87bff67b447002bf05609bc68a449fc60",
+      "commit": "a1e6fd3993dae123441783a9f995527bb064932b",
       "default_branch": "master"
     },
     {
       "upstream": "flintlib/flint",
       "path": "mathematics/flint",
       "role": "exact and rigorous arithmetic",
-      "commit": "fd92a56737b9c86511e385c9ef3298a333e922d1",
+      "commit": "9d519fbc1d1b186d44fa649a7dee27ea5f58f68a",
       "default_branch": "main"
     },
     {
@@ -33,7 +33,7 @@
       "upstream": "creelie/eBLLM",
       "path": "engines/anaxia",
       "role": "construction engine and public research source catalogue",
-      "commit": "ca32ad1f59cb3c83d195baaecac321c885031844",
+      "commit": "4c21e3fe6273f8b0b33acdc1a40143c368518bc7",
       "default_branch": "main"
     },
     {
