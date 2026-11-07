@@ -1,11 +1,11 @@
 {
-  "captured_at_utc": "2026-11-07T18:46:55.730647+00:00",
+  "captured_at_utc": "2026-11-07T22:44:43.799945+00:00",
   "repositories": [
     {
       "upstream": "leanprover-community/mathlib4",
       "path": "mathematics/mathlib4",
       "role": "formal mathematical library",
-      "commit": "893812301fc246c4b8c73b2a34afb83bc9dd1269",
+      "commit": "cdb2d388bcdad6fbe925917f79829617a4382dd9",
       "default_branch": "master"
     },
     {
@@ -33,7 +33,7 @@
       "upstream": "creelie/eBLLM",
       "path": "engines/anaxia",
       "role": "construction engine and public research source catalogue",
-      "commit": "1eb95fe9ca493e9753fa1d93f76bde845fc4f522",
+      "commit": "feb8480e8648a5424f451f89114eab714a5b7a17",
       "default_branch": "main"
     },
     {
