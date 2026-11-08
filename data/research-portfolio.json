@@ -1,28 +1,28 @@
 {
   "schema": "anaxia-public-portfolio-v1",
   "captured_on": "2026-11-08",
-  "repository_count": 151,
-  "readme_count": 142,
-  "release_count": 81,
-  "fork_count": 54,
+  "repository_count": 156,
+  "readme_count": 147,
+  "release_count": 85,
+  "fork_count": 55,
   "assessment": "Reading a source records its claims; it does not certify its proofs. No private repositories or credentials are included.",
   "repositories": [
     {
       "name": "4Y-M",
       "url": "https://github.com/creelie/4Y-M",
-      "commit": "1a6f46663f0ccf6eb5d3c9a73a039a5394bce6d3",
+      "commit": "0cd2b9f98266dd4c5e149be9309ded67ba77d5e4",
       "fork": false,
       "archived": false,
       "description": "In Progress: One Cube Estimate Implies the Yang--Mills Mass Gap",
-      "pushed_at": "2026-11-07T23:45:30Z",
-      "readme_url": "https://github.com/creelie/4Y-M/blob/1a6f46663f0ccf6eb5d3c9a73a039a5394bce6d3/README.md",
-      "readme_blob_sha": "a6965660480de42b30fa4b0621bdae4d823807bc",
-      "readme_excerpt": "# Lattice Mass Gaps and Continuum Criteria for Four-Dimensional Yang-Mills Theory Current research release [v4.41.1](https://github.com/creelie/4Y-M/releases/tag/v4.41.1). Version DOI: [10.5281/zenodo.24045649](https://doi.org/10.5281/zenodo.24045649). We prove strong-coupling lattice mass gaps for ",
+      "pushed_at": "2026-11-08T15:01:48Z",
+      "readme_url": "https://github.com/creelie/4Y-M/blob/0cd2b9f98266dd4c5e149be9309ded67ba77d5e4/README.md",
+      "readme_blob_sha": "68855a41ed8b2bc6f927a9ce2f944091bdfb2901",
+      "readme_excerpt": "# Lattice Mass Gaps and Continuum Criteria for Four-Dimensional Yang-Mills Theory Current research release: [v4.42.0](https://github.com/creelie/4Y-M/releases/tag/v4.42.0). Version DOI: https://doi.org/10.5281/zenodo.24055064 Permanent work DOI, printed in the manuscript: https://doi.org/10.5281/zen",
       "latest_release": {
-        "tag": "v4.41.1",
-        "url": "https://github.com/creelie/4Y-M/releases/tag/v4.41.1",
-        "published_at": "2026-11-07T23:32:40Z",
-        "excerpt": "Removes the two unpublished bibliography entries and their citation markers at the author’s request. Consolidates a duplicate record for the same cited preprint version. The surrounding text, mathematical statements and contributor credit are preserved. The PDF has **392 pages**, compared with 392 in v4.41.0. The revised bibliography contains 116 cited entries and 106 checked DOI links. See `papers/bibliography-audit.md` for individual sources. The `papers/` folder contains t"
+        "tag": "v4.42.0",
+        "url": "https://github.com/creelie/4Y-M/releases/tag/v4.42.0",
+        "published_at": "2026-11-08T15:01:49Z",
+        "excerpt": "# Research revision v4.42.0 Adds proved off-diagonal semigroup and static Poisson-residual identities matching the excluded same-link block in (FC); derives Gaussian full-row and response lower obstructions from the existing collective-source identities; constructs finite-volume Wilson Poisson trials as finite sums of actual conditional expectations, with a proved residual rate uniform in the coarse data at fixed geometry; proves a mixed Poisson/flux enclosure without assumin"
       },
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "Lattice strong-coupling results and a conditional continuum programme. Uniform physical-scale cube contraction and a nontrivial continuum construction remain obligations; no full Yang-Mills closure is certified here.",
@@ -203,6 +203,27 @@
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope.",
       "scope_note_commit": "4eac7cbf921574c8173797838e813d1b41ac8ead"
+    },
+    {
+      "name": "brane-cluster-gravity",
+      "url": "https://github.com/creelie/brane-cluster-gravity",
+      "commit": "ff3b8179eff2acfb260f61c3691c4c504be35615",
+      "fork": false,
+      "archived": false,
+      "description": "Brane-cluster gravity manuscript and reproducible TeX source",
+      "pushed_at": "2026-11-08T08:58:49Z",
+      "readme_url": "https://github.com/creelie/brane-cluster-gravity/blob/ff3b8179eff2acfb260f61c3691c4c504be35615/README.md",
+      "readme_blob_sha": "502063ae74a903e9be427b6c3202688f6c91501d",
+      "readme_excerpt": "# Ultraviolet Bounds and the Positivity Obstruction in Brane-Cluster Gravity The manuscript and standalone LaTeX sources are in the **papers** folder. Extract the source ZIP and select **manuscript.tex** as the main document. Compile with pdfLaTeX. Run it again to resolve the references. The bibliog",
+      "latest_release": {
+        "tag": "v3.0.1",
+        "url": "https://github.com/creelie/brane-cluster-gravity/releases/tag/v3.0.1",
+        "published_at": "2026-11-08T08:58:49Z",
+        "excerpt": "The manuscript restores the earlier title and links to its GitHub repository and this release. The mathematical content is identical to v3.0.0."
+      },
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
     },
     {
       "name": "Breakthrough-problems-1",
@@ -1416,6 +1437,22 @@
       "scope_note_commit": "2ee6680fefb8ad6e1c4bfc899a6a6991bf9c768f"
     },
     {
+      "name": "hodge-odd-fermat-fourfolds",
+      "url": "https://github.com/creelie/hodge-odd-fermat-fourfolds",
+      "commit": "8131ed824db6ca99c3698d19b9972e9f13da723c",
+      "fork": true,
+      "archived": false,
+      "description": "AI-generated proof of the rational Hodge conjecture for odd-degree Fermat fourfolds, released for human verification. Lean 4 certificates for the finite endpoints, CI-checked.",
+      "pushed_at": "2026-09-08T15:32:07Z",
+      "readme_url": "https://github.com/creelie/hodge-odd-fermat-fourfolds/blob/8131ed824db6ca99c3698d19b9972e9f13da723c/README.md",
+      "readme_blob_sha": "cc1efe4ed63f70959e6af955174d190688b5cf9e",
+      "readme_excerpt": "# The Hodge Conjecture for Odd-Degree Fermat Fourfolds [![Verify Lean certificates](https://github.com/Li-Hongmin/hodge-odd-fermat-fourfolds/actions/workflows/verify.yml/badge.svg)](https://github.com/Li-Hongmin/hodge-odd-fermat-fourfolds/actions/workflows/verify.yml) [![DOI](https://img.shields.io/",
+      "latest_release": null,
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
+    },
+    {
       "name": "hopf",
       "url": "https://github.com/creelie/hopf",
       "commit": "c6f64baa0d8511744a8d402038579153e8833881",
@@ -1446,6 +1483,27 @@
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope.",
       "scope_note_commit": "a34978aa7439d2eff7ccc3d2ad5372b34d285bd5"
+    },
+    {
+      "name": "k3-involutions",
+      "url": "https://github.com/creelie/k3-involutions",
+      "commit": "46732195e28c963e042bd32facaf2a34d8d32cee",
+      "fork": false,
+      "archived": false,
+      "description": "Enriques and Kummer Surfaces Arising from K3 Involutions — corrected manuscript and exact supporting checks.",
+      "pushed_at": "2026-11-08T13:49:02Z",
+      "readme_url": "https://github.com/creelie/k3-involutions/blob/46732195e28c963e042bd32facaf2a34d8d32cee/README.md",
+      "readme_blob_sha": "384c75ef473c755ae6cdb00c0ee415b4ed73e5c9",
+      "readme_excerpt": "# Explicit Involution Geometry of Product Kummer Surfaces Revised review with full fixed-locus and cohomology calculations for the standard affine two-torsion subgroup of a product Kummer surface. Classical Lieberman constructions are credited; this is not a classification of all K3 or Enriques invo",
+      "latest_release": {
+        "tag": "v2.0.1",
+        "url": "https://github.com/creelie/k3-involutions/releases/tag/v2.0.1",
+        "published_at": "2026-11-08T13:49:02Z",
+        "excerpt": "Revised review with full fixed-locus and cohomology calculations for the standard affine two-torsion subgroup of a product Kummer surface. Classical Lieberman constructions are credited; this is not a classification of all K3 or Enriques involutions. Version 2 has been retitled Explicit Involution Geometry of Product Kummer Surfaces to identify its precise scope. It replaces the earlier general discussion with complete fixed-locus proofs for the standard 32-element affine two"
+      },
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
     },
     {
       "name": "Kimi-K3",
@@ -1874,6 +1932,27 @@
       "scope_note_commit": "c70274273f489abc73832b2b98584a8483b6b203"
     },
     {
+      "name": "nyman-beurling-approximation",
+      "url": "https://github.com/creelie/nyman-beurling-approximation",
+      "commit": "bf817fe8a726fb80e287be7adb350dcef5588564",
+      "fork": false,
+      "archived": false,
+      "description": "Spectral and Analytic Structure of the Nyman–Beurling–Báez–Duarte Approximation — corrected manuscript and exact supporting checks.",
+      "pushed_at": "2026-11-08T13:51:47Z",
+      "readme_url": "https://github.com/creelie/nyman-beurling-approximation/blob/bf817fe8a726fb80e287be7adb350dcef5588564/README.md",
+      "readme_blob_sha": "5fbaa2851333b83c964f7aed0c6921769bdbbe4c",
+      "readme_excerpt": "# Exact Gram Inversion for Fractional-Part Approximation Exact finite Gram inversion, ordinary sawtooth least-squares errors and rigorous reciprocal-dilate certificates. The Riemann hypothesis and the limiting reciprocal approximation criterion remain unproved. We solve the finite least-squares prob",
+      "latest_release": {
+        "tag": "v3.0.1",
+        "url": "https://github.com/creelie/nyman-beurling-approximation/releases/tag/v3.0.1",
+        "published_at": "2026-11-08T13:51:47Z",
+        "excerpt": "Exact finite Gram inversion, ordinary sawtooth least-squares errors and rigorous reciprocal-dilate certificates. The Riemann hypothesis and the limiting reciprocal approximation criterion remain unproved. Version 3 has been retitled Exact Gram Inversion for Fractional-Part Approximation. It separates the linear, ordinary sawtooth and reciprocal Nyman–Beurling dictionaries and corrects the identities that depended on conflating them. It gives an explicit finite inverse and lea"
+      },
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
+    },
+    {
       "name": "odd-antihole",
       "url": "https://github.com/creelie/odd-antihole",
       "commit": "23f900928f6330c8fc23965f3cbfe8551ca62d49",
@@ -2273,6 +2352,27 @@
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope.",
       "scope_note_commit": "bafae531c393219f623efd228bf07604d5d10499"
+    },
+    {
+      "name": "product-influence",
+      "url": "https://github.com/creelie/product-influence",
+      "commit": "afbc1611695916bb1fc5287c195eeec5d0ebad8e",
+      "fork": false,
+      "archived": false,
+      "description": "Influence Bounds for Arbitrary Product Measures. Manuscript and exact supporting checks.",
+      "pushed_at": "2026-11-08T10:15:15Z",
+      "readme_url": "https://github.com/creelie/product-influence/blob/afbc1611695916bb1fc5287c195eeec5d0ebad8e/README.md",
+      "readme_blob_sha": "9e294448b65983e99cf79b5c35bfafd18fb8b725",
+      "readme_excerpt": "# Influence Bounds for Arbitrary Product Measures **Deep Bhattacharjee** Permanent Zenodo work DOI [10.5281/zenodo.24051766](https://doi.org/10.5281/zenodo.24051766). We prove a variance-dependent influence bound for bounded functions on arbitrary finite product spaces. Its constants are independent",
+      "latest_release": {
+        "tag": "v1.0.1",
+        "url": "https://github.com/creelie/product-influence/releases/tag/v1.0.1",
+        "published_at": "2026-11-08T10:15:16Z",
+        "excerpt": "Influence Bounds for Arbitrary Product Measures Fourteen-page amsart research article by Deep Bhattacharjee, version 1.0.1. This release includes the permanent Zenodo work DOI in the manuscript and citation metadata. The manuscript proves the stated finite-product influence bound with no unresolved conjectural input. Complete derivations of the trigonometric, certificate and determinant ingredients are included. The leading constant is twice that of the first research draft. "
+      },
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
     },
     {
       "name": "PvsNP",

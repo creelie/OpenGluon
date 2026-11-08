@@ -15,7 +15,7 @@ Quantum software, mathematical constructions and inspectable evidence in one rep
 
 | Quantum laboratory | Construction engine | Mathematical toolkit | Research memory |
 | :--- | :--- | :--- | :--- |
-| **17** quantumlib projects | **Anaxia / eBLLM** | **4** libraries + Harmonic Lean examples | **151** public sources |
+| **17** quantumlib projects | **Anaxia / eBLLM** | **4** libraries + Harmonic Lean examples | **156** public sources |
 | Circuits · simulation · decoding | **14** targeted routes | Lean mathlib · SymPy | Pinned commits · release links |
 | Chemistry · fermions · units | Exact rational LDLᵀ certificates | FLINT · GAP | Claims retain their proof scope |
 
