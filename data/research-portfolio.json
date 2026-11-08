@@ -10,12 +10,12 @@
     {
       "name": "4Y-M",
       "url": "https://github.com/creelie/4Y-M",
-      "commit": "0cd2b9f98266dd4c5e149be9309ded67ba77d5e4",
+      "commit": "6df33b16c06459ec87d57627e48f5434b4dd2c1a",
       "fork": false,
       "archived": false,
       "description": "In Progress: One Cube Estimate Implies the Yang--Mills Mass Gap",
-      "pushed_at": "2026-11-08T15:01:48Z",
-      "readme_url": "https://github.com/creelie/4Y-M/blob/0cd2b9f98266dd4c5e149be9309ded67ba77d5e4/README.md",
+      "pushed_at": "2026-11-08T17:22:15Z",
+      "readme_url": "https://github.com/creelie/4Y-M/blob/6df33b16c06459ec87d57627e48f5434b4dd2c1a/README.md",
       "readme_blob_sha": "68855a41ed8b2bc6f927a9ce2f944091bdfb2901",
       "readme_excerpt": "# Lattice Mass Gaps and Continuum Criteria for Four-Dimensional Yang-Mills Theory Current research release: [v4.42.0](https://github.com/creelie/4Y-M/releases/tag/v4.42.0). Version DOI: https://doi.org/10.5281/zenodo.24055064 Permanent work DOI, printed in the manuscript: https://doi.org/10.5281/zen",
       "latest_release": {
@@ -758,23 +758,24 @@
     {
       "name": "e84hc",
       "url": "https://github.com/creelie/e84hc",
-      "commit": "14f906c64e57114cf369f2fb70ea6191ed569c96",
+      "commit": "4907d6d2061e440c9b93a8528f4a3b7d457150d3",
       "fork": false,
       "archived": false,
       "description": "Hodge Conjecture",
-      "pushed_at": "2026-10-15T17:19:59Z",
-      "readme_url": "https://github.com/creelie/e84hc/blob/14f906c64e57114cf369f2fb70ea6191ed569c96/README.md",
-      "readme_blob_sha": "34f917878824013cf7b3cd9de5922d86eb496813",
-      "readme_excerpt": "# On the Hodge conjecture for Fermat varieties [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23234362.svg)](https://doi.org/10.5281/zenodo.23234362) **Deep Bhattacharjee** Formerly, Electro-Gravitational Space Propulsion Laboratory (EGSPL), Bhubaneswar, Odisha 751030, India d.bhattacharjee@erl",
+      "pushed_at": "2026-11-08T15:35:47Z",
+      "readme_url": "https://github.com/creelie/e84hc/blob/4907d6d2061e440c9b93a8528f4a3b7d457150d3/README.md",
+      "readme_blob_sha": "0c2983db77c4882b852f77c2d2958cfd2806daa8",
+      "readme_excerpt": "# On the Hodge conjecture for Fermat varieties **Deep Bhattacharjee** Current research revision: [v1.9.0](https://github.com/creelie/e84hc/releases/tag/v1.9.0). Version DOI: https://doi.org/10.5281/zenodo.24055725 Permanent work DOI, printed in the manuscript: https://doi.org/10.5281/zenodo.23234362",
       "latest_release": {
-        "tag": "v1.8.0",
-        "url": "https://github.com/creelie/e84hc/releases/tag/v1.8.0",
-        "published_at": "2026-10-15T17:08:39Z",
-        "excerpt": "**On the Hodge conjecture for Fermat varieties** Deep Bhattacharjee. Formerly, Electro-Gravitational Space Propulsion Laboratory (EGSPL), Bhubaneswar, Odisha 751030, India. d.bhattacharjee@erl-forschung.de · itsdeep@live.com · ORCID [0000-0003-0466-750X](https://orcid.org/0000-0003-0466-750X) The paper proves the Hodge conjecture for the Fermat varieties of degrees 33, 39, 44, 51, 52 and 114 in every dimension, and more generally of every degree 2^a 3^b 11^c, every degree 2^a"
+        "tag": "v1.9.0",
+        "url": "https://github.com/creelie/e84hc/releases/tag/v1.9.0",
+        "published_at": "2026-11-08T15:32:42Z",
+        "excerpt": "# Research revision v1.9.0 Adds two verified references to Hongmin Li, acknowledges his September precedent for Theorem B and the diagonal-class counterexample, distinguishes the later six-residual classification from the three-terminal profile descent, and adds Appendix C with an inflation lemma, a comparison diagram and exact checks of seven named tuples. The whole earlier paper is retained, with its title and sole author unchanged. Claims of exclusive priority for the over"
       },
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope.",
-      "scope_note_commit": "14f906c64e57114cf369f2fb70ea6191ed569c96"
+      "scope_note_commit": "14f906c64e57114cf369f2fb70ea6191ed569c96",
+      "scope_note_requires_review": true
     },
     {
       "name": "eBLLM",
@@ -1227,19 +1228,19 @@
     {
       "name": "fermat-hodge-",
       "url": "https://github.com/creelie/fermat-hodge-",
-      "commit": "e44529e5597b1145d7008750968d577e1e1df4c9",
+      "commit": "68223fbac12f6cdce440e1eee7b6c3a767906e2c",
       "fork": false,
       "archived": false,
       "description": "In Progress: Dense Algebraic Loci of Hodge Classes",
-      "pushed_at": "2026-11-07T23:45:25Z",
-      "readme_url": "https://github.com/creelie/fermat-hodge-/blob/e44529e5597b1145d7008750968d577e1e1df4c9/README.md",
-      "readme_blob_sha": "bc4adfc912a65054ff3a4dead80331d97de63d01",
-      "readme_excerpt": "# Algebraic Hodge Loci and Exceptional Correspondences Current research release [v3.4.1](https://github.com/creelie/fermat-hodge-/releases/tag/v3.4.1). Version DOI: [10.5281/zenodo.24045620](https://doi.org/10.5281/zenodo.24045620). We construct algebraic Hodge classes in explicit abelian and K3 fam",
+      "pushed_at": "2026-11-08T16:02:37Z",
+      "readme_url": "https://github.com/creelie/fermat-hodge-/blob/68223fbac12f6cdce440e1eee7b6c3a767906e2c/README.md",
+      "readme_blob_sha": "e67c215eb8972e99abbd72616550a5423b45cbb5",
+      "readme_excerpt": "# Toward the Algebraicity of Every Rational Hodge Class **Deep Bhattacharjee; Ushashi Bhattacharya** Current full v7 research revision: [v3.5.1](https://github.com/creelie/fermat-hodge-/releases/tag/v3.5.1). Version DOI: https://doi.org/10.5281/zenodo.24056100 Permanent work DOI, printed in the manu",
       "latest_release": {
-        "tag": "v3.4.1",
-        "url": "https://github.com/creelie/fermat-hodge-/releases/tag/v3.4.1",
-        "published_at": "2026-11-07T23:29:00Z",
-        "excerpt": "Corrects the Galluzzi attribution and publication details, clarifies the Trento Examples attribution and source-release citations, and removes an unresolved preprint reference, unused entries, and duplicates. The PDF has **112 pages**, compared with 112 in v3.4.0. The revised bibliography contains 89 cited entries and 69 checked DOI links. See `papers/bibliography-audit.md` for individual sources. The `papers/` folder contains the current PDF, TeX ZIP and submission notes. [V"
+        "tag": "v3.5.1",
+        "url": "https://github.com/creelie/fermat-hodge-/releases/tag/v3.5.1",
+        "published_at": "2026-11-08T16:00:58Z",
+        "excerpt": "# Title revision v3.5.1 Retitles the complete 113-page v7 manuscript from Algebraic Hodge Loci and Exceptional Correspondences to Toward the Algebraicity of Every Rational Hodge Class. The mathematical text, short abstract, author list, affiliations, figures, appendices and bibliography are retained; only the work title, running title, PDF title metadata, current source-citation title and release identifiers change. F2, F3-prime, the generic mixed Mumford class and the genera"
       },
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "The current release explicitly leaves F2, F3-prime and the Hodge conjecture open.",
