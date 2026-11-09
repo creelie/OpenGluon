@@ -1,6 +1,6 @@
 {
   "schema": "anaxia-public-upstream-watch-v1",
-  "captured_at_utc": "2026-11-08T19:39:22.515819+00:00",
+  "captured_at_utc": "2026-11-08T23:41:20.322898+00:00",
   "repository_count": 3531,
   "owners": {
     "creelie": 156,
@@ -547,7 +547,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-09T13:02:15Z",
-      "updated_at": "2026-10-09T13:02:20Z",
+      "updated_at": "2026-11-08T21:46:50Z",
       "monitoring": "public-metadata"
     },
     {
@@ -2203,7 +2203,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-04-22T17:58:21Z",
-      "updated_at": "2026-11-08T18:50:15Z",
+      "updated_at": "2026-11-08T20:23:23Z",
       "monitoring": "public-metadata"
     },
     {
@@ -2215,7 +2215,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-11-05T21:31:26Z",
-      "updated_at": "2026-11-08T00:59:07Z",
+      "updated_at": "2026-11-08T22:45:47Z",
       "monitoring": "public-metadata"
     },
     {
@@ -2382,7 +2382,7 @@
       "fork": false,
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-11-06T19:56:03Z",
+      "pushed_at": "2026-11-08T23:29:40Z",
       "updated_at": "2026-11-07T21:23:18Z",
       "monitoring": "public-metadata"
     },
@@ -2983,7 +2983,7 @@
       "archived": false,
       "default_branch": "master",
       "pushed_at": "2026-06-17T13:51:27Z",
-      "updated_at": "2026-11-08T15:38:05Z",
+      "updated_at": "2026-11-08T20:23:37Z",
       "monitoring": "public-metadata"
     },
     {
@@ -3607,7 +3607,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2024-05-09T12:14:49Z",
-      "updated_at": "2026-09-20T14:16:33Z",
+      "updated_at": "2026-11-08T21:39:24Z",
       "monitoring": "public-metadata"
     },
     {
@@ -3666,8 +3666,8 @@
       "fork": false,
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-11-06T13:52:09Z",
-      "updated_at": "2026-11-08T10:49:16Z",
+      "pushed_at": "2026-11-08T23:18:38Z",
+      "updated_at": "2026-11-08T23:18:42Z",
       "monitoring": "public-metadata"
     },
     {
@@ -4758,8 +4758,8 @@
       "fork": false,
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-11-07T17:07:40Z",
-      "updated_at": "2026-11-08T19:33:17Z",
+      "pushed_at": "2026-11-08T23:35:03Z",
+      "updated_at": "2026-11-08T23:40:29Z",
       "monitoring": "public-metadata"
     },
     {
@@ -4771,7 +4771,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-11-02T17:02:05Z",
-      "updated_at": "2026-11-08T18:29:58Z",
+      "updated_at": "2026-11-08T22:57:25Z",
       "monitoring": "public-metadata"
     },
     {
@@ -4794,8 +4794,8 @@
       "fork": false,
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-11-08T17:26:29Z",
-      "updated_at": "2026-11-08T18:13:56Z",
+      "pushed_at": "2026-11-08T23:36:48Z",
+      "updated_at": "2026-11-08T23:36:52Z",
       "monitoring": "public-metadata"
     },
     {
@@ -4807,7 +4807,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-11-06T22:10:31Z",
-      "updated_at": "2026-11-08T19:25:12Z",
+      "updated_at": "2026-11-08T20:10:54Z",
       "monitoring": "public-metadata"
     },
     {
@@ -5479,7 +5479,7 @@
       "archived": false,
       "default_branch": "master",
       "pushed_at": "2024-07-23T16:54:42Z",
-      "updated_at": "2026-11-07T09:59:19Z",
+      "updated_at": "2026-11-08T19:40:23Z",
       "monitoring": "public-metadata"
     },
     {
@@ -7374,8 +7374,8 @@
       "fork": false,
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-11-08T16:32:12Z",
-      "updated_at": "2026-11-08T13:58:15Z",
+      "pushed_at": "2026-11-08T22:00:30Z",
+      "updated_at": "2026-11-08T22:00:03Z",
       "monitoring": "public-metadata"
     },
     {
@@ -7386,8 +7386,8 @@
       "fork": false,
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-11-08T15:05:53Z",
-      "updated_at": "2026-11-08T15:05:22Z",
+      "pushed_at": "2026-11-08T20:03:07Z",
+      "updated_at": "2026-11-08T20:02:33Z",
       "monitoring": "public-metadata"
     },
     {
@@ -7423,7 +7423,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-11-08T05:29:38Z",
-      "updated_at": "2026-11-08T19:03:21Z",
+      "updated_at": "2026-11-08T22:21:07Z",
       "monitoring": "public-metadata"
     },
     {
@@ -7447,7 +7447,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-11-06T11:43:36Z",
-      "updated_at": "2026-11-08T17:18:08Z",
+      "updated_at": "2026-11-08T20:09:19Z",
       "monitoring": "public-metadata"
     },
     {
@@ -7651,7 +7651,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-11-04T17:44:59Z",
-      "updated_at": "2026-11-08T15:52:24Z",
+      "updated_at": "2026-11-08T22:18:22Z",
       "monitoring": "public-metadata"
     },
     {
@@ -9067,7 +9067,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-01T21:37:15Z",
-      "updated_at": "2026-11-08T19:24:00Z",
+      "updated_at": "2026-11-08T23:13:07Z",
       "monitoring": "public-metadata"
     },
     {
@@ -9499,7 +9499,7 @@
       "archived": true,
       "default_branch": "main",
       "pushed_at": "2026-09-15T20:13:49Z",
-      "updated_at": "2026-10-31T15:57:42Z",
+      "updated_at": "2026-11-08T19:41:25Z",
       "monitoring": "public-metadata"
     },
     {
@@ -9643,7 +9643,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-11-07T18:38:30Z",
-      "updated_at": "2026-11-08T16:29:21Z",
+      "updated_at": "2026-11-08T20:15:02Z",
       "monitoring": "public-metadata"
     },
     {
@@ -10134,8 +10134,8 @@
       "fork": false,
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-11-08T04:10:13Z",
-      "updated_at": "2026-11-08T04:10:17Z",
+      "pushed_at": "2026-11-08T22:46:28Z",
+      "updated_at": "2026-11-08T22:46:31Z",
       "monitoring": "public-metadata"
     },
     {
@@ -10543,7 +10543,7 @@
       "archived": false,
       "default_branch": "master",
       "pushed_at": "2026-11-07T12:28:22Z",
-      "updated_at": "2026-11-08T18:42:18Z",
+      "updated_at": "2026-11-08T23:27:30Z",
       "monitoring": "public-metadata"
     },
     {
@@ -10711,7 +10711,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-11-05T16:06:36Z",
-      "updated_at": "2026-11-08T12:30:00Z",
+      "updated_at": "2026-11-08T21:43:28Z",
       "monitoring": "public-metadata"
     },
     {
@@ -10843,7 +10843,7 @@
       "archived": false,
       "default_branch": "master",
       "pushed_at": "2025-12-15T20:10:39Z",
-      "updated_at": "2026-11-06T16:16:37Z",
+      "updated_at": "2026-11-08T19:54:22Z",
       "monitoring": "public-metadata"
     },
     {
@@ -13063,7 +13063,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-11-03T23:37:45Z",
-      "updated_at": "2026-11-08T18:46:31Z",
+      "updated_at": "2026-11-08T21:43:32Z",
       "monitoring": "public-metadata"
     },
     {
@@ -13074,8 +13074,8 @@
       "fork": false,
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-10-14T23:32:06Z",
-      "updated_at": "2026-10-14T23:32:10Z",
+      "pushed_at": "2026-11-08T21:49:35Z",
+      "updated_at": "2026-11-08T21:49:39Z",
       "monitoring": "public-metadata"
     },
     {
@@ -14010,7 +14010,7 @@
       "fork": false,
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-11-08T16:23:31Z",
+      "pushed_at": "2026-11-08T20:31:22Z",
       "updated_at": "2026-11-08T15:57:59Z",
       "monitoring": "public-metadata"
     },
@@ -14334,8 +14334,8 @@
       "fork": false,
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-11-08T15:52:37Z",
-      "updated_at": "2026-11-08T15:47:08Z",
+      "pushed_at": "2026-11-08T22:57:47Z",
+      "updated_at": "2026-11-08T22:55:02Z",
       "monitoring": "public-metadata"
     },
     {
@@ -14694,8 +14694,8 @@
       "fork": false,
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-11-08T17:29:36Z",
-      "updated_at": "2026-11-08T17:29:40Z",
+      "pushed_at": "2026-11-08T19:42:01Z",
+      "updated_at": "2026-11-08T19:42:06Z",
       "monitoring": "public-metadata"
     },
     {
@@ -15055,7 +15055,7 @@
       "archived": false,
       "default_branch": "master",
       "pushed_at": "2026-11-02T12:43:59Z",
-      "updated_at": "2026-11-08T17:20:13Z",
+      "updated_at": "2026-11-08T21:09:35Z",
       "monitoring": "public-metadata"
     },
     {
@@ -15691,7 +15691,7 @@
       "archived": false,
       "default_branch": "master",
       "pushed_at": "2026-03-24T18:11:40Z",
-      "updated_at": "2026-11-05T22:08:41Z",
+      "updated_at": "2026-11-08T20:49:25Z",
       "monitoring": "public-metadata"
     },
     {
@@ -16579,7 +16579,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-11-08T13:33:11Z",
-      "updated_at": "2026-11-08T19:38:09Z",
+      "updated_at": "2026-11-08T23:40:18Z",
       "monitoring": "public-metadata"
     },
     {
@@ -16650,7 +16650,7 @@
       "fork": false,
       "archived": false,
       "default_branch": "master",
-      "pushed_at": "2026-11-08T09:34:43Z",
+      "pushed_at": "2026-11-08T20:25:37Z",
       "updated_at": "2026-11-08T09:34:39Z",
       "monitoring": "public-metadata"
     },
@@ -16819,7 +16819,7 @@
       "archived": true,
       "default_branch": "master",
       "pushed_at": "2024-09-19T05:27:52Z",
-      "updated_at": "2026-11-08T09:05:03Z",
+      "updated_at": "2026-11-08T20:08:57Z",
       "monitoring": "public-metadata"
     },
     {
@@ -16902,7 +16902,7 @@
       "fork": false,
       "archived": false,
       "default_branch": "master",
-      "pushed_at": "2026-11-08T19:17:52Z",
+      "pushed_at": "2026-11-08T20:22:44Z",
       "updated_at": "2026-11-08T18:01:55Z",
       "monitoring": "public-metadata"
     },
@@ -17167,7 +17167,7 @@
       "archived": false,
       "default_branch": "release-v2",
       "pushed_at": "2025-12-23T16:39:03Z",
-      "updated_at": "2026-11-06T14:55:14Z",
+      "updated_at": "2026-11-08T22:59:12Z",
       "monitoring": "public-metadata"
     },
     {
@@ -17803,7 +17803,7 @@
       "archived": false,
       "default_branch": "master",
       "pushed_at": "2026-11-08T18:59:21Z",
-      "updated_at": "2026-11-07T08:04:07Z",
+      "updated_at": "2026-11-08T21:48:31Z",
       "monitoring": "public-metadata"
     },
     {
@@ -18235,7 +18235,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-11-08T13:10:45Z",
-      "updated_at": "2026-11-08T17:16:51Z",
+      "updated_at": "2026-11-08T22:55:38Z",
       "monitoring": "public-metadata"
     },
     {
@@ -20191,7 +20191,7 @@
       "archived": false,
       "default_branch": "master",
       "pushed_at": "2026-11-02T23:43:28Z",
-      "updated_at": "2026-11-07T09:59:18Z",
+      "updated_at": "2026-11-08T22:14:30Z",
       "monitoring": "public-metadata"
     },
     {
@@ -21919,7 +21919,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-11-04T18:52:10Z",
-      "updated_at": "2026-11-06T16:41:30Z",
+      "updated_at": "2026-11-08T22:32:27Z",
       "monitoring": "public-metadata"
     },
     {
@@ -22231,7 +22231,7 @@
       "archived": false,
       "default_branch": "master",
       "pushed_at": "2026-11-08T15:01:06Z",
-      "updated_at": "2026-11-08T18:49:31Z",
+      "updated_at": "2026-11-08T22:14:20Z",
       "monitoring": "public-metadata"
     },
     {
@@ -22590,8 +22590,8 @@
       "fork": false,
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-11-08T18:05:09Z",
-      "updated_at": "2026-11-07T18:15:31Z",
+      "pushed_at": "2026-11-08T23:25:18Z",
+      "updated_at": "2026-11-08T20:40:22Z",
       "monitoring": "public-metadata"
     },
     {
@@ -22854,7 +22854,7 @@
       "fork": false,
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-11-08T14:19:14Z",
+      "pushed_at": "2026-11-08T20:56:42Z",
       "updated_at": "2026-11-08T02:30:23Z",
       "monitoring": "public-metadata"
     },
@@ -25339,7 +25339,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-11-07T09:16:35Z",
-      "updated_at": "2026-11-08T18:08:51Z",
+      "updated_at": "2026-11-08T20:19:01Z",
       "monitoring": "public-metadata"
     },
     {
@@ -26610,8 +26610,8 @@
       "fork": false,
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-11-06T06:53:23Z",
-      "updated_at": "2026-11-08T18:02:16Z",
+      "pushed_at": "2026-11-08T21:42:59Z",
+      "updated_at": "2026-11-08T21:43:01Z",
       "monitoring": "public-metadata"
     },
     {
@@ -26827,7 +26827,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-11-05T04:22:47Z",
-      "updated_at": "2026-11-08T18:18:53Z",
+      "updated_at": "2026-11-08T23:16:46Z",
       "monitoring": "public-metadata"
     },
     {
@@ -26923,7 +26923,7 @@
       "archived": false,
       "default_branch": "master",
       "pushed_at": "2026-10-23T02:18:57Z",
-      "updated_at": "2026-11-08T17:43:43Z",
+      "updated_at": "2026-11-08T23:30:07Z",
       "monitoring": "public-metadata"
     },
     {
@@ -29058,7 +29058,7 @@
       "fork": false,
       "archived": false,
       "default_branch": "master",
-      "pushed_at": "2026-11-08T14:30:28Z",
+      "pushed_at": "2026-11-08T21:36:47Z",
       "updated_at": "2026-11-05T22:03:53Z",
       "monitoring": "public-metadata"
     },
@@ -29718,7 +29718,7 @@
       "fork": false,
       "archived": false,
       "default_branch": "stable",
-      "pushed_at": "2026-11-07T07:35:47Z",
+      "pushed_at": "2026-11-08T21:55:38Z",
       "updated_at": "2026-11-08T19:08:16Z",
       "monitoring": "public-metadata"
     },
@@ -29910,8 +29910,8 @@
       "fork": false,
       "archived": false,
       "default_branch": "master",
-      "pushed_at": "2026-11-08T16:02:23Z",
-      "updated_at": "2026-11-08T17:04:02Z",
+      "pushed_at": "2026-11-08T23:39:09Z",
+      "updated_at": "2026-11-08T22:58:46Z",
       "monitoring": "public-metadata"
     },
     {
@@ -29994,8 +29994,8 @@
       "fork": false,
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-11-08T18:58:15Z",
-      "updated_at": "2026-11-08T19:18:26Z",
+      "pushed_at": "2026-11-08T20:56:45Z",
+      "updated_at": "2026-11-08T23:21:11Z",
       "monitoring": "public-metadata"
     },
     {
@@ -30030,8 +30030,8 @@
       "fork": false,
       "archived": false,
       "default_branch": "master",
-      "pushed_at": "2026-11-06T04:47:47Z",
-      "updated_at": "2026-11-08T12:26:20Z",
+      "pushed_at": "2026-11-08T22:27:07Z",
+      "updated_at": "2026-11-08T22:27:15Z",
       "monitoring": "public-metadata"
     },
     {
@@ -30366,8 +30366,8 @@
       "fork": false,
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-11-06T22:12:20Z",
-      "updated_at": "2026-11-07T17:56:50Z",
+      "pushed_at": "2026-11-08T22:59:37Z",
+      "updated_at": "2026-11-08T22:59:41Z",
       "monitoring": "public-metadata"
     },
     {
@@ -30738,7 +30738,7 @@
       "fork": false,
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-11-08T13:59:05Z",
+      "pushed_at": "2026-11-08T23:35:12Z",
       "updated_at": "2026-11-08T05:14:04Z",
       "monitoring": "public-metadata"
     },
@@ -31843,7 +31843,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-04-17T11:03:29Z",
-      "updated_at": "2026-10-28T23:35:58Z",
+      "updated_at": "2026-11-08T20:22:43Z",
       "monitoring": "public-metadata"
     },
     {
@@ -32490,7 +32490,7 @@
       "fork": false,
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-11-08T19:28:33Z",
+      "pushed_at": "2026-11-08T20:07:05Z",
       "updated_at": "2026-10-05T16:54:02Z",
       "monitoring": "public-metadata"
     },
@@ -33102,8 +33102,8 @@
       "fork": false,
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-11-08T07:12:57Z",
-      "updated_at": "2026-10-05T16:18:11Z",
+      "pushed_at": "2026-11-08T21:54:00Z",
+      "updated_at": "2026-11-08T21:54:03Z",
       "monitoring": "public-metadata"
     },
     {
@@ -33235,7 +33235,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-29T20:16:20Z",
-      "updated_at": "2026-10-29T20:16:26Z",
+      "updated_at": "2026-11-08T20:16:55Z",
       "monitoring": "public-metadata"
     },
     {
@@ -34135,7 +34135,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-07-13T03:14:31Z",
-      "updated_at": "2026-11-08T16:49:02Z",
+      "updated_at": "2026-11-08T20:12:39Z",
       "monitoring": "public-metadata"
     },
     {
@@ -34746,8 +34746,8 @@
       "fork": false,
       "archived": false,
       "default_branch": "master",
-      "pushed_at": "2026-11-07T03:18:35Z",
-      "updated_at": "2026-11-08T18:17:59Z",
+      "pushed_at": "2026-11-08T21:07:07Z",
+      "updated_at": "2026-11-08T21:07:12Z",
       "monitoring": "public-metadata"
     },
     {
@@ -34759,7 +34759,7 @@
       "archived": true,
       "default_branch": "main",
       "pushed_at": "2025-02-05T13:23:36Z",
-      "updated_at": "2026-11-07T21:42:20Z",
+      "updated_at": "2026-11-08T21:49:42Z",
       "monitoring": "public-metadata"
     },
     {
@@ -35023,7 +35023,7 @@
       "archived": true,
       "default_branch": "main",
       "pushed_at": "2024-11-14T23:18:34Z",
-      "updated_at": "2026-11-08T16:07:19Z",
+      "updated_at": "2026-11-08T19:43:48Z",
       "monitoring": "public-metadata"
     },
     {
@@ -35863,7 +35863,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-11-07T14:41:39Z",
-      "updated_at": "2026-11-08T19:35:17Z",
+      "updated_at": "2026-11-08T23:31:04Z",
       "monitoring": "public-metadata"
     },
     {
@@ -37267,7 +37267,7 @@
       "archived": false,
       "default_branch": "gh-pages",
       "pushed_at": "2026-11-06T18:33:12Z",
-      "updated_at": "2026-11-08T17:02:31Z",
+      "updated_at": "2026-11-08T20:08:47Z",
       "monitoring": "public-metadata"
     },
     {
@@ -37998,8 +37998,8 @@
       "fork": false,
       "archived": false,
       "default_branch": "master",
-      "pushed_at": "2026-11-08T09:04:39Z",
-      "updated_at": "2026-11-08T19:17:07Z",
+      "pushed_at": "2026-11-08T21:19:50Z",
+      "updated_at": "2026-11-08T22:02:12Z",
       "monitoring": "public-metadata"
     },
     {
@@ -38395,7 +38395,7 @@
       "archived": false,
       "default_branch": "main",
       "pushed_at": "2026-10-27T06:47:05Z",
-      "updated_at": "2026-11-02T11:38:29Z",
+      "updated_at": "2026-11-08T19:53:12Z",
       "monitoring": "public-metadata"
     },
     {
@@ -38442,8 +38442,8 @@
       "fork": false,
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-11-08T19:21:19Z",
-      "updated_at": "2026-11-08T19:31:03Z",
+      "pushed_at": "2026-11-08T23:37:54Z",
+      "updated_at": "2026-11-08T23:37:35Z",
       "monitoring": "public-metadata"
     },
     {
@@ -38718,7 +38718,7 @@
       "fork": false,
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-11-08T16:23:14Z",
+      "pushed_at": "2026-11-08T22:31:45Z",
       "updated_at": "2026-11-08T16:22:29Z",
       "monitoring": "public-metadata"
     },
@@ -39282,7 +39282,7 @@
       "fork": false,
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-11-08T17:05:24Z",
+      "pushed_at": "2026-11-08T21:11:26Z",
       "updated_at": "2026-11-07T13:58:14Z",
       "monitoring": "public-metadata"
     },
@@ -42330,8 +42330,8 @@
       "fork": false,
       "archived": false,
       "default_branch": "main",
-      "pushed_at": "2026-10-15T06:30:14Z",
-      "updated_at": "2026-11-02T23:10:37Z",
+      "pushed_at": "2026-11-08T23:08:19Z",
+      "updated_at": "2026-11-08T23:08:22Z",
       "monitoring": "public-metadata"
     },
     {

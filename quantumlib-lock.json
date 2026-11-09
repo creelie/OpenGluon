@@ -1,7 +1,7 @@
 {
   "organization": "quantumlib",
   "inventory_source": "https://api.github.com/orgs/quantumlib/repos?type=public&per_page=100",
-  "captured_at_utc": "2026-11-06T06:53:44.508998+00:00",
+  "captured_at_utc": "2026-11-09T00:53:53.081469+00:00",
   "repository_count": 17,
   "repositories": [
     {
@@ -155,7 +155,7 @@
       "clone_url": "https://github.com/quantumlib/ReCirq.git",
       "path": "quantumlib/ReCirq",
       "default_branch": "main",
-      "commit": "93d6fe58af8d405ab758cb6f39b024e7ab06b848",
+      "commit": "c081606256e0b7eead2dda92c0250ca2a4f57722",
       "archived": false,
       "description": "Python modules for quantum computing applications and experiments using Cirq. Research using Cirq!",
       "license_spdx": "Apache-2.0"
