@@ -1,6 +1,6 @@
 # Public research portfolio
 
-Public source snapshot: 2026-11-08. 156 repositories; 147 READMEs; 85 stable releases.
+Public source snapshot: 2026-11-09. 156 repositories; 147 READMEs; 85 stable releases.
 
 Source claims retain their original authors and hypotheses. No entry is an independent proof audit. A scope note marked for review belongs to an earlier commit.
 

@@ -1,6 +1,6 @@
 {
   "schema": "anaxia-public-portfolio-v1",
-  "captured_on": "2026-11-08",
+  "captured_on": "2026-11-09",
   "repository_count": 156,
   "readme_count": 147,
   "release_count": 85,
@@ -14,7 +14,7 @@
       "fork": false,
       "archived": false,
       "description": "In Progress: One Cube Estimate Implies the Yang--Mills Mass Gap",
-      "pushed_at": "2026-11-08T17:22:15Z",
+      "pushed_at": "2026-11-09T05:16:08Z",
       "readme_url": "https://github.com/creelie/4Y-M/blob/6df33b16c06459ec87d57627e48f5434b4dd2c1a/README.md",
       "readme_blob_sha": "68855a41ed8b2bc6f927a9ce2f944091bdfb2901",
       "readme_excerpt": "# Lattice Mass Gaps and Continuum Criteria for Four-Dimensional Yang-Mills Theory Current research release: [v4.42.0](https://github.com/creelie/4Y-M/releases/tag/v4.42.0). Version DOI: https://doi.org/10.5281/zenodo.24055064 Permanent work DOI, printed in the manuscript: https://doi.org/10.5281/zen",
