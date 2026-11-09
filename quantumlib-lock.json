@@ -1,7 +1,7 @@
 {
   "organization": "quantumlib",
   "inventory_source": "https://api.github.com/orgs/quantumlib/repos?type=public&per_page=100",
-  "captured_at_utc": "2026-11-09T07:57:56.364071+00:00",
+  "captured_at_utc": "2026-11-09T18:47:38.906768+00:00",
   "repository_count": 17,
   "repositories": [
     {
@@ -47,7 +47,7 @@
       "clone_url": "https://github.com/quantumlib/Cirq.git",
       "path": "quantumlib/Cirq",
       "default_branch": "main",
-      "commit": "7221f800708c1475fde078d6c8c5d87f15cba6e1",
+      "commit": "1fca7fb223b9e11dc2e8b10d463841ce4bc0054c",
       "archived": false,
       "description": "Python framework for creating, editing, and running Noisy Intermediate-Scale Quantum (NISQ) circuits.",
       "license_spdx": "Apache-2.0"

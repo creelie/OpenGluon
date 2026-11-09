@@ -10,19 +10,19 @@
     {
       "name": "4Y-M",
       "url": "https://github.com/creelie/4Y-M",
-      "commit": "6df33b16c06459ec87d57627e48f5434b4dd2c1a",
+      "commit": "d68470ddb64cd68dd2b2e6bc29439e48b98d5c0e",
       "fork": false,
       "archived": false,
       "description": "In Progress: One Cube Estimate Implies the Yang--Mills Mass Gap",
-      "pushed_at": "2026-11-09T05:16:08Z",
-      "readme_url": "https://github.com/creelie/4Y-M/blob/6df33b16c06459ec87d57627e48f5434b4dd2c1a/README.md",
-      "readme_blob_sha": "68855a41ed8b2bc6f927a9ce2f944091bdfb2901",
-      "readme_excerpt": "# Lattice Mass Gaps and Continuum Criteria for Four-Dimensional Yang-Mills Theory Current research release: [v4.42.0](https://github.com/creelie/4Y-M/releases/tag/v4.42.0). Version DOI: https://doi.org/10.5281/zenodo.24055064 Permanent work DOI, printed in the manuscript: https://doi.org/10.5281/zen",
+      "pushed_at": "2026-11-09T14:53:09Z",
+      "readme_url": "https://github.com/creelie/4Y-M/blob/d68470ddb64cd68dd2b2e6bc29439e48b98d5c0e/README.md",
+      "readme_blob_sha": "9637e6a0fcb601cec0f5034ea6ffd13b3bd0d763",
+      "readme_excerpt": "# Yang-Mills Theory and the Mass Gap Deep Bhattacharjee, Ushashi Bhattacharya, James Montgomery Lockwood, Tristan Romanov and Sanjeevan Singha Roy. DOI (all versions): https://doi.org/10.5281/zenodo.23444338 - [PDF](papers/ym4d.pdf): 228 pages, REVTeX 4.2, two columns. - [TeX source](papers/ym4dtex.",
       "latest_release": {
-        "tag": "v4.42.0",
-        "url": "https://github.com/creelie/4Y-M/releases/tag/v4.42.0",
-        "published_at": "2026-11-08T15:01:49Z",
-        "excerpt": "# Research revision v4.42.0 Adds proved off-diagonal semigroup and static Poisson-residual identities matching the excluded same-link block in (FC); derives Gaussian full-row and response lower obstructions from the existing collective-source identities; constructs finite-volume Wilson Poisson trials as finite sums of actual conditional expectations, with a proved residual rate uniform in the coarse data at fixed geometry; proves a mixed Poisson/flux enclosure without assumin"
+        "tag": "v4.44.0",
+        "url": "https://github.com/creelie/4Y-M/releases/tag/v4.44.0",
+        "published_at": "2026-11-09T14:50:35Z",
+        "excerpt": "# Yang-Mills Theory and the Mass Gap (v4.44.0) The paper (227 pages) proves the strong-coupling mass gap m >= arccosh(1 + (kappa_G/(N beta) - 29/2)/12) for every compact simple gauge group and shows that one uniform cube estimate at physical scale l gives every nontrivial continuum limit the mass gap m >= 16 varpi/(625 e^2 l). This version adds gauge-covariant strong mixing at the physical scale and the averaged cube condition, coarse cells in four dimensions, flowed observab"
       },
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "Lattice strong-coupling results and a conditional continuum programme. Uniform physical-scale cube contraction and a nontrivial continuum construction remain obligations; no full Yang-Mills closure is certified here.",
