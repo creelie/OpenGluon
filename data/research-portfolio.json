@@ -1,21 +1,21 @@
 {
   "schema": "anaxia-public-portfolio-v1",
-  "captured_on": "2026-11-09",
-  "repository_count": 156,
-  "readme_count": 147,
-  "release_count": 85,
-  "fork_count": 55,
+  "captured_on": "2026-11-10",
+  "repository_count": 159,
+  "readme_count": 151,
+  "release_count": 88,
+  "fork_count": 56,
   "assessment": "Reading a source records its claims; it does not certify its proofs. No private repositories or credentials are included.",
   "repositories": [
     {
       "name": "4Y-M",
       "url": "https://github.com/creelie/4Y-M",
-      "commit": "d68470ddb64cd68dd2b2e6bc29439e48b98d5c0e",
+      "commit": "1b5cec54cc8adbf5b3c67eb3807202995a7dfc45",
       "fork": false,
       "archived": false,
       "description": "In Progress: One Cube Estimate Implies the Yang--Mills Mass Gap",
-      "pushed_at": "2026-11-09T14:53:09Z",
-      "readme_url": "https://github.com/creelie/4Y-M/blob/d68470ddb64cd68dd2b2e6bc29439e48b98d5c0e/README.md",
+      "pushed_at": "2026-11-09T23:22:58Z",
+      "readme_url": "https://github.com/creelie/4Y-M/blob/1b5cec54cc8adbf5b3c67eb3807202995a7dfc45/README.md",
       "readme_blob_sha": "9637e6a0fcb601cec0f5034ea6ffd13b3bd0d763",
       "readme_excerpt": "# Yang-Mills Theory and the Mass Gap Deep Bhattacharjee, Ushashi Bhattacharya, James Montgomery Lockwood, Tristan Romanov and Sanjeevan Singha Roy. DOI (all versions): https://doi.org/10.5281/zenodo.23444338 - [PDF](papers/ym4d.pdf): 228 pages, REVTeX 4.2, two columns. - [TeX source](papers/ym4dtex.",
       "latest_release": {
@@ -618,6 +618,22 @@
       "scope_note_commit": "3fe2618870808d8c20912ab8b5aff80af275a1de"
     },
     {
+      "name": "d-D",
+      "url": "https://github.com/creelie/d-D",
+      "commit": "4b2ffc036d525544352250d00dda5b20d69e6a7e",
+      "fork": false,
+      "archived": false,
+      "description": "",
+      "pushed_at": "2026-11-10T00:20:28Z",
+      "readme_url": null,
+      "readme_blob_sha": null,
+      "readme_excerpt": "",
+      "latest_release": null,
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
+    },
+    {
       "name": "D4-D24-Hales--D3--Viazovska",
       "url": "https://github.com/creelie/D4-D24-Hales--D3--Viazovska",
       "commit": "c30178750a4026a4683db1cdd2e6e184c5d5be5b",
@@ -860,23 +876,24 @@
     {
       "name": "eConjecturePrimitiveTrinomial",
       "url": "https://github.com/creelie/eConjecturePrimitiveTrinomial",
-      "commit": "8bed534a2dc27fde8856bb218a28885f64e6fd2a",
+      "commit": "dc3f28d773d3e35e31fbcbc950352d4d8cfacccc",
       "fork": false,
       "archived": false,
       "description": "",
-      "pushed_at": "2026-10-22T04:44:00Z",
-      "readme_url": "https://github.com/creelie/eConjecturePrimitiveTrinomial/blob/8bed534a2dc27fde8856bb218a28885f64e6fd2a/README.md",
-      "readme_blob_sha": "c36c6d99f9d657b4cae70a9af4e63c320cdebba7",
-      "readme_excerpt": "# Even-intersecting families of lattice paths and the Catalan numbers Deep Bhattacharjee Shankar (*Oddtown and eventown theorems for lattice paths*, arXiv:2607.23117) proved that a family of North–East lattice paths from (0,0) to (n,n) in which any two paths share an even number of edges has at most",
+      "pushed_at": "2026-11-09T19:14:01Z",
+      "readme_url": "https://github.com/creelie/eConjecturePrimitiveTrinomial/blob/dc3f28d773d3e35e31fbcbc950352d4d8cfacccc/README.md",
+      "readme_blob_sha": "59e8da93dfffe9ce47d4837c0c301059a56fec12",
+      "readme_excerpt": "# Catalan Rigidity of Even Lattice Paths Deep Bhattacharjee Concept DOI (all versions): [10.5281/zenodo.23281333](https://doi.org/10.5281/zenodo.23281333) A family of North–East lattice paths from (0,0) to (n,n) in which any two paths share an even number of edges has at most 2^n members (Shankar, a",
       "latest_release": {
-        "tag": "v1.1.0",
-        "url": "https://github.com/creelie/eConjecturePrimitiveTrinomial/releases/tag/v1.1.0",
-        "published_at": "2026-10-22T04:44:00Z",
-        "excerpt": "**Even-intersecting families of lattice paths and the Catalan numbers**, by Deep Bhattacharjee. Shankar proved that a family of North–East lattice paths from (0,0) to (n,n) in which any two paths share an even number of edges has at most 2^n members, and conjectured that exactly C_n families attain the bound (arXiv:2607.23117, Conjecture 4.1). The paper proves the conjecture and determines all equality cases of the inequality behind the bound. | Step | Content | |---|---| | P"
+        "tag": "v2.1.0",
+        "url": "https://github.com/creelie/eConjecturePrimitiveTrinomial/releases/tag/v2.1.0",
+        "published_at": "2026-11-09T19:09:43Z",
+        "excerpt": "**Catalan Rigidity of Even Lattice Paths**, by Deep Bhattacharjee. A family of North–East lattice paths from (0,0) to (n,n) in which any two paths share an even number of edges has at most 2^n members (Shankar, arXiv:2607.23117). The paper proves Shankar's conjecture that exactly C_n families attain this bound, one for each noncrossing perfect matching, by classifying all equality cases of the underlying inequality, and continues with parity families of paths in every rectang"
       },
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope.",
-      "scope_note_commit": "8bed534a2dc27fde8856bb218a28885f64e6fd2a"
+      "scope_note_commit": "8bed534a2dc27fde8856bb218a28885f64e6fd2a",
+      "scope_note_requires_review": true
     },
     {
       "name": "eConjectureTauMaximal",
@@ -1024,6 +1041,22 @@
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "A sixteen-prime-factor lower bound and exact prime-completion criteria are reported. The release explicitly leaves the full Lehmer totient conjecture unproved.",
       "scope_note_commit": "0cccef6b11f5a504da8a5500af06894d9e343aed"
+    },
+    {
+      "name": "entroptics-mass-gap",
+      "url": "https://github.com/creelie/entroptics-mass-gap",
+      "commit": "55d76111479eb13e78c5c1498ae1bcfbdde12454",
+      "fork": true,
+      "archived": false,
+      "description": "The mass gap as a finite-aperture effect.",
+      "pushed_at": "2026-11-09T05:48:34Z",
+      "readme_url": "https://github.com/creelie/entroptics-mass-gap/blob/55d76111479eb13e78c5c1498ae1bcfbdde12454/README.md",
+      "readme_blob_sha": "bf93065b52f024f0672d3dd335bcc08d2b1d6067",
+      "readme_excerpt": "# The Mass Gap of SU(N) Gauge Theory Seen by an Observer of Fixed Physical Resolution Release v0.3.1 (2026-11-08) · Ikailo John Sessford (Ikailo Inc.) Paper: [PDF](research/paper/mass-gap.pdf) (two-column) · [LaTeX source](research/paper/mass-gap.tex) · [HTML](research/paper/mass-gap.html) The paper",
+      "latest_release": null,
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
     },
     {
       "name": "eNvrs",
@@ -2052,6 +2085,27 @@
       "scope_note_requires_review": true
     },
     {
+      "name": "Paper-Conjecture",
+      "url": "https://github.com/creelie/Paper-Conjecture",
+      "commit": "e6ce27966fea80b815f98e9869c079b97485c2be",
+      "fork": false,
+      "archived": false,
+      "description": "",
+      "pushed_at": "2026-11-09T23:54:52Z",
+      "readme_url": "https://github.com/creelie/Paper-Conjecture/blob/e6ce27966fea80b815f98e9869c079b97485c2be/README.md",
+      "readme_blob_sha": "4fde3df0dfecf89b772616bcbaee3be4fff34458",
+      "readme_excerpt": "# Degrees of Prolongation Varieties of Monomial Planar Systems Deep Bhattacharjee For x1' = x2^p, x2' = x1^q with p, q >= 2, the paper gives the degree of every prolongation variety in closed form. This answers Questions 6 and 7 of G. Pogudin's list of open problems in differential algebra for this ",
+      "latest_release": {
+        "tag": "v1.0.0",
+        "url": "https://github.com/creelie/Paper-Conjecture/releases/tag/v1.0.0",
+        "published_at": "2026-11-09T23:51:20Z",
+        "excerpt": ""
+      },
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
+    },
+    {
       "name": "Paper_1",
       "url": "https://github.com/creelie/Paper_1",
       "commit": "f0519c23efc95fe1c2c4ac812533183c0ac8115c",
@@ -2182,18 +2236,24 @@
     {
       "name": "Paper_5",
       "url": "https://github.com/creelie/Paper_5",
-      "commit": "d719e816a5bf1366534c76fa1ed6e0124ccfbe56",
+      "commit": "c62e32592af40e13f224c14eb3309c616ea5d36d",
       "fork": false,
       "archived": false,
       "description": "",
-      "pushed_at": "2026-10-24T04:21:32Z",
-      "readme_url": null,
-      "readme_blob_sha": null,
-      "readme_excerpt": "",
-      "latest_release": null,
+      "pushed_at": "2026-11-10T00:09:52Z",
+      "readme_url": "https://github.com/creelie/Paper_5/blob/c62e32592af40e13f224c14eb3309c616ea5d36d/README.md",
+      "readme_blob_sha": "a493a24145c523f010371991c5b796da0bc3a416",
+      "readme_excerpt": "# Positivity of Single-Centred Black Hole Indices in the Z2 CHL Model Paper and verification code by Deep Bhattacharjee. - `paper/` — LaTeX source (`main.tex`, `parts/`), figures and PDF; `TexmdpiCHLPositivity.zip` is the TeX package. - `code/chl_coefficients.py` — exact orbit computation (python-fl",
+      "latest_release": {
+        "tag": "v1.0.0",
+        "url": "https://github.com/creelie/Paper_5/releases/tag/v1.0.0",
+        "published_at": "2026-11-10T00:08:32Z",
+        "excerpt": "Paper, TeX package, exact computation and ball-arithmetic certificates by Deep Bhattacharjee."
+      },
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope.",
-      "scope_note_commit": "d719e816a5bf1366534c76fa1ed6e0124ccfbe56"
+      "scope_note_commit": "d719e816a5bf1366534c76fa1ed6e0124ccfbe56",
+      "scope_note_requires_review": true
     },
     {
       "name": "Paper_6",
@@ -2745,18 +2805,24 @@
     {
       "name": "super-bassoon-fieldsMedal2",
       "url": "https://github.com/creelie/super-bassoon-fieldsMedal2",
-      "commit": "8850e19c322f7c1da983897a44593d2535142980",
+      "commit": "1dd7ed605ce76533d4fe44e6e4f55994e5d5ed07",
       "fork": false,
       "archived": false,
       "description": "",
-      "pushed_at": "2026-10-10T14:17:09Z",
-      "readme_url": null,
-      "readme_blob_sha": null,
-      "readme_excerpt": "",
-      "latest_release": null,
+      "pushed_at": "2026-11-09T22:17:20Z",
+      "readme_url": "https://github.com/creelie/super-bassoon-fieldsMedal2/blob/1dd7ed605ce76533d4fe44e6e4f55994e5d5ed07/README.md",
+      "readme_blob_sha": "fdef0214ae67c7fe943a16bb293036a7710287f5",
+      "readme_excerpt": "# Split Primes and the Exponent of Imaginary Quadratic Class Groups Deep Bhattacharjee. DOI (all versions): [10.5281/zenodo.24093927](https://doi.org/10.5281/zenodo.24093927). Paper in `paper/` (LaTeX source, PDF, figures); programs and data in `anc/`. Under a zero-free half-plane for Dirichlet L-fu",
+      "latest_release": {
+        "tag": "v1.0.0",
+        "url": "https://github.com/creelie/super-bassoon-fieldsMedal2/releases/tag/v1.0.0",
+        "published_at": "2026-11-09T22:15:55Z",
+        "excerpt": "Split Primes and the Exponent of Imaginary Quadratic Class Groups (Deep Bhattacharjee): paper, certification script in ball arithmetic, sieve, enumeration of reduced forms and the list of the 101 discriminants of exponent at most two."
+      },
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope.",
-      "scope_note_commit": "8850e19c322f7c1da983897a44593d2535142980"
+      "scope_note_commit": "8850e19c322f7c1da983897a44593d2535142980",
+      "scope_note_requires_review": true
     },
     {
       "name": "ten-proofs",
