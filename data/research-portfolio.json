@@ -10,19 +10,19 @@
     {
       "name": "4Y-M",
       "url": "https://github.com/creelie/4Y-M",
-      "commit": "90743c4ed7535fe4d0ea5485510d7aa289af2aa2",
+      "commit": "cf96faff5d0e2999b75ba1d7939ccda39d52137d",
       "fork": false,
       "archived": false,
       "description": "In Progress: One Cube Estimate Implies the Yang--Mills Mass Gap",
-      "pushed_at": "2026-11-10T16:43:03Z",
-      "readme_url": "https://github.com/creelie/4Y-M/blob/90743c4ed7535fe4d0ea5485510d7aa289af2aa2/README.md",
-      "readme_blob_sha": "2a73188d222381538bba2b1b5f4aa2cc32478519",
-      "readme_excerpt": "# Yang-Mills Theory and the Mass Gap Deep Bhattacharjee, Ushashi Bhattacharya, James Montgomery Lockwood, Tristan Romanov, Ikailo John Sessford and Sanjeevan Singha Roy. DOI (all versions): https://doi.org/10.5281/zenodo.23444338 - [PDF](papers/YangMills.pdf): 22 pages, amsart. - [TeX source](papers",
+      "pushed_at": "2026-11-10T18:50:05Z",
+      "readme_url": "https://github.com/creelie/4Y-M/blob/cf96faff5d0e2999b75ba1d7939ccda39d52137d/README.md",
+      "readme_blob_sha": "3c36a3c50d5e2f9d09e56d77a5c4ac9fe85dcea2",
+      "readme_excerpt": "# Yang-Mills Theory and the Mass Gap Deep Bhattacharjee, Ushashi Bhattacharya, James Montgomery Lockwood, Tristan Romanov, Ikailo John Sessford and Sanjeevan Singha Roy. DOI (all versions): https://doi.org/10.5281/zenodo.23444338 - [PDF](papers/YangMills.pdf): 69 pages, amsart. - [TeX source](papers",
       "latest_release": {
-        "tag": "v4.46.0",
-        "url": "https://github.com/creelie/4Y-M/releases/tag/v4.46.0",
-        "published_at": "2026-11-10T15:36:20Z",
-        "excerpt": "# Yang-Mills Theory and the Mass Gap (v4.46.0) Authors: Deep Bhattacharjee, Ushashi Bhattacharya, James Montgomery Lockwood, Tristan Romanov, Ikailo John Sessford and Sanjeevan Singha Roy. I. J. Sessford contributed the Lean 4 / Mathlib formalisation of the analytic layer (entroptics-mass-gap, doi:10.5281/zenodo.24073388). We prove that four-dimensional lattice Yang-Mills theory with any compact simple gauge group G in U(N) has the mass gap m >= arccosh(1 + (kappa_G/(N beta) "
+        "tag": "v4.47.1",
+        "url": "https://github.com/creelie/4Y-M/releases/tag/v4.47.1",
+        "published_at": "2026-11-10T18:48:58Z",
+        "excerpt": "# Yang-Mills Theory and the Mass Gap (v4.47.1) Authors: Deep Bhattacharjee, Ushashi Bhattacharya, James Montgomery Lockwood, Tristan Romanov, Ikailo John Sessford and Sanjeevan Singha Roy. Detailed version, 69 pages, without diagrams. We prove a lattice mass gap with explicit constants for every compact simple gauge group at strong coupling, and that a spectral gap varpi for resampling cubes of physical size l, uniform in the lattice spacing, gives every nontrivial continuum "
       },
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "Lattice strong-coupling results and a conditional continuum programme. Uniform physical-scale cube contraction and a nontrivial continuum construction remain obligations; no full Yang-Mills closure is certified here.",
