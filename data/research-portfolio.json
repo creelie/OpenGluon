@@ -2648,19 +2648,19 @@
     {
       "name": "Paper_5",
       "url": "https://github.com/creelie/Paper_5",
-      "commit": "c62e32592af40e13f224c14eb3309c616ea5d36d",
+      "commit": "8131cb28390efedc5e36f0b9b9fb0479881f75a8",
       "fork": false,
       "archived": false,
       "description": "",
-      "pushed_at": "2026-11-10T00:09:52Z",
-      "readme_url": "https://github.com/creelie/Paper_5/blob/c62e32592af40e13f224c14eb3309c616ea5d36d/README.md",
-      "readme_blob_sha": "a493a24145c523f010371991c5b796da0bc3a416",
-      "readme_excerpt": "# Positivity of Single-Centred Black Hole Indices in the Z2 CHL Model Paper and verification code by Deep Bhattacharjee. - `paper/` — LaTeX source (`main.tex`, `parts/`), figures and PDF; `TexmdpiCHLPositivity.zip` is the TeX package. - `code/chl_coefficients.py` — exact orbit computation (python-fl",
+      "pushed_at": "2026-11-11T16:10:24Z",
+      "readme_url": "https://github.com/creelie/Paper_5/blob/8131cb28390efedc5e36f0b9b9fb0479881f75a8/README.md",
+      "readme_blob_sha": "dace248a3d006c10277004cfd6044eb79f7f6c34",
+      "readme_excerpt": "# Every Single-Centred Black Hole Index of the Z2 CHL Model Is Positive Paper and verification code by Deep Bhattacharjee. **Proved.** For every charge (Q, P) of the Z2 CHL model with D = Q²P² − (Q·P)² > 0, the single-centred index d*(Q, P) is positive. The proof combines an exact level-two Rademach",
       "latest_release": {
-        "tag": "v1.0.0",
-        "url": "https://github.com/creelie/Paper_5/releases/tag/v1.0.0",
-        "published_at": "2026-11-10T00:08:32Z",
-        "excerpt": "Paper, TeX package, exact computation and ball-arithmetic certificates by Deep Bhattacharjee."
+        "tag": "v2.0.0",
+        "url": "https://github.com/creelie/Paper_5/releases/tag/v2.0.0",
+        "published_at": "2026-11-11T16:02:30Z",
+        "excerpt": "Version 2 of the paper and code: the level-two Rademacher expansion is proved, and positivity holds for every charge of the Z2 CHL model"
       },
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope.",
