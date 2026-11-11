@@ -1,9 +1,9 @@
 {
   "schema": "anaxia-public-portfolio-v1",
-  "captured_on": "2026-11-10",
-  "repository_count": 159,
-  "readme_count": 151,
-  "release_count": 88,
+  "captured_on": "2026-11-11",
+  "repository_count": 179,
+  "readme_count": 165,
+  "release_count": 101,
   "fork_count": 56,
   "assessment": "Reading a source records its claims; it does not certify its proofs. No private repositories or credentials are included.",
   "repositories": [
@@ -124,6 +124,85 @@
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope.",
       "scope_note_commit": "351ca8422f7b5b54e80a9c1ce03a222e02415b6b"
+    },
+    {
+      "name": "AS-2",
+      "url": "https://github.com/creelie/AS-2",
+      "commit": "349941e22363cb1669bf87baa0ee8ebc01f4a01b",
+      "fork": false,
+      "archived": false,
+      "description": "",
+      "pushed_at": "2026-11-11T02:09:44Z",
+      "readme_url": "https://github.com/creelie/AS-2/blob/349941e22363cb1669bf87baa0ee8ebc01f4a01b/README.md",
+      "readme_blob_sha": "582dc3ac19a9ecc6b67511459bd0cfd942a78b9e",
+      "readme_excerpt": "# Black Hole Indices of N = 8 String Theory Are Positive Deep Bhattacharjee LaTeX source, figures and verification code for the paper. Run the checks with python3 code/n8_positivity.py (Python 3, standard library only). The figures are made by `figures/make_figs.py` (matplotlib). DOI (all versions):",
+      "latest_release": {
+        "tag": "v1.0.0",
+        "url": "https://github.com/creelie/AS-2/releases/tag/v1.0.0",
+        "published_at": "2026-11-11T00:24:05Z",
+        "excerpt": ""
+      },
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
+    },
+    {
+      "name": "AS-3",
+      "url": "https://github.com/creelie/AS-3",
+      "commit": "48846ace8d9c433a27ed457b4ba5f2018c2ef1d6",
+      "fork": false,
+      "archived": false,
+      "description": "",
+      "pushed_at": "2026-11-11T01:31:56Z",
+      "readme_url": "https://github.com/creelie/AS-3/blob/48846ace8d9c433a27ed457b4ba5f2018c2ef1d6/README.md",
+      "readme_blob_sha": "d57b16c9208cad7df1bda5a0325b0d1710fad492",
+      "readme_excerpt": "# Sen's Positivity Conjecture at Every Torsion for Small Magnetic Charge Paper (`paper/main.tex`, `paper/main.pdf`) and the programs that check it. - `code/consts.py`: every constant of the analytic proofs and the exact tables for P²/2 = 1, 2. - `code/proofcheck.py`, `code/proofcheck2.py`: the coeff",
+      "latest_release": {
+        "tag": "v1.0.0",
+        "url": "https://github.com/creelie/AS-3/releases/tag/v1.0.0",
+        "published_at": "2026-11-11T00:35:01Z",
+        "excerpt": ""
+      },
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
+    },
+    {
+      "name": "AS-4",
+      "url": "https://github.com/creelie/AS-4",
+      "commit": "c2c1cd20f1969e9279c7b0628939e21d1b065e84",
+      "fork": false,
+      "archived": false,
+      "description": "",
+      "pushed_at": "2026-11-11T04:48:00Z",
+      "readme_url": "https://github.com/creelie/AS-4/blob/c2c1cd20f1969e9279c7b0628939e21d1b065e84/README.md",
+      "readme_blob_sha": "f9aec644869ed052552d02f1d51ca32529e602ef",
+      "readme_excerpt": "# Zero angular momentum of D2-D2-D2-D6 microstates Code and certificates for the paper *Black Hole Microstates of Two D6-Branes Carry No Angular Momentum* by Deep Bhattacharjee. - `paper/` LaTeX source and PDF. - `code/` builds the superpotential and the gauge-fixed equations (`gen.py`, `reduce.py`,",
+      "latest_release": null,
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
+    },
+    {
+      "name": "AS-X",
+      "url": "https://github.com/creelie/AS-X",
+      "commit": "fa79dd6b3dcaa102f04fbc5652fdb09542a8d614",
+      "fork": false,
+      "archived": false,
+      "description": "",
+      "pushed_at": "2026-11-11T02:11:38Z",
+      "readme_url": "https://github.com/creelie/AS-X/blob/fa79dd6b3dcaa102f04fbc5652fdb09542a8d614/README.md",
+      "readme_blob_sha": "985570294df0352f76abe9367c9144b8c05730db",
+      "readme_excerpt": "# Black Holes Carry Positive Discrete Information Paper (`paper/main.tex`, `paper/main.pdf`) and the programs that check it. - `code/twin_exact.py 21`: the twining genera from the fixed points, exactly in Q(ζ_N). - `code/dmz_check.py 100`: the identity (B² − E₄A²)/(144A) = A₂,₁ − 2𝓗 up to q⁹⁹. - `co",
+      "latest_release": {
+        "tag": "v1.0.0",
+        "url": "https://github.com/creelie/AS-X/releases/tag/v1.0.0",
+        "published_at": "2026-11-11T02:10:48Z",
+        "excerpt": ""
+      },
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
     },
     {
       "name": "automatic-memory",
@@ -346,6 +425,27 @@
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope.",
       "scope_note_commit": "69cb972f587a3ecc035e092253167ff2e303c962"
+    },
+    {
+      "name": "chester-2",
+      "url": "https://github.com/creelie/chester-2",
+      "commit": "ec5fd5628cf54497c5f2b46681b8ada54ecae4fb",
+      "fork": false,
+      "archived": false,
+      "description": "",
+      "pushed_at": "2026-11-11T01:29:38Z",
+      "readme_url": "https://github.com/creelie/chester-2/blob/ec5fd5628cf54497c5f2b46681b8ada54ecae4fb/README.md",
+      "readme_blob_sha": "6d4b9ba67ca0f3ef7a97655e8cf6ed44a644e738",
+      "readme_excerpt": "# The Brane Cohomology Conjecture for Exceptional Super Yang–Mills Is False Paper (`paper/main.tex`, `paper/main.pdf`) and the program that rechecks its finite arithmetic. ``` cd code && python3 verify_cohomology.py # needs numpy, scipy; 21 checks ``` DOI (all versions): [10.5281/zenodo.24122696](ht",
+      "latest_release": {
+        "tag": "v1.1.0",
+        "url": "https://github.com/creelie/chester-2/releases/tag/v1.1.0",
+        "published_at": "2026-11-11T01:29:38Z",
+        "excerpt": ""
+      },
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
     },
     {
       "name": "chromobius",
@@ -620,18 +720,24 @@
     {
       "name": "d-D",
       "url": "https://github.com/creelie/d-D",
-      "commit": "4b2ffc036d525544352250d00dda5b20d69e6a7e",
+      "commit": "e5808bb67fc20d11f4f5c54a50ad6a1a6aeee893",
       "fork": false,
       "archived": false,
       "description": "",
-      "pushed_at": "2026-11-10T00:20:28Z",
-      "readme_url": null,
-      "readme_blob_sha": null,
-      "readme_excerpt": "",
-      "latest_release": null,
+      "pushed_at": "2026-11-11T04:08:55Z",
+      "readme_url": "https://github.com/creelie/d-D/blob/e5808bb67fc20d11f4f5c54a50ad6a1a6aeee893/README.md",
+      "readme_blob_sha": "3278300c7b07fb2253cd7db95d914fd759b03c90",
+      "readme_excerpt": "# Class Numbers up to Ten Thousand and Zero-Free Half-Planes Deep Bhattacharjee. Paper in `preprintClassNumber/`, programs in `verification/`, release files in `dist/`. DOI (all versions): [10.5281/zenodo.24124875](https://doi.org/10.5281/zenodo.24124875)",
+      "latest_release": {
+        "tag": "v1.0.0",
+        "url": "https://github.com/creelie/d-D/releases/tag/v1.0.0",
+        "published_at": "2026-11-11T04:07:38Z",
+        "excerpt": "Class Numbers up to Ten Thousand and Zero-Free Half-Planes, by Deep Bhattacharjee: paper (PDF), LaTeX source with figures and programs."
+      },
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
-      "scope_note_commit": null
+      "scope_note_commit": null,
+      "scope_note_requires_review": true
     },
     {
       "name": "D4-D24-Hales--D3--Viazovska",
@@ -719,6 +825,48 @@
       "scope_note_commit": "dbbee243b647930855a322478266263091291530"
     },
     {
+      "name": "DD",
+      "url": "https://github.com/creelie/DD",
+      "commit": "03ed959000af02be9c56742568458a708164a92a",
+      "fork": false,
+      "archived": false,
+      "description": "",
+      "pushed_at": "2026-11-11T02:50:42Z",
+      "readme_url": "https://github.com/creelie/DD/blob/03ed959000af02be9c56742568458a708164a92a/README.md",
+      "readme_blob_sha": "781ab9f373ce7ab0fd8c82a9ca362b0a4950bae5",
+      "readme_excerpt": "# The Oslo Rice Pile Relaxes Exactly in L(L+1) Steps Paper (`paper/main.tex`, `paper/main.pdf`) and the program that rechecks its statements in exact rational arithmetic for small piles. ``` cd code && python3 verify_oslo.py 5 # Theorem A, Proposition 6.1, Corollary B for L <= 5; no dependencies pyt",
+      "latest_release": {
+        "tag": "v1.0.0",
+        "url": "https://github.com/creelie/DD/releases/tag/v1.0.0",
+        "published_at": "2026-11-11T02:48:48Z",
+        "excerpt": ""
+      },
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
+    },
+    {
+      "name": "ddd",
+      "url": "https://github.com/creelie/ddd",
+      "commit": "651f4c9b47a7145417df19fa0d881f952023c846",
+      "fork": false,
+      "archived": false,
+      "description": "",
+      "pushed_at": "2026-11-11T04:10:56Z",
+      "readme_url": "https://github.com/creelie/ddd/blob/651f4c9b47a7145417df19fa0d881f952023c846/README.md",
+      "readme_blob_sha": "13a73f87be0c09520f272b90e306c21a1b21ce65",
+      "readme_excerpt": "# Influence Bounds for Arbitrary Product Measures Deep Bhattacharjee. Paper in `preprintInfluenceBounds/`, exact checks in `verification/`, release files in `dist/`. DOI (all versions): [10.5281/zenodo.24124920](https://doi.org/10.5281/zenodo.24124920)",
+      "latest_release": {
+        "tag": "v1.0.0",
+        "url": "https://github.com/creelie/ddd/releases/tag/v1.0.0",
+        "published_at": "2026-11-11T04:10:03Z",
+        "excerpt": "Influence Bounds for Arbitrary Product Measures, by Deep Bhattacharjee: paper (PDF) and LaTeX source with the exact-check program."
+      },
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
+    },
+    {
       "name": "didactic-lamp",
       "url": "https://github.com/creelie/didactic-lamp",
       "commit": "2c5513e7cc004765018e4691f214fa3b20ecb9c4",
@@ -770,6 +918,48 @@
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope.",
       "scope_note_commit": "0adb4c00e164b8f926401cd9195f0300b11fc820"
+    },
+    {
+      "name": "DS-1",
+      "url": "https://github.com/creelie/DS-1",
+      "commit": "35e9a1b88bfb5fc4f0564182ca0dc0299d671db9",
+      "fork": false,
+      "archived": false,
+      "description": "",
+      "pushed_at": "2026-11-11T05:59:08Z",
+      "readme_url": "https://github.com/creelie/DS-1/blob/35e9a1b88bfb5fc4f0564182ca0dc0299d671db9/README.md",
+      "readme_blob_sha": "c170c716303ddd1c237fc158b9686ad3bead6609",
+      "readme_excerpt": "# Positivity of Rotating Black Hole Indices on K3 Deep Bhattacharjee LaTeX source, figures and verification code for the paper. Run every check with python3 code/verify_all.py (Python 3 with python-flint and mpmath). The figures are made by `figures/make_figs.py` (matplotlib). DOI (all versions): ht",
+      "latest_release": {
+        "tag": "v2.0.0",
+        "url": "https://github.com/creelie/DS-1/releases/tag/v2.0.0",
+        "published_at": "2026-11-11T05:55:56Z",
+        "excerpt": "Positivity of Rotating Black Hole Indices on K3: LaTeX source, figures and verification code."
+      },
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
+    },
+    {
+      "name": "DS-2",
+      "url": "https://github.com/creelie/DS-2",
+      "commit": "35f54dea36d151a441221e63d1cfb0838eb850bf",
+      "fork": false,
+      "archived": false,
+      "description": "",
+      "pushed_at": "2026-11-11T05:03:29Z",
+      "readme_url": "https://github.com/creelie/DS-2/blob/35f54dea36d151a441221e63d1cfb0838eb850bf/README.md",
+      "readme_blob_sha": "64183a254f9848ecd99f54944d3c02d0f9e09ff6",
+      "readme_excerpt": "# The Aperiodic Jordan Algebras of Quasicrystals Are Not Jordan Paper (`paper/main.tex`, `paper/main.pdf`) and the program that rechecks its finite arithmetic in exact arithmetic over Z[τ]. ``` cd code && python3 verify_jordan.py # standard library only; 19 checks ``` DOI (all versions): [10.5281/ze",
+      "latest_release": {
+        "tag": "v1.0.0",
+        "url": "https://github.com/creelie/DS-2/releases/tag/v1.0.0",
+        "published_at": "2026-11-11T01:59:22Z",
+        "excerpt": ""
+      },
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
     },
     {
       "name": "e84hc",
@@ -876,18 +1066,18 @@
     {
       "name": "eConjecturePrimitiveTrinomial",
       "url": "https://github.com/creelie/eConjecturePrimitiveTrinomial",
-      "commit": "dc3f28d773d3e35e31fbcbc950352d4d8cfacccc",
+      "commit": "fffe83e64bc2d3e628df58219a974be42248d4fa",
       "fork": false,
       "archived": false,
       "description": "",
-      "pushed_at": "2026-11-09T19:14:01Z",
-      "readme_url": "https://github.com/creelie/eConjecturePrimitiveTrinomial/blob/dc3f28d773d3e35e31fbcbc950352d4d8cfacccc/README.md",
-      "readme_blob_sha": "59e8da93dfffe9ce47d4837c0c301059a56fec12",
+      "pushed_at": "2026-11-11T04:06:26Z",
+      "readme_url": "https://github.com/creelie/eConjecturePrimitiveTrinomial/blob/fffe83e64bc2d3e628df58219a974be42248d4fa/README.md",
+      "readme_blob_sha": "a91b4dcf6b5e260c146d573a96ad64fb3b1c8e8b",
       "readme_excerpt": "# Catalan Rigidity of Even Lattice Paths Deep Bhattacharjee Concept DOI (all versions): [10.5281/zenodo.23281333](https://doi.org/10.5281/zenodo.23281333) A family of North–East lattice paths from (0,0) to (n,n) in which any two paths share an even number of edges has at most 2^n members (Shankar, a",
       "latest_release": {
-        "tag": "v2.1.0",
-        "url": "https://github.com/creelie/eConjecturePrimitiveTrinomial/releases/tag/v2.1.0",
-        "published_at": "2026-11-09T19:09:43Z",
+        "tag": "v2.2.0",
+        "url": "https://github.com/creelie/eConjecturePrimitiveTrinomial/releases/tag/v2.2.0",
+        "published_at": "2026-11-11T03:53:57Z",
         "excerpt": "**Catalan Rigidity of Even Lattice Paths**, by Deep Bhattacharjee. A family of North–East lattice paths from (0,0) to (n,n) in which any two paths share an even number of edges has at most 2^n members (Shankar, arXiv:2607.23117). The paper proves Shankar's conjecture that exactly C_n families attain this bound, one for each noncrossing perfect matching, by classifying all equality cases of the underlying inequality, and continues with parity families of paths in every rectang"
       },
       "review_status": "source-recorded-not-independently-audited",
@@ -1041,6 +1231,48 @@
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "A sixteen-prime-factor lower bound and exact prime-completion criteria are reported. The release explicitly leaves the full Lehmer totient conjecture unproved.",
       "scope_note_commit": "0cccef6b11f5a504da8a5500af06894d9e343aed"
+    },
+    {
+      "name": "eno-1",
+      "url": "https://github.com/creelie/eno-1",
+      "commit": "c9a8a26f2a12a2b829597a0ccbff5658752327da",
+      "fork": false,
+      "archived": false,
+      "description": "",
+      "pushed_at": "2026-11-11T02:50:46Z",
+      "readme_url": "https://github.com/creelie/eno-1/blob/c9a8a26f2a12a2b829597a0ccbff5658752327da/README.md",
+      "readme_blob_sha": "117c1d24a90d5180d4f9471c8ef4e969f74859f3",
+      "readme_excerpt": "# The Makar-Limanov Invariant Equals Its Slice Version in Dimension Three Deep Bhattacharjee. Over any field of characteristic zero, the Makar-Limanov invariant of a domain coincides with its slice version whenever the latter has transcendence degree at most one or one less than that of the domain. ",
+      "latest_release": {
+        "tag": "v1.0.0",
+        "url": "https://github.com/creelie/eno-1/releases/tag/v1.0.0",
+        "published_at": "2026-11-11T02:49:58Z",
+        "excerpt": "The Makar-Limanov Invariant Equals Its Slice Version in Dimension Three, by Deep Bhattacharjee. Over any field of characteristic zero, the Makar-Limanov invariant of a domain coincides with its slice version whenever the latter has transcendence degree at most one or one less than that of the domain. In dimension three this settles a question of Dasgupta and Gupta, which had been answered only over algebraically closed fields. Assets: the PDF and the LaTeX source with figures"
+      },
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
+    },
+    {
+      "name": "eno-2",
+      "url": "https://github.com/creelie/eno-2",
+      "commit": "29ac621ff606cc6f83e561b6da8c2a65cc4fd6f8",
+      "fork": false,
+      "archived": false,
+      "description": "",
+      "pushed_at": "2026-11-11T03:18:56Z",
+      "readme_url": "https://github.com/creelie/eno-2/blob/29ac621ff606cc6f83e561b6da8c2a65cc4fd6f8/README.md",
+      "readme_blob_sha": "7f7d2c24d4a2e3a1b33e512939bdb13e2dc4735e",
+      "readme_excerpt": "# Proof of Dhar's Minimal Sand Conjecture for the Manna Sandpile Deep Bhattacharjee · DOI (all versions): [10.5281/zenodo.24124285](https://doi.org/10.5281/zenodo.24124285) - `paper/` — the paper (`main.tex`, figures, `DharManna.pdf`). - `code/construct.py` — the legal histories of Section 5, execut",
+      "latest_release": {
+        "tag": "v1.0.0",
+        "url": "https://github.com/creelie/eno-2/releases/tag/v1.0.0",
+        "published_at": "2026-11-11T03:17:23Z",
+        "excerpt": "Paper, constructions and exhaustive checks for the proof of Dhar's 1999 conjecture: every recurrent configuration of the Manna sandpile on an l x m rectangle has at least ceil((l-1)(m-1)/2) grains, and this is attained. Author: Deep Bhattacharjee."
+      },
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
     },
     {
       "name": "entroptics-mass-gap",
@@ -1297,6 +1529,64 @@
       "scope_note_commit": "6e837e75355538c7f80bab5b956861e86c4eacc2"
     },
     {
+      "name": "ff-1",
+      "url": "https://github.com/creelie/ff-1",
+      "commit": "4959e811a4fcf3b49e76a90707b91e3e7b4fd0dc",
+      "fork": false,
+      "archived": false,
+      "description": "",
+      "pushed_at": "2026-11-11T05:43:21Z",
+      "readme_url": "https://github.com/creelie/ff-1/blob/4959e811a4fcf3b49e76a90707b91e3e7b4fd0dc/README.md",
+      "readme_blob_sha": "37d5f1b8a23a97de9a6bc5582eeadeae28ae2c0a",
+      "readme_excerpt": "# Isomorphic Invariant Orders Without Hermite Equivalence Deep Bhattacharjee Bhargava, Evertse, Győry, Remete and Swaminathan asked whether, in every degree n ≥ 4, there are integral polynomials with isomorphic invariant orders that are not Hermite equivalent; they answered the question for n = 4. T",
+      "latest_release": {
+        "tag": "v1.0.0",
+        "url": "https://github.com/creelie/ff-1/releases/tag/v1.0.0",
+        "published_at": "2026-11-11T05:42:37Z",
+        "excerpt": "Isomorphic Invariant Orders Without Hermite Equivalence, by Deep Bhattacharjee. Bhargava, Evertse, Győry, Remete and Swaminathan asked whether, in every degree n ≥ 4, there are integral polynomials with isomorphic invariant orders that are not Hermite equivalent; they answered the question for n = 4. This paper answers it for every even n and for every n with n − 2 divisible by 3, 5 or 7, with explicit pairs. In degree six one polynomial of the pair can be chosen monic. Asset"
+      },
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
+    },
+    {
+      "name": "ff-2",
+      "url": "https://github.com/creelie/ff-2",
+      "commit": "d2fee50e4c6572a14dc899ca9413449800332d73",
+      "fork": false,
+      "archived": false,
+      "description": "",
+      "pushed_at": "2026-11-11T04:28:40Z",
+      "readme_url": null,
+      "readme_blob_sha": null,
+      "readme_excerpt": "",
+      "latest_release": null,
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
+    },
+    {
+      "name": "ff-3",
+      "url": "https://github.com/creelie/ff-3",
+      "commit": "4951b92e67d3ed44b8bfab680ddb7f6a9ece2765",
+      "fork": false,
+      "archived": false,
+      "description": "",
+      "pushed_at": "2026-11-11T05:56:12Z",
+      "readme_url": "https://github.com/creelie/ff-3/blob/4951b92e67d3ed44b8bfab680ddb7f6a9ece2765/README.md",
+      "readme_blob_sha": "1a705caf67b47a7cebb90f666d2a3d35dc94cf5a",
+      "readme_excerpt": "# Single-Centred Black Holes in the Composite CHL Models Have Positive Index Deep Bhattacharjee LaTeX source (`paper/`), figures and verification code for the paper. Run every check with cd code && python3 verify.py 40 (Python 3 with mpmath, numpy, scipy and sympy). The figures are made by `figures/",
+      "latest_release": {
+        "tag": "v1.0.0",
+        "url": "https://github.com/creelie/ff-3/releases/tag/v1.0.0",
+        "published_at": "2026-11-11T05:49:55Z",
+        "excerpt": "Single-Centred Black Holes in the Composite CHL Models Have Positive Index: LaTeX source, figures and verification code."
+      },
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
+    },
+    {
       "name": "formal-math",
       "url": "https://github.com/creelie/formal-math",
       "commit": "6fbde3bfdf4ff55c6759f3eb549457402569a945",
@@ -1517,6 +1807,86 @@
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope.",
       "scope_note_commit": "a34978aa7439d2eff7ccc3d2ad5372b34d285bd5"
+    },
+    {
+      "name": "j-1",
+      "url": "https://github.com/creelie/j-1",
+      "commit": "a634f3868ede1c68c61af7a3c805be964d18ef1e",
+      "fork": false,
+      "archived": false,
+      "description": "",
+      "pushed_at": "2026-11-11T05:41:25Z",
+      "readme_url": null,
+      "readme_blob_sha": null,
+      "readme_excerpt": "",
+      "latest_release": null,
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
+    },
+    {
+      "name": "j-2",
+      "url": "https://github.com/creelie/j-2",
+      "commit": "4c11eda2c8e376c0389cd4619c967b63a448c90e",
+      "fork": false,
+      "archived": false,
+      "description": "",
+      "pushed_at": "2026-11-11T05:41:50Z",
+      "readme_url": null,
+      "readme_blob_sha": null,
+      "readme_excerpt": "",
+      "latest_release": null,
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
+    },
+    {
+      "name": "j-3",
+      "url": "https://github.com/creelie/j-3",
+      "commit": null,
+      "fork": false,
+      "archived": false,
+      "description": "",
+      "pushed_at": "2026-11-11T05:42:12Z",
+      "readme_url": null,
+      "readme_blob_sha": null,
+      "readme_excerpt": "",
+      "latest_release": null,
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
+    },
+    {
+      "name": "j-4",
+      "url": "https://github.com/creelie/j-4",
+      "commit": null,
+      "fork": false,
+      "archived": false,
+      "description": "",
+      "pushed_at": "2026-11-11T05:42:33Z",
+      "readme_url": null,
+      "readme_blob_sha": null,
+      "readme_excerpt": "",
+      "latest_release": null,
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
+    },
+    {
+      "name": "j-5",
+      "url": "https://github.com/creelie/j-5",
+      "commit": "deee435159b9c990d1cf832817cf29a4ff3345bc",
+      "fork": false,
+      "archived": false,
+      "description": "",
+      "pushed_at": "2026-11-11T05:43:02Z",
+      "readme_url": null,
+      "readme_blob_sha": null,
+      "readme_excerpt": "",
+      "latest_release": null,
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
     },
     {
       "name": "k3-involutions",
@@ -2689,6 +3059,22 @@
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "Release v2.0.0 reports 22 <= D4 <= 50 relative to the supplied census and a complete chain replay. The exact maximum remains open. The replay was not rerun for this catalogue.",
       "scope_note_commit": "5e5f514e449324993636a1146df863c7ee4dbcb7"
+    },
+    {
+      "name": "Sendov-deg-10",
+      "url": "https://github.com/creelie/Sendov-deg-10",
+      "commit": "a0590ede2d7a52d37ce0e70964d146e44be3c190",
+      "fork": false,
+      "archived": false,
+      "description": "",
+      "pushed_at": "2026-11-11T05:18:06Z",
+      "readme_url": null,
+      "readme_blob_sha": null,
+      "readme_excerpt": "",
+      "latest_release": null,
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
     },
     {
       "name": "sensor-resilience-certificates",
