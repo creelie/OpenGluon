@@ -1,10 +1,10 @@
 {
   "schema": "anaxia-public-portfolio-v1",
   "captured_on": "2026-11-11",
-  "repository_count": 179,
-  "readme_count": 165,
-  "release_count": 101,
-  "fork_count": 56,
+  "repository_count": 181,
+  "readme_count": 172,
+  "release_count": 106,
+  "fork_count": 57,
   "assessment": "Reading a source records its claims; it does not certify its proofs. No private repositories or credentials are included.",
   "repositories": [
     {
@@ -429,12 +429,12 @@
     {
       "name": "chester-2",
       "url": "https://github.com/creelie/chester-2",
-      "commit": "ec5fd5628cf54497c5f2b46681b8ada54ecae4fb",
+      "commit": "ea7ea927e99c83a0e655d1a348f91bcb0ae85e75",
       "fork": false,
       "archived": false,
       "description": "",
-      "pushed_at": "2026-11-11T01:29:38Z",
-      "readme_url": "https://github.com/creelie/chester-2/blob/ec5fd5628cf54497c5f2b46681b8ada54ecae4fb/README.md",
+      "pushed_at": "2026-11-11T07:04:19Z",
+      "readme_url": "https://github.com/creelie/chester-2/blob/ea7ea927e99c83a0e655d1a348f91bcb0ae85e75/README.md",
       "readme_blob_sha": "6d4b9ba67ca0f3ef7a97655e8cf6ed44a644e738",
       "readme_excerpt": "# The Brane Cohomology Conjecture for Exceptional Super Yang–Mills Is False Paper (`paper/main.tex`, `paper/main.pdf`) and the program that rechecks its finite arithmetic. ``` cd code && python3 verify_cohomology.py # needs numpy, scipy; 21 checks ``` DOI (all versions): [10.5281/zenodo.24122696](ht",
       "latest_release": {
@@ -445,7 +445,8 @@
       },
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
-      "scope_note_commit": null
+      "scope_note_commit": null,
+      "scope_note_requires_review": true
     },
     {
       "name": "chromobius",
@@ -738,6 +739,22 @@
       "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
       "scope_note_commit": null,
       "scope_note_requires_review": true
+    },
+    {
+      "name": "d-dome-enrique",
+      "url": "https://github.com/creelie/d-dome-enrique",
+      "commit": "70f5c0d67e795798cc6bbf4eae19180a37cdf4fd",
+      "fork": false,
+      "archived": false,
+      "description": "",
+      "pushed_at": "2026-11-11T07:56:57Z",
+      "readme_url": null,
+      "readme_blob_sha": null,
+      "readme_excerpt": "",
+      "latest_release": null,
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
     },
     {
       "name": "D4-D24-Hales--D3--Viazovska",
@@ -1811,82 +1828,107 @@
     {
       "name": "j-1",
       "url": "https://github.com/creelie/j-1",
-      "commit": "a634f3868ede1c68c61af7a3c805be964d18ef1e",
+      "commit": "bd3bb57e71eb8e16bbd3aa6139a464dd5011056a",
       "fork": false,
       "archived": false,
       "description": "",
-      "pushed_at": "2026-11-11T05:41:25Z",
-      "readme_url": null,
-      "readme_blob_sha": null,
-      "readme_excerpt": "",
-      "latest_release": null,
+      "pushed_at": "2026-11-11T06:22:35Z",
+      "readme_url": "https://github.com/creelie/j-1/blob/bd3bb57e71eb8e16bbd3aa6139a464dd5011056a/README.md",
+      "readme_blob_sha": "edb87d4d1dc4bb3debac39898b49250d9aa89030",
+      "readme_excerpt": "# The Negative Prolate Spectrum and the Riemann–Siegel Theta Function Deep Bhattacharjee Connes and Moscovici found that the negative eigenvalues of the self-adjoint prolate wave operator reproduce the growth of the zeros of the Riemann zeta function. In the published version, their counting law for",
+      "latest_release": {
+        "tag": "v1.0.0",
+        "url": "https://github.com/creelie/j-1/releases/tag/v1.0.0",
+        "published_at": "2026-11-11T06:21:10Z",
+        "excerpt": "The Negative Prolate Spectrum and the Riemann–Siegel Theta Function, by Deep Bhattacharjee. Connes and Moscovici found that the negative eigenvalues of the self-adjoint prolate wave operator reproduce the growth of the zeros of the Riemann zeta function. In the published version, their counting law for the associated Dirac operator contains a term −(log E)/2π. This paper proves that this term is absent. The proof is an elementary phase analysis, and it places the eigenvalues,"
+      },
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
-      "scope_note_commit": null
+      "scope_note_commit": null,
+      "scope_note_requires_review": true
     },
     {
       "name": "j-2",
       "url": "https://github.com/creelie/j-2",
-      "commit": "4c11eda2c8e376c0389cd4619c967b63a448c90e",
+      "commit": "d8bab4a177bf7e07496735bf94f63dd958f757be",
       "fork": false,
       "archived": false,
       "description": "",
-      "pushed_at": "2026-11-11T05:41:50Z",
-      "readme_url": null,
-      "readme_blob_sha": null,
-      "readme_excerpt": "",
-      "latest_release": null,
+      "pushed_at": "2026-11-11T06:15:49Z",
+      "readme_url": "https://github.com/creelie/j-2/blob/d8bab4a177bf7e07496735bf94f63dd958f757be/README.md",
+      "readme_blob_sha": "e49548f9d3730c3bc3ce39f15191bef20af2a533",
+      "readme_excerpt": "# Long-Distance Universality for the Berger Sphere and the Unicycle Deep Bhattacharjee Proofs of two claims of Brown, Freedman, Lin and Susskind (Nature 622, 2023) on one-qubit complexity geometry: the Berger-sphere distance moves by at most π/(2√I) as I → ∞ (sharp to leading order), and the unicycl",
+      "latest_release": {
+        "tag": "v1.0.0",
+        "url": "https://github.com/creelie/j-2/releases/tag/v1.0.0",
+        "published_at": "2026-11-11T06:14:18Z",
+        "excerpt": "Deep Bhattacharjee. Proofs that on the one-qubit Berger sphere distances change by at most pi/(2 sqrt I) as I tends to infinity, and that the unicycle parking cost is z + 2 sqrt(1-1/I) + O(1/z), settling equations (4) and (6) of Brown, Freedman, Lin and Susskind (Nature 622, 2023). Contains the LaTeX source, figures, figure script and preprint PDF."
+      },
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
-      "scope_note_commit": null
+      "scope_note_commit": null,
+      "scope_note_requires_review": true
     },
     {
       "name": "j-3",
       "url": "https://github.com/creelie/j-3",
-      "commit": null,
+      "commit": "77f55bf59193c0405b58ae6c4be4117305ccf1fa",
       "fork": false,
       "archived": false,
       "description": "",
-      "pushed_at": "2026-11-11T05:42:12Z",
-      "readme_url": null,
-      "readme_blob_sha": null,
-      "readme_excerpt": "",
-      "latest_release": null,
+      "pushed_at": "2026-11-11T06:37:29Z",
+      "readme_url": "https://github.com/creelie/j-3/blob/77f55bf59193c0405b58ae6c4be4117305ccf1fa/README.md",
+      "readme_blob_sha": "f0f52515af3eefecc7cfe3ac2ac92243eaf21bf5",
+      "readme_excerpt": "# Exact Periodicity Does Not Evade the Boltzmann Brain Problem Deep Bhattacharjee Carroll, Diachenko and Dulani proposed that a finite quantum universe with commensurable energy levels evolves periodically, and that its low-entropy bounce then recurs far more often than the law exp(−ΔS) allows, so t",
+      "latest_release": {
+        "tag": "v1.0.0",
+        "url": "https://github.com/creelie/j-3/releases/tag/v1.0.0",
+        "published_at": "2026-11-11T06:36:32Z",
+        "excerpt": "Exact Periodicity Does Not Evade the Boltzmann Brain Problem, by Deep Bhattacharjee. Carroll, Diachenko and Dulani proposed that a finite quantum universe with commensurable energy levels evolves periodically, and that its low-entropy bounce then recurs far more often than the law exp(−ΔS) allows, so that ordinary observers outnumber Boltzmann brains. This paper proves that this is not so. Born-weighted rates do not depend on whether the spectrum is commensurable. For macrost"
+      },
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
-      "scope_note_commit": null
+      "scope_note_commit": null,
+      "scope_note_requires_review": true
     },
     {
       "name": "j-4",
       "url": "https://github.com/creelie/j-4",
-      "commit": null,
+      "commit": "99309ddfc214e06fce8cb467602bbad9d416f390",
       "fork": false,
       "archived": false,
       "description": "",
-      "pushed_at": "2026-11-11T05:42:33Z",
-      "readme_url": null,
-      "readme_blob_sha": null,
-      "readme_excerpt": "",
+      "pushed_at": "2026-11-11T06:33:14Z",
+      "readme_url": "https://github.com/creelie/j-4/blob/99309ddfc214e06fce8cb467602bbad9d416f390/README.md",
+      "readme_blob_sha": "1f76721cbaf393019c7fc9574052bb1e507c4e13",
+      "readme_excerpt": "# The Background Equations of Kaku's Membrane Sigma Model Are Not Integrable Deep Bhattacharjee The two-loop background equations R_{μν} + ¼ F_{μαβγ}F_ν^{αβγ} = 0, ∇^μF_{μνλρ} = 0 derived in M. Kaku, Phys. Rev. D 61, 085025 (2000) force F² to be constant on every solution, excluding the Duff–Stelle ",
       "latest_release": null,
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
-      "scope_note_commit": null
+      "scope_note_commit": null,
+      "scope_note_requires_review": true
     },
     {
       "name": "j-5",
       "url": "https://github.com/creelie/j-5",
-      "commit": "deee435159b9c990d1cf832817cf29a4ff3345bc",
+      "commit": "97f96a623899b5e9ce1391762631115e50fd6a47",
       "fork": false,
       "archived": false,
       "description": "",
-      "pushed_at": "2026-11-11T05:43:02Z",
-      "readme_url": null,
-      "readme_blob_sha": null,
-      "readme_excerpt": "",
-      "latest_release": null,
+      "pushed_at": "2026-11-11T06:53:10Z",
+      "readme_url": "https://github.com/creelie/j-5/blob/97f96a623899b5e9ce1391762631115e50fd6a47/README.md",
+      "readme_blob_sha": "40a364fa93350ba881ae71b7ca32bf505c4ea027",
+      "readme_excerpt": "# The Wasserstein Distance Between Two Boltzmann Solutions Can Increase Deep Bhattacharjee For Maxwell molecules, Tanaka proved that the quadratic Wasserstein distance between two solutions of the spatially homogeneous Boltzmann equation never increases. Villani asked whether this remains true for o",
+      "latest_release": {
+        "tag": "v1.0.0",
+        "url": "https://github.com/creelie/j-5/releases/tag/v1.0.0",
+        "published_at": "2026-11-11T06:52:24Z",
+        "excerpt": "The Wasserstein Distance Between Two Boltzmann Solutions Can Increase, by Deep Bhattacharjee. For Maxwell molecules, Tanaka proved that the quadratic Wasserstein distance between two solutions of the spatially homogeneous Boltzmann equation never increases. Villani asked whether this remains true for other collision kernels. This paper shows that it does not: for every hard potential with angular cutoff, hard spheres included, there are smooth initial data for which the dista"
+      },
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
-      "scope_note_commit": null
+      "scope_note_commit": null,
+      "scope_note_requires_review": true
     },
     {
       "name": "k3-involutions",
@@ -3063,18 +3105,24 @@
     {
       "name": "Sendov-deg-10",
       "url": "https://github.com/creelie/Sendov-deg-10",
-      "commit": "a0590ede2d7a52d37ce0e70964d146e44be3c190",
+      "commit": "6c10acebd83b181eb431ff55e7d155bd8ee7b0bb",
       "fork": false,
       "archived": false,
       "description": "",
-      "pushed_at": "2026-11-11T05:18:06Z",
-      "readme_url": null,
-      "readme_blob_sha": null,
-      "readme_excerpt": "",
-      "latest_release": null,
+      "pushed_at": "2026-11-11T06:57:32Z",
+      "readme_url": "https://github.com/creelie/Sendov-deg-10/blob/6c10acebd83b181eb431ff55e7d155bd8ee7b0bb/README.md",
+      "readme_blob_sha": "5be53b9f3ea382d70acb9c2972549912fc00a540",
+      "readme_excerpt": "# Antipodal Chords of Closed Curves and the Exponent Three Deep Bhattacharjee For a closed rectifiable curve of length L in R^d, the mean of the p-th power of antipodal chords |Γ(s+L/2)−Γ(s)| is maximised uniquely by the circle exactly when p ≤ 3. For p > 3 the circle is not a local maximiser. This ",
+      "latest_release": {
+        "tag": "v1.0.0",
+        "url": "https://github.com/creelie/Sendov-deg-10/releases/tag/v1.0.0",
+        "published_at": "2026-11-11T06:56:16Z",
+        "excerpt": "Antipodal Chords of Closed Curves and the Exponent Three — Deep Bhattacharjee. For closed curves of length L in R^d, the circle uniquely maximises the mean of the p-th power of antipodal chords exactly when p <= 3; for p > 3 it is not a local maximiser. Contents: paper (LaTeX, figure, PDF) and verification scripts (code/)."
+      },
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
-      "scope_note_commit": null
+      "scope_note_commit": null,
+      "scope_note_requires_review": true
     },
     {
       "name": "sensor-resilience-certificates",
@@ -3380,6 +3428,22 @@
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope.",
       "scope_note_commit": "8576ca29a1980c6eaf55a8c5c9d59bf9cc3629ca"
+    },
+    {
+      "name": "YM",
+      "url": "https://github.com/creelie/YM",
+      "commit": "55ba9fc36293b3f4d52c6b1f813169a0be76ee98",
+      "fork": true,
+      "archived": false,
+      "description": "",
+      "pushed_at": "2026-11-11T03:38:25Z",
+      "readme_url": "https://github.com/creelie/YM/blob/55ba9fc36293b3f4d52c6b1f813169a0be76ee98/README.md",
+      "readme_blob_sha": "09e9cd58b9f17244c7a7fcab39de718fd0545808",
+      "readme_excerpt": "# YM — Pure Yang–Mills results and verification ## [Read the October submission assessment (PDF)](docs/assessment-1.pdf) This repository collects pure Yang–Mills submissions, the group's independent checks, and its assessments. The first package concerns **OpenAI's submission of 28 October 2026**. T",
+      "latest_release": null,
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
     },
     {
       "name": "zeta-simple-zeros",
