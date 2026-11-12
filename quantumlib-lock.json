@@ -1,7 +1,7 @@
 {
   "organization": "quantumlib",
   "inventory_source": "https://api.github.com/orgs/quantumlib/repos?type=public&per_page=100",
-  "captured_at_utc": "2026-11-12T02:58:04.457822+00:00",
+  "captured_at_utc": "2026-11-12T18:54:21.127419+00:00",
   "repository_count": 17,
   "repositories": [
     {
@@ -143,7 +143,7 @@
       "clone_url": "https://github.com/quantumlib/Qualtran.git",
       "path": "quantumlib/Qualtran",
       "default_branch": "main",
-      "commit": "9a0c11a4ee7697c082fbf8f2e1e8bf4a71fcb453",
+      "commit": "f559b12af459e7e97e6c6c382434431c03b903c9",
       "archived": false,
       "description": "Q\u1d1c\u1d00\u029f\u1d1b\u0280\u1d00\u0274 is a Python library for expressing and analyzing Fault Tolerant Quantum algorithms.",
       "license_spdx": "Apache-2.0"

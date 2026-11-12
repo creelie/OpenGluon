@@ -32,7 +32,7 @@ On Windows, enabling `git config --global core.longpaths true` may help with lon
 | [OpenFermion-PySCF](https://github.com/quantumlib/OpenFermion-PySCF) | `quantumlib/OpenFermion-PySCF` | `4a8675107544` | No | OpenFermion plugin to interface with the electronic structure package PySCF. |
 | [qchack-2021-challenge](https://github.com/quantumlib/qchack-2021-challenge) | `quantumlib/qchack-2021-challenge` | `80c227033c1a` | Yes | The <G\|oogl\|e> challenge for Quantum Coalition Hackathon 2021 |
 | [qsim](https://github.com/quantumlib/qsim) | `quantumlib/qsim` | `50cac4b3fa33` | No | Fast C++ and Python library for state-vector simulation of quantum circuits. |
-| [Qualtran](https://github.com/quantumlib/Qualtran) | `quantumlib/Qualtran` | `9a0c11a4ee76` | No | Qᴜᴀʟᴛʀᴀɴ is a Python library for expressing and analyzing Fault Tolerant Quantum algorithms. |
+| [Qualtran](https://github.com/quantumlib/Qualtran) | `quantumlib/Qualtran` | `f559b12af459` | No | Qᴜᴀʟᴛʀᴀɴ is a Python library for expressing and analyzing Fault Tolerant Quantum algorithms. |
 | [ReCirq](https://github.com/quantumlib/ReCirq) | `quantumlib/ReCirq` | `c081606256e0` | No | Python modules for quantum computing applications and experiments using Cirq. Research using Cirq! |
 | [Stim](https://github.com/quantumlib/Stim) | `quantumlib/Stim` | `ffe0d043598e` | No | A fast stabilizer circuit library. |
 | [tesseract-decoder](https://github.com/quantumlib/tesseract-decoder) | `quantumlib/tesseract-decoder` | `54569b4af741` | No | Search-based decoder for quantum error correction (QEC) written in C++ and Python. |
