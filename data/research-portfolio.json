@@ -1,10 +1,10 @@
 {
   "schema": "anaxia-public-portfolio-v1",
   "captured_on": "2026-11-12",
-  "repository_count": 181,
-  "readme_count": 172,
-  "release_count": 106,
-  "fork_count": 57,
+  "repository_count": 183,
+  "readme_count": 174,
+  "release_count": 107,
+  "fork_count": 58,
   "assessment": "Reading a source records its claims; it does not certify its proofs. No private repositories or credentials are included.",
   "repositories": [
     {
@@ -780,19 +780,19 @@
     {
       "name": "d4-voronoi-cells",
       "url": "https://github.com/creelie/d4-voronoi-cells",
-      "commit": "1eff466a4a09a204bbc46b7023d0bcc59f300d70",
+      "commit": "e68354997fb54343bcc25f8bc0aef6ce48e5fb42",
       "fork": false,
       "archived": false,
       "description": "Supplementary Code: The Sphere Packing Problem in Dimension 4 and the Twenty-Four-Cell Conjecture",
-      "pushed_at": "2026-11-07T23:46:16Z",
-      "readme_url": "https://github.com/creelie/d4-voronoi-cells/blob/1eff466a4a09a204bbc46b7023d0bcc59f300d70/README.md",
-      "readme_blob_sha": "15a5823b5c2dedd0c0f7e07b3c562dcdb9eef6f1",
-      "readme_excerpt": "# The Sphere Packing Problem in Dimension 4 and the Twenty-Four-Cell Conjecture ## Current manuscript [PDF](papers/d424.pdf) · [TeX ZIP](papers/d424tex.zip) · [GitHub release](https://github.com/creelie/d4-voronoi-cells/releases/tag/v3.5.1) · [Zenodo DOI 10.5281/zenodo.24045631](https://doi.org/10.5",
+      "pushed_at": "2026-11-12T06:53:18Z",
+      "readme_url": "https://github.com/creelie/d4-voronoi-cells/blob/e68354997fb54343bcc25f8bc0aef6ce48e5fb42/README.md",
+      "readme_blob_sha": "ee5423564b420c168ae65929c6b9684aae8f757f",
+      "readme_excerpt": "**Deep Bhattacharjee**, Ushashi Bhattacharya, Priyabrata Mandal (corresponding author), Shounak Bhattacharya. | Proved | Open | | :--- | :--- | | Every packing of unit balls in R⁴ has density below **0.630996** | Optimality of D₄ (density π²/16) | | Voronoi cell volume ≥ 8, equality only for the 24-",
       "latest_release": {
-        "tag": "v3.5.1",
-        "url": "https://github.com/creelie/d4-voronoi-cells/releases/tag/v3.5.1",
-        "published_at": "2026-11-07T23:30:58Z",
-        "excerpt": "Corrects the historical Thue citation and updates the spherical-code table link. Revised figure placement fills the large gaps caused by forced float barriers. The PDF has **224 pages**, compared with 227 in v3.5.0. The revised bibliography contains 70 cited entries and 63 checked DOI links. See `papers/bibliography-audit.md` for individual sources. The `papers/` folder contains the current PDF, TeX ZIP and submission notes. [Version DOI](https://doi.org/10.5281/zenodo.240456"
+        "tag": "v4.0.0",
+        "url": "https://github.com/creelie/d4-voronoi-cells/releases/tag/v4.0.0",
+        "published_at": "2026-11-12T06:50:58Z",
+        "excerpt": "Paper, Lean 4 checks and Julia verification suite. Every packing of unit balls in R^4 has density below 0.630996; the twenty-four-cell bound is proved in the cases listed in the paper, and the remaining cases with 24 to 27 near neighbours are open."
       },
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope.",
@@ -2378,6 +2378,22 @@
       "scope_note_commit": "c70274273f489abc73832b2b98584a8483b6b203"
     },
     {
+      "name": "Nielsen-and-Semita-Riemann-Proof-in-Lean4",
+      "url": "https://github.com/creelie/Nielsen-and-Semita-Riemann-Proof-in-Lean4",
+      "commit": "4532fb4410ffeed655a165cbb77032b8b4882e54",
+      "fork": true,
+      "archived": false,
+      "description": "Proof of the Riemann Hypothesis in Lean4",
+      "pushed_at": "2026-11-12T03:35:39Z",
+      "readme_url": "https://github.com/creelie/Nielsen-and-Semita-Riemann-Proof-in-Lean4/blob/4532fb4410ffeed655a165cbb77032b8b4882e54/README.md",
+      "readme_blob_sha": "11f40f3c471466d4ac69ccb25e1abf3ea4c6fb4c",
+      "readme_excerpt": "# Nielsen-and-Semita-Riemann-Proof-in-Lean4 Proof of the Riemann Hypothesis in Lean4",
+      "latest_release": null,
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
+    },
+    {
       "name": "nyman-beurling-approximation",
       "url": "https://github.com/creelie/nyman-beurling-approximation",
       "commit": "bf817fe8a726fb80e287be7adb350dcef5588564",
@@ -2477,12 +2493,12 @@
     {
       "name": "Openproblemsforfieldsmedal1",
       "url": "https://github.com/creelie/Openproblemsforfieldsmedal1",
-      "commit": "bd3eafc2eb0e0ca8eea4bc315474bdb8e4eff2c5",
+      "commit": "7078c5fbfaa19b64404cf07717a7327f4158351b",
       "fork": false,
       "archived": false,
-      "description": "",
-      "pushed_at": "2026-11-12T02:52:28Z",
-      "readme_url": "https://github.com/creelie/Openproblemsforfieldsmedal1/blob/bd3eafc2eb0e0ca8eea4bc315474bdb8e4eff2c5/README.md",
+      "description": "In Progress: Zero-Free Criteria from Signed Liouville Energies",
+      "pushed_at": "2026-11-12T02:59:02Z",
+      "readme_url": "https://github.com/creelie/Openproblemsforfieldsmedal1/blob/7078c5fbfaa19b64404cf07717a7327f4158351b/README.md",
       "readme_blob_sha": "a350da56b49633a5fe00393025b008398a71529e",
       "readme_excerpt": "**Deep Bhattacharjee** (corresponding author, head of the project), Ushashi Bhattacharya. | Proved | Open | | :--- | :--- | | The energy has exponent exactly 2Θ, with a limit | The critical bound Q(N) ≪ N^(1+ε) | | Zero-one law: Q(N) > N^(2σ) for all large N when σ 1/2 some set of x^β primes raises ",
       "latest_release": {
@@ -3380,6 +3396,27 @@
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope.",
       "scope_note_commit": "0ecee4ef93aba3e8ff6d7ae0dd7659162716700e"
+    },
+    {
+      "name": "voronoi-d7",
+      "url": "https://github.com/creelie/voronoi-d7",
+      "commit": "d4b1ba996624a91640e4233298e4e7b9f608acf2",
+      "fork": false,
+      "archived": false,
+      "description": "",
+      "pushed_at": "2026-11-12T06:31:30Z",
+      "readme_url": "https://github.com/creelie/voronoi-d7/blob/d4b1ba996624a91640e4233298e4e7b9f608acf2/README.md",
+      "readme_blob_sha": "46a50aa02e0643a9e9c74cbdd39a2bffeb64594e",
+      "readme_excerpt": "**Paper:** [papers/D7Paper.pdf](papers/D7Paper.pdf) · D. Bhattacharjee, U. Bhattacharya, S. Bhattacharya · DOI [10.5281/zenodo.24153132](https://doi.org/10.5281/zenodo.24153132) | | | |---|---| | every Voronoi cell of a unit-ball packing of R⁷ | volume > 14.3234 | | cell with extra balls beyond the ",
+      "latest_release": {
+        "tag": "v1.0.0",
+        "url": "https://github.com/creelie/voronoi-d7/releases/tag/v1.0.0",
+        "published_at": "2026-11-12T06:25:40Z",
+        "excerpt": "The Sphere Packing Problem in Dimension 7, by Deep Bhattacharjee, Ushashi Bhattacharya and Shounak Bhattacharya. Paper (papers/D7Paper.pdf), exact Julia computations with outputs, and Lean 4 checks"
+      },
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
     },
     {
       "name": "xerj",
