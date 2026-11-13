@@ -1,11 +1,11 @@
 {
-  "captured_at_utc": "2026-11-12T18:54:27.762834+00:00",
+  "captured_at_utc": "2026-11-13T00:21:39.933707+00:00",
   "repositories": [
     {
       "upstream": "leanprover-community/mathlib4",
       "path": "mathematics/mathlib4",
       "role": "formal mathematical library",
-      "commit": "af6dcfbf23867d9df7ee4835e28567fe509a2677",
+      "commit": "26573066084e6e2aa8526ea358bc43b66d96f970",
       "default_branch": "master"
     },
     {
@@ -26,14 +26,14 @@
       "upstream": "gap-system/gap",
       "path": "mathematics/gap",
       "role": "computational discrete algebra",
-      "commit": "a07b6196d17a69d03efe35bc652e3a80dc3498e3",
+      "commit": "0e265a94070c37c47662fac2dae0ad798a1669f5",
       "default_branch": "master"
     },
     {
       "upstream": "creelie/eBLLM",
       "path": "engines/anaxia",
       "role": "construction engine and public research source catalogue",
-      "commit": "7f7aeb0339ac3422e874a6a21f6ea65d5f8cdcd0",
+      "commit": "6b6150cf7cbaa474d22a7340efdaba6d99c5ed4d",
       "default_branch": "main"
     },
     {
