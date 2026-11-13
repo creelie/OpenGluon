@@ -1,10 +1,10 @@
 {
   "schema": "anaxia-public-portfolio-v1",
   "captured_on": "2026-11-13",
-  "repository_count": 185,
-  "readme_count": 174,
-  "release_count": 107,
-  "fork_count": 58,
+  "repository_count": 193,
+  "readme_count": 183,
+  "release_count": 108,
+  "fork_count": 66,
   "assessment": "Reading a source records its claims; it does not certify its proofs. No private repositories or credentials are included.",
   "repositories": [
     {
@@ -46,6 +46,22 @@
       "scope_note_commit": null
     },
     {
+      "name": "academic-humanizer",
+      "url": "https://github.com/creelie/academic-humanizer",
+      "commit": "94b88b23703bed7df507acae7d6d5876209a0cdf",
+      "fork": true,
+      "archived": false,
+      "description": "Strip AI-writing tells from papers and grant proposals (NSF/NIH), while keeping scholarly voice and tying claims to evidence. A skill for Claude Code, Codex, and MorphMind.",
+      "pushed_at": "2026-07-03T07:58:33Z",
+      "readme_url": "https://github.com/creelie/academic-humanizer/blob/94b88b23703bed7df507acae7d6d5876209a0cdf/README.md",
+      "readme_blob_sha": "1de4a538786dd3651acc3c21b6a3bfe2634b8514",
+      "readme_excerpt": "[![license](https://img.shields.io/badge/license-MIT-2f8f57?style=flat-square)](LICENSE) &nbsp;![version](https://img.shields.io/badge/version-0.3.2-2f8f57?style=flat-square) &nbsp;![skill](https://img.shields.io/badge/skill-papers_and_grant_proposals-1c1a15?style=flat-square) &nbsp;![built by](http",
+      "latest_release": null,
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
+    },
+    {
       "name": "advanced-reasoning-mcp",
       "url": "https://github.com/creelie/advanced-reasoning-mcp",
       "commit": "29bc37fb1118e0a69132420dac586175165a7067",
@@ -62,6 +78,22 @@
       "scope_note_commit": "29bc37fb1118e0a69132420dac586175165a7067"
     },
     {
+      "name": "agent-second-brain",
+      "url": "https://github.com/creelie/agent-second-brain",
+      "commit": "7828ed62cf76aae87bee7f2660468ab88495cf3d",
+      "fork": true,
+      "archived": false,
+      "description": "An always-on second brain you talk to. Voice notes in Telegram → typed, linked knowledge in your Obsidian vault. Runs 24/7 on the Claude subscription you already have.",
+      "pushed_at": "2026-08-05T22:31:57Z",
+      "readme_url": "https://github.com/creelie/agent-second-brain/blob/7828ed62cf76aae87bee7f2660468ab88495cf3d/README.md",
+      "readme_blob_sha": "4384bde5cf4d22f28287339d5f230707112a5eb9",
+      "readme_excerpt": "Agent Second Brain An always-on second brain you talk to. Voice note in Telegram → typed, linked knowledge in your Obsidian vault. Runs 24/7 on a $5 VPS and the Claude subscription you already pay for — zero per-token API bills. 🇷🇺 Русский • Полная инструкция • VPS guide • autograph engine --- > [!I",
+      "latest_release": null,
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
+    },
+    {
       "name": "AGI-Alpha-Agent-v0",
       "url": "https://github.com/creelie/AGI-Alpha-Agent-v0",
       "commit": "a6d20a93c7c5b7430bf42d2367701b350513e90d",
@@ -76,6 +108,22 @@
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope.",
       "scope_note_commit": "a6d20a93c7c5b7430bf42d2367701b350513e90d"
+    },
+    {
+      "name": "ai-memory",
+      "url": "https://github.com/creelie/ai-memory",
+      "commit": "a11eff2514f24cb30c21917236ec187c0a359143",
+      "fork": true,
+      "archived": false,
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "pushed_at": "2026-11-13T03:40:58Z",
+      "readme_url": "https://github.com/creelie/ai-memory/blob/a11eff2514f24cb30c21917236ec187c0a359143/README.md",
+      "readme_blob_sha": "1af1bfcfeb15890c42941630174323b8a7a981b4",
+      "readme_excerpt": "> Long-term memory for AI coding agents. Quit Claude Code mid-task, > start OpenAI Codex in the same directory, continue without > re-explaining the architecture, the failed approaches, or the open > questions. **Website: [aimemory.sh](https://aimemory.sh)** [![Website](https://img.shields.io/badge/",
+      "latest_release": null,
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
     },
     {
       "name": "airllm",
@@ -511,6 +559,38 @@
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope.",
       "scope_note_commit": "ed297e428fc0999815296c5585208e17381a0ffd"
+    },
+    {
+      "name": "claude-second-brain",
+      "url": "https://github.com/creelie/claude-second-brain",
+      "commit": "599f55ad50afceb9eae4f31746aa37274087d239",
+      "fork": true,
+      "archived": false,
+      "description": "Fastest way to scaffold your LLM powered personal knowledge base - Obsidian, Claude Code, qmd, Github",
+      "pushed_at": "2026-04-20T01:18:37Z",
+      "readme_url": "https://github.com/creelie/claude-second-brain/blob/599f55ad50afceb9eae4f31746aa37274087d239/README.md",
+      "readme_blob_sha": "348e147061aedb05e5856a1eede5affb970f2543",
+      "readme_excerpt": "# :classical_building: claude-second-brain **Your notes don't compound. This wiki does.** [![npm](https://img.shields.io/npm/v/claude-second-brain)](https://www.npmjs.com/package/claude-second-brain) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/license",
+      "latest_release": null,
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
+    },
+    {
+      "name": "COG-second-brain",
+      "url": "https://github.com/creelie/COG-second-brain",
+      "commit": "144c7a3a959cc99538b7dfee9c22c4b065a0e156",
+      "fork": true,
+      "archived": false,
+      "description": "Self-evolving second brain with 35 AI skills, 10 agents, and people CRM. Closed-loop harness: a V-model verification lifecycle where the worker never grades its own homework. Plus paired anti-slop design skills for marketing and product UI. Works with Claude Code, Cursor, Kiro, Gemini CLI, Codex.",
+      "pushed_at": "2026-10-23T02:52:56Z",
+      "readme_url": "https://github.com/creelie/COG-second-brain/blob/144c7a3a959cc99538b7dfee9c22c4b065a0e156/README.md",
+      "readme_blob_sha": "d77120e478e7c2e6ca569909cf6d06b2ea74fb5c",
+      "readme_excerpt": "# COG: The Agentic Second Brain That Actually Self-Evolves **Cognition + Obsidian + Git** — A self-evolving second brain powered by AI agents, markdown files, and version control. No database, no vendor lock-in — just `.md` files that think. [Quick Start](#quick-start) | [Skills](#skills) | [Feature",
+      "latest_release": null,
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
     },
     {
       "name": "congenial-robot",
@@ -1657,6 +1737,22 @@
       "scope_note_commit": "5a9e81b8cba81fd2209300c3dc42b32cbd14d1a7"
     },
     {
+      "name": "gbrain",
+      "url": "https://github.com/creelie/gbrain",
+      "commit": "7def3e4b94d45038f7bad8c0835334dc06cdce94",
+      "fork": true,
+      "archived": false,
+      "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+      "pushed_at": "2026-11-13T04:30:06Z",
+      "readme_url": "https://github.com/creelie/gbrain/blob/7def3e4b94d45038f7bad8c0835334dc06cdce94/README.md",
+      "readme_blob_sha": "76077dd6668ee6f5dead0b1ace33071eba26a965",
+      "readme_excerpt": "**Give the agent you already use a memory you control.** GBrain stores explicit facts with their sources, supports corrections and withdrawal, and makes the same memory available across your agents. Start with keyless memory and keyword retrieval; add semantic search, synthesis, and background enric",
+      "latest_release": null,
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
+    },
+    {
       "name": "geometric-selection-conjecture",
       "url": "https://github.com/creelie/geometric-selection-conjecture",
       "commit": "016775c44f9647e57699d45509738ddca290e9b6",
@@ -2188,18 +2284,24 @@
     {
       "name": "Lhmr2",
       "url": "https://github.com/creelie/Lhmr2",
-      "commit": "117401e7d579fa72abfc1119c096a18875ced242",
+      "commit": "9bc1937d031470ab79954b7789ae002b6f96988e",
       "fork": false,
       "archived": false,
       "description": "",
-      "pushed_at": "2026-11-12T23:42:49Z",
-      "readme_url": null,
-      "readme_blob_sha": null,
-      "readme_excerpt": "",
-      "latest_release": null,
+      "pushed_at": "2026-11-13T00:16:52Z",
+      "readme_url": "https://github.com/creelie/Lhmr2/blob/9bc1937d031470ab79954b7789ae002b6f96988e/README.md",
+      "readme_blob_sha": "c00c7aad80c42e643e8c14957c275f9bc9f5de3b",
+      "readme_excerpt": "# Lehmer's Totient Problem for Ideals of Dedekind Domains Deep Bhattacharjee Paper: [paper/LehmerPaper.pdf](paper/LehmerPaper.pdf) Code and data DOI: [10.5281/zenodo.24181687](https://doi.org/10.5281/zenodo.24181687) Code and data for the paper: - `c/` — tree search in C with GMP (`lms4.c`; `lms5.c`",
+      "latest_release": {
+        "tag": "v1.0.0",
+        "url": "https://github.com/creelie/Lhmr2/releases/tag/v1.0.0",
+        "published_at": "2026-11-13T00:15:53Z",
+        "excerpt": "Code, data and paper for \"Lehmer's Totient Problem for Ideals of Dedekind Domains\" by Deep Bhattacharjee: C/GMP and Julia searches, Lean 4 certificate (381 theorems), Python binary classification, complete search logs and figure script."
+      },
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
-      "scope_note_commit": null
+      "scope_note_commit": null,
+      "scope_note_requires_review": true
     },
     {
       "name": "literate-octo-lamp",
@@ -2472,6 +2574,22 @@
       "scope_note": "Source metadata, README and latest release were read. Any mathematical claim retains its original hypotheses and verification scope.",
       "scope_note_commit": "225c456a774f802eff0eda0f18b3f3e52cc2d38c",
       "scope_note_requires_review": true
+    },
+    {
+      "name": "open-second-brain",
+      "url": "https://github.com/creelie/open-second-brain",
+      "commit": "233b91d1bdc7cf74c47ea1c1fd72e949887e1fc4",
+      "fork": true,
+      "archived": false,
+      "description": "Local-first 🧠 memory for Hermes Agent that lives in your Obsidian vault and remembers project context. Nightly 😴 dream passes turn repeat corrections into confirmed preferences with measurable confidence. Adapters ship for Claude Code, Codex, and OpenClaw, with an MCP server for anything else.",
+      "pushed_at": "2026-11-13T03:39:22Z",
+      "readme_url": "https://github.com/creelie/open-second-brain/blob/233b91d1bdc7cf74c47ea1c1fd72e949887e1fc4/README.md",
+      "readme_blob_sha": "d340f87f5d611e23a647db38da535b7a3addc180",
+      "readme_excerpt": "# Open Second Brain ![Open Second Brain - your knowledge, amplified by AI](docs/images/readme-poster.jpg) Open Second Brain is a memory layer for AI agents that lives in an [Obsidian](https://obsidian.md) vault. Agents read and write it through MCP servers, lifecycle hooks and the `o2b` CLI. Everyth",
+      "latest_release": null,
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
     },
     {
       "name": "OpenFermion",
@@ -2876,6 +2994,22 @@
         "published_at": "2026-11-08T10:15:16Z",
         "excerpt": "Influence Bounds for Arbitrary Product Measures Fourteen-page amsart research article by Deep Bhattacharjee, version 1.0.1. This release includes the permanent Zenodo work DOI in the manuscript and citation metadata. The manuscript proves the stated finite-product influence bound with no unresolved conjectural input. Complete derivations of the trigonometric, certificate and determinant ingredients are included. The leading constant is twice that of the first research draft. "
       },
+      "review_status": "source-recorded-not-independently-audited",
+      "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
+      "scope_note_commit": null
+    },
+    {
+      "name": "prompt-eng-interactive-tutorial",
+      "url": "https://github.com/creelie/prompt-eng-interactive-tutorial",
+      "commit": "0d277542e927652da25b0014c9b346723af55881",
+      "fork": true,
+      "archived": false,
+      "description": "Anthropic's Interactive Prompt Engineering Tutorial",
+      "pushed_at": "2026-08-28T05:31:39Z",
+      "readme_url": "https://github.com/creelie/prompt-eng-interactive-tutorial/blob/0d277542e927652da25b0014c9b346723af55881/README.md",
+      "readme_blob_sha": "d99c4d5dd799c6eb04fa0e834a3ac186272d5b1a",
+      "readme_excerpt": "# Welcome to Anthropic's Prompt Engineering Interactive Tutorial ## Course introduction and goals This course is intended to provide you with a comprehensive step-by-step understanding of how to engineer optimal prompts within Claude. **After completing this course, you will be able to**: - Master t",
+      "latest_release": null,
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
       "scope_note_commit": null
