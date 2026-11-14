@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "engine": "anaxia-registered-experiments/1",
+  "scope": "Only explicitly registered, formalized local tasks are run. Tutorial examples are not new arXiv results.",
+  "counts": {
+    "exact_sos_verified": 2,
+    "bounded_verified": 1,
+    "counterexample_verified": 1,
+    "inconclusive": 0,
+    "error": 0
+  },
+  "experiments": [
+    {
+      "id": "quadratic-sos",
+      "path": "examples/quadratic-sos.json",
+      "tutorial": true,
+      "reference": "Automatic rational quadratic SOS discovery; tutorial example.",
+      "status": "exact_sos_verified",
+      "report": "quadratic-sos.json",
+      "report_sha256": "206d0313ac92048304404fb94806e22d267516884ef20c05797096206ee83a2e",
+      "task_sha256": "93fd3acd3cd711e0c1f79408646cfb99c12039841cbcd5ef2d1d9d528bc597f9"
+    },
+    {
+      "id": "quartic-sos",
+      "path": "examples/quartic-sos.json",
+      "tutorial": true,
+      "reference": "Independently verify a supplied quartic SOS identity; tutorial example.",
+      "status": "exact_sos_verified",
+      "report": "quartic-sos.json",
+      "report_sha256": "d6834559107833db22e5180da09dc85af25cee89f5905bc1df7fe51af2414621",
+      "task_sha256": "4bbbc37ee0940bba8c26ffbe2e10e3b7b25dabef81fd9e21666f49329f4e19b7"
+    },
+    {
+      "id": "bounded-polynomial",
+      "path": "examples/bounded-polynomial.json",
+      "tutorial": true,
+      "reference": "Finite integer-box verification; tutorial example.",
+      "status": "bounded_verified",
+      "report": "bounded-polynomial.json",
+      "report_sha256": "cdb91b0470238c84cc829b03c4f7ed71890f9fa8ce8f3bd8bfc69113f6ca6b83",
+      "task_sha256": "d7ca1b29e5e95ade9dc6f15d378ae107305695dd2cd87d121a5a2f90c29f4a03"
+    },
+    {
+      "id": "false-polynomial",
+      "path": "examples/false-polynomial.json",
+      "tutorial": true,
+      "reference": "Exact counterexample search; tutorial example.",
+      "status": "counterexample_verified",
+      "report": "false-polynomial.json",
+      "report_sha256": "0037b42309ec8485286c7917efdd9c731f414465ca4be7418af2eca06c064087",
+      "task_sha256": "cfd51048d3c01a4eeed8826b5331cfaa96e98186dfd0add11a10588733060a5d"
+    }
+  ]
+}

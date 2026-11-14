@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "kind": "polynomial_nonnegative",
+  "title": "Verify the supplied quartic identity (x^2-1)^2 >= 0",
+  "variables": ["x"],
+  "polynomial": [
+    {"coefficient": "1", "powers": [4]},
+    {"coefficient": "-2", "powers": [2]},
+    {"coefficient": "1", "powers": [0]}
+  ],
+  "domain": {"kind": "real"},
+  "certificate": {
+    "kind": "rational_sos",
+    "squares": [{"weight": "1", "polynomial": [
+      {"coefficient": "1", "powers": [2]},
+      {"coefficient": "-1", "powers": [0]}
+    ]}]
+  }
+}

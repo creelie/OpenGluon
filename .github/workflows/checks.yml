@@ -13,10 +13,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Test metadata synchronization
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test discovery, exact certificates, providers and synchronization
         run: python3 -m unittest discover -s tests -v
       - name: Validate manifests
         run: |
           python3 -m json.tool quantumlib-lock.json > /dev/null
           python3 -m json.tool toolkit-lock.json > /dev/null
           python3 -m json.tool data/research-portfolio.json > /dev/null
+          python3 -m json.tool config/research-watch.json > /dev/null
+          python3 -m json.tool config/research-tasks.json > /dev/null
+          python3 -m json.tool data/research-radar.json > /dev/null
+      - name: Run and independently verify a mathematics example
+        run: |
+          python3 anaxia.py solve examples/quadratic-sos.json --output /tmp/anaxia-proof.json
+          python3 anaxia.py verify /tmp/anaxia-proof.json

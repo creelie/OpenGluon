@@ -28,11 +28,11 @@ def doctor():
     return 0 if report['ready'] else 2
 
 
-def main():
+def legacy_main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('command', choices=['doctor','portfolio','upstreams','routes','certify'])
     parser.add_argument('arguments', nargs=argparse.REMAINDER)
-    args = parser.parse_args()
+    args = parser.parse_args(argv)
     if args.command == 'doctor':
         return doctor()
     source = ROOT / 'engines/anaxia/src'
@@ -42,6 +42,11 @@ def main():
     sys.path.insert(0, str(source))
     from ebllm.cli import main as anaxia
     return anaxia([args.command, *args.arguments])
+
+
+def main(argv=None):
+    from anaxia.cli import main as run
+    return run(argv)
 
 
 if __name__ == '__main__':

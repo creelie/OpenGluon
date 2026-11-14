@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "engine": "anaxia-exact-lab/1",
+  "task": {
+    "schema_version": 1,
+    "kind": "polynomial_nonnegative",
+    "title": "Prove (x-y)^2 + (x+1)^2/3 is nonnegative over the reals",
+    "variables": [
+      "x",
+      "y"
+    ],
+    "polynomial": [
+      {
+        "coefficient": "1/3",
+        "powers": [
+          0,
+          0
+        ]
+      },
+      {
+        "coefficient": "1",
+        "powers": [
+          0,
+          2
+        ]
+      },
+      {
+        "coefficient": "2/3",
+        "powers": [
+          1,
+          0
+        ]
+      },
+      {
+        "coefficient": "-2",
+        "powers": [
+          1,
+          1
+        ]
+      },
+      {
+        "coefficient": "4/3",
+        "powers": [
+          2,
+          0
+        ]
+      }
+    ],
+    "domain": {
+      "kind": "real"
+    }
+  },
+  "task_sha256": "93fd3acd3cd711e0c1f79408646cfb99c12039841cbcd5ef2d1d9d528bc597f9",
+  "status": "exact_sos_verified",
+  "scope": "Polynomial is nonnegative for every real assignment.",
+  "evidence": {
+    "kind": "rational_sos",
+    "squares": [
+      {
+        "weight": "1/3",
+        "polynomial": [
+          {
+            "coefficient": "1",
+            "powers": [
+              0,
+              0
+            ]
+          },
+          {
+            "coefficient": "1",
+            "powers": [
+              1,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "weight": "1",
+        "polynomial": [
+          {
+            "coefficient": "-1",
+            "powers": [
+              0,
+              1
+            ]
+          },
+          {
+            "coefficient": "1",
+            "powers": [
+              1,
+              0
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "stages": [
+    {
+      "role": "planner",
+      "finding": "Try exact rational sum-of-squares certification; otherwise enumerate a bounded integer box."
+    },
+    {
+      "role": "explorer",
+      "finding": "A rational weighted sum-of-squares identity was found."
+    },
+    {
+      "role": "critic",
+      "finding": "Every SOS weight must be nonnegative and every expanded coefficient must match exactly."
+    },
+    {
+      "role": "verifier",
+      "finding": "Exact coefficient comparison verified the rational SOS identity over all real assignments."
+    }
+  ],
+  "experiment": {
+    "id": "quadratic-sos",
+    "path": "examples/quadratic-sos.json",
+    "tutorial": true,
+    "reference": "Automatic rational quadratic SOS discovery; tutorial example."
+  }
+}

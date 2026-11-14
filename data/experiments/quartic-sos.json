@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "engine": "anaxia-exact-lab/1",
+  "task": {
+    "schema_version": 1,
+    "kind": "polynomial_nonnegative",
+    "title": "Verify the supplied quartic identity (x^2-1)^2 >= 0",
+    "variables": [
+      "x"
+    ],
+    "polynomial": [
+      {
+        "coefficient": "1",
+        "powers": [
+          0
+        ]
+      },
+      {
+        "coefficient": "-2",
+        "powers": [
+          2
+        ]
+      },
+      {
+        "coefficient": "1",
+        "powers": [
+          4
+        ]
+      }
+    ],
+    "domain": {
+      "kind": "real"
+    },
+    "certificate": {
+      "kind": "rational_sos",
+      "squares": [
+        {
+          "weight": "1",
+          "polynomial": [
+            {
+              "coefficient": "1",
+              "powers": [
+                2
+              ]
+            },
+            {
+              "coefficient": "-1",
+              "powers": [
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "task_sha256": "4bbbc37ee0940bba8c26ffbe2e10e3b7b25dabef81fd9e21666f49329f4e19b7",
+  "status": "exact_sos_verified",
+  "scope": "Polynomial is nonnegative for every real assignment.",
+  "evidence": {
+    "kind": "rational_sos",
+    "squares": [
+      {
+        "weight": "1",
+        "polynomial": [
+          {
+            "coefficient": "1",
+            "powers": [
+              2
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              0
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "stages": [
+    {
+      "role": "planner",
+      "finding": "Try exact rational sum-of-squares certification; otherwise enumerate a bounded integer box."
+    },
+    {
+      "role": "explorer",
+      "finding": "A rational weighted sum-of-squares identity was found."
+    },
+    {
+      "role": "critic",
+      "finding": "Every SOS weight must be nonnegative and every expanded coefficient must match exactly."
+    },
+    {
+      "role": "verifier",
+      "finding": "Exact coefficient comparison verified the rational SOS identity over all real assignments."
+    }
+  ],
+  "experiment": {
+    "id": "quartic-sos",
+    "path": "examples/quartic-sos.json",
+    "tutorial": true,
+    "reference": "Independently verify a supplied quartic SOS identity; tutorial example."
+  }
+}

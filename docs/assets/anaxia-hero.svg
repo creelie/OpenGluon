@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="560" viewBox="0 0 1400 560" role="img" aria-labelledby="title desc">
+<title id="title">Anaxia — Mathematics, with evidence.</title>
+<desc id="desc">A mathematical orbit connects discover, formalize, explore, critique and verify.</desc>
+<rect x="1" y="1" width="1398" height="558" rx="22" fill="#080f20" stroke="#24354e" stroke-width="2"/>
+<g font-family="Segoe UI,Arial,sans-serif">
+<rect x="56" y="43" width="34" height="34" rx="9" fill="#68e3cb"/>
+<path d="M63 68 L73 51 L83 68 M68 63 H78" fill="none" stroke="#080f20" stroke-width="3"/>
+<text x="106" y="67" fill="#9eafc8" font-size="18" font-weight="700" letter-spacing="1">OPEN MATHEMATICS LAB</text>
+<text x="52" y="193" fill="#edf5ff" font-size="94" font-weight="700">ANAXIA</text>
+<text x="57" y="252" fill="#68e3cb" font-size="33">Mathematics, with evidence.</text>
+<text x="58" y="308" fill="#edf5ff" font-size="23">Discover research. Test conjectures.</text>
+<text x="58" y="343" fill="#9eafc8" font-size="22">Build exact, independently checkable certificates.</text>
+<rect x="58" y="372" width="199" height="35" rx="17" fill="#142c32" stroke="#28534f"/>
+<text x="73" y="395" fill="#68e3cb" font-size="13" font-weight="700">RESEARCH IN PROGRESS</text>
+<text x="278" y="395" fill="#9eafc8" font-size="13">SOURCE-LINKED / EXACT ARITHMETIC</text>
+<g transform="translate(1098 225)" fill="none">
+<circle r="195" stroke="#1c2e48"/><circle r="169" stroke="#1c2e48"/><circle r="143" stroke="#1c2e48"/>
+<ellipse rx="183" ry="73" stroke="#31576a" stroke-width="2"/>
+<ellipse rx="183" ry="73" transform="rotate(60)" stroke="#36566c" stroke-width="2"/>
+<ellipse rx="183" ry="73" transform="rotate(-60)" stroke="#38586a" stroke-width="2"/>
+<circle r="56" fill="#101c32" stroke="#436a77" stroke-width="2"/>
+<circle cx="183" r="5" fill="#68e3cb"/>
+<circle cy="155" r="5" fill="#eec887"/>
+</g>
+<text x="1076" y="247" fill="#edf5ff" font-size="59" font-weight="700">A</text>
+<text x="937" y="50" fill="#9eafc8" font-size="20">p(x) = Σ wᵢ qᵢ(x)²</text>
+<text x="1274" y="239" fill="#eec887" font-size="15">wᵢ ≥ 0</text>
+<text x="911" y="375" fill="#9eafc8" font-size="16">A = L D Lᵀ</text>
+<text x="917" y="430" fill="#9eafc8" font-size="12">HYPOTHESIS</text>
+<path d="M1010 422 H1176" stroke="#3a6270"/>
+<text x="1194" y="430" fill="#68e3cb" font-size="12">CERTIFICATE</text>
+<path d="M56 453 H1344" stroke="#27394f"/>
+<g fill="#9eafc8" font-size="18" font-weight="700">
+<text x="58" y="503" fill="#68e3cb">01 DISCOVER</text><text x="321" y="503">02 FORMALIZE</text>
+<text x="584" y="503">03 EXPLORE</text><text x="847" y="503">04 CRITIQUE</text><text x="1110" y="503">05 VERIFY</text>
+</g></g></svg>

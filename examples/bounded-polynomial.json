@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "kind": "polynomial_nonnegative",
+  "title": "Check x(x-1) >= 0 on integers from -100 to 100",
+  "variables": ["x"],
+  "polynomial": [
+    {"coefficient": "1", "powers": [2]},
+    {"coefficient": "-1", "powers": [1]}
+  ],
+  "domain": {"kind": "integer_box", "bounds": [[-100, 100]]}
+}

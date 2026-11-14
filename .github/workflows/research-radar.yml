@@ -1,0 +1,44 @@
+name: Research radar
+
+on:
+  schedule:
+    - cron: '37 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: anaxia-source-updates
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          submodules: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Discover public mathematics sources and refresh the README
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python anaxia.py radar refresh --output data/research-radar.json --digest docs/RESEARCH-RADAR.md --readme README.md
+      - name: Solve registered formal tasks and independently verify their evidence
+        run: python anaxia.py experiment --tasks config/research-tasks.json --output data/experiments
+      - name: Commit source-linked research metadata
+        shell: bash
+        run: |
+          git add data/research-radar.json docs/RESEARCH-RADAR.md README.md data/experiments
+          if git diff --cached --quiet; then
+            echo "Research metadata is current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Refresh Anaxia mathematics research radar"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

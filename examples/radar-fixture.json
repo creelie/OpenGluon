@@ -1,0 +1,19 @@
+{
+  "captured_at_utc": "2026-11-14T00:00:00+00:00",
+  "fixture_notice": "Synthetic offline demonstration. Repository/paper metadata is test input, not a real capture or a citable paper.",
+  "config": {
+    "schema_version": 1,
+    "github": {"owners": ["creelie"], "queries": [], "per_page": 10, "max_pages": 1},
+    "arxiv": {"queries": ["cat:math.* AND all:conjecture"], "per_page": 10, "max_pages": 1}
+  },
+  "responses": [
+    {
+      "provider": "github", "kind": "owner", "query": "creelie",
+      "pages": [[{"id": 1, "full_name": "example/synthetic-theorem-lab", "private": false, "description": "Synthetic offline fixture; not a real repository capture.", "updated_at": "2026-11-14T00:00:00Z", "pushed_at": "2026-11-14T00:00:00Z", "default_branch": "main", "stargazers_count": 0, "license": {"spdx_id": "MIT"}, "topics": ["mathematics", "theorem-proving"]}]]
+    },
+    {
+      "provider": "arxiv", "kind": "query", "query": "cat:math.* AND all:conjecture",
+      "pages": ["<feed xmlns=\"http://www.w3.org/2005/Atom\" xmlns:opensearch=\"http://a9.com/-/spec/opensearch/1.1/\"><opensearch:totalResults>1</opensearch:totalResults><entry><id>http://arxiv.org/abs/0000.00000v1</id><title>Synthetic fixture: an integer inequality (do not cite)</title><summary>In this synthetic demonstration abstract, we conjecture that an elementary integer inequality holds. This is test input, not an actual arXiv paper or research claim.</summary><author><name>Offline Example</name></author><published>2026-11-14T00:00:00Z</published><updated>2026-11-14T00:00:00Z</updated><category term=\"math.NT\"/></entry></feed>"]
+    }
+  ]
+}

@@ -98,3 +98,15 @@
 	path = engines/aristotle
 	url = https://github.com/harmonic-ai/aristotle.git
 	branch = main
+[submodule "engines/colibri"]
+	path = engines/colibri
+	url = https://github.com/creelie/colibri.git
+	branch = main
+[submodule "engines/ai-memory"]
+	path = engines/ai-memory
+	url = https://github.com/creelie/ai-memory.git
+	branch = main
+[submodule "engines/claude-second-brain"]
+	path = engines/claude-second-brain
+	url = https://github.com/creelie/claude-second-brain.git
+	branch = main

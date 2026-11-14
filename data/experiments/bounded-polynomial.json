@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "engine": "anaxia-exact-lab/1",
+  "task": {
+    "schema_version": 1,
+    "kind": "polynomial_nonnegative",
+    "title": "Check x(x-1) >= 0 on integers from -100 to 100",
+    "variables": [
+      "x"
+    ],
+    "polynomial": [
+      {
+        "coefficient": "-1",
+        "powers": [
+          1
+        ]
+      },
+      {
+        "coefficient": "1",
+        "powers": [
+          2
+        ]
+      }
+    ],
+    "domain": {
+      "kind": "integer_box",
+      "bounds": [
+        [
+          -100,
+          100
+        ]
+      ]
+    }
+  },
+  "task_sha256": "d7ca1b29e5e95ade9dc6f15d378ae107305695dd2cd87d121a5a2f90c29f4a03",
+  "status": "bounded_verified",
+  "scope": "Nonnegativity holds only on the finite integer box in this task.",
+  "evidence": {
+    "kind": "finite_enumeration",
+    "bounds": [
+      [
+        -100,
+        100
+      ]
+    ],
+    "points_checked": 201
+  },
+  "stages": [
+    {
+      "role": "planner",
+      "finding": "Try exact rational sum-of-squares certification; otherwise enumerate a bounded integer box."
+    },
+    {
+      "role": "explorer",
+      "finding": "Evaluated 201 integer assignments using exact rational arithmetic."
+    },
+    {
+      "role": "critic",
+      "finding": "A finite positive search supports only the stated finite domain; negative witnesses must lie inside the claimed domain."
+    },
+    {
+      "role": "verifier",
+      "finding": "Exhaustive exact re-evaluation verified the finite integer box; no infinite-domain claim follows."
+    }
+  ],
+  "experiment": {
+    "id": "bounded-polynomial",
+    "path": "examples/bounded-polynomial.json",
+    "tutorial": true,
+    "reference": "Finite integer-box verification; tutorial example."
+  }
+}

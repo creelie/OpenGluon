@@ -1,5 +1,5 @@
 {
-  "captured_at_utc": "2026-11-14T10:27:10.726816+00:00",
+  "captured_at_utc": "2026-11-14T14:18:59.295793+00:00",
   "repositories": [
     {
       "upstream": "leanprover-community/mathlib4",
@@ -52,6 +52,33 @@
       "commit": "66e7c7a8c67bffeda58055c93db5f3013c4fef94",
       "default_branch": "main",
       "license_note": "Proprietary Aristotle API terms, with MIT-licensed vendored tomli; source retained unmodified."
+    },
+    {
+      "upstream": "creelie/colibri",
+      "path": "engines/colibri",
+      "role": "source-only hierarchical inference engine; compatible weights and separate build required",
+      "commit": "0a5504a1dc64f86fcd0fe7db298b0448c730e7e6",
+      "default_branch": "main",
+      "license": "Apache-2.0",
+      "integration_status": "source_only"
+    },
+    {
+      "upstream": "creelie/ai-memory",
+      "path": "engines/ai-memory",
+      "role": "source-only agent memory tools; separate setup required",
+      "commit": "a11eff2514f24cb30c21917236ec187c0a359143",
+      "default_branch": "main",
+      "license": "MIT",
+      "integration_status": "source_only"
+    },
+    {
+      "upstream": "creelie/claude-second-brain",
+      "path": "engines/claude-second-brain",
+      "role": "source-only knowledge-vault scaffold; not Claude model weights",
+      "commit": "599f55ad50afceb9eae4f31746aa37274087d239",
+      "default_branch": "main",
+      "license": "MIT",
+      "integration_status": "source_only"
     }
   ]
 }

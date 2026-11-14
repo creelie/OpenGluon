@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "github": {
+    "owners": ["creelie"],
+    "owner_per_page": 100,
+    "owner_max_pages": 5,
+    "queries": [
+      "topic:theorem-proving archived:false",
+      "topic:formal-verification topic:mathematics archived:false",
+      "topic:mathematics topic:artificial-intelligence archived:false"
+    ],
+    "per_page": 50,
+    "max_pages": 2
+  },
+  "arxiv": {
+    "queries": ["cat:math.* AND (all:conjecture OR all:\"open problem\")"],
+    "per_page": 30,
+    "max_pages": 2
+  }
+}
