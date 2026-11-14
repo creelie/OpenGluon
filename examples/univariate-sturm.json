@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "kind": "polynomial_nonnegative",
+  "title": "Prove x^4 - 2x^3 + 2x^2 - 2x + 1 is nonnegative over the reals",
+  "variables": ["x"],
+  "polynomial": [
+    {"coefficient": "1", "powers": [4]},
+    {"coefficient": "-2", "powers": [3]},
+    {"coefficient": "2", "powers": [2]},
+    {"coefficient": "-2", "powers": [1]},
+    {"coefficient": "1", "powers": [0]}
+  ],
+  "domain": {"kind": "real"}
+}

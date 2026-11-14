@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "engine": "anaxia-research-campaign/1",
+  "sequence": 1,
+  "attempted_at_utc": "2026-11-14T14:55:32.874032+00:00",
+  "target_id": "hodge",
+  "title": "Hodge conjecture",
+  "original_target": {
+    "id": "hodge",
+    "title": "Hodge conjecture",
+    "statement": "For every smooth complex projective variety, every rational Hodge class of type (p,p) is a rational linear combination of classes of algebraic cycles.",
+    "source_urls": [
+      "https://www.claymath.org/millennium/hodge-conjecture/",
+      "https://github.com/creelie/hodge-odd-fermat-fourfolds"
+    ],
+    "proof_obligations": [
+      "Handle every smooth complex projective variety and every codimension.",
+      "Construct algebraic cycle representatives with exact hypotheses.",
+      "A verified finite matrix or a special family does not establish the general conjecture."
+    ],
+    "backend": "research_proposal",
+    "keywords": [
+      "hodge",
+      "algebraic cycles",
+      "fermat",
+      "projective"
+    ]
+  },
+  "target_sha256": "bebce6d247258796081af3cf1f6d9a2a775c86c75aeab3bc17bfd782011dc7c6",
+  "source_context": [
+    {
+      "id": "github:1450376932",
+      "url": "https://github.com/creelie/hodge-odd-fermat-fourfolds",
+      "title": "creelie/hodge-odd-fermat-fourfolds",
+      "excerpt": "AI-generated proof of the rational Hodge conjecture for odd-degree Fermat fourfolds, released for human verification. Lean 4 certificates for the finite endpoints, CI-checked.",
+      "license": "NOASSERTION"
+    },
+    {
+      "id": "github:1421811259",
+      "url": "https://github.com/creelie/fermat-hodge-",
+      "title": "creelie/fermat-hodge-",
+      "excerpt": "In Progress: Dense Algebraic Loci of Hodge Classes",
+      "license": "MIT"
+    },
+    {
+      "id": "arxiv:2506.16992",
+      "url": "https://arxiv.org/abs/2506.16992v7",
+      "title": "Hodge-Riemann polynomials",
+      "excerpt": "We show that Schur classes of ample vector bundles on smooth projective varieties satisfy Hodge--Riemann relations on $H^{p,q}$ under the assumption that $H^{p-2,q-2}$ vanishes. More generally, we study Hodge--Riemann polynomials, which are partially symmetric polynomials that produce cohomology\u2026",
+      "authors": [
+        "Qing Lu",
+        "Weizhe Zheng"
+      ]
+    },
+    {
+      "id": "arxiv:2611.16470",
+      "url": "https://arxiv.org/abs/2611.16470v1",
+      "title": "On the algebraic bipartite graphs $D(4s,q)$",
+      "excerpt": "Lazebnik-Ustimenko graphs $D(k,q)$ constitute a notable family of $q$-regular, edge-transitive bipartite graphs characterized by high symmetry and large girth, with wide applications in algebraic graph theory and coding theory. The precise girth of $D(k,q)$ is governed by a celebrated conjecture\u2026",
+      "authors": [
+        "Chen Zhang",
+        "Xiaoyan Cheng",
+        "Yuansheng Tang",
+        "Ming Xu"
+      ]
+    },
+    {
+      "id": "arxiv:2611.16443",
+      "url": "https://arxiv.org/abs/2611.16443v1",
+      "title": "The spectrum of free projective geometries over finite chain rings",
+      "excerpt": "Let $\\mathcal{O}$ be a Dedekind domain, $\\mathfrak{p}$ a prime ideal of residue order $q$, and $\\mathcal{O}_r=\\mathcal{O}/\\mathfrak{p}^r$ which is a finite chain ring; the motivating example is $\\mathbb{Z}/p^r$. The free projective geometry $\\mathbb{P}^{d-1}_{fr}(\\mathcal{O}_r)$ is the graph whos\u2026",
+      "authors": [
+        "Yishai Lavi"
+      ]
+    }
+  ],
+  "source_snapshot_generated_at": "2026-11-14T14:54:24+00:00",
+  "previous_unresolved_public_notes": "",
+  "attempt_sha256": "f1db9d6bc801612afe6c384cf7cab03ab8004bdfd99f4b4383f1206fbb15297b",
+  "prompt_sha256": "0df59b79a19df4b9e1b1b1ff0d0ecaf82143f4365396c31e24250ad52cee1e99",
+  "provider": "openai-compatible",
+  "model": "anaxia-local-phi3",
+  "max_tokens": 256,
+  "status": "unverified_proposal",
+  "global_status": "not_closed",
+  "scope": "Unverified public research strategy only. No natural-language target is closed by this campaign; complete proof and independent verification remain required.",
+  "strategy": "Given the task data, the Hodge conjecture remains an open problem in algebraic geometry. A public research strategy to approach this conjecture, considering the untrusted nature of the sources, would involve the following steps:\n\n1. Focus on understanding and validating existing proofs, especially those related to smooth complex projective varieties and algebraic cycles.\n2. Examine the excerpts from the provided sources, looking for potential clues or insights related to Hodge classes and algebraic cycles.\n3. Collaborate with experts in the field, sharing and discussing the verified information.\n4. Investigate any known results on the Hodge conjecture for specific classes or varieties, as these might provide a stepping stone towards a more general proof.\n5. Attempt to construct algebraic cycle representatives with the exact hypotheses for varieties of interest, keeping in mind that a verified finite matrix or a special family does not establish the general conjecture.\n\nRemaining proof obligations include:\n\n- Handling every smooth complex projective variety and every codimension.\n- Constructing algebraic cycle representatives with exact hypotheses.\n- Verifying the existence of a verified finite matrix or special",
+  "outcome": "completed"
+}

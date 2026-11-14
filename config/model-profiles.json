@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "recommended_profile": "local-ollama",
+  "scope": "Configuration examples. Models and weights are not installed, downloaded or cloned by this file. Replace explicit model placeholders with a model available to you.",
+  "profiles": [
+    {"id": "local-ollama", "provider": "ollama", "base_url": "http://127.0.0.1:11434", "model": "YOUR_INSTALLED_MODEL", "max_tokens": 768, "rounds": 2, "timeout": 120, "credentials": null},
+    {"id": "local-llama-cpp", "provider": "openai-compatible", "base_url": "http://127.0.0.1:8080/v1", "model": "YOUR_SERVED_MODEL", "max_tokens": 768, "rounds": 2, "timeout": 120, "credentials": null},
+    {"id": "optional-claude", "provider": "anthropic", "model": "YOUR_CLAUDE_API_MODEL", "credentials": "ANTHROPIC_API_KEY"},
+    {"id": "optional-openai", "provider": "openai", "model": "YOUR_OPENAI_API_MODEL", "credentials": "OPENAI_API_KEY"},
+    {"id": "optional-kimi", "provider": "kimi", "model": "YOUR_KIMI_API_MODEL", "credentials": "MOONSHOT_API_KEY"}
+  ]
+}

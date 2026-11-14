@@ -39,7 +39,7 @@ On Windows, enabling `git config --global core.longpaths true` may help with lon
 | [TypedUnits](https://github.com/quantumlib/TypedUnits) | `quantumlib/TypedUnits` | `efc0bb4efd1e` | No | A fast units and dimensions library with support for static dimensionality checking and protobuffer serialization. |
 | [unitary](https://github.com/quantumlib/unitary) | `quantumlib/unitary` | `a5eea27be2d7` | No | Open-source API library providing common operations for adding quantum behaviors to games. |
 
-The complete commit IDs, upstream URLs, default branches, licenses reported by GitHub, and capture time are in [`quantumlib-lock.json`](quantumlib-lock.json). The inventory covers repositories owned by the quantumlib organization; projects linked from its profile but hosted under other owners are separate projects.
+The complete commit IDs, upstream URLs, default branches, licenses reported by GitHub, and capture time are in [`quantumlib-lock.json`](../quantumlib-lock.json). The inventory covers repositories owned by the quantumlib organization; projects linked from its profile but hosted under other owners are separate projects.
 
 ## Work with a project
 

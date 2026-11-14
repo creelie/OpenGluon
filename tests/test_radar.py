@@ -1,8 +1,10 @@
 import contextlib
+import gzip
 import io
 import json
 import tempfile
 import unittest
+import zlib
 from pathlib import Path
 from unittest.mock import patch
 
@@ -30,6 +32,82 @@ def feed(paper_id='1234.56789v1', abstract='We conjecture an inequality.', title
 
 
 class ResearchRadarTests(unittest.TestCase):
+    def test_stackexchange_flags_are_metadata_with_attribution_not_candidates(self):
+        cfg = config(False)
+        cfg['stackexchange'] = {'sites': ['mathoverflow'], 'per_page': 2, 'max_pages': 1}
+        row = {'question_id': 12, 'title': 'An inequality &amp; its cases', 'score': 4,
+               'is_answered': False, 'answer_count': 0, 'content_license': 'CC BY-SA 4.0',
+               'owner': {'display_name': 'A &amp; B', 'user_id': 10}, 'tags': ['inequalities'],
+               'creation_date': 1794614400, 'last_activity_date': 1794614500}
+        snapshot = radar.refresh(cfg, fetch=lambda _: json.dumps({'items': [row], 'has_more': False, 'quota_remaining': 290}), now=NOW)
+        question = snapshot['questions'][0]
+        self.assertEqual(question['research_status'], 'community_question')
+        self.assertEqual(question['license'], 'CC BY-SA 4.0')
+        self.assertEqual(question['author'], 'A & B')
+        self.assertEqual(question['name'], 'An inequality & its cases')
+        self.assertEqual(question['url'], 'https://mathoverflow.net/questions/12')
+        self.assertEqual(snapshot['candidates'], [])
+        self.assertIn('not automatically an open conjecture', radar.render_digest(snapshot))
+
+    def test_stackexchange_cache_avoids_repolling_within_one_minute(self):
+        cfg = config(False)
+        cfg['stackexchange'] = {'sites': ['math'], 'per_page': 2, 'max_pages': 1}
+        old = radar.refresh(cfg, fetch=lambda _: json.dumps({'items': [], 'has_more': False, 'quota_remaining': 290}), now=NOW)
+        with patch('anaxia.radar.PublicClient.get') as fetch:
+            snapshot = radar.refresh(cfg, previous=old, now='2026-11-14T00:00:30+00:00')
+        fetch.assert_not_called()
+        self.assertEqual(snapshot['sources'][0]['status'], 'cached')
+        self.assertEqual(snapshot['sources'][0]['last_success_at_utc'], NOW)
+
+    def test_stackexchange_backoff_stops_other_question_requests(self):
+        cfg = config(False)
+        cfg['stackexchange'] = {'sites': ['mathoverflow', 'math'], 'per_page': 2, 'max_pages': 2}
+        calls = []
+        def fetch(url):
+            calls.append(url)
+            return json.dumps({'items': [], 'has_more': True, 'quota_remaining': 0, 'backoff': 90})
+        snapshot = radar.refresh(cfg, fetch=fetch, now=NOW)
+        self.assertEqual(len(calls), 1)
+        self.assertTrue(snapshot['sources'][0]['truncated'])
+        self.assertEqual(snapshot['sources'][1]['status'], 'error')
+        self.assertIn('next_poll_after_utc', snapshot['sources'][1])
+
+    def test_primary_blog_feed_keeps_short_attributed_excerpts_and_host(self):
+        cfg = config(False)
+        url = 'https://terrytao.wordpress.com/feed/'
+        cfg['blogs'] = {'feeds': [url], 'per_page': 1, 'max_pages': 1}
+        body = b'''<rss version="2.0"><channel><item><title>Research &amp; discussion</title>
+        <link>https://terrytao.wordpress.com/2026/11/14/research/</link>
+        <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate><description><![CDATA[<p>Short feed summary.</p><script>unsafe()</script>]]></description>
+        </item></channel></rss>'''
+        snapshot = radar.refresh(cfg, fetch=lambda _: body, now=NOW)
+        post = snapshot['blog_posts'][0]
+        self.assertEqual(post['author'], 'Terence Tao')
+        self.assertEqual(post['excerpt'], 'Short feed summary.')
+        self.assertNotIn('content', post)
+        self.assertEqual(snapshot['candidates'], [])
+        spec = radar.validate_config(cfg)[0]
+        with self.assertRaises(ValueError):
+            radar.read_blog(spec, lambda _: body.replace(b'https://terrytao.wordpress.com/2026', b'https://evil.test/2026'))
+
+    def test_bounded_gzip_and_deflate_decoding(self):
+        raw = b'{"items": []}'
+        self.assertEqual(radar.decompress_body(gzip.compress(raw)), raw)
+        self.assertEqual(radar.decompress_body(zlib.compress(raw), 'deflate'), raw)
+        with patch.object(radar, 'MAX_RESPONSE_BYTES', 100), self.assertRaises(ValueError):
+            radar.decompress_body(gzip.compress(b'x' * 1000))
+        with self.assertRaises(ValueError):
+            radar.decompress_body(b'body', 'br')
+
+    def test_old_schema_snapshot_migrates_with_additive_empty_sources(self):
+        old = radar.refresh(config(), fetch=lambda _: '[]', now=NOW)
+        old.pop('questions')
+        old.pop('blog_posts')
+        snapshot = radar.refresh(config(), previous=old, fetch=lambda _: '[]', now=NOW)
+        self.assertEqual(snapshot['schema_version'], 1)
+        self.assertEqual(snapshot['questions'], [])
+        self.assertEqual(snapshot['blog_posts'], [])
+
     def test_github_pagination_and_deduplication(self):
         urls = []
         pages = [[repo(), repo(2, 'example/second')], [repo(2, 'example/second')]]
@@ -86,6 +164,8 @@ class ResearchRadarTests(unittest.TestCase):
         for body in (b'<html>maintenance</html>', b'<feed', b'<!DOCTYPE feed [<!ENTITY x "text">]><feed/>', b'<feed xmlns="http://www.w3.org/2005/Atom"><entry><id>http://arxiv.org/api/errors</id></entry></feed>'):
             with self.subTest(body=body), self.assertRaises((ValueError, radar.ET.ParseError)):
                 radar.arxiv_page(body)
+        with self.assertRaises(ValueError):
+            radar.xml_root(b'<a>' * 130 + b'</a>' * 130)
 
     def test_partial_failure_retains_last_success_and_marks_stale(self):
         cfg = config(True, True)
@@ -172,6 +252,7 @@ class ResearchRadarTests(unittest.TestCase):
         client = radar.PublicClient()
         response = unittest.mock.MagicMock()
         response.geturl.return_value = 'https://export.arxiv.org/api/query'
+        response.headers = {}
         response.read.return_value = b'body'
         client.opener.open = unittest.mock.MagicMock()
         client.opener.open.return_value.__enter__.return_value = response

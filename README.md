@@ -1,111 +1,127 @@
+<p align="center">
+  <b>English</b> · <a href="docs/i18n/README.hi.md">हिन्दी</a> · <a href="docs/i18n/README.bn.md">বাংলা</a> · <a href="docs/i18n/README.es.md">Español</a> · <a href="docs/i18n/README.fr.md">Français</a> · <a href="docs/i18n/README.zh-CN.md">简体中文</a>
+</p>
+
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="docs/assets/anaxia-hero.png">
-  <img src="docs/assets/anaxia-hero.gif" alt="Anaxia — Mathematics, with evidence. An animated mathematical orbit connects discover, formalize, explore, critique and verify." width="100%">
+  <img src="docs/assets/anaxia-hero.gif" alt="Anaxia — Explore boldly. Verify exactly. A bright mathematical orbit connects discovery, formalization, proposals, critique and exact verification." width="100%">
 </picture>
 
 <p align="center">
   <a href="https://github.com/creelie/Anaxia/actions/workflows/checks.yml"><img src="https://github.com/creelie/Anaxia/actions/workflows/checks.yml/badge.svg" alt="Workspace checks"></a>
-  <a href="https://github.com/creelie/Anaxia/actions/workflows/research-radar.yml"><img src="https://img.shields.io/badge/research_radar-hourly-68e3cb?style=flat-square&labelColor=101c32" alt="Research radar scheduled hourly"></a>
-  <a href="docs/ANAXIA.md"><img src="https://img.shields.io/badge/verification-exact_rational-eec887?style=flat-square&labelColor=101c32" alt="Exact rational verification"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/project_code-MIT-9eafc8?style=flat-square&labelColor=101c32" alt="Project code MIT license"></a>
+  <a href="docs/MODELS.md"><img src="https://img.shields.io/badge/models-local_+_cloud-087f6b?style=flat-square&labelColor=edf5f1" alt="Local and cloud model connections"></a>
+  <a href="docs/SOURCES.md"><img src="https://img.shields.io/badge/research-hourly_refresh-287caa?style=flat-square&labelColor=edf5f9" alt="Research sources refresh hourly"></a>
+  <a href="docs/ANAXIA.md"><img src="https://img.shields.io/badge/certificates-exact_rational-bc4b3e?style=flat-square&labelColor=fff1ec" alt="Exact rational certificate verification"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-536b79?style=flat-square&labelColor=f4f3ef" alt="Project code MIT license"></a>
 </p>
 
 # Anaxia
 
-**An open mathematics research workbench: discover questions, explore counterexamples, and verify evidence.**
+**An open research engine for mathematical discovery. Explore boldly. Verify exactly.**
 
-Anaxia brings a continuously refreshed research radar together with exact computation and independently checkable certificates. Formerly **OpenGluon**, it retains the existing quantum and mathematics workspace while adding a focused path from a research lead to a precise, testable statement.
+Anaxia combines a living research radar, local and cloud model connections, iterative proposal and critique, exact certificate checks, and repeatable conjecture experiments. It extends the original **OpenGluon** workspace with a practical research loop: **discover → formalize → propose → critique → verify → record**.
 
-The research direction is ambitious: combine retrieval, explicit research stages, symbolic computation, counterexample search, and proof verification. The current release implements a bounded research workbench. It does not establish artificial superintelligence, human cognition, or a general method for solving arbitrary open conjectures.
+Use local models through Ollama or a llama.cpp server, or connect an available Claude, OpenAI, or Kimi model with your own API credentials. Keep every mathematical conclusion attached to its statement, domain, computation, and verification result.
 
 <p align="center">
-  <a href="#start-in-a-minute">Get started</a> ·
-  <a href="docs/RESEARCH-RADAR.md">Live research digest</a> ·
+  <a href="#get-started">Get started</a> ·
+  <a href="docs/MODELS.md">Model connections</a> ·
+  <a href="docs/RESEARCH-RADAR.md">Research radar</a> ·
+  <a href="docs/CHALLENGES.md">Conjecture challenges</a> ·
+  <a href="docs/CAMPAIGNS.md">Continuing attempts</a> ·
+  <a href="docs/PAPER-AUDIT.md">Paper audits</a> ·
   <a href="data/experiments/README.md">Experiment results</a> ·
-  <a href="docs/ANAXIA.md">How it works</a> ·
-  <a href="docs/INTEGRATIONS.md">Tools & integrations</a> ·
-  <a href="docs/CONSTRUCTION-ROUTES.md">Construction routes</a>
+  <a href="docs/ANAXIA.md">Architecture</a>
 </p>
 
-## A research loop with inspectable results
+## Built for a complete research loop
 
-| Discover | Formalize | Explore | Critique | Verify |
-| :--- | :--- | :--- | :--- | :--- |
-| Watch configured public GitHub sources and arXiv mathematics abstracts. | Translate a candidate into a supported JSON statement. | Search finite integer domains and construct quadratic SOS certificates. | Separate candidate claims, finite evidence, and global certificates. | Recompute exact rational identities and counterexamples. |
-| Source IDs, versions, timestamps | Explicit variables and domains | Bounded, reproducible computation | Recorded stages and limitations | Independent certificate reconstruction |
+| Capability | What runs today |
+| --- | --- |
+| **Research discovery** | Configured GitHub owners and mathematics searches; arXiv abstracts; MathOverflow, Mathematics Stack Exchange, and selected mathematics blogs. Source links and freshness remain visible. |
+| **Local + cloud models** | Explicit provider profiles for Ollama, llama.cpp, Claude, OpenAI, and Kimi. Choose your model and endpoint; local services and weights have their own setup. |
+| **Iterative reasoning** | Bounded proposer/critic rounds can suggest SOS certificates; the exact checker accepts or rejects their algebraic identities. |
+| **Exact mathematics** | Rational sum-of-squares certificates, exact real sign decisions for supported univariate polynomials, modular obstruction proofs, and counterexamples. |
+| **Conjecture experiments** | Reproducible bounded challenges for Collatz, Goldbach, Legendre, and Erdős–Straus, plus explicit target cards for larger open problems. |
+| **Research memory** | Versioned snapshots, a resumable opt-in arXiv metadata archive, registered local tasks, saved reports, and source commit pins. |
 
-The local discovery and verification tools use the Python standard library. They run without model weights or a paid API. Optional Claude proposals add language-model suggestions; the exact checker determines what the supported evidence establishes.
+The new core uses Python's standard library. Local exact experiments need no model, API key, or paid request. A model proposal becomes mathematical evidence only after the relevant exact check succeeds.
 
-## Start in a minute
+## Get started
 
-Python 3.10+ and Git are sufficient for the new local workbench. Submodules are optional for these commands.
+Python 3.10+ and Git are sufficient for the local core. Submodules are optional for these commands.
 
 ```sh
 git clone https://github.com/creelie/Anaxia.git
 cd Anaxia
 
-# Construct a certificate for a supported polynomial statement.
+# Discover an exact quadratic sum-of-squares certificate.
 python anaxia.py solve examples/quadratic-sos.json --output data/demo-proof.json
-
-# Verify the saved evidence independently.
 python anaxia.py verify data/demo-proof.json
 
-# Explore a finite domain, or find an exact counterexample.
+# Decide global nonnegativity of a univariate polynomial by exact Sturm counts.
+python anaxia.py solve examples/univariate-sturm.json --output data/univariate-proof.json
+python anaxia.py verify data/univariate-proof.json
+
+# Explore finite evidence and exact counterexamples.
 python anaxia.py solve examples/bounded-polynomial.json
 python anaxia.py solve examples/false-polynomial.json
-```
 
-For a higher-degree example with a supplied sum-of-squares certificate:
-
-```sh
-python anaxia.py solve examples/quartic-sos.json --output data/quartic-proof.json
-python anaxia.py verify data/quartic-proof.json
-```
-
-| Result | Meaning |
-| --- | --- |
-| `exact_sos_verified` | Exact expansion verifies the polynomial equals a sum of squares with nonnegative rational weights. This establishes nonnegativity over the stated real variables. |
-| `bounded_verified` | Every point in the specified finite integer box passes. The claim remains limited to that box. |
-| `counterexample_verified` | An exact substitution violates the submitted statement. |
-| `inconclusive` | The supported search did not establish a proof or counterexample. |
-
-These statuses concern the submitted formal statement. A correct calculation does not establish that an informal paper was translated faithfully.
-
-Register reviewed local tasks in [`config/research-tasks.json`](config/research-tasks.json), then run the queue:
-
-```sh
+# Run the registered experiment queue and independent checks.
 python anaxia.py experiment --tasks config/research-tasks.json --output data/experiments
 ```
 
-The hourly research-radar workflow reruns these registered tasks and independently verifies their reports. Read the [experiment digest](data/experiments/README.md) for scoped results. The initial four entries are tutorial examples, not new solutions to arXiv problems. The path from a radar lead to an automatic experiment is **literature review → faithful formalization → local task registry → exact computation and verification**.
-
-## A research radar that updates this README
-
-The radar monitors configured public GitHub owners, including **creelie**, discovers mathematical repositories through configurable search queries, and retrieves recent arXiv mathematics abstracts. Newly added public repositories enter the next successful owner refresh, within the configured pagination limit.
+For a supplied higher-degree identity, run [`examples/quartic-sos.json`](examples/quartic-sos.json). For named conjecture experiments, see the [challenge guide and current results](docs/CHALLENGES.md). Tutorial examples and finite checks retain their scope; they are not presented as new solutions to open conjectures.
 
 ```sh
-# Refresh from public services and regenerate the source-linked digest.
-python anaxia.py radar refresh --output data/research-radar.json --digest docs/RESEARCH-RADAR.md --readme README.md
+# Run a bounded suite of named conjecture experiments.
+python anaxia.py challenge run --profile quick --output data/challenges
 
-# Exercise the same pipeline with bundled fixtures, without network access.
-python anaxia.py radar refresh --offline examples/radar-fixture.json --output data/radar-demo.json --digest data/radar-demo.md
-
-python anaxia.py radar show
+# Prove a supported Diophantine impossibility by exact modular obstruction.
+python anaxia.py diophantine examples/modular-obstruction.json --output data/modular-proof.json
 ```
 
-Configure scope and limits in [`config/research-watch.json`](config/research-watch.json). The **Research radar** GitHub Actions workflow polls hourly at minute 37 UTC and refreshes the digest and panel below. Coverage is a bounded sample of configured public sources; it does not capture everything published worldwide. Source failures are reported and previous successful source data is retained.
+The modular backend can prove that a submitted equation has no integer solution when every residue class is excluded for a selected modulus. The conclusion applies to that equation; the [challenge guide](docs/CHALLENGES.md) explains each backend's scope.
+
+## Run a model-assisted research session
+
+Start an Ollama service with a model you have installed, then select its model ID:
+
+```sh
+python anaxia.py reason examples/quadratic-sos.json --provider ollama --model YOUR_MODEL_ID --rounds 2 --output data/reasoning-report.json
+```
+
+The loop records proposals, critiques, and exact certificate checks. An unsuccessful round remains an unsuccessful attempt. Run one proposal with `propose`, or choose another configured provider; the [model guide](docs/MODELS.md) gives endpoint, credential, and request-limit details.
+
+The [continuing campaign](docs/CAMPAIGNS.md) uses saved GitHub and arXiv context to revisit Hodge, Yang–Mills, Riemann, and both D4 targets. The [first attempt ledger](data/campaign/README.md) records the strategies and their proof status. For a claim in a specific paper, the [audit workflow](docs/PAPER-AUDIT.md) checks the formalized statement and saves its exact source location alongside the evidence.
+
+Cloud requests use your credentials and may incur provider charges. A local server keeps model inference on the machine where that server runs. No proprietary model weights are included.
+
+## Follow research as it develops
+
+The radar refreshes configured public sources and updates this README. It watches newly added public repositories under **creelie** within configured page limits, alongside broader mathematics searches and selected community feeds.
+
+```sh
+python anaxia.py radar refresh --output data/research-radar.json --digest docs/RESEARCH-RADAR.md --readme README.md
+python anaxia.py radar show
+
+# Exercise the discovery pipeline without network access.
+python anaxia.py radar refresh --offline examples/radar-fixture.json --output data/radar-demo.json --digest data/radar-demo.md
+```
+
+The **Research radar** workflow polls hourly at minute 37 UTC and reruns registered experiments. Sources, coverage caps, and feed behavior are documented in the [source guide](docs/SOURCES.md) and [`config/research-watch.json`](config/research-watch.json). Failed sources retain their last successful data where available.
 
 <!-- ANAXIA:RADAR:START -->
 
-**Public metadata capture · 2026\-11\-14T14:24:26\+00:00**
+**Public metadata capture · 2026\-11\-14T14:54:24\+00:00**
 
-| Repositories | Papers | Review candidates | Sources refreshed |
-| ---: | ---: | ---: | ---: |
-| 481 | 60 | 14 | 5 |
+| Repositories | Papers | Community questions | Blog posts | Review candidates | Sources refreshed |
+| ---: | ---: | ---: | ---: | ---: | ---: |
+| 481 | 111 | 80 | 16 | 14 | 10 |
 
-Configured, bounded searches; candidate language does not establish that a conjecture is open or solved.
+Configured, bounded sources; candidate language and community answer flags do not establish that a conjecture is open or solved.
 
-Coverage: 0 source(s) stale/unavailable; 4 source(s) reached a limit or reported incomplete results.
+Coverage: 0 source(s) stale/unavailable; 9 source(s) reached a limit or reported incomplete results.
 
 **Latest review candidates**
 
@@ -117,38 +133,50 @@ Coverage: 0 source(s) stale/unavailable; 4 source(s) reached a limit or reported
 
 <!-- ANAXIA:RADAR:END -->
 
-The detector flags phrases in abstracts as **reported open candidates**, retaining a source excerpt. This is a lead for review: the paper may prove the statement, discuss an old conjecture, or omit a later solution. A researcher must check current literature and encode the exact problem before the solver can work on it.
+Candidate detection keeps source excerpts for review. A candidate label does not establish that a question remains open. The bridge to an automatic experiment is **current-literature review → faithful formalization → local task registry → exact computation and verification**.
 
-## Optional Claude proposals
+## Build a resumable arXiv metadata archive
 
-Anaxia can request a proposal through Anthropic's official API using your own credentials and an explicitly selected model. Requests may incur provider charges. Credentials belong in environment variables, never in the repository.
+Opt in to a bounded harvesting run, then resume it with the same command:
 
 ```sh
-# Set ANTHROPIC_API_KEY in your environment, then choose an available model ID.
-python anaxia.py propose examples/quadratic-sos.json --model YOUR_MODEL_ID --output data/proposal.json
+python anaxia.py archive harvest --max-pages 1 --set math
+python anaxia.py archive status
+python anaxia.py archive search "sum of squares" --limit 20
 ```
 
-Proposals are **unverified suggestions**. They are not executed automatically and do not change a statement's proof status. See [integrations](docs/INTEGRATIONS.md) for the API boundary, source-only tools, and their requirements. This repository does not distribute Claude's proprietary model weights.
+Omit `--set math` to select all subjects. This is a metadata archive with a resumable cursor, not a claim that the entire arXiv is already indexed or that every paper has been read. See [sources and archive storage](docs/SOURCES.md).
 
-## A substantial source workspace
+## Evidence you can inspect
 
-The original OpenGluon workspace remains available, with original upstream attribution, licenses, and pinned commits.
+| Result | What it establishes |
+| --- | --- |
+| `exact_sos_verified` | Exact expansion verifies a polynomial as a sum of squares with nonnegative rational weights, proving its stated real nonnegativity. |
+| `exact_univariate_verified` / `exact_univariate_refuted` | Exact polynomial arithmetic and Sturm root counts decide the stated univariate nonnegativity claim over all reals. |
+| `bounded_verified` | Exhaustive success on the specified finite domain only. |
+| `counterexample_verified` | An exact substitution refutes the submitted formal statement. |
+| `inconclusive` | The supported attempt did not establish a proof or checked counterexample. |
+
+Read [how the laboratory verifies evidence](docs/ANAXIA.md), the [challenge status notes](docs/CHALLENGES.md), and the [experiment digest](data/experiments/README.md). Closing an open research conjecture requires a faithful statement, complete proof, and independent mathematical review. Anaxia records the work needed to assess such a claim.
+
+## The source workspace
+
+The original quantum and mathematics workspace remains available with upstream attribution, licenses, and pinned revisions.
 
 | Component | Role |
 | --- | --- |
-| `anaxia/` | New standard-library research radar and exact polynomial laboratory. |
-| `engines/anaxia/` | Existing eBLLM engine, research portfolio, construction routes, and finite matrix certificates. |
-| `mathematics/` | Lean mathlib, SymPy, FLINT, GAP, and selected Harmonic IMO examples. |
-| `quantumlib/` | Pinned quantum software projects for circuits, simulation, chemistry, and decoding. |
-| `engines/aristotle/` | Optional client for a hosted verification service; its own API and language support apply. |
-| `engines/colibri/` | Source-only inference engine; install its dependencies and obtain compatible weights separately. |
-| `engines/ai-memory/` | Source-only memory tooling, available for future integration. |
-| `engines/claude-second-brain/` | Source-only knowledge-vault scaffold; requires its own setup. |
+| `anaxia/` | Research feeds, model connections, iterative reasoning, exact laboratory, and experiment runners. |
+| `engines/anaxia/` | Existing eBLLM portfolio, construction-route cards, and finite matrix certificates. |
+| `mathematics/` | Lean mathlib, SymPy, FLINT, GAP, and selected Harmonic examples. |
+| `quantumlib/` | Pinned quantum software for circuits, simulation, chemistry, and decoding. |
+| `engines/colibri/` | Source-only inference engine; dependencies and compatible weights are separate. |
+| `engines/ai-memory/` · `engines/claude-second-brain/` | Source-only memory tooling and a knowledge-vault scaffold. |
+| `engines/aristotle/` | Optional hosted-verification client with its own supported targets and API terms. |
 
-Source checkouts are not installed services or automatically connected solver backends. The [integration guide](docs/INTEGRATIONS.md) identifies the current boundary.
+A source checkout is not an installed backend. See [integration status](docs/INTEGRATIONS.md) before setting up a tool.
 
 <details>
-<summary><b>Initialize and inspect the original workspace</b></summary>
+<summary><b>Initialize the existing workspace</b></summary>
 
 ```sh
 git submodule update --init --recursive
@@ -159,24 +187,16 @@ python anaxia.py routes Yang-Mills
 python anaxia.py certify examples/rational-psd.json
 ```
 
-The original `python opengluon.py ...` entry point remains available. The doctor checks source pins and checkout availability; it does not test every upstream dependency or theorem.
-
-Source pins and inventory refreshes remain under the existing upstream synchronization workflow. The research radar adds a separate metadata discovery layer. Neither workflow runs newly discovered third-party code.
+The original `python opengluon.py ...` entry point remains available. The doctor checks checkout availability and recorded pins. Upstream synchronization tracks selected source revisions; it does not execute newly discovered code or independently verify upstream mathematical claims.
 
 </details>
 
-## Evidence before claims
-
-Discovery records preserve their sources. Numerical or finite evidence stays finite. Model output stays unverified until checked. A supported exact polynomial certificate can establish its stated algebraic result; closing a named research conjecture additionally requires faithful formalization, complete hypotheses, and independent mathematical review.
-
-Read the [architecture and task format](docs/ANAXIA.md), [verification notes](docs/VERIFICATION.md), [exact matrix constructions](docs/EXACT-CONSTRUCTIONS.md), and [Harmonic tool notes](docs/HARMONIC.md). Existing [research portfolios](docs/RESEARCH-PORTFOLIO.md) and [construction routes](docs/CONSTRUCTION-ROUTES.md) retain their stated assumptions.
-
-## Development
+## Develop and contribute
 
 ```sh
 python -m unittest discover -s tests -v
 ```
 
-The core workbench has no required third-party Python dependencies. The optional artwork generator uses Pillow. See [`docs/assets/anaxia-hero.svg`](docs/assets/anaxia-hero.svg) for a scalable static version of the banner.
+Start with the [architecture](docs/ANAXIA.md), [model guide](docs/MODELS.md), [source guide](docs/SOURCES.md), and [verification notes](docs/VERIFICATION.md). The bright animated banner has a reduced-motion PNG fallback and a [static SVG companion](docs/assets/anaxia-hero.svg).
 
-Maintained by **Deep Bhattacharjee**. Project code is MIT licensed; every upstream project retains its own authorship and license. Consult [contributors](CONTRIBUTORS.md), [third-party notices](THIRD_PARTY.md), [`quantumlib-lock.json`](quantumlib-lock.json), and [`toolkit-lock.json`](toolkit-lock.json) before reusing upstream material.
+Maintained by **Deep Bhattacharjee**. Project code is MIT licensed; upstream projects retain their authorship and licenses. See [contributors](CONTRIBUTORS.md), [third-party notices](THIRD_PARTY.md), [`toolkit-lock.json`](toolkit-lock.json), and [`quantumlib-lock.json`](quantumlib-lock.json).

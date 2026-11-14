@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "kind": "integer_polynomial_zero",
+  "title": "Synthetic no-integer-root claim",
+  "variables": ["x"],
+  "polynomial": [{"coefficient": "1", "powers": [2]}, {"coefficient": "1", "powers": [0]}]
+}

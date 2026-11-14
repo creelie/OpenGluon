@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "release_creation": false,
+  "zenodo_deposit": false,
+  "doi_creation": false,
+  "external_manuscript_submission": false,
+  "model_proposals_are_proofs": false,
+  "paper_requirements": [
+    "Exact source statement and faithful formalization",
+    "Complete independently verified proof for each claimed theorem",
+    "Literature and originality review",
+    "Human review of authorship, affiliations, references, and submission text"
+  ],
+  "scope": "Prepare and review research artifacts. New conjecture closure manuscripts require a complete proof; finite evidence and model prose do not establish closure."
+}

@@ -13,8 +13,18 @@
     "max_pages": 2
   },
   "arxiv": {
-    "queries": ["cat:math.* AND (all:conjecture OR all:\"open problem\")"],
+    "queries": ["cat:math.*", "cat:math.* AND (all:conjecture OR all:\"open problem\")"],
     "per_page": 30,
     "max_pages": 2
+  },
+  "stackexchange": {
+    "sites": ["mathoverflow", "math"],
+    "per_page": 40,
+    "max_pages": 1
+  },
+  "blogs": {
+    "feeds": ["https://terrytao.wordpress.com/feed/", "https://gowers.wordpress.com/feed/"],
+    "per_page": 8,
+    "max_pages": 1
   }
 }

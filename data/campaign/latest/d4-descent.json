@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "engine": "anaxia-research-campaign/1",
+  "sequence": 4,
+  "attempted_at_utc": "2026-11-14T14:57:45.394773+00:00",
+  "target_id": "d4-descent",
+  "title": "Reflexive-polytope descent D4 and proposed bound 24",
+  "original_target": {
+    "id": "d4-descent",
+    "title": "Reflexive-polytope descent D4 and proposed bound 24",
+    "statement": "Assess the proposed upper bound D_4 <= 24 for the maximum shortest reflexive-cover descent depth across four-dimensional reflexive polytopes. The exact value requires matching bounds.",
+    "source_urls": [
+      "https://github.com/creelie/seed",
+      "https://github.com/creelie/seed/blob/5e5f514e449324993636a1146df863c7ee4dbcb7/README.md"
+    ],
+    "proof_obligations": [
+      "Define the genuine cover relation and verify every descent step.",
+      "Supply complete coverage of the classification with bounds at most 24.",
+      "A bound of 50 or 346 does not establish a bound of 24; matching lower bounds are required for an exact value."
+    ],
+    "backend": "certificate_audit",
+    "keywords": [
+      "reflexive",
+      "descent",
+      "seed",
+      "kreuzer",
+      "polytope"
+    ]
+  },
+  "target_sha256": "7dc7d5f9afbd7db0a3d7146f6b386865e3ccc65add893d50885092113efd1edf",
+  "source_context": [
+    {
+      "id": "github:1425410741",
+      "url": "https://github.com/creelie/seed",
+      "title": "creelie/seed",
+      "excerpt": "creelie/seed",
+      "license": "MIT"
+    },
+    {
+      "id": "github:1371181725",
+      "url": "https://github.com/creelie/d4-voronoi-cells",
+      "title": "creelie/d4-voronoi-cells",
+      "excerpt": "Supplementary Code: The Sphere Packing Problem in Dimension 4 and the Twenty-Four-Cell Conjecture",
+      "license": "MIT"
+    },
+    {
+      "id": "github:1413450318",
+      "url": "https://github.com/creelie/D4-D24-Hales--D3--Viazovska",
+      "title": "creelie/D4-D24-Hales--D3--Viazovska",
+      "excerpt": "creelie/D4-D24-Hales--D3--Viazovska",
+      "license": "MIT"
+    },
+    {
+      "id": "arxiv:2611.17000",
+      "url": "https://arxiv.org/abs/2611.17000v1",
+      "title": "Macroscopic $L^\\infty$ bounds for the homogeneous Landau--Coulomb equation",
+      "excerpt": "We establish an instantaneous global $L^\\infty(\\R^3)$ bound at positive times for smooth, rapidly decaying solutions to the three-dimensional spatially homogeneous Landau equation with Coulomb potential, where the upper bound depends solely on the initial mass, momentum, energy, and entropy. This\u2026",
+      "authors": [
+        "Lingda Xu"
+      ]
+    },
+    {
+      "id": "arxiv:2606.20051",
+      "url": "https://arxiv.org/abs/2606.20051v3",
+      "title": "Lagrangian capacity and chain level string topology",
+      "excerpt": "We derive upper bounds for the Lagrangian capacities of Liouville domains with finite Gutt--Hutchings capacities and show that the Lagrangian capacity of a convex or concave toric domain of arbitrary dimension equals its diagonal. In particular, this completely settles the conjecture of Cieliebak\u2026",
+      "authors": [
+        "Shah Faisal",
+        "Yin Li"
+      ]
+    }
+  ],
+  "source_snapshot_generated_at": "2026-11-14T14:54:24+00:00",
+  "previous_unresolved_public_notes": "",
+  "attempt_sha256": "2930892db39384bda4f6e41090b957a11e1e01612fd9f13037dfe6b003301e51",
+  "prompt_sha256": "482bc8d92b70e03a97c93bf315212ed8f6e17fb054ffed05cf36e115dc39ec2c",
+  "provider": "openai-compatible",
+  "model": "anaxia-local-phi3",
+  "max_tokens": 256,
+  "status": "unverified_proposal",
+  "global_status": "not_closed",
+  "scope": "Unverified public research strategy only. No natural-language target is closed by this campaign; complete proof and independent verification remain required.",
+  "strategy": "To assess the proposed upper bound of D_4 <= 24 for the maximum shortest reflexive-cover descent depth across four-dimensional reflexive polytopes, the following public research strategy and proof obligations are outlined:\n\n\n1. Begin by studying the genuine cover relation for reflexive polytopes and its implications on the descent problem.\n\n2. Develop a method to compute or estimate the descent steps for D_4.\n\n3. Verify the coverage of all possible reflexive covers for D_4 to ensure comprehensive exploration of descent paths.\n\n4. Prove the existence of reflexive covers with a maximum depth of 24.\n\n5. Address the specificity of the reflexive-cover descent problem for D_4.\n\n\nThe remaining proof obligations include:\n\n- Proving the existence of reflexive covers with a depth of exactly 24 for D_4.\n\n- Demonstrating that no lower bounds exceed 24 for D_4.\n\n- Ensuring that the proposed bound is not merely a lower estimate but the actual maximum.\n\n\nConsidering the untrusted",
+  "outcome": "completed"
+}

@@ -3,6 +3,7 @@
   "tasks": [
     {"id": "quadratic-sos", "path": "examples/quadratic-sos.json", "tutorial": true, "reference": "Automatic rational quadratic SOS discovery; tutorial example."},
     {"id": "quartic-sos", "path": "examples/quartic-sos.json", "tutorial": true, "reference": "Independently verify a supplied quartic SOS identity; tutorial example."},
+    {"id": "univariate-sturm", "path": "examples/univariate-sturm.json", "tutorial": true, "reference": "Decide the global statement by exact real root counting; tutorial example."},
     {"id": "bounded-polynomial", "path": "examples/bounded-polynomial.json", "tutorial": true, "reference": "Finite integer-box verification; tutorial example."},
     {"id": "false-polynomial", "path": "examples/false-polynomial.json", "tutorial": true, "reference": "Exact counterexample search; tutorial example."}
   ]

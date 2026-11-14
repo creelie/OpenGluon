@@ -92,11 +92,39 @@ class ExactLabTests(unittest.TestCase):
         forged['status'] = 'exact_sos_verified'
         self.assertFalse(lab.verify_report(forged)['valid'])
 
-    def test_same_polynomial_on_reals_is_inconclusive(self):
+    def test_same_polynomial_on_reals_is_refuted_by_odd_roots(self):
         result = lab.solve_task(task([term('1', 2), term('-1', 1)]))
-        self.assertEqual(result['status'], 'inconclusive')
+        self.assertEqual(result['status'], 'exact_univariate_refuted')
+        self.assertEqual(result['evidence']['odd_multiplicity_real_roots'], 2)
         self.assertTrue(lab.verify_report(result)['valid'])
-        self.assertIn('not a proof', lab.verify_report(result)['reason'])
+        self.assertIn('changes sign', lab.verify_report(result)['reason'])
+
+    def test_univariate_sturm_proves_global_nonnegativity_with_even_roots(self):
+        result = lab.solve_task(task([term('1', 4), term('-2', 3), term('2', 2),
+                                     term('-2', 1), term('1', 0)]))
+        self.assertEqual(result['status'], 'exact_univariate_verified')
+        self.assertEqual(result['evidence']['odd_factor_ascending'], ['1', '0', '1'])
+        self.assertEqual(result['evidence']['odd_multiplicity_real_roots'], 0)
+        self.assertTrue(lab.verify_report(result)['valid'])
+        altered = copy.deepcopy(result)
+        altered['evidence']['signs_at_positive_infinity'][0] = -1
+        self.assertFalse(lab.verify_report(altered)['valid'])
+
+    def test_univariate_negative_tail_proves_failure_outside_sampled_box(self):
+        result = lab.solve_task(task([term('1', 3), term('65', 0)]))
+        self.assertEqual(result['status'], 'exact_univariate_refuted')
+        self.assertEqual(result['evidence']['criterion'], 'negative_tail')
+        self.assertTrue(lab.verify_report(result)['valid'])
+
+    def test_large_computed_counterexample_value_remains_verifiable(self):
+        result = lab.solve_task(task([term('-1', 12)], domain={'kind': 'integer_box', 'bounds': [[10000, 10000]]}))
+        self.assertEqual(result['status'], 'counterexample_verified')
+        self.assertEqual(result['evidence']['value'], str(-(10 ** 48)))
+        self.assertTrue(lab.verify_report(result)['valid'])
+
+    def test_scientific_exponent_is_bounded_before_fraction_parsing(self):
+        with self.assertRaisesRegex(ValueError, 'coefficient exponent'):
+            lab.solve_task(task([term('1e99999999999999999', 0)]))
 
     def test_negative_value_is_verified_as_exact_rational(self):
         source = task([term('1/3', 2), term('-1/2', 0)],

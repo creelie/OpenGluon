@@ -1,0 +1,62 @@
+{
+  "id": "synthetic-modular",
+  "source_url": "https://github.com/creelie/Anaxia/blob/main/examples/audit/tutorial-source.md",
+  "source_location": "Synthetic tutorial statement 3",
+  "source_excerpt": "There is no integer x for which x squared plus one equals zero.",
+  "formalization_note": "Synthetic test input: the modular backend audits the no-integer-zero claim, not an assertion of root existence.",
+  "task": "no-integer-root.json",
+  "backend": "modular",
+  "status": "formal_claim_verified",
+  "task_file_sha256": "aa5ba0a1b5f67a604f3e0adc761fa7156e1683e6228a20ca21bd768ab527028a",
+  "source_excerpt_sha256": "6742663e1fa856bd0b4b1538018712044625f0235cd68e1e1dfdc1ed32e23e03",
+  "source_claim_requires_review": true,
+  "source_correspondence": "unreviewed",
+  "source_correspondence_scope": "The supplied excerpt has not been retrieved or checked for faithful correspondence to this formal task. This result does not establish an error in the paper.",
+  "formal_statement_kind": "integer_polynomial_has_no_integer_zero",
+  "scope": "The submitted integer polynomial has no zero at any integer assignment.",
+  "evidence_report": {
+    "schema_version": 1,
+    "engine": "anaxia-modular/1",
+    "task": {
+      "schema_version": 1,
+      "kind": "integer_polynomial_zero",
+      "title": "Synthetic no-integer-root claim",
+      "variables": [
+        "x"
+      ],
+      "polynomial": [
+        {
+          "coefficient": "1",
+          "powers": [
+            0
+          ]
+        },
+        {
+          "coefficient": "1",
+          "powers": [
+            2
+          ]
+        }
+      ]
+    },
+    "task_sha256": "0aeee508b96dd8cc934d7df885de45c2cc7eaa8dc22584ebd6e912f74e526b98",
+    "status": "modular_obstruction_verified",
+    "scope": "The submitted integer polynomial has no zero at any integer assignment.",
+    "evidence": {
+      "kind": "modular_obstruction",
+      "modulus": 3,
+      "assignments": 3,
+      "possible_residues": [
+        1,
+        2
+      ]
+    }
+  },
+  "independent_verification": {
+    "valid": true,
+    "status": "modular_obstruction_verified",
+    "scope": "The submitted integer polynomial has no zero at any integer assignment.",
+    "reason": "All residue assignments were re-enumerated exactly. Every integer vector reduces modulo this modulus, so no integer zero exists."
+  },
+  "proposed_correction": null
+}

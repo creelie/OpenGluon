@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "runtime": "llama.cpp b12383 CPU Windows x64",
+  "runtime_source": "https://github.com/ggml-org/llama.cpp/releases/tag/b12383",
+  "runtime_archive_sha256": "ad5bf0d826ea1f39aaf9721b7e26fde9be0bef5d9b69b9ba88c2d083b9a3bca7",
+  "runtime_archive_bytes": 25124601,
+  "provider": "openai-compatible",
+  "base_url": "http://127.0.0.1:18081/v1",
+  "model": "anaxia-local-phi3",
+  "existing_model_reused": true,
+  "downloaded_model_weights": false,
+  "cpu_threads": 4,
+  "context_tokens": 2048,
+  "gpu_layers": 0,
+  "checks": {
+    "model_inventory": {
+      "passed": true,
+      "model_count": 1
+    },
+    "proposal": {
+      "passed": true,
+      "status": "unverified_proposal",
+      "public_text_characters": 333
+    },
+    "reasoning": {
+      "passed": true,
+      "status": "exact_sos_verified",
+      "model_calls": 2,
+      "model_evidence_verified": false,
+      "baseline_status": "exact_sos_verified"
+    }
+  },
+  "scope": "Local inference smoke checks only. No global open conjecture is claimed solved."
+}

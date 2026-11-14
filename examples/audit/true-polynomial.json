@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "kind": "polynomial_nonnegative",
+  "title": "Synthetic true inequality",
+  "variables": ["x"],
+  "polynomial": [{"coefficient": "1", "powers": [2]}, {"coefficient": "1", "powers": [0]}],
+  "domain": {"kind": "real"}
+}

@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "engine": "anaxia-exact-lab/1",
+  "task": {
+    "schema_version": 1,
+    "kind": "polynomial_nonnegative",
+    "title": "Prove x^4 - 2x^3 + 2x^2 - 2x + 1 is nonnegative over the reals",
+    "variables": [
+      "x"
+    ],
+    "polynomial": [
+      {
+        "coefficient": "1",
+        "powers": [
+          0
+        ]
+      },
+      {
+        "coefficient": "-2",
+        "powers": [
+          1
+        ]
+      },
+      {
+        "coefficient": "2",
+        "powers": [
+          2
+        ]
+      },
+      {
+        "coefficient": "-2",
+        "powers": [
+          3
+        ]
+      },
+      {
+        "coefficient": "1",
+        "powers": [
+          4
+        ]
+      }
+    ],
+    "domain": {
+      "kind": "real"
+    }
+  },
+  "task_sha256": "545c39fc196038e61b38b321c49bb6f738b9583abc2e65baa289e750435b1e66",
+  "status": "exact_univariate_verified",
+  "scope": "Polynomial is nonnegative for every real assignment.",
+  "evidence": {
+    "kind": "univariate_real_sign",
+    "degree": 4,
+    "leading_coefficient": "1",
+    "criterion": "odd_multiplicity_sturm",
+    "odd_factor_ascending": [
+      "1",
+      "0",
+      "1"
+    ],
+    "signs_at_negative_infinity": [
+      1,
+      -1,
+      -1
+    ],
+    "signs_at_positive_infinity": [
+      1,
+      1,
+      -1
+    ],
+    "odd_multiplicity_real_roots": 0
+  },
+  "stages": [
+    {
+      "role": "planner",
+      "finding": "Try exact rational sum-of-squares certification; otherwise enumerate a bounded integer box."
+    },
+    {
+      "role": "explorer",
+      "finding": "Evaluated 9 integer assignments using exact rational arithmetic."
+    },
+    {
+      "role": "explorer",
+      "finding": "Computed exact univariate real sign evidence."
+    },
+    {
+      "role": "critic",
+      "finding": "A negative tail or an odd-multiplicity real root refutes global nonnegativity."
+    },
+    {
+      "role": "verifier",
+      "finding": "Exact square-free factorization and Sturm sign variations establish global real nonnegativity."
+    }
+  ],
+  "experiment": {
+    "id": "univariate-sturm",
+    "path": "examples/univariate-sturm.json",
+    "tutorial": true,
+    "reference": "Decide the global statement by exact real root counting; tutorial example."
+  }
+}

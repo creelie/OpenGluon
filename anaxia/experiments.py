@@ -12,7 +12,8 @@ import urllib.parse
 from .lab import MAX_FILE_BYTES, solve_task, verify_report
 
 ROOT = Path(__file__).resolve().parents[1]
-STATUSES = ('exact_sos_verified', 'bounded_verified', 'counterexample_verified', 'inconclusive', 'error')
+STATUSES = ('exact_sos_verified', 'exact_univariate_verified', 'exact_univariate_refuted',
+            'bounded_verified', 'counterexample_verified', 'inconclusive', 'error')
 
 
 def _inside(path, root, name):
@@ -96,7 +97,7 @@ def render_digest(index):
     for item in index['experiments']:
         label = 'Tutorial example' if item['tutorial'] else 'Registered research task'
         lines.append(f"| {_text(item['id'])} | {label} | `{item['status']}` | [JSON]({item['report']}) |")
-    lines.extend(['', 'Global nonnegativity requires an independently checked rational SOS identity. '
+    lines.extend(['', 'Global nonnegativity can follow from an exact rational SOS identity or a univariate Sturm calculation. '
                   'Finite integer checks retain their finite scope. Counterexamples are evaluated exactly. '
                   'An inconclusive result makes no proof claim.', ''])
     for item in index['experiments']:

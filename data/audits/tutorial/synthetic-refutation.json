@@ -1,0 +1,158 @@
+{
+  "id": "synthetic-refutation",
+  "source_url": "https://github.com/creelie/Anaxia/blob/main/examples/audit/tutorial-source.md",
+  "source_location": "Synthetic tutorial statement 1",
+  "source_excerpt": "For every real x, x squared minus one is nonnegative.",
+  "formalization_note": "Synthetic test input: interpret this as x^2 - 1 >= 0 on the real domain. This is not a claim extracted from an arXiv paper.",
+  "task": "false-polynomial.json",
+  "backend": "polynomial",
+  "status": "formal_claim_refuted",
+  "task_file_sha256": "42ff6806d89b366c1d6e9ea83a912840f12580981041a0dd5631ac2a14d12248",
+  "source_excerpt_sha256": "e1c1346f3876bb16bd22155bf9ec1773a96aa2a937e36f7b7699a6923ece2957",
+  "source_claim_requires_review": true,
+  "source_correspondence": "unreviewed",
+  "source_correspondence_scope": "The supplied excerpt has not been retrieved or checked for faithful correspondence to this formal task. This result does not establish an error in the paper.",
+  "formal_statement_kind": "polynomial_nonnegative_on_task_domain",
+  "scope": "The supplied nonnegativity statement is false on its stated domain.",
+  "evidence_report": {
+    "schema_version": 1,
+    "engine": "anaxia-exact-lab/1",
+    "task": {
+      "schema_version": 1,
+      "kind": "polynomial_nonnegative",
+      "title": "Synthetic false inequality",
+      "variables": [
+        "x"
+      ],
+      "polynomial": [
+        {
+          "coefficient": "-1",
+          "powers": [
+            0
+          ]
+        },
+        {
+          "coefficient": "1",
+          "powers": [
+            2
+          ]
+        }
+      ],
+      "domain": {
+        "kind": "real"
+      }
+    },
+    "task_sha256": "26ca9a766410e762c2528485c936ade136b65492814ad3d4fe82bf671cabc25d",
+    "status": "counterexample_verified",
+    "scope": "The supplied nonnegativity statement is false on its stated domain.",
+    "evidence": {
+      "kind": "exact_counterexample",
+      "point": [
+        0
+      ],
+      "value": "-1",
+      "searched_bounds": [
+        [
+          -4,
+          4
+        ]
+      ],
+      "points_checked": 5
+    },
+    "stages": [
+      {
+        "role": "planner",
+        "finding": "Try exact rational sum-of-squares certification; otherwise enumerate a bounded integer box."
+      },
+      {
+        "role": "explorer",
+        "finding": "Evaluated 5 integer assignments using exact rational arithmetic."
+      },
+      {
+        "role": "critic",
+        "finding": "A finite positive search supports only the stated finite domain; negative witnesses must lie inside the claimed domain."
+      },
+      {
+        "role": "verifier",
+        "finding": "Exact evaluation verified a negative value inside the stated domain."
+      }
+    ]
+  },
+  "independent_verification": {
+    "valid": true,
+    "status": "counterexample_verified",
+    "reason": "Exact evaluation verified a negative value inside the stated domain."
+  },
+  "proposed_correction": {
+    "kind": "add_constant_to_polynomial",
+    "status": "formal_proposal_verified_source_correspondence_unreviewed",
+    "added_constant": "1",
+    "scope": "Polynomial is nonnegative for every real assignment.",
+    "relationship": "This proves a different explicitly stated inequality. Whether it is a relevant correction to the source remains unreviewed.",
+    "evidence_report": {
+      "schema_version": 1,
+      "engine": "anaxia-exact-lab/1",
+      "task": {
+        "schema_version": 1,
+        "kind": "polynomial_nonnegative",
+        "title": "Proposed constant-shift correction to the formal task",
+        "variables": [
+          "x"
+        ],
+        "polynomial": [
+          {
+            "coefficient": "1",
+            "powers": [
+              2
+            ]
+          }
+        ],
+        "domain": {
+          "kind": "real"
+        }
+      },
+      "task_sha256": "66e372eb39990eb03e19d0404809ca3b50f5d23b9c9fa1c176a4841ba7084c3f",
+      "status": "exact_sos_verified",
+      "scope": "Polynomial is nonnegative for every real assignment.",
+      "evidence": {
+        "kind": "rational_sos",
+        "squares": [
+          {
+            "weight": "1",
+            "polynomial": [
+              {
+                "coefficient": "1",
+                "powers": [
+                  1
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "stages": [
+        {
+          "role": "planner",
+          "finding": "Try exact rational sum-of-squares certification; otherwise enumerate a bounded integer box."
+        },
+        {
+          "role": "explorer",
+          "finding": "A rational weighted sum-of-squares identity was found."
+        },
+        {
+          "role": "critic",
+          "finding": "Every SOS weight must be nonnegative and every expanded coefficient must match exactly."
+        },
+        {
+          "role": "verifier",
+          "finding": "Exact coefficient comparison verified the rational SOS identity over all real assignments."
+        }
+      ]
+    },
+    "independent_verification": {
+      "valid": true,
+      "status": "exact_sos_verified",
+      "reason": "Exact coefficient comparison verified the rational SOS identity over all real assignments."
+    }
+  }
+}

@@ -11,7 +11,10 @@ import hashlib
 import itertools
 import json
 from pathlib import Path
+import re
 import sys
+
+from . import univariate
 
 
 MAX_VARIABLES = 4
@@ -23,6 +26,8 @@ MAX_FILE_BYTES = 2_000_000
 MAX_COEFFICIENT_BITS = 128
 SCOPES = {
     'exact_sos_verified': 'Polynomial is nonnegative for every real assignment.',
+    'exact_univariate_verified': 'Polynomial is nonnegative for every real assignment.',
+    'exact_univariate_refuted': 'The supplied nonnegativity statement is false on its stated domain.',
     'counterexample_verified': 'The supplied nonnegativity statement is false on its stated domain.',
     'bounded_verified': 'Nonnegativity holds only on the finite integer box in this task.',
     'inconclusive': 'No global proof or counterexample was found; the real-domain conjecture remains unproved by this run.',
@@ -40,6 +45,10 @@ def _rational(value):
         raise ValueError('coefficients must be rational strings or integers')
     if len(str(value)) > 90:
         raise ValueError('coefficient exceeds the rational input budget')
+    if isinstance(value, str):
+        exponent = re.search(r'[eE]([+-]?\d(?:_?\d)*)$', value.strip())
+        if exponent and abs(int(exponent.group(1))) > 256:
+            raise ValueError('coefficient exponent exceeds the rational input budget')
     try:
         result = Fraction(value)
     except (ValueError, ZeroDivisionError) as exc:
@@ -244,7 +253,7 @@ def _points(bounds):
 
 
 def solve_task(task):
-    """Try a supplied/discovered exact SOS, then a bounded counterexample search."""
+    """Try exact SOS, integer witnesses, and exact univariate real sign analysis."""
     task = validate_task(task)
     dimensions = len(task['variables'])
     polynomial = _polynomial(task['polynomial'], dimensions)
@@ -284,10 +293,21 @@ def solve_task(task):
             report.update(status='inconclusive', scope='No global proof or counterexample was found; the real-domain conjecture remains unproved by this run.',
                           evidence={'kind': 'search_only', 'bounds': bounds, 'points_checked': count})
         report['stages'].append({'role': 'explorer', 'finding': f'Evaluated {count} integer assignments using exact rational arithmetic.'})
+        if report['status'] == 'inconclusive' and dimensions == 1:
+            try:
+                nonnegative, evidence = univariate.classify(polynomial)
+            except univariate.ArithmeticBudgetExceeded:
+                report['stages'].append({'role': 'explorer', 'finding': 'Exact real sign analysis reached its arithmetic budget.'})
+            else:
+                status = 'exact_univariate_verified' if nonnegative else 'exact_univariate_refuted'
+                report.update(status=status, evidence={'kind': 'univariate_real_sign', **evidence})
+                report['stages'].append({'role': 'explorer', 'finding': 'Computed exact univariate real sign evidence.'})
     report['scope'] = SCOPES[report['status']]
     report['stages'].append({'role': 'critic', 'finding':
         ('Every SOS weight must be nonnegative and every expanded coefficient must match exactly.'
          if report['status'] == 'exact_sos_verified' else
+         'A negative tail or an odd-multiplicity real root refutes global nonnegativity.'
+         if report['status'] in {'exact_univariate_verified', 'exact_univariate_refuted'} else
          'A finite positive search supports only the stated finite domain; negative witnesses must lie inside the claimed domain.')})
     checked = verify_report(report)
     if not checked['valid']:
@@ -317,6 +337,19 @@ def verify_report(report):
             if not verify_sos(task['polynomial'], evidence, len(task['variables'])):
                 raise ValueError('expanded SOS is not identical to the target polynomial')
             reason = 'Exact coefficient comparison verified the rational SOS identity over all real assignments.'
+        elif status in {'exact_univariate_verified', 'exact_univariate_refuted'} and kind == 'univariate_real_sign':
+            if len(task['variables']) != 1 or task['domain']['kind'] != 'real':
+                raise ValueError('univariate sign proof requires one variable over the reals')
+            nonnegative, reconstructed = univariate.classify(polynomial)
+            if (_task_digest(evidence) != _task_digest({'kind': 'univariate_real_sign', **reconstructed})
+                    or nonnegative != (status == 'exact_univariate_verified')):
+                raise ValueError('exact real sign analysis does not match the claimed evidence')
+            if reconstructed['criterion'] == 'negative_tail':
+                reason = 'Degree and leading coefficient force a negative tail over the reals.'
+            elif nonnegative:
+                reason = 'Exact square-free factorization and Sturm sign variations establish global real nonnegativity.'
+            else:
+                reason = 'Exact Sturm sign variations establish an odd-multiplicity real root, where the polynomial changes sign.'
         elif status == 'counterexample_verified' and kind == 'exact_counterexample':
             point = evidence.get('point')
             if not isinstance(point, list) or len(point) != len(task['variables']):
@@ -326,7 +359,10 @@ def verify_report(report):
                     not lo <= value <= hi for value, (lo, hi) in zip(point, task['domain']['bounds'])):
                 raise ValueError('counterexample lies outside the claimed domain')
             value = _evaluate(polynomial, point)
-            if value >= 0 or _rational(evidence.get('value')) != value:
+            reported = evidence.get('value')
+            # A computed value can exceed the input coefficient budget. The
+            # canonical decimal/fraction spelling needs no additional parsing.
+            if value >= 0 or (reported != str(value) and _rational(reported) != value):
                 raise ValueError('counterexample does not have its claimed negative value')
             reason = 'Exact evaluation verified a negative value inside the stated domain.'
         elif ((status == 'bounded_verified' and kind == 'finite_enumeration')

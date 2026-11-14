@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "profile": "standard",
+  "global_closures": 0,
+  "paper_eligible": false,
+  "experiments": [
+    {
+      "id": "collatz",
+      "title": "Collatz",
+      "status": "finite_evidence_verified",
+      "cases": 10000,
+      "limit": 10000,
+      "report": "collatz.json",
+      "sha256": "53cf1013f220a02d0f4a2320eac4f0172359e52e4693fceb0da8156179680238"
+    },
+    {
+      "id": "goldbach",
+      "title": "Even Goldbach",
+      "status": "finite_evidence_verified",
+      "cases": 4999,
+      "limit": 10000,
+      "report": "goldbach.json",
+      "sha256": "91fbe9681396aa0ee01e95556916c1802c82267515c33ce76d511c8ec3bcfa15"
+    },
+    {
+      "id": "legendre",
+      "title": "Legendre prime between consecutive squares",
+      "status": "finite_evidence_verified",
+      "cases": 500,
+      "limit": 500,
+      "report": "legendre.json",
+      "sha256": "5f1ff2f2990bf7c00bbfd41d675e35df04ede9de58326ad2111d1925acacd14f"
+    },
+    {
+      "id": "erdos-straus",
+      "title": "Erdos-Straus",
+      "status": "finite_evidence_verified",
+      "cases": 199,
+      "limit": 200,
+      "report": "erdos-straus.json",
+      "sha256": "6603fd5c2fc448a563b0902cd93b4801a4a6d1bdecbf5a400b96cceefe596e6a"
+    },
+    {
+      "id": "d4-kissing",
+      "title": "D4 24-point kissing construction",
+      "status": "exact_configuration_verified",
+      "cases": 24,
+      "limit": null,
+      "report": "d4-kissing.json",
+      "sha256": "b61c994acbf197be3f6e35486b571d880daebe8899f22bf5fc11addb0e669f9b"
+    }
+  ],
+  "research_targets": [
+    {
+      "id": "hodge",
+      "title": "Hodge conjecture",
+      "global_status": "not_closed",
+      "status": "inconclusive",
+      "backend": "research_proposal",
+      "proof_obligations": [
+        "Handle every smooth complex projective variety and every codimension.",
+        "Construct algebraic cycle representatives with exact hypotheses.",
+        "A verified finite matrix or a special family does not establish the general conjecture."
+      ],
+      "source_urls": [
+        "https://www.claymath.org/millennium/hodge-conjecture/",
+        "https://github.com/creelie/hodge-odd-fermat-fourfolds"
+      ]
+    },
+    {
+      "id": "yang-mills",
+      "title": "Yang-Mills existence and mass gap",
+      "global_status": "not_closed",
+      "status": "inconclusive",
+      "backend": "research_proposal",
+      "proof_obligations": [
+        "Construct the continuum theory and prove all required axioms.",
+        "Control renormalization and nontriviality uniformly at physical scales.",
+        "A finite lattice spectral gap alone is insufficient."
+      ],
+      "source_urls": [
+        "https://www.claymath.org/millennium/yang-mills-the-maths-gap/",
+        "https://github.com/creelie/4Y-M",
+        "https://github.com/creelie/YM"
+      ]
+    },
+    {
+      "id": "riemann",
+      "title": "Riemann hypothesis",
+      "global_status": "not_closed",
+      "status": "inconclusive",
+      "backend": "research_proposal",
+      "proof_obligations": [
+        "Prove the statement for every nontrivial zero, including unbounded heights.",
+        "Justify all analytic continuations, limits and equivalences.",
+        "A finite zero computation is insufficient."
+      ],
+      "source_urls": [
+        "https://www.claymath.org/millennium/riemann-hypothesis/",
+        "https://github.com/creelie/nyman-beurling-approximation"
+      ]
+    },
+    {
+      "id": "d4-descent",
+      "title": "Reflexive-polytope descent D4 and proposed bound 24",
+      "global_status": "not_closed",
+      "status": "inconclusive",
+      "backend": "certificate_audit",
+      "proof_obligations": [
+        "Define the genuine cover relation and verify every descent step.",
+        "Supply complete coverage of the classification with bounds at most 24.",
+        "A bound of 50 or 346 does not establish a bound of 24; matching lower bounds are required for an exact value."
+      ],
+      "source_urls": [
+        "https://github.com/creelie/seed",
+        "https://github.com/creelie/seed/blob/5e5f514e449324993636a1146df863c7ee4dbcb7/README.md"
+      ]
+    },
+    {
+      "id": "d4-kissing",
+      "title": "D4 lattice and the 24-point kissing configuration",
+      "global_status": "not_closed",
+      "status": "configuration_only",
+      "backend": "exact_geometry",
+      "proof_obligations": [
+        "Verify all 24 vectors have the same norm and every distinct pair satisfies the angular separation condition.",
+        "An optimality proof additionally rules out all configurations with at least 25 points.",
+        "Attribute existing optimality and uniqueness results; reconstructing a known configuration is not a new breakthrough."
+      ],
+      "source_urls": [
+        "https://arxiv.org/abs/math/0309430",
+        "https://arxiv.org/abs/2404.18794"
+      ]
+    }
+  ]
+}

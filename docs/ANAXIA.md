@@ -1,6 +1,6 @@
 # Anaxia: research architecture and evidence
 
-Anaxia is the new identity of the OpenGluon workspace. Its new local workbench joins public research discovery with exact, bounded mathematical experiments. Existing source libraries and eBLLM construction routes remain separately pinned.
+Anaxia extends the OpenGluon workspace into an open mathematics research engine. Public research feeds, local and cloud models, bounded reasoning loops, exact certificate checks, and reproducible conjecture experiments share explicit source and evidence records. Existing source libraries and eBLLM construction routes remain separately pinned.
 
 ## The research loop
 
@@ -13,21 +13,34 @@ flowchart LR
     P --> C[Critique the evidence]
     C --> V[Independent exact verification]
     V --> E[Scoped evidence report]
-    M[Optional Claude proposal] -. unverified suggestion .-> H
+    M[Optional local or cloud model] --> Q[Proposal and critic rounds]
+    Q -. candidate SOS certificate .-> V
+    Q -. formalization suggestion .-> H
 ```
 
-1. **Discover.** Retrieve bounded public metadata from configured GitHub owners and searches, plus arXiv mathematics abstracts. Preserve source IDs, timestamps, and versions. Updates refresh the JSON snapshot, Markdown digest, and a marked section of the README.
+1. **Discover.** Retrieve bounded public metadata from configured GitHub owners and searches, arXiv mathematics abstracts, community mathematics feeds, and selected blogs. Preserve source IDs, timestamps, and versions. Updates refresh the JSON snapshot, Markdown digest, and a marked section of the README.
 2. **Formalize.** A researcher checks the source, determines whether a question is still open, and writes a supported JSON task. The current implementation does not translate arbitrary natural language conjectures into formal statements automatically.
 3. **Plan.** Select an exact operation supported by the task: finite integer enumeration, quadratic sum-of-squares discovery, or supplied SOS certificate reconstruction.
 4. **Explore.** Evaluate exact rational expressions within explicit input and computation budgets. Quadratic tasks can produce rational LDL-based SOS witnesses. Higher-degree SOS identities require a supplied certificate.
 5. **Critique.** Separate global identities from evidence over a finite domain. Record unsuccessful search as inconclusive, and verify negative witnesses through exact substitution.
 6. **Verify.** Independently reconstruct the certificate or rerun the finite claim from the submitted statement. Saved reports can be checked again through `python anaxia.py verify REPORT.json`.
 
-These are deterministic software stages and audit records. They do not imply human cognition, consciousness, autonomous model agents, or general mathematical intelligence.
+The exact laboratory stages are deterministic software operations. The optional model loop adds proposals and critique around those operations, with a fixed round and request budget. Its audit records make the transition from a suggestion to checked evidence inspectable.
+
+## Local and cloud reasoning loops
+
+Model connections support Ollama, OpenAI-compatible servers such as llama.cpp, Anthropic, OpenAI, and Kimi. Profiles are recorded in [`config/model-profiles.json`](../config/model-profiles.json). Models must already be installed or available to the selected account; the connectors do not obtain model weights.
+
+```sh
+python anaxia.py models --provider ollama
+python anaxia.py reason examples/quadratic-sos.json --provider ollama --model YOUR_MODEL_ID --rounds 2 --output data/reasoning-report.json
+```
+
+A proposer suggests a strategy or candidate SOS certificate, a critic reviews it, and the laboratory checks the candidate's exact polynomial identity. Each round records what happened. A successful certificate establishes the supported algebraic statement; unsuccessful or unsupported suggestions remain unverified. See the [model guide](MODELS.md) for provider choices, local endpoints, credentials, and limits.
 
 ## Supported mathematical task
 
-The laboratory accepts a JSON polynomial nonnegativity statement. Terms contain a rational coefficient and an exponent vector aligned with the named variables. Domains are either real variables or a finite integer box. Limits on variables, degree, coefficients, and search size keep experiments bounded.
+The polynomial laboratory accepts a JSON nonnegativity statement. Terms contain a rational coefficient and an exponent vector aligned with the named variables. Domains are either real variables or a finite integer box. Limits on variables, degree, coefficients, and search size keep experiments bounded.
 
 For the exact supported schema, start with these runnable files:
 
@@ -44,6 +57,22 @@ python anaxia.py verify data/demo-proof.json
 ```
 
 The initial laboratory supports 1–4 variables and polynomials of degree at most 12, with at most 256 terms. SOS discovery is quadratic; supplied SOS factors have degree at most 6. Integer searches are capped at 100,000 points and an additional arithmetic-work budget. Input limits can reject a task before computation.
+
+## Number theory and conjecture challenges
+
+The modular-obstruction backend enumerates residue classes to prove that a supported submitted equation has no integer solution when a modulus excludes every class:
+
+```sh
+python anaxia.py diophantine examples/modular-obstruction.json --output data/modular-proof.json
+```
+
+The named challenge runner performs exact finite experiments for Collatz, Goldbach, Legendre, and Erdős–Straus. Target cards for problems such as Riemann, Hodge, and Yang–Mills identify unsupported goals and remaining work.
+
+```sh
+python anaxia.py challenge run --profile quick --output data/challenges
+```
+
+Finite challenge evidence retains its tested range. It does not establish the general conjecture. See [challenge definitions and current status](CHALLENGES.md); a research-paper claim requires a verified original result and complete proof.
 
 ## Automatic local experiments
 
@@ -72,7 +101,7 @@ The older matrix certificate command checks `A = L D Lᵀ` with nonnegative rati
 
 ## Research discovery and open-question candidates
 
-The watch configuration controls owners, topic queries, arXiv categories, and fetch limits. Public GitHub discovery includes newly added repositories under configured owners within its page limits. Source discovery does not clone repositories automatically or execute their contents.
+The watch configuration controls owners, topic queries, arXiv categories, selected community and blog feeds, and fetch limits. Public GitHub discovery includes newly added repositories under configured owners within its page limits. Source discovery does not clone repositories automatically or execute their contents. MathOverflow, Mathematics Stack Exchange, and selected Tao/Gowers blog feeds broaden the research context; their questions and commentary remain source records rather than certified mathematical results.
 
 Abstract phrase detection identifies **reported open candidates** and keeps the matched excerpt. The label does not prove a statement is still open. It may refer to a historical question, a conjecture proved elsewhere, or a paper that closes the question itself. Candidate review must check the paper and subsequent literature.
 
@@ -80,11 +109,13 @@ Remote content is data. It is not an instruction to modify files, execute comman
 
 GitHub and arXiv impose coverage and rate limits. Searches return bounded subsets, feeds contain metadata and abstracts rather than full formal problem specifications, and scheduled workflows can run late. “Continuously refreshed” means scheduled polling of configured public sources.
 
-## Optional model assistance
+For wider metadata coverage, the opt-in arXiv archive harvests into a local database with resumable state. `archive harvest --max-pages 1 --set math` fetches a bounded mathematics batch; omitting `--set math` selects all subjects. Repeated runs resume the harvest. `archive status` reports progress, and `archive search "query" --limit 20` searches captured records. See the [source and archive guide](SOURCES.md) for storage, scope, and service limits.
 
-The Claude adapter sends an explicitly selected task to Anthropic's official Messages API only when the proposal command is invoked with configured credentials. The response is saved as unverified proposal text. It does not receive an execution tool, update mathematical statuses, or bypass the exact verifier.
+## Model output and evidence
 
-Model output can help suggest a formalization or a strategy. The local laboratory's supported methods perform the checked computation. Further solver backends and formally checked theorem proofs are development directions, not capabilities implied by adding source repositories.
+The `propose` command saves a single unverified response. The `reason` command records bounded proposal, critique, and exact-check rounds. Provider responses are treated as data and are not executed as code. The verifier controls supported certificate status. A model's confidence or wording cannot promote a result to a proof.
+
+Local endpoints use the server and weights you configure. Cloud endpoints send the selected task and relevant loop context to the chosen provider using your credentials and may incur charges. Further solver backends and formally checked theorem proofs remain separate integration work, assessed through their actual behavior.
 
 ## Reproducibility
 

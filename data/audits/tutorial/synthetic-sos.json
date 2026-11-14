@@ -1,0 +1,100 @@
+{
+  "id": "synthetic-sos",
+  "source_url": "https://github.com/creelie/Anaxia/blob/main/examples/audit/tutorial-source.md",
+  "source_location": "Synthetic tutorial statement 2",
+  "source_excerpt": "For every real x, x squared plus one is nonnegative.",
+  "formalization_note": "Synthetic test input: x^2 + 1 >= 0 for every real x.",
+  "task": "true-polynomial.json",
+  "backend": "polynomial",
+  "status": "formal_claim_verified",
+  "task_file_sha256": "a1b2c8fdf64e59c4bff3ddf2d22b4acfd3530d061391303ea24162fcce44f306",
+  "source_excerpt_sha256": "9799c99f7aab3d28f4e4c7611c83f473dd2bf1088b835a26282314cee7ed79db",
+  "source_claim_requires_review": true,
+  "source_correspondence": "unreviewed",
+  "source_correspondence_scope": "The supplied excerpt has not been retrieved or checked for faithful correspondence to this formal task. This result does not establish an error in the paper.",
+  "formal_statement_kind": "polynomial_nonnegative_on_task_domain",
+  "scope": "Polynomial is nonnegative for every real assignment.",
+  "evidence_report": {
+    "schema_version": 1,
+    "engine": "anaxia-exact-lab/1",
+    "task": {
+      "schema_version": 1,
+      "kind": "polynomial_nonnegative",
+      "title": "Synthetic true inequality",
+      "variables": [
+        "x"
+      ],
+      "polynomial": [
+        {
+          "coefficient": "1",
+          "powers": [
+            0
+          ]
+        },
+        {
+          "coefficient": "1",
+          "powers": [
+            2
+          ]
+        }
+      ],
+      "domain": {
+        "kind": "real"
+      }
+    },
+    "task_sha256": "c8045571a44d7e948b57dc1fab1caa47999943da6e88f4b14e11d97a18a61212",
+    "status": "exact_sos_verified",
+    "scope": "Polynomial is nonnegative for every real assignment.",
+    "evidence": {
+      "kind": "rational_sos",
+      "squares": [
+        {
+          "weight": "1",
+          "polynomial": [
+            {
+              "coefficient": "1",
+              "powers": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "weight": "1",
+          "polynomial": [
+            {
+              "coefficient": "1",
+              "powers": [
+                1
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "stages": [
+      {
+        "role": "planner",
+        "finding": "Try exact rational sum-of-squares certification; otherwise enumerate a bounded integer box."
+      },
+      {
+        "role": "explorer",
+        "finding": "A rational weighted sum-of-squares identity was found."
+      },
+      {
+        "role": "critic",
+        "finding": "Every SOS weight must be nonnegative and every expanded coefficient must match exactly."
+      },
+      {
+        "role": "verifier",
+        "finding": "Exact coefficient comparison verified the rational SOS identity over all real assignments."
+      }
+    ]
+  },
+  "independent_verification": {
+    "valid": true,
+    "status": "exact_sos_verified",
+    "reason": "Exact coefficient comparison verified the rational SOS identity over all real assignments."
+  },
+  "proposed_correction": null
+}

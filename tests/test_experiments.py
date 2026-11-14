@@ -12,8 +12,8 @@ from anaxia.lab import verify_report
 
 
 def polynomial(domain=None):
-    return {'schema_version': 1, 'kind': 'polynomial_nonnegative', 'variables': ['x'],
-            'polynomial': [{'coefficient': '1', 'powers': [2]}, {'coefficient': '-1', 'powers': [1]}],
+    return {'schema_version': 1, 'kind': 'polynomial_nonnegative', 'variables': ['x', 'y'],
+            'polynomial': [{'coefficient': '1', 'powers': [2, 0]}, {'coefficient': '-1', 'powers': [1, 0]}],
             'domain': domain or {'kind': 'real'}}
 
 
@@ -95,7 +95,7 @@ class RegisteredExperimentsTests(unittest.TestCase):
 
     def test_built_in_manifest_is_explicitly_tutorial_and_verifies(self):
         manifest = json.loads((experiments.ROOT / 'config/research-tasks.json').read_text())
-        self.assertEqual(len(manifest['tasks']), 4)
+        self.assertIn('univariate-sturm', {item['id'] for item in manifest['tasks']})
         self.assertTrue(all(item['tutorial'] is True for item in manifest['tasks']))
 
     def test_cli_returns_nonzero_for_task_errors_but_not_for_inconclusive(self):

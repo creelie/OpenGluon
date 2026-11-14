@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "scope": "Unverified public research strategy only. No natural-language target is closed by this campaign; complete proof and independent verification remain required.",
+  "status": "unverified_proposal",
+  "global_status": "not_closed",
+  "next_cursor": 0,
+  "sequence": 5,
+  "recent_attempts": 5,
+  "targets": [
+    {
+      "id": "hodge",
+      "title": "Hodge conjecture"
+    },
+    {
+      "id": "yang-mills",
+      "title": "Yang-Mills existence and mass gap"
+    },
+    {
+      "id": "riemann",
+      "title": "Riemann hypothesis"
+    },
+    {
+      "id": "d4-descent",
+      "title": "Reflexive-polytope descent D4 and proposed bound 24"
+    },
+    {
+      "id": "d4-kissing",
+      "title": "D4 lattice and the 24-point kissing configuration"
+    }
+  ],
+  "latest": {
+    "hodge": {
+      "target_id": "hodge",
+      "title": "Hodge conjecture",
+      "sequence": 1,
+      "attempted_at_utc": "2026-11-14T14:55:32.874032+00:00",
+      "status": "unverified_proposal",
+      "global_status": "not_closed",
+      "outcome": "completed",
+      "attempt_sha256": "f1db9d6bc801612afe6c384cf7cab03ab8004bdfd99f4b4383f1206fbb15297b"
+    },
+    "yang-mills": {
+      "target_id": "yang-mills",
+      "title": "Yang-Mills existence and mass gap",
+      "sequence": 2,
+      "attempted_at_utc": "2026-11-14T14:56:15.695806+00:00",
+      "status": "unverified_proposal",
+      "global_status": "not_closed",
+      "outcome": "completed",
+      "attempt_sha256": "04c464a5378c04b1fc60eb74138daaf802a87a8e28c4b4cd9a6b3d76cf6d5b9e"
+    },
+    "riemann": {
+      "target_id": "riemann",
+      "title": "Riemann hypothesis",
+      "sequence": 3,
+      "attempted_at_utc": "2026-11-14T14:56:57.527981+00:00",
+      "status": "unverified_proposal",
+      "global_status": "not_closed",
+      "outcome": "completed",
+      "attempt_sha256": "55758a5ecadc24c6a090eca3b71ea458a016bdec6cf63ae6c37ce73d18e6bbd4"
+    },
+    "d4-descent": {
+      "target_id": "d4-descent",
+      "title": "Reflexive-polytope descent D4 and proposed bound 24",
+      "sequence": 4,
+      "attempted_at_utc": "2026-11-14T14:57:45.394773+00:00",
+      "status": "unverified_proposal",
+      "global_status": "not_closed",
+      "outcome": "completed",
+      "attempt_sha256": "2930892db39384bda4f6e41090b957a11e1e01612fd9f13037dfe6b003301e51"
+    },
+    "d4-kissing": {
+      "target_id": "d4-kissing",
+      "title": "D4 lattice and the 24-point kissing configuration",
+      "sequence": 5,
+      "attempted_at_utc": "2026-11-14T14:58:34.137551+00:00",
+      "status": "unverified_proposal",
+      "global_status": "not_closed",
+      "outcome": "completed",
+      "attempt_sha256": "dae420d91453a459a4537bf04b1a1df4eb76a55b88e2f57293d5796547bc5a59"
+    }
+  }
+}

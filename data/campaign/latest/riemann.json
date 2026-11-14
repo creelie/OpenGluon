@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "engine": "anaxia-research-campaign/1",
+  "sequence": 3,
+  "attempted_at_utc": "2026-11-14T14:56:57.527981+00:00",
+  "target_id": "riemann",
+  "title": "Riemann hypothesis",
+  "original_target": {
+    "id": "riemann",
+    "title": "Riemann hypothesis",
+    "statement": "Every nontrivial zero of the analytic continuation of the Riemann zeta function has real part one half.",
+    "source_urls": [
+      "https://www.claymath.org/millennium/riemann-hypothesis/",
+      "https://github.com/creelie/nyman-beurling-approximation"
+    ],
+    "proof_obligations": [
+      "Prove the statement for every nontrivial zero, including unbounded heights.",
+      "Justify all analytic continuations, limits and equivalences.",
+      "A finite zero computation is insufficient."
+    ],
+    "backend": "research_proposal",
+    "keywords": [
+      "riemann",
+      "zeta",
+      "nyman",
+      "beurling",
+      "zeros"
+    ]
+  },
+  "target_sha256": "fb70bd0d50c92952ce3a27cf32e6b8bc8924275a6d74a54a27aad8d31286981e",
+  "source_context": [
+    {
+      "id": "github:1450293673",
+      "url": "https://github.com/creelie/nyman-beurling-approximation",
+      "title": "creelie/nyman-beurling-approximation",
+      "excerpt": "Spectral and Analytic Structure of the Nyman\u2013Beurling\u2013B\u00e1ez\u2013Duarte Approximation \u2014 corrected manuscript and exact supporting checks.",
+      "license": "NOASSERTION"
+    },
+    {
+      "id": "arxiv:2209.01890",
+      "url": "https://arxiv.org/abs/2209.01890v58",
+      "title": "A Simple Proof of the Riemann Hypothesis",
+      "excerpt": "In this article, it is proved that the non-trivial zeros of the Riemann zeta function must lie on the critical line, known as the Riemann hypothesis.",
+      "authors": [
+        "Hatem A. Fayed"
+      ]
+    },
+    {
+      "id": "arxiv:2412.00169",
+      "url": "https://arxiv.org/abs/2412.00169v18",
+      "title": "Investigation about a statement equivalent to Riemann Hypothesis (RH) applied to Dirichlet primitive L functions",
+      "excerpt": "We apply a known equivalence, for RH about Riemann Z function, to Dirichlet L functions with primitive characters. A key point is the study of positivity condition in phase derivative of primitive L functions. In order to write it in workable form it is crucial to extend Euler product to critical\u2026",
+      "authors": [
+        "Giovanni Lodone"
+      ]
+    },
+    {
+      "id": "github:1396651040",
+      "url": "https://github.com/creelie/zeta-simple-zeros",
+      "title": "creelie/zeta-simple-zeros",
+      "excerpt": "Reproducible verification for a 67.30085% lower bound on simple zeta zeros on the critical line",
+      "license": "MIT"
+    },
+    {
+      "id": "github:1309811257",
+      "url": "https://github.com/Kuberwastaken/riemann",
+      "title": "Kuberwastaken/riemann",
+      "excerpt": "Research archive and the collective progress of humanity to the Riemann Hypothesis and potential approaches to solve it.",
+      "license": "Apache-2.0"
+    }
+  ],
+  "source_snapshot_generated_at": "2026-11-14T14:54:24+00:00",
+  "previous_unresolved_public_notes": "",
+  "attempt_sha256": "55758a5ecadc24c6a090eca3b71ea458a016bdec6cf63ae6c37ce73d18e6bbd4",
+  "prompt_sha256": "8f5d1918586efa1c8d7be5581ff7d2e93c3eff18bc25c4fdcfe93593ad7f1a2f",
+  "provider": "openai-compatible",
+  "model": "anaxia-local-phi3",
+  "max_tokens": 256,
+  "status": "unverified_proposal",
+  "global_status": "not_closed",
+  "scope": "Unverified public research strategy only. No natural-language target is closed by this campaign; complete proof and independent verification remain required.",
+  "strategy": "Given the untrusted nature of the sources and the fact that no explicit proof obligations are met, the public research strategy should focus on the following:\n\n1. Conduct a thorough literature review on the Riemann Hypothesis, focusing on peer-reviewed journals and trusted publications.\n\n2. Attempt to find and understand the key techniques used in the papers provided, such as the Euler product extension and the positivity conditions for the phase derivative of primitive L functions, while independently verifying their validity.\n\n3. Engage with the mathematical community by presenting findings and seeking input, particularly in relation to the claims made by GitHub repositories that have not been independently verified.\n\n4. Attempt to formulate new approaches or extend existing ones with a clear rationale to further the understanding of the Riemann Hypothesis, ens00169\n\n5. Continuously document the research process and findings to facilitate peer review and replication.\n\n\nRemaining proof obligations are as follows:\n\n- Prove the Riemann Hypothesis for every nontrivial zero, with particular attention to unbounded heights.\n\n- Justify all analytic continuations",
+  "outcome": "completed"
+}

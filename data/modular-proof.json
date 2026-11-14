@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "engine": "anaxia-modular/1",
+  "task": {
+    "schema_version": 1,
+    "kind": "integer_polynomial_zero",
+    "title": "Elementary example: x squared plus y squared cannot equal 3 over the integers",
+    "variables": [
+      "x",
+      "y"
+    ],
+    "polynomial": [
+      {
+        "coefficient": "-3",
+        "powers": [
+          0,
+          0
+        ]
+      },
+      {
+        "coefficient": "1",
+        "powers": [
+          0,
+          2
+        ]
+      },
+      {
+        "coefficient": "1",
+        "powers": [
+          2,
+          0
+        ]
+      }
+    ]
+  },
+  "task_sha256": "2527dd88313923f65a319659e2d98d59cf82c9c0d41d49dfb018398fd0a28838",
+  "status": "modular_obstruction_verified",
+  "scope": "The submitted integer polynomial has no zero at any integer assignment.",
+  "evidence": {
+    "kind": "modular_obstruction",
+    "modulus": 4,
+    "assignments": 16,
+    "possible_residues": [
+      1,
+      2,
+      3
+    ]
+  }
+}

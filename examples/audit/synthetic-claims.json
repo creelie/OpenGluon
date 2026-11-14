@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "tutorial": true,
+  "claims": [
+    {
+      "id": "synthetic-refutation",
+      "source_url": "https://github.com/creelie/Anaxia/blob/main/examples/audit/tutorial-source.md",
+      "source_location": "Synthetic tutorial statement 1",
+      "source_excerpt": "For every real x, x squared minus one is nonnegative.",
+      "formalization_note": "Synthetic test input: interpret this as x^2 - 1 >= 0 on the real domain. This is not a claim extracted from an arXiv paper.",
+      "task": "false-polynomial.json",
+      "backend": "polynomial"
+    },
+    {
+      "id": "synthetic-sos",
+      "source_url": "https://github.com/creelie/Anaxia/blob/main/examples/audit/tutorial-source.md",
+      "source_location": "Synthetic tutorial statement 2",
+      "source_excerpt": "For every real x, x squared plus one is nonnegative.",
+      "formalization_note": "Synthetic test input: x^2 + 1 >= 0 for every real x.",
+      "task": "true-polynomial.json",
+      "backend": "polynomial"
+    },
+    {
+      "id": "synthetic-modular",
+      "source_url": "https://github.com/creelie/Anaxia/blob/main/examples/audit/tutorial-source.md",
+      "source_location": "Synthetic tutorial statement 3",
+      "source_excerpt": "There is no integer x for which x squared plus one equals zero.",
+      "formalization_note": "Synthetic test input: the modular backend audits the no-integer-zero claim, not an assertion of root existence.",
+      "task": "no-integer-root.json",
+      "backend": "modular"
+    }
+  ]
+}

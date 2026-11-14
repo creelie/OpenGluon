@@ -4,6 +4,8 @@
   "scope": "Only explicitly registered, formalized local tasks are run. Tutorial examples are not new arXiv results.",
   "counts": {
     "exact_sos_verified": 2,
+    "exact_univariate_verified": 1,
+    "exact_univariate_refuted": 0,
     "bounded_verified": 1,
     "counterexample_verified": 1,
     "inconclusive": 0,
@@ -29,6 +31,16 @@
       "report": "quartic-sos.json",
       "report_sha256": "d6834559107833db22e5180da09dc85af25cee89f5905bc1df7fe51af2414621",
       "task_sha256": "4bbbc37ee0940bba8c26ffbe2e10e3b7b25dabef81fd9e21666f49329f4e19b7"
+    },
+    {
+      "id": "univariate-sturm",
+      "path": "examples/univariate-sturm.json",
+      "tutorial": true,
+      "reference": "Decide the global statement by exact real root counting; tutorial example.",
+      "status": "exact_univariate_verified",
+      "report": "univariate-sturm.json",
+      "report_sha256": "b6388bbfe0609fe1e174164010e8e3a627657b62410b1ab88c330b503f685b40",
+      "task_sha256": "545c39fc196038e61b38b321c49bb6f738b9583abc2e65baa289e750435b1e66"
     },
     {
       "id": "bounded-polynomial",

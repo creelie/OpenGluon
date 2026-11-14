@@ -25,8 +25,13 @@ jobs:
           python3 -m json.tool data/research-portfolio.json > /dev/null
           python3 -m json.tool config/research-watch.json > /dev/null
           python3 -m json.tool config/research-tasks.json > /dev/null
+          python3 -m json.tool config/challenge-targets.json > /dev/null
           python3 -m json.tool data/research-radar.json > /dev/null
       - name: Run and independently verify a mathematics example
         run: |
           python3 anaxia.py solve examples/quadratic-sos.json --output /tmp/anaxia-proof.json
           python3 anaxia.py verify /tmp/anaxia-proof.json
+          python3 anaxia.py diophantine examples/modular-obstruction.json --output /tmp/anaxia-modular.json
+          python3 anaxia.py diophantine /tmp/anaxia-modular.json --verify
+          python3 anaxia.py challenge run --profile quick --output /tmp/anaxia-challenges
+          python3 anaxia.py audit examples/audit/synthetic-claims.json --output /tmp/anaxia-audits

@@ -6,25 +6,30 @@ Anaxia has a small runnable core and a larger source workspace. A repository pre
 
 | Component | Current use | Requirements |
 | --- | --- | --- |
-| Research radar | Public GitHub metadata and arXiv abstract discovery; snapshot and digest generation. | Python standard library; network access for live refresh. A GitHub token can increase API limits. |
+| Research radar | GitHub and arXiv discovery plus configured mathematics community and blog feeds; snapshot and digest generation. | Python standard library; network access for live refresh. A GitHub token can increase API limits. |
+| Resumable arXiv archive | Opt-in local metadata harvesting with progress state and search. | Network access for harvest; local storage. See [source guide](SOURCES.md). |
 | Exact polynomial laboratory | Bounded integer search, quadratic SOS discovery, supplied SOS verification, exact counterexamples. | Python standard library. |
+| Modular number theory | Exact modular obstructions for supported Diophantine equations. | Supported task format; bounded residue search. See [challenge guide](CHALLENGES.md). |
+| Named conjecture challenges | Finite Collatz, Goldbach, Legendre, and Erdős–Straus experiments plus unsupported-goal cards. | Python standard library; explicit finite scope. |
 | Local experiment queue | Automatically rerun registered local tasks, independently verify reports, and publish an experiment digest. | Supported formal JSON tasks registered in `config/research-tasks.json`; initial entries are tutorials. |
 | Existing eBLLM bridge | Research portfolio, upstream inventory, construction-route cards, exact finite rational matrix certificates. | Initialized `engines/anaxia/` submodule; individual engine requirements apply. |
-| Claude proposal adapter | Optional task proposals saved as unverified text. | Your `ANTHROPIC_API_KEY`, an explicitly selected available model, network access, and any applicable API charges. |
+| Model connectors and reasoning loop | Local or cloud proposals, critic rounds, and exact checking of supported candidate certificates. | An available Ollama/llama.cpp service or your selected cloud provider credentials. See [model guide](MODELS.md). |
 
-## Optional Claude connection
+## Local and cloud model connections
 
-Set `ANTHROPIC_API_KEY` in your local environment or secret manager. Choose a model ID available to your Anthropic account, then run:
+Use Ollama for an installed local model, or an OpenAI-compatible server such as llama.cpp. Profiles in [`config/model-profiles.json`](../config/model-profiles.json) also support Anthropic, OpenAI, and Kimi. The [model guide](MODELS.md) documents endpoints, credentials, and model selection.
 
 ```sh
-python anaxia.py propose examples/quadratic-sos.json --model YOUR_MODEL_ID --output data/proposal.json
+python anaxia.py models --provider ollama
+python anaxia.py propose examples/quadratic-sos.json --provider ollama --model YOUR_MODEL_ID --output data/proposal.json
+python anaxia.py reason examples/quadratic-sos.json --provider ollama --model YOUR_MODEL_ID --rounds 2 --output data/reasoning-report.json
 ```
 
-The adapter uses the [official Anthropic Messages API](https://platform.claude.com/docs/en/api/messages). It sends the selected task to the provider. Do not submit confidential material unless you intend to share it with that provider under your account's terms.
+Replace `YOUR_MODEL_ID` with an available model. Local services and model weights require their own setup. Cloud calls send the selected task and relevant reasoning context to the provider, use your credentials, and may incur charges. Keep credentials in environment variables or a secret manager.
 
-The saved response is an **unverified proposal**. It is not executed as code and does not authorize tool use or promote a statement to a proven status. Translate any useful suggestion into a supported task or certificate and check it with the laboratory. No API request is needed for local solving or discovery fixtures.
+Single proposals are saved as **unverified text**. The reasoning loop can extract a supported candidate certificate and ask the exact checker to verify it, recording unsuccessful attempts as well as successes. Model output is not executed as code. No model or paid API is needed for the exact local laboratory or discovery fixtures.
 
-This repository does not contain Claude's proprietary weights, private infrastructure, or an independently reproduced Claude model. Source tools that interact with Claude have their own setup requirements and do not change that boundary.
+These connectors provide access to configured services; proprietary weights and private infrastructure remain with their providers. Source tools that interact with Claude have their own setup requirements.
 
 ## Source-only components
 

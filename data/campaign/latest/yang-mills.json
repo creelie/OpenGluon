@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "engine": "anaxia-research-campaign/1",
+  "sequence": 2,
+  "attempted_at_utc": "2026-11-14T14:56:15.695806+00:00",
+  "target_id": "yang-mills",
+  "title": "Yang-Mills existence and mass gap",
+  "original_target": {
+    "id": "yang-mills",
+    "title": "Yang-Mills existence and mass gap",
+    "statement": "Construct nontrivial quantum Yang-Mills theory on four-dimensional Euclidean space for every compact simple gauge group, satisfying the required axioms, with a strictly positive mass gap.",
+    "source_urls": [
+      "https://www.claymath.org/millennium/yang-mills-the-maths-gap/",
+      "https://github.com/creelie/4Y-M",
+      "https://github.com/creelie/YM"
+    ],
+    "proof_obligations": [
+      "Construct the continuum theory and prove all required axioms.",
+      "Control renormalization and nontriviality uniformly at physical scales.",
+      "A finite lattice spectral gap alone is insufficient."
+    ],
+    "backend": "research_proposal",
+    "keywords": [
+      "yang-mills",
+      "mass gap",
+      "gauge",
+      "continuum"
+    ]
+  },
+  "target_sha256": "48895127dc8d25fd18a6c01beb9dcaa763cd2a85cad7d1d202bfa5016b38f769",
+  "source_context": [
+    {
+      "id": "github:1423784179",
+      "url": "https://github.com/creelie/4Y-M",
+      "title": "creelie/4Y-M",
+      "excerpt": "In Progress: One Cube Estimate Implies the Yang--Mills Mass Gap",
+      "license": "MIT"
+    },
+    {
+      "id": "github:1453717115",
+      "url": "https://github.com/creelie/YM",
+      "title": "creelie/YM",
+      "excerpt": "creelie/YM",
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "github:1436273565",
+      "url": "https://github.com/creelie/Yang--Mills-LLM-experiment",
+      "title": "creelie/Yang--Mills-LLM-experiment",
+      "excerpt": "Documents related to an attempt with Levent Alpoge to get Claude to finish Balaban's program to construct Yang--Mills. (Under construction!)",
+      "license": ""
+    },
+    {
+      "id": "github:1451900307",
+      "url": "https://github.com/creelie/entroptics-mass-gap",
+      "title": "creelie/entroptics-mass-gap",
+      "excerpt": "The mass gap as a finite-aperture effect.",
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "github:1439918962",
+      "url": "https://github.com/creelie/yang-mills-4d-forest-certificate",
+      "title": "creelie/yang-mills-4d-forest-certificate",
+      "excerpt": "creelie/yang-mills-4d-forest-certificate",
+      "license": "NOASSERTION"
+    }
+  ],
+  "source_snapshot_generated_at": "2026-11-14T14:54:24+00:00",
+  "previous_unresolved_public_notes": "",
+  "attempt_sha256": "04c464a5378c04b1fc60eb74138daaf802a87a8e28c4b4cd9a6b3d76cf6d5b9e",
+  "prompt_sha256": "30c5244bb82ae4eb1564efdff324fe0d009883f53e4bcbd66e05a80c37af461f",
+  "provider": "openai-compatible",
+  "model": "anaxia-local-phi3",
+  "max_tokens": 256,
+  "status": "unverified_proposal",
+  "global_status": "not_closed",
+  "scope": "Unverified public research strategy only. No natural-language target is closed by this campaign; complete proof and independent verification remain required.",
+  "strategy": "Given the task to analyze the Yang-Mills existence and mass gap problem, here is the concise public research strategy:\n\n1. Investigate the continuum theory of Yang-Mills and verify if it satisfies the required axioms, including nontriviality and consistency with physical scales.\n2. Control the renormalization process to ensure the nontriviality of the theory is preserved at physical scales, focusing on the mass gap.\n3. Explore alternative proofs of the mass gap, such as lattice methods or functional integral approaches, and compare their results.\n4. Review and assess previous attempts and proofs to understand the current limitations and unresolved issues.\n5. Analyze the untrusted sources mentioned, specifically the 4Y-M project and the Yang--Mills LLM experiment, for potential insights or approaches to the problem.\n6. Collaborate with experts in the field to discuss the challenges and opportunities of the problem, particularly regarding the finite lattice spectral gap.\n7. Document and disseminate the findings and progress openly, keeping in mind the original statement's integrity.\n\nThe remaining proof obligations include:\n\n- Con",
+  "outcome": "completed"
+}
