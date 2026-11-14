@@ -34,6 +34,8 @@ The first four experiments establish only their stated finite ranges. These rang
 
 The source URLs and proof obligations are registered in [`config/challenge-targets.json`](../config/challenge-targets.json). Their current assessment is available in [the generated results](../data/challenges/README.md). Local model [campaigns](CAMPAIGNS.md) can revisit these targets with new repository and arXiv context; prose suggestions remain unverified.
 
+For the proposed descent bound of 24, the pinned census gives **358,101,083** polytopes across **64,022** point-count pairs whose raw pair bound exceeds 24. This measures where the pair-bound method alone needs a stronger certificate. The same computation reproduces the source's count of **92,422,743** at threshold 50. Run `python scripts/measure_d4_coverage.py` with the pinned engine initialized to reproduce the counts and see the census hash. [Coverage record](../data/d4-coverage.json).
+
 ## Papers and publication
 
 A proposed correction needs the exact source claim, a faithful formalization, independently checked evidence, and a review of its hypotheses. A new closure manuscript additionally needs a complete proof and an originality/literature check. The current challenge run has zero newly verified global conjecture closures, so it generates no closure paper. A separate methods and proof-artifact repository may document reproducible results without calling them conjecture solutions.

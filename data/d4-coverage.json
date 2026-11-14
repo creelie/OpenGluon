@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "engine_commit": "ac998f4166404b7b07de702a15b5b70a473da121",
+  "census_sha256": "2b8ef9882661918eb753f913dda1e9b150d1bd1529cfba2b393bc04c5f971c9a",
+  "total_polytopes_in_supplied_census": 473800776,
+  "largest_pair_bound": 348,
+  "thresholds": [
+    {
+      "target_upper_bound": 24,
+      "point_count_pairs_above_target": 64022,
+      "polytope_count_without_pair_bound_at_target": 358101083
+    },
+    {
+      "target_upper_bound": 50,
+      "point_count_pairs_above_target": 54631,
+      "polytope_count_without_pair_bound_at_target": 92422743
+    },
+    {
+      "target_upper_bound": 346,
+      "point_count_pairs_above_target": 11,
+      "polytope_count_without_pair_bound_at_target": 12
+    }
+  ],
+  "scope": "These counts measure where the raw pair bound fails to certify a threshold. They do not count actual descent depths or exceptions after applying other certificates."
+}
