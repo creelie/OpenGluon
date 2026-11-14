@@ -10,13 +10,13 @@
     {
       "name": "4Y-M",
       "url": "https://github.com/creelie/4Y-M",
-      "commit": "5e250664401b35b82f8cfbb1d31d8bb74690affe",
+      "commit": "2e36be0f89e50aeabeb3844418cf9ad58b1e7fd9",
       "fork": false,
       "archived": false,
       "description": "In Progress: One Cube Estimate Implies the Yang--Mills Mass Gap",
-      "pushed_at": "2026-11-14T00:46:49Z",
-      "readme_url": "https://github.com/creelie/4Y-M/blob/5e250664401b35b82f8cfbb1d31d8bb74690affe/README.md",
-      "readme_blob_sha": "f88339dac792541f82323612637c84609ea57b23",
+      "pushed_at": "2026-11-14T04:24:00Z",
+      "readme_url": "https://github.com/creelie/4Y-M/blob/2e36be0f89e50aeabeb3844418cf9ad58b1e7fd9/README.md",
+      "readme_blob_sha": "13bdc55cd4b6d5a6749b63695052e02971fa77ee",
       "readme_excerpt": "**Deep Bhattacharjee** (corresponding author, head of the project), Ushashi Bhattacharya, James Montgomery Lockwood, Tristan Romanov, Ikailo John Sessford, Sanjeevan Singha Roy. | Proved | Open | | :--- | :--- | | Mass gap of 4D lattice Yang–Mills theory at strong coupling, every compact simple grou",
       "latest_release": {
         "tag": "v5.3.0",
@@ -1371,14 +1371,14 @@
     {
       "name": "eno-2",
       "url": "https://github.com/creelie/eno-2",
-      "commit": "29ac621ff606cc6f83e561b6da8c2a65cc4fd6f8",
+      "commit": "212318ae37f1029a5dbd582c2ab6d8d358de10cb",
       "fork": false,
       "archived": false,
       "description": "",
-      "pushed_at": "2026-11-11T03:18:56Z",
-      "readme_url": "https://github.com/creelie/eno-2/blob/29ac621ff606cc6f83e561b6da8c2a65cc4fd6f8/README.md",
-      "readme_blob_sha": "7f7d2c24d4a2e3a1b33e512939bdb13e2dc4735e",
-      "readme_excerpt": "# Proof of Dhar's Minimal Sand Conjecture for the Manna Sandpile Deep Bhattacharjee · DOI (all versions): [10.5281/zenodo.24124285](https://doi.org/10.5281/zenodo.24124285) - `paper/` — the paper (`main.tex`, figures, `DharManna.pdf`). - `code/construct.py` — the legal histories of Section 5, execut",
+      "pushed_at": "2026-11-14T03:27:17Z",
+      "readme_url": "https://github.com/creelie/eno-2/blob/212318ae37f1029a5dbd582c2ab6d8d358de10cb/README.md",
+      "readme_blob_sha": "a7c80e873705ca5aed25d45854cc73574c770b98",
+      "readme_excerpt": "# Minimal Sand in Manna's Sandpile and Exact Relaxation of the Oslo Rice Pile Deep Bhattacharjee Programs that check the finite statements of the paper. No proof in the paper depends on them. - `lean/Sandpile.lean`: Lean 4 certificate (core library only): the recursion of G, the same-parity families",
       "latest_release": {
         "tag": "v1.0.0",
         "url": "https://github.com/creelie/eno-2/releases/tag/v1.0.0",
@@ -1387,7 +1387,8 @@
       },
       "review_status": "source-recorded-not-independently-audited",
       "scope_note": "New public source: metadata and short excerpts recorded. Its mathematical claims require their own proof review.",
-      "scope_note_commit": null
+      "scope_note_commit": null,
+      "scope_note_requires_review": true
     },
     {
       "name": "entroptics-mass-gap",
@@ -2663,13 +2664,13 @@
     {
       "name": "Openproblemsforfieldsmedal1",
       "url": "https://github.com/creelie/Openproblemsforfieldsmedal1",
-      "commit": "7cef22d1e6b2eebe6de0c9771670aaa67afd73ac",
+      "commit": "a5aee380bd73e6788c7d5ddd9b15226c419d6b71",
       "fork": false,
       "archived": false,
       "description": "In Progress: Zero-Free Criteria from Signed Liouville Energies",
-      "pushed_at": "2026-11-14T02:15:02Z",
-      "readme_url": "https://github.com/creelie/Openproblemsforfieldsmedal1/blob/7cef22d1e6b2eebe6de0c9771670aaa67afd73ac/README.md",
-      "readme_blob_sha": "bad693877cbfd433b034c2517fbd4f2c27e343d6",
+      "pushed_at": "2026-11-14T05:59:24Z",
+      "readme_url": "https://github.com/creelie/Openproblemsforfieldsmedal1/blob/a5aee380bd73e6788c7d5ddd9b15226c419d6b71/README.md",
+      "readme_blob_sha": "eaadd6e3a7f9131600cc526621d49701146ed550",
       "readme_excerpt": "**Deep Bhattacharjee** (corresponding author, head of the project), Ushashi Bhattacharya. | Proved | Open | | :--- | :--- | | The energy has exponent exactly 2Θ, with a limit | The critical bound Q(N) ≪ N^(1+ε) | | Zero-one law: Q(N) > N^(2σ) for all large N when σ 1/2 some set of x^β primes raises ",
       "latest_release": {
         "tag": "v3.1.1",
