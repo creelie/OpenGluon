@@ -4,8 +4,8 @@
   "status": "unverified_proposal",
   "global_status": "not_closed",
   "next_cursor": 0,
-  "sequence": 10,
-  "recent_attempts": 10,
+  "sequence": 28,
+  "recent_attempts": 20,
   "targets": [
     {
       "id": "hodge",
@@ -26,58 +26,72 @@
     {
       "id": "d4-kissing",
       "title": "D4 lattice and the 24-point kissing configuration"
+    },
+    {
+      "id": "d4-packing",
+      "title": "Four-dimensional sphere packing and the 24-cell bound"
     }
   ],
   "latest": {
     "hodge": {
       "target_id": "hodge",
       "title": "Hodge conjecture",
-      "sequence": 6,
-      "attempted_at_utc": "2026-11-14T15:58:40.383028+00:00",
+      "sequence": 23,
+      "attempted_at_utc": "2026-11-14T17:12:14.617000+00:00",
       "status": "unverified_proposal",
       "global_status": "not_closed",
       "outcome": "completed",
-      "attempt_sha256": "f1db9d6bc801612afe6c384cf7cab03ab8004bdfd99f4b4383f1206fbb15297b"
+      "attempt_sha256": "391382c6c7ca55d4280c7fd109bd44687e943166e9a5e61d0936db7db94c08e8"
     },
     "yang-mills": {
       "target_id": "yang-mills",
       "title": "Yang-Mills existence and mass gap",
-      "sequence": 7,
-      "attempted_at_utc": "2026-11-14T15:59:13.197120+00:00",
+      "sequence": 24,
+      "attempted_at_utc": "2026-11-14T17:13:10.429808+00:00",
       "status": "unverified_proposal",
       "global_status": "not_closed",
       "outcome": "completed",
-      "attempt_sha256": "04c464a5378c04b1fc60eb74138daaf802a87a8e28c4b4cd9a6b3d76cf6d5b9e"
+      "attempt_sha256": "af2530a216febd4db144a092d77feee6ec61696619fc38da6f343d1a94b9f429"
     },
     "riemann": {
       "target_id": "riemann",
       "title": "Riemann hypothesis",
-      "sequence": 8,
-      "attempted_at_utc": "2026-11-14T15:59:45.735546+00:00",
+      "sequence": 25,
+      "attempted_at_utc": "2026-11-14T17:14:05.451555+00:00",
       "status": "unverified_proposal",
       "global_status": "not_closed",
       "outcome": "completed",
-      "attempt_sha256": "55758a5ecadc24c6a090eca3b71ea458a016bdec6cf63ae6c37ce73d18e6bbd4"
+      "attempt_sha256": "b3a972e062d15895c3be0d6890a271e89b883d9b3b133b5510e5b29e27bd2976"
     },
     "d4-descent": {
       "target_id": "d4-descent",
       "title": "Reflexive-polytope descent D4 and proposed bound 24",
-      "sequence": 9,
-      "attempted_at_utc": "2026-11-14T16:00:20.850525+00:00",
+      "sequence": 26,
+      "attempted_at_utc": "2026-11-14T17:15:08.602405+00:00",
       "status": "unverified_proposal",
       "global_status": "not_closed",
       "outcome": "completed",
-      "attempt_sha256": "2930892db39384bda4f6e41090b957a11e1e01612fd9f13037dfe6b003301e51"
+      "attempt_sha256": "22b2bff8234e52c48d0364d1b9c1d3238d8338a7eb9c6660e9b92fed09e433d1"
     },
     "d4-kissing": {
       "target_id": "d4-kissing",
       "title": "D4 lattice and the 24-point kissing configuration",
-      "sequence": 10,
-      "attempted_at_utc": "2026-11-14T16:00:56.327346+00:00",
+      "sequence": 27,
+      "attempted_at_utc": "2026-11-14T17:16:19.181593+00:00",
       "status": "unverified_proposal",
       "global_status": "not_closed",
       "outcome": "completed",
-      "attempt_sha256": "dae420d91453a459a4537bf04b1a1df4eb76a55b88e2f57293d5796547bc5a59"
+      "attempt_sha256": "a5c30061c091cb6a5b40682555930eaf237898a151073384f6b4f28e0f495656"
+    },
+    "d4-packing": {
+      "target_id": "d4-packing",
+      "title": "Four-dimensional sphere packing and the 24-cell bound",
+      "sequence": 28,
+      "attempted_at_utc": "2026-11-14T17:17:21.885118+00:00",
+      "status": "unverified_proposal",
+      "global_status": "not_closed",
+      "outcome": "completed",
+      "attempt_sha256": "5a4ff1834dc1ceadb7f1173b0f3a97c228682cdfc80af2796fea4d40aa199194"
     }
   }
 }

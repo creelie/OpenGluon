@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "engine": "anaxia-research-campaign/1",
-  "sequence": 7,
-  "attempted_at_utc": "2026-11-14T15:59:13.197120+00:00",
+  "sequence": 24,
+  "attempted_at_utc": "2026-11-14T17:13:10.429808+00:00",
   "target_id": "yang-mills",
   "title": "Yang-Mills existence and mass gap",
   "original_target": {
@@ -25,9 +25,10 @@
       "mass gap",
       "gauge",
       "continuum"
-    ]
+    ],
+    "research_focus": "Reviewed result in docs/YANG-MILLS-ONE-SCALE.md: the source one-scale estimate uses P=20T, K=5/2, y_next=20(exp(y)-1)^2 and y0=1280000*gamma*T0^3. Seeds y0<=1/25 and y0<=3/64 give explicit positive gaps conditional on the source Wightman-limit hypothesis and uniform weak-coupling seed. Test y0<=1/21 using exp(y)-1<=y+y^2/(2*(1-y/3)). Derive the exact rational contraction factor and seed constant. The continuum construction and seed estimate still require proofs."
   },
-  "target_sha256": "48895127dc8d25fd18a6c01beb9dcaa763cd2a85cad7d1d202bfa5016b38f769",
+  "target_sha256": "36428490a47ff150697974fb733f882cd631ce41edcfe84043759df19e13d3c1",
   "source_context": [
     {
       "id": "github:1423784179",
@@ -66,15 +67,15 @@
     }
   ],
   "source_snapshot_generated_at": "2026-11-14T15:18:30+00:00",
-  "previous_unresolved_public_notes": "Given the task to analyze the Yang-Mills existence and mass gap problem, here is the concise public research strategy:\n\n1. Investigate the continuum theory of Yang-Mills and verify if it satisfies the required axioms, including nontriviality and consistency with physical scales.\n2. Control the renormalization process to ensure the nontriviality of the theory is preserved at physical scales, focusing on the mass gap.\n3. Explore alternative proofs of the mass gap, such as lattice methods or functional integral approaches, and compare their results.\n4. Review and assess previous attempts and proofs to understand the current limitations and unresolved issues.\n5. Analyze the untrusted sources mentioned, specifically the 4Y-M project and the Yang--Mills LLM experiment, for potential insights or approaches to the problem.\n6. Collaborate with experts in the field to discuss the challenges and opportunities of the problem, particularly regarding the finite lattice spectral gap.\n7. Document and disseminate the findings and progress openly, keeping in mind the original statement's integrity.\n\nThe remaining proof obligations include:\n\n- Con",
-  "attempt_sha256": "04c464a5378c04b1fc60eb74138daaf802a87a8e28c4b4cd9a6b3d76cf6d5b9e",
-  "prompt_sha256": "d2d6664ad08063968b562af252e405bb487a6bb00535e8af987249fb2d9d8175",
+  "previous_unresolved_public_notes": "",
+  "attempt_sha256": "af2530a216febd4db144a092d77feee6ec61696619fc38da6f343d1a94b9f429",
+  "prompt_sha256": "aabf30009e35717d556ad5a62668d4c35382f300fedca2a89320800fe8703671",
   "provider": "openai-compatible",
   "model": "anaxia-local-phi3",
-  "max_tokens": 256,
+  "max_tokens": 384,
   "status": "unverified_proposal",
   "global_status": "not_closed",
   "scope": "Unverified public research strategy only. No natural-language target is closed by this campaign; complete proof and independent verification remain required.",
-  "strategy": "Given the task to analyze the Yang-Mills existence and mass gap problem, here is the concise public research strategy:\n\n1. Investigate the continuum theory of Yang-Mills and verify if it satisfies the required axioms, including nontriviality and consistency with physical scales.\n2. Control the renormalization process to ensure the nontriviality of the theory is preserved at physical scales, focusing on the mass gap.\n3. Explore alternative proofs of the mass gap, such as lattice methods or functional integral approaches, and compare their results.\n4. Review and assess previous attempts and proofs to understand the current limitations and unresolved issues.\n5. Analyze the untrusted sources mentioned, specifically the 4Y-M project and the Yang--Mills LLM experiment, for potential insights or approaches to the problem.\n6. Collaborate with experts in the field to discuss the challenges and opportunities of the problem, particularly regarding the finite lattice spectral gap.\n7. Document and disseminate the findings and progress openly, keeping in mind the original statement's integrity.\n\nThe remaining proof obligations include:\n\n- Con",
+  "strategy": "Given the research focus on the Yang-Mills existence and mass gap problem, particularly the continuum theory and its proof for a positive mass gap, here is a concise public proof strategy:\n\n### Subclaim\nWe aim to explicitly demonstrate that, given the seed estimates y0 = 1280000 * gamma * T0^3 and the condition y0 <= 1/25, we can derive the exact rational contraction factor and seed constant that assure a positive mass gap.\n\n### Public Proof Strategy\n1. Utilize the one-scale estimate technique, which involves expanding the Yang-Mills action to a new scale \u039b that is between the original cutoff scale T and the continuum limit.\n2. Apply the one-scale estimate to the Yang-Mills theory with the given seed to find an explicit expression for the mass spectrum in terms of \u039b and the cutoff scale T.\n3. Choose the optimal \u039b that minimizes the expectation value of the mass squared operator, which ensures nontriviality and the presence of a mass gap.\n4. Explicitly calculate the contraction factor and seed constant for this optimal \u039b, using the given seed estimate and the relationship between the original and one-scale cutoff scales.\n5. Substitute the rational values derived in step 4 back into the one-scale estimate to obtain the mass spectrum.\n6. Demonstrate that this mass spectrum has a positive minimum mass, thereby ensuring a positive mass gap.\n\nIf the argument above is incomplete, the exact missing step would be to perform the above calculations and provide the rational contracting factor and seed constant for the one-scale estimate.",
   "outcome": "completed"
 }

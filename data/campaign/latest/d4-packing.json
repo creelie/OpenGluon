@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "engine": "anaxia-research-campaign/1",
+  "sequence": 28,
+  "attempted_at_utc": "2026-11-14T17:17:21.885118+00:00",
+  "target_id": "d4-packing",
+  "title": "Four-dimensional sphere packing and the 24-cell bound",
+  "original_target": {
+    "id": "d4-packing",
+    "title": "Four-dimensional sphere packing and the 24-cell bound",
+    "statement": "Prove that no packing of unit balls in four-dimensional Euclidean space has upper density exceeding pi^2/16, attained by the scaled D4 lattice.",
+    "source_urls": [
+      "https://arxiv.org/abs/2609.25120",
+      "https://github.com/creelie/d4-voronoi-cells",
+      "https://github.com/creelie/Anaxia/blob/main/docs/D4-GRID-PACKINGS.md",
+      "https://github.com/creelie/Anaxia/blob/main/docs/D4-PARTIAL-CONTACTS.md",
+      "https://github.com/creelie/Anaxia/blob/main/docs/D4-RADIAL-SHELL.md"
+    ],
+    "proof_obligations": [
+      "Cover arbitrary centers in R^4, including nonperiodic packings and centers off a fixed grid.",
+      "For a Voronoi proof, justify passing to saturated packings and a uniform lower bound of 8 for every central cell, including nonroot directions and multiple extra centers.",
+      "For a density proof using a different method, control the asymptotic density uniformly over translated windows."
+    ],
+    "backend": "research_proposal",
+    "keywords": [
+      "d4",
+      "sphere packing",
+      "24-cell",
+      "voronoi",
+      "density"
+    ],
+    "research_focus": "Reviewed results in docs/D4-INTERMEDIATE-GRID.md give sharp density pi^2/(36*mu^4) for arbitrary selections of sites on mu*D4 when sqrt(2/3)<=mu<1, and classify periodic equality cases. Unrestricted off-grid packings remain. In docs/D4-RADIAL-SHELL.md, one center on each root ray at radius >=2 plus any near extras on pairwise orthogonal or opposite reference vertex rays gives central Voronoi volume >=8. Seek a precise next local lemma for two vertex-ray extras with inner product 1/2 or -1/2, while enforcing pairwise packing and keeping gained regions inside the reference circumball. State the exact unresolved inequality if it fails."
+  },
+  "target_sha256": "9b958485adf9f9dc437145da6b57a75fa086edf8129364c291442e33f85e635f",
+  "source_context": [
+    {
+      "id": "github:1371181725",
+      "url": "https://github.com/creelie/d4-voronoi-cells",
+      "title": "creelie/d4-voronoi-cells",
+      "excerpt": "Supplementary Code: The Sphere Packing Problem in Dimension 4 and the Twenty-Four-Cell Conjecture",
+      "license": "MIT"
+    },
+    {
+      "id": "arxiv:2504.21597",
+      "url": "https://arxiv.org/abs/2504.21597v3",
+      "title": "Optimizing the ground state energy of the three-dimensional magnetic Dirichlet Laplacian with constant magnetic field",
+      "excerpt": "This paper concerns the shape optimization problem of minimizing the ground state energy of the magnetic Dirichlet Laplacian with constant magnetic field among three-dimensional domains of fixed volume. In contrast to the two-dimensional case, a generalized \"magnetic\" Faber-Krahn inequality does\u2026",
+      "authors": [
+        "Matthias Baur"
+      ]
+    },
+    {
+      "id": "arxiv:2611.17243",
+      "url": "https://arxiv.org/abs/2611.17243v1",
+      "title": "Radiation and persistent shape dynamics for the five-dimensional energy-critical nonlinear wave equation",
+      "excerpt": "We consider the nonradial five-dimensional focusing energy-critical wave equation. We construct a forward-global solution which remains arbitrarily close to a nondegenerate sign-changing stationary state in the energy space and is asymptotic to a varying stationary profile plus one free wave. The\u2026",
+      "authors": [
+        "Xuwen Chen",
+        "Justin Holmer",
+        "Shunlin Shen"
+      ]
+    },
+    {
+      "id": "arxiv:2611.17263",
+      "url": "https://arxiv.org/abs/2611.17263v1",
+      "title": "Stability for the Bray-Brendle-Neves Scalar Sphere Rigidity Theorem",
+      "excerpt": "Let $(M^3,g)$ be a closed and oriented 3-dimensional Riemannian manifold with $\u03c0_2(M)\\neq 0$ and let $A_{\u03c0_2}(M,g)$ denote the least area among homotopically nontrivial two-spheres in $M$. By a theorem of Bray-Brendle-Neves, $A_{\u03c0_2}(M,g)\\inf_M R_g \\leq 8\u03c0$ with equality characterizing the cylind\u2026",
+      "authors": [
+        "Carolina Ruviaro"
+      ]
+    },
+    {
+      "id": "arxiv:2611.17291",
+      "url": "https://arxiv.org/abs/2611.17291v1",
+      "title": "A counterexample to fixed-profile soliton resolution for the three-dimensional quintic wave equation",
+      "excerpt": "We consider the three-dimensional focusing energy-critical wave equation. We construct a bounded forward-global solution which starts arbitrarily close to a sign-changing stationary state and is asymptotic to a varying stationary profile plus one free wave. The core has two limits in distinct sim\u2026",
+      "authors": [
+        "Xuwen Chen",
+        "Justin Holmer",
+        "Shunlin Shen"
+      ]
+    }
+  ],
+  "source_snapshot_generated_at": "2026-11-14T15:18:30+00:00",
+  "previous_unresolved_public_notes": "",
+  "attempt_sha256": "5a4ff1834dc1ceadb7f1173b0f3a97c228682cdfc80af2796fea4d40aa199194",
+  "prompt_sha256": "9ca461d8f0f284c490b953d0aa2f14924c3042f59ef18b512b0806e570174e36",
+  "provider": "openai-compatible",
+  "model": "anaxia-local-phi3",
+  "max_tokens": 384,
+  "status": "unverified_proposal",
+  "global_status": "not_closed",
+  "scope": "Unverified public research strategy only. No natural-language target is closed by this campaign; complete proof and independent verification remain required.",
+  "strategy": "Claim: The research focus aims to establish that for arbitrary selections of sites on the scaled D4 lattice, when `sqrt(2/3) <= mu < 1`, the upper density does not exceed pi^2/16.\n\nPublic Proof Strategy:\n1. Consider a set of points in four-dimensional Euclidean space that form a scaled D4 lattice.\n2. Employ the results from the \"docs/D4-INTERMEDIATE-GRID.md\" file, which provide a sharp density result of pi^2/(36*mu^4) for arbitrary selections of sites on mu*D4.\n3. Argue that because pi^2/(36*mu^4) decreases with mu and is greater than pi^2/16 for `sqrt(2/3) <= mu < 1`, the density achieved by the lattice points cannot exceed pi^2/16 in this range.\n4. Provide a rigorous proof, possibly invoking the geometry of the D4 lattice and the properties of four-dimensional space, to show that no configuration of points on the D4 lattice can have a density higher than pi^2/16.\n5. Cite relevant lemmas and theorems from the existing literature that support the claim, ensuring that they are independent and not based on the untrusted data.\n\nPublic Mathematical Explanation:\nThe research focus on the four-dimensional sphere packing problem, specifically in relation to the D4 lattice, suggests that the maximum achievable density of unit balls in four-dimensional Euclidean space does not exceed pi^2/16. Given the established results that the density achieves a value of pi^2/(36*mu^4) for the D4 lattice",
+  "outcome": "completed"
+}

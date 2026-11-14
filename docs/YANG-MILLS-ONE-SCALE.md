@@ -4,12 +4,13 @@ The one-scale ascent in Theorem 7.56 of *The Yang–Mills Mass Gap from One Boun
 
 ## One-scale conditions and consequences
 
-Use the source notation $Z_s(T)=1+D_s(T)$ for the vacuum-normalized trace on a spatial torus with side tuple $s$ and volume $V(s)$. In both rows below, take an integer $T_0\ge3$ and require $\log Z_s(T_0)\le\gamma V(s)$ for every spatial torus $s$ whose three integer sides lie in $[2T_0,40T_0)$. The source's Theorem 7.56 uses a window up to $48T_0$ and the seed $\gamma T_0^3\le1/35{,}389{,}440$.
+Use the source notation $Z_s(T)=1+D_s(T)$ for the vacuum-normalized trace on a spatial torus with side tuple $s$ and volume $V(s)$. In all three rows below, take an integer $T_0\ge3$ and require $\log Z_s(T_0)\le\gamma V(s)$ for every spatial torus $s$ whose three integer sides lie in $[2T_0,40T_0)$. The source's Theorem 7.56 uses a window up to $48T_0$ and the seed $\gamma T_0^3\le1/35{,}389{,}440$.
 
 | Allowed $\gamma T_0^3$ | Increase in allowed coefficient | Guaranteed physical gap under (W) |
 | ---: | ---: | ---: |
 | $1/32{,}000{,}000$ | $10.592\%$ | $\log(2880/2401)/t_0$ |
 | $3/81{,}920{,}000$ | $29.6\%$ | $\log(5120/5043)/t_0$ |
+| $1/26{,}880{,}000$ | $31.657\%$ | $\log(80724/80645)/t_0$ |
 
 The continuum statements use the quantifiers of Theorem F. In its notation, for every sufficiently large $p$ and every $N\ge N_0(p)$, use a suitable integer $T_0=T_0(N,p)$ with $3\le T_0\le Nt_0$ at coupling $\beta_{N,p}$. The same selected row must apply throughout the family. At a fixed coupling the proof also bounds the leading nonvacuum eigenvalue on spatial tori with smallest side at least $2T_0$ and aspect ratio less than $20$.
 
@@ -37,7 +38,7 @@ For $0\le y<3$, the bounds $n!\ge2\cdot3^{n-2}$ for $n\ge2$ give
 
 $$e^y-1\le y+\frac{y^2}{2(1-y/3)}.$$
 
-For the first row $y_0\le1/25$, so $e^y-1\le B y$ on this interval with $B=49/48$. For the second row $y_0\le3/64$, so $B=41/40$ works on its interval. Set $C=20B^2$ and $u_0=Cy_0$. The row-wise maxima for $u_0$ are $2401/2880$ and $5043/5120$, both strictly below one. Consequently $y_i$ stays in the selected interval and $Cy_i\le u_0^{2^i}$.
+For the first row $y_0\le1/25$, so $e^y-1\le B y$ on this interval with $B=49/48$. For the second row $y_0\le3/64$, so $B=41/40$ works on its interval. The third row has $y_0\le1/21$ and $B=127/124$. Set $C=20B^2$ and $u_0=Cy_0$. The row-wise maxima for $u_0$ are $2401/2880$, $5043/5120$, and $80645/80724$, each strictly below one. Consequently $y_i$ stays in the selected interval and $Cy_i\le u_0^{2^i}$.
 
 Given a spatial torus $t$ with smallest side $a\ge2T_0$ and largest side $b<20a$, take the largest index with $2T_i\le a$. Then $a<4T_i$ and $b<80T_i$. With $r_1(t)$ the leading nonvacuum eigenvalue ratio, positivity and the trace expansion give
 
@@ -49,4 +50,6 @@ $$D_n(n)\le D_n(T_i)^2\le\left(\frac{B}{8000 C}\right)^2 u_0^{n/(2T_0)}.$$
 
 If the seed is zero, these bounds hold with $u_0=0$, and for the following continuum conclusion one can simply use the strictly positive row-wise maximum of $u_0$ as its bound. With $n=NL_p$, $L_p\ge2t_0$ and $T_0\le Nt_0$, the cubic estimate implies condition (Z) of the source, while $r_1(t)\le e^{-\Delta/N}$ on the same cubes, with $\Delta$ as given in the table. These are the two inputs used after Theorem 7.56 in the proof of Theorem F. The original argument with (W) then gives equality of the phases, a unique vacuum, and this continuum gap.
 
-The progress is quantitative: the conditional argument requires a smaller range of boxes and allows a larger initial pressure coefficient. It does not construct the Wightman limit or verify the pressure estimate along a continuum weak-coupling sequence.
+Run `python scripts/check_yang_mills_one_scale.py` for an exact replay of the mesh factor, seed conversions, exponential majorants, contraction constants, and percentage comparisons.
+
+The conditional argument requires a smaller range of boxes and allows a larger initial pressure coefficient. Constructing the Wightman limit and verifying the pressure estimate along a continuum weak-coupling sequence remain open obligations.

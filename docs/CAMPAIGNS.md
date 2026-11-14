@@ -13,7 +13,7 @@ The default is a local Ollama connection and two targets per run. Install an ava
 1. Load the registered target statements and proof obligations without changing them.
 2. Select at most five relevant records from the saved radar snapshot. Keep source IDs, URLs, and excerpts of at most 300 characters. Source URLs are references; the campaign does not fetch or execute their contents.
 3. Include at most 2,000 characters of the most recent unresolved public strategy for that same, unchanged target.
-4. Request one bounded public strategy and remaining proof obligations. Source excerpts and previous notes are untrusted data; model text has no execution tools.
+4. Request one precise subclaim and a short public proof, explicit counterexample, or exact missing step. An optional `research_focus` supplies the current reviewed result and next mathematical question. Source excerpts and previous notes are untrusted data.
 5. Save the attempt and then advance the local rotation cursor. Provider failures are recorded, and the run continues to the next selected target. An interrupted request or failed save does not advance the committed cursor for that attempt.
 
 SHA-256 fingerprints bind each attempt to the fixed target, selected source context, provider, and model. A separate prompt fingerprint records the exact payload, including prior notes. The runner retains the latest report per target and the twenty most recent attempts in aggregate history.
@@ -36,7 +36,7 @@ Use the [exact laboratory](ANAXIA.md) and [challenge backends](CHALLENGES.md) fo
 
 ## Register a target
 
-The manifest has `schema_version: 1` and a `targets` list. Each target includes `id`, `title`, `statement`, `source_urls`, `proof_obligations`, and `backend`. Optional `keywords` improve matching against source titles and abstracts. `backend` is a descriptive label in this runner; it never loads or executes a module named by the manifest.
+The manifest has `schema_version: 1` and a `targets` list. Each target includes `id`, `title`, `statement`, `source_urls`, `proof_obligations`, and `backend`. Optional `keywords` improve matching against source titles and abstracts. An optional `research_focus` contains at most 4,000 characters and is preserved in the original target, its fingerprint, and the model request. `backend` is a descriptive label in this runner.
 
 Target statements and credentials are kept separate. Source data, reports, prior notes, and model outputs do not authorize tool execution, paid requests to other providers, or a change to the proof criteria. Saved reports omit provider exception text and request headers.
 

@@ -25,7 +25,11 @@ def main():
     reciprocal_tail_bound = sum((Fraction(1, k*k) for k in range(2, 6)), Fraction(1, 5))
     require(reciprocal_tail_bound < Fraction(2, 3), 'squarefree union bound fails')
     epsilon_max = Fraction(1, 100)
-    require(Fraction(1, 1944) - Fraction(7, 6) * epsilon_max**2 >= Fraction(1, 3000),
+    require(mobius[2]**2 < 9 * 2**3,
+            'the zero-vector control must refute the reversed model inequality')
+    require(Fraction(4, 145) + epsilon_max**2 < Fraction(1, 36),
+            'the chosen support window exceeds its discrepancy budget')
+    require(Fraction(1, 870) - Fraction(7, 6) * epsilon_max**2 >= Fraction(1, 1000),
             'numerical constant in the coefficient mass bound fails')
 
     for m in range(2, limit + 1):
@@ -33,6 +37,9 @@ def main():
                 'squarefree count fails')
         require(sum(sum(divisors(n)) for n in range(1, m + 1)) <= m*m,
                 'divisor sum exceeds its budget')
+        squared_weight_sum = sum(Fraction((2*q + 1)**2, q*(q+1)) for q in range(1, m+1))
+        require(squared_weight_sum == 4*m + 1 - Fraction(1, m+1),
+                'telescoping Cauchy-Schwarz constant fails')
 
     vectors = (
         {},
@@ -62,7 +69,8 @@ def main():
                 total_checks += 1
         discrepancy_sum = sum(abs(coefficients.get(n, Fraction(0)) + mobius[n])
                               for n in range(2, limit + 1))
-        require(discrepancy_sum**2 <= 9 * partial_error_squared * limit**3,
+        aggregate_constant = limit**2 * (4*limit + 1 - Fraction(1, limit+1))
+        require(discrepancy_sum**2 <= partial_error_squared * aggregate_constant,
                 'aggregate coefficient estimate fails')
     print(f'Checked {total_checks} exact coefficient identities and estimates, plus the arithmetic constants.')
 

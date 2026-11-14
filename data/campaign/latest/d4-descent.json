@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "engine": "anaxia-research-campaign/1",
-  "sequence": 9,
-  "attempted_at_utc": "2026-11-14T16:00:20.850525+00:00",
+  "sequence": 26,
+  "attempted_at_utc": "2026-11-14T17:15:08.602405+00:00",
   "target_id": "d4-descent",
   "title": "Reflexive-polytope descent D4 and proposed bound 24",
   "original_target": {
@@ -25,9 +25,10 @@
       "seed",
       "kreuzer",
       "polytope"
-    ]
+    ],
+    "research_focus": "The pinned census in data/d4-coverage.json has 358101083 four-dimensional reflexive polytopes in 64022 point-count pairs with raw pair bound above 24. The source reports 22<=D4<=50. A result of 24 requires genuine reflexive-cover chains and full classification coverage. Seek one exact descent lemma or a certificate that improves a specific uncovered pair. State what classification data it needs and avoid replacing cover relations by arbitrary inclusions."
   },
-  "target_sha256": "7dc7d5f9afbd7db0a3d7146f6b386865e3ccc65add893d50885092113efd1edf",
+  "target_sha256": "406a17a1f8d4ece19bd065fc00add72f88582408222293334ec34944c155ce82",
   "source_context": [
     {
       "id": "github:1425410741",
@@ -71,15 +72,15 @@
     }
   ],
   "source_snapshot_generated_at": "2026-11-14T15:18:30+00:00",
-  "previous_unresolved_public_notes": "To assess the proposed upper bound of D_4 <= 24 for the maximum shortest reflexive-cover descent depth across four-dimensional reflexive polytopes, the following public research strategy and proof obligations are outlined:\n\n\n1. Begin by studying the genuine cover relation for reflexive polytopes and its implications on the descent problem.\n\n2. Develop a method to compute or estimate the descent steps for D_4.\n\n3. Verify the coverage of all possible reflexive covers for D_4 to ensure comprehensive exploration of descent paths.\n\n4. Prove the existence of reflexive covers with a maximum depth of 24.\n\n5. Address the specificity of the reflexive-cover descent problem for D_4.\n\n\nThe remaining proof obligations include:\n\n- Proving the existence of reflexive covers with a depth of exactly 24 for D_4.\n\n- Demonstrating that no lower bounds exceed 24 for D_4.\n\n- Ensuring that the proposed bound is not merely a lower estimate but the actual maximum.\n\n\nConsidering the untrusted",
-  "attempt_sha256": "2930892db39384bda4f6e41090b957a11e1e01612fd9f13037dfe6b003301e51",
-  "prompt_sha256": "93bff49584b7646f272424385838090cd5889bd79b03cff1d7e46b67d8b14b0d",
+  "previous_unresolved_public_notes": "",
+  "attempt_sha256": "22b2bff8234e52c48d0364d1b9c1d3238d8338a7eb9c6660e9b92fed09e433d1",
+  "prompt_sha256": "42837206e4477d8c83af3f3e4dc89cab31393219005e47862268ba9bbea00c22",
   "provider": "openai-compatible",
   "model": "anaxia-local-phi3",
-  "max_tokens": 256,
+  "max_tokens": 384,
   "status": "unverified_proposal",
   "global_status": "not_closed",
   "scope": "Unverified public research strategy only. No natural-language target is closed by this campaign; complete proof and independent verification remain required.",
-  "strategy": "To address the task at hand, your public research strategy for verifying the proposed upper bound D_4 <= 24 for the maximum shortest reflexive-cover descent depth across four-dimensional reflexive polytopes should proceed as follows:\n\n\n1. Research and establish a comprehensive understanding of the genuine cover relation for reflexive polytopes, particularly focusing on how it pertains to the descent problem in four-dimensional spaces.\n\n2. Explore existing mathematical techniques or develop new methods to calculate or estimate the descent steps required for D_4. This may involve studying related polytopes or lower-dimensional cases for insights.\n\n3. Verify the complete classification and enumeration of all possible reflexive covers for D_4, which will serve as a basis for checking the proposed bound.\n\n4. Prove that among these reflexive covers, the ones with a depth of exactly 24 exist. This proof must demonstrate that no reflexive covers with a depth greater than 24 have been overlooked.\n\n5. Specifically address the uniqueness of the reflexive-cover descent problem for D_4, which may require specialized mathematical",
+  "strategy": "The precise mathematical subclaim related to the research focus is as follows:\n\n\"Subclaim: There exists a descent chain within four-dimensional reflexive polytopes whose shortest reflexive-cover depth is exactly 24.\"\n\nShort public proof or an explicit counterexample:\n\nAs of the knowledge cutoff date, no explicit descent chain with a shortest reflexive-cover depth of exactly 24 has been found or published. The closest results are those which establish upper bounds of 24 for the maximum shortest reflexive-cover depth across four-dimensional reflexive polytopes. To construct such a proof or find a counterexample, one must explicitly detail a descent chain for a specific polytope where the cover relation and reflexivity conditions are met and provide a rigorous argument to show that no shorter chain can exist within the class of polytopes under investigation.\n\nProof strategy:\n\n1. Identify a specific four-dimensional reflexive polytope.\n2. Define the reflexive cover relation for this polytope.\n3. Construct a descent chain using the cover relation, ensuring that each step adheres strictly to the reflexive-cover rules.\n4. Verify that no shorter chains exist for this polytope.\n5. Use known bounds and invariants related to the polytope to argue that the chain cannot have a shorter depth.\n6. Conclude that the shortest possible reflexive-cover depth for this polytope is 24.\n\nHowever, since no such explicit descent chain has been provided, the proof of the subclaim stands incomplete and requires further work. To claim resolution, one must provide the aforementioned details or find a counterexample demonstrating that such a chain does",
   "outcome": "completed"
 }

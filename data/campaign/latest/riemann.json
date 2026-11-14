@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "engine": "anaxia-research-campaign/1",
-  "sequence": 8,
-  "attempted_at_utc": "2026-11-14T15:59:45.735546+00:00",
+  "sequence": 25,
+  "attempted_at_utc": "2026-11-14T17:14:05.451555+00:00",
   "target_id": "riemann",
   "title": "Riemann hypothesis",
   "original_target": {
@@ -25,9 +25,10 @@
       "nyman",
       "beurling",
       "zeros"
-    ]
+    ],
+    "research_focus": "Reviewed result in docs/RH-RECIPROCAL-COEFFICIENTS.md: for f_n(q)={q/n}, e(q)=1-sum(c_n*f_n(q)) and epsilon^2=sum_{q>=1}|e(q)|^2/(q(q+1)), the identity c_n+mu(n)=sum_{d|n}mu(n/d)*(e(d)-e(d-1)) implies sum_{n=2}^m|c_n+mu(n)|<=3*epsilon*m^(3/2). Hence mass and support size are at least 1/(3000*epsilon^2) for epsilon<=1/100. Seek a sharper aggregate bound or a justified approximation estimate, with an explicit finite statement and all tail terms. Coefficientwise convergence alone gives no norm convergence."
   },
-  "target_sha256": "fb70bd0d50c92952ce3a27cf32e6b8bc8924275a6d74a54a27aad8d31286981e",
+  "target_sha256": "ce2504b328e95d85eeb60a3a6f168dea8ca99d27c8fbf82bbe894bb4166ae633",
   "source_context": [
     {
       "id": "github:1450293673",
@@ -70,15 +71,15 @@
     }
   ],
   "source_snapshot_generated_at": "2026-11-14T15:18:30+00:00",
-  "previous_unresolved_public_notes": "Given the untrusted nature of the sources and the fact that no explicit proof obligations are met, the public research strategy should focus on the following:\n\n1. Conduct a thorough literature review on the Riemann Hypothesis, focusing on peer-reviewed journals and trusted publications.\n\n2. Attempt to find and understand the key techniques used in the papers provided, such as the Euler product extension and the positivity conditions for the phase derivative of primitive L functions, while independently verifying their validity.\n\n3. Engage with the mathematical community by presenting findings and seeking input, particularly in relation to the claims made by GitHub repositories that have not been independently verified.\n\n4. Attempt to formulate new approaches or extend existing ones with a clear rationale to further the understanding of the Riemann Hypothesis, ens00169\n\n5. Continuously document the research process and findings to facilitate peer review and replication.\n\n\nRemaining proof obligations are as follows:\n\n- Prove the Riemann Hypothesis for every nontrivial zero, with particular attention to unbounded heights.\n\n- Justify all analytic continuations",
-  "attempt_sha256": "55758a5ecadc24c6a090eca3b71ea458a016bdec6cf63ae6c37ce73d18e6bbd4",
-  "prompt_sha256": "f97534c39db4b354d5f0b7f04042bc57a943976c5fb907bc19b4a7ee37b9e4cf",
+  "previous_unresolved_public_notes": "",
+  "attempt_sha256": "b3a972e062d15895c3be0d6890a271e89b883d9b3b133b5510e5b29e27bd2976",
+  "prompt_sha256": "8e6ce783f999c3e9556a63b35506f784b3b9d26de5398dbc29cbf39f2ef1c256",
   "provider": "openai-compatible",
   "model": "anaxia-local-phi3",
-  "max_tokens": 256,
+  "max_tokens": 384,
   "status": "unverified_proposal",
   "global_status": "not_closed",
   "scope": "Unverified public research strategy only. No natural-language target is closed by this campaign; complete proof and independent verification remain required.",
-  "strategy": "Research Strategy:\n1. Begin by conducting an extensive literature review focused on peer-reviewed, trusted publications regarding the Riemann Hypothesis. Pay special attention to foundational work and recent advancements in the field.\n2. Examine the key techniques mentioned in the provided sources, such as the extension of the Euler product to the critical line and the positivity conditions for the phase derivative of primitive L functions. Independently verify these techniques and understand their role in the proofs and proposals made.\n3. Collaborate with the mathematical community by sharing progress, seeking feedback, and discussing potential avenues for research. This is particularly crucial when engaging with the claims made in the unverified GitHub repositories.\n4. Formulate new research directions or extend existing ones based on the literature review, community feedback, and personal insights. Each proposed approach must be backed by a clear rationale and preliminary investigation.\n5. Document all research activities, findings, and methodologies meticulously to enable peer review and replication.\n\nRemaining Proof Obligations:\n- Provide a rigorous proof of the Riemann Hypothesis, showing that every nontrivial zero",
+  "strategy": "Given the task data, the mathematical subclaim related to the research focus is:\n\n*The identity \\(c_n + \\mu(n) = \\sum_{d|n} \\mu(n/d) (e(d) - e(d-1))\\) leads to a bound on the sum \\(\\sum_{n=2}^m |c_n + \\mu(n)|\\), which depends on the constant \\(\\epsilon\\) and the M\u00f6bius function \\(\\mu(n)\\).*\n\nTo approach this subclaim, we can start by breaking down the identity and understanding the roles of the involved functions and terms:\n\n1. \\(c_n\\) represents the Fourier coefficients in a series expansion involving the Euler product and M\u00f6bius function.\n2. \\(\\mu(n)\\) is the M\u00f6bius function, which takes the value -1, 0, or 1 depending on the factorization of \\(n\\).\n3. \\(e(q)\\) is a term that likely represents the error function or a related term in an approximation method.\n4. The identity connects these terms and suggests that the sum of \\(c_n + \\mu(n)\\) can be bounded using \\(\\epsilon\\).\n\nThe subclaim can be stated as follows:\n\n*There exists a constant \\(\\epsilon > 0\\) such that for every \\(\\epsilon\\), there is a bound on the sum \\(\\sum_{n=2}^m |c_n + \\mu(n)|\\) that is at least \\(3\\epsilon m^{3/2}\\).*\n\nThis claim is a statement about the growth of the sum of \\(c_n + \\mu(n)\\), suggesting that it grows at a rate at least as fast as \\(3\\epsilon\\) times the square",
   "outcome": "completed"
 }

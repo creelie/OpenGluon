@@ -44,4 +44,5 @@ jobs:
           python3 scripts/verify_d4_vacancy.py --output data/d4-vacancy.json
           python3 scripts/check_rh_reciprocal_coefficients.py
           python3 scripts/check_thermal_gap_identifiability.py
+          python3 scripts/check_yang_mills_one_scale.py
           git diff --exit-code -- data/d4-radial-audit.json data/d4-grid.json data/d4-intermediate-grid.json data/d4-vacancy.json

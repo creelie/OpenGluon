@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "engine": "anaxia-research-campaign/1",
-  "sequence": 10,
-  "attempted_at_utc": "2026-11-14T16:00:56.327346+00:00",
+  "sequence": 27,
+  "attempted_at_utc": "2026-11-14T17:16:19.181593+00:00",
   "target_id": "d4-kissing",
   "title": "D4 lattice and the 24-point kissing configuration",
   "original_target": {
@@ -25,9 +25,10 @@
       "24-cell",
       "musin",
       "spherical"
-    ]
+    ],
+    "research_focus": "The 24-root construction and all 276 pair separations are independently checked. Universal optimality and uniqueness are existing results. Seek a short exact geometric lemma useful for the separate packing problem, explicitly identifying its additional hypotheses. The partial-contact result in docs/D4-PARTIAL-CONTACTS.md proves containment of the reference 24-cell with 22 exact root contacts, and with 21 contacts except 96 signed-star or signed-triangle deletion sets."
   },
-  "target_sha256": "0e1aa824d03b74dc031d939e017e6693ec0d42c5faf2f6fe2a1df90278bffa13",
+  "target_sha256": "0a386d86c5628154ba77c39cf293c418a6d15ef225569ba60a956babc2cc3a27",
   "source_context": [
     {
       "id": "github:1371181725",
@@ -69,15 +70,15 @@
     }
   ],
   "source_snapshot_generated_at": "2026-11-14T15:18:30+00:00",
-  "previous_unresolved_public_notes": "Research Strategy:\n1. Validate the norm of all 24 vectors in the D4 lattice.\n2. Confirm the angular separation condition for each distinct pair of vectors.\n3. Examine existing literature to find optimality and uniqueness results related to the 24-cell kissing configuration.\n4. Evaluate the current best lower and upper bounds for the kissing number in four dimensions.\n\nRemaining Proof Obligations:\n- Verify all 24 vectors in the D4 lattice have equal norms.\n- Confirm the angular separation condition for every unique pair of vectors is satisfied.\n- Determine if any known results about the kissing number in four dimensions can be attributed to the D4 lattice kissing configuration.\n- Ascertain if the construction of the 24-cell kissing configuration in dimension four is indeed optimal or if there exists a smaller configuration.\n- Investigate whether the uniqueness of the 24-cell kissing configuration in dimension four has been established independently of the D4 lattice configuration.\n\nNote: This strategy focuses on the mathematical rigor required to address the task, assuming the reader can independently verify these obligations",
-  "attempt_sha256": "dae420d91453a459a4537bf04b1a1df4eb76a55b88e2f57293d5796547bc5a59",
-  "prompt_sha256": "03fd2be77ab96bf6f801a278cc3b724ef91b39a0fc28e31ffef774fe6693ee5f",
+  "previous_unresolved_public_notes": "",
+  "attempt_sha256": "a5c30061c091cb6a5b40682555930eaf237898a151073384f6b4f28e0f495656",
+  "prompt_sha256": "062ebcb0b48b51987fd08b284f250b2e98daa065772b1da8a1ed702eb1e4661e",
   "provider": "openai-compatible",
   "model": "anaxia-local-phi3",
-  "max_tokens": 256,
+  "max_tokens": 384,
   "status": "unverified_proposal",
   "global_status": "not_closed",
   "scope": "Unverified public research strategy only. No natural-language target is closed by this campaign; complete proof and independent verification remain required.",
-  "strategy": "Public Research Strategy:\n1. Confirm that all 24 vectors of the D4 root vectors maintain equal norms, ensuring they adhere to the D4 lattice structure.\n2. Validate the angular separation condition for every distinct pair of vectors within the 24-point configuration to ascertain that no two points are closer together than allowed.\n3. Refer to the existing mathematical literature on the 24-cell kissing number in four dimensions and the D4 lattice, analyzing whether any optimality or uniqueness results can be attributed to this configuration.\n4. Investigate known results and bounds for the kissing number problem in four dimensions to understand the standing of the D4 lattice kissing configuration in relation to other possible configurations.\n5. Determine if the 24-cell kissing configuration is unique within the context of four-dimensional space and whether this uniqueness is a property inherent to the D4 lattice or if it extends beyond this specific case.\n\nRemaining Proof Obligations:\n- Verification of all 24 D4 root vectors having equal norms.\n- Confirmation that the angular separation condition for every unique pair of vectors is satisfied.",
+  "strategy": "As requested, I will provide a concise public mathematical advice regarding the task at hand, specifically focusing on the research goal of analyzing the 24 D4 root vectors in a four-dimensional space and their kissing configuration:\n\nClaim: The 24 D4 root vectors form a kissing configuration in dimension four.\n\nProof Strategy:\n\n1. First, establish the definition of a kissing configuration in four-dimensional space, ensuring that every vector within the configuration has the same norm, and every distinct pair of vectors satisfies the angular separation condition, which is greater than or equal to the solid angle of a sphere in four dimensions.\n\n2. Confirm that all 24 D4 root vectors are generated from the same root of the D4 lattice, which should be known from previous research or literature.\n\n3. Show that the set of all possible configurations with at least 25 points is empty by using a rigorous proof technique such as combinatorial enumeration or geometric arguments, thus ruling out any configurations with more than 24 points.\n\n4. Utilize the results from previous unresolved notes or documented research, if available, to affirm that the specific 24-point kissing configuration is the only one that can be formed with the given constraints.\n\n5. Provide a detailed geometric argument, leveraging the properties of the D4 lattice and the specific construction of the 24 vectors. This argument should explicitly show that no other kissing configuration can be formed under the given conditions.\n\n6. Identify and address any possible gaps or missing steps in the argument, providing a complete and concise proof of the claim.\n\n7. Since this is an exact geometry-based problem, ensure that all arguments are purely geometric and rely on established theorems or",
   "outcome": "completed"
 }

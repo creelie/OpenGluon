@@ -1,4 +1,4 @@
-"""Check the deletion triples and exact cut witnesses for a partial D4 shell."""
+"""Check partial D4 contacts and the geometry of the vertex-ray slab proof."""
 
 from fractions import Fraction as F
 from itertools import combinations, permutations, product
@@ -52,6 +52,33 @@ def main():
     require(orbits[0] | orbits[1] == close_triples, 'deletion shape classification fails')
     require(len(all_triples) - len(close_triples) == 1928, 'wrong containment count')
     print('Checked 2,024 deletion triples, 96 exceptional cuts by symmetry, and both rational witnesses.')
+
+    vertices = {tuple(F(sign) if k == i else F(0) for k in range(4))
+                for i in range(4) for sign in (-1, 1)}
+    vertices.update(tuple(F(sign, 2) for sign in signs)
+                    for signs in product((-1, 1), repeat=4))
+    hadamard = [(1, 1, 1, 1), (1, 1, -1, -1),
+                (1, -1, 1, -1), (1, -1, -1, 1)]
+    transformed_roots = {tuple(F(dot(row, root), 2) for row in hadamard)
+                         for root in roots}
+    require(transformed_roots == roots, 'Hadamard map must preserve every root')
+    transformed_vertices = {tuple(F(dot(row, vertex), 2) for row in hadamard)
+                            for vertex in vertices}
+    require(transformed_vertices == vertices, 'Hadamard map must preserve the vertices')
+    require(tuple(F(row[0], 2) for row in hadamard) == (F(1, 2),) * 4,
+            'the map must connect the axis and half-sign vertex families')
+    relevant_pairs = 0
+    for vertex in vertices:
+        if vertex[0] > 0:
+            continue
+        direction_sum = (1 + vertex[0], *vertex[1:])
+        support = max(max(map(abs, direction_sum)), sum(map(abs, direction_sum)) / 2)
+        require(support <= 1, 'old slabs may overlap')
+        cube_projection = vertex[0] / 2 + sum(map(abs, vertex[1:])) / 2
+        require(cube_projection <= F(1, 2), 'another extra may cut a new slab')
+        relevant_pairs += 1
+    require(relevant_pairs == 15, 'wrong number of nonpositive vertex directions')
+    print('Checked root-preserving triality and all nonpositive vertex-pair slab bounds.')
 
 
 if __name__ == '__main__':

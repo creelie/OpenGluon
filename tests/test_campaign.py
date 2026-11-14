@@ -152,12 +152,21 @@ class Campaign(unittest.TestCase):
         self.assertEqual(len(list((self.root / 'out/latest').glob('*.json'))), 3)
 
     def test_provenance_fingerprint_matches_fixed_target_context_and_model(self):
+        self.targets[0]['research_focus'] = 'Test the bounded-degree spreading criterion.'
+        self.write_inputs()
         report = self.run_campaign(max_targets=1)['attempts'][0]
+        self.assertEqual(self.calls[0][0]['original_target']['research_focus'],
+                         self.targets[0]['research_focus'])
         value = {'target': report['original_target'], 'source_context': report['source_context'],
                  'provider': 'ollama', 'model': 'gemma3:4b'}
         expected = hashlib.sha256(json.dumps(value, sort_keys=True, ensure_ascii=True,
                                             separators=(',', ':')).encode()).hexdigest()
         self.assertEqual(report['attempt_sha256'], expected)
+        self.targets[0]['research_focus'] = 'Test a different sufficient hypothesis.'
+        self.write_inputs()
+        changed = self.run_campaign(max_targets=3)['attempts'][-1]
+        self.assertNotEqual(changed['attempt_sha256'], report['attempt_sha256'])
+        self.assertEqual(changed['previous_unresolved_public_notes'], '')
 
     def test_malicious_model_status_and_html_cannot_close_or_inject_digest(self):
         self.targets[0]['title'] = '<script>alert(1)</script> | [unsafe](javascript:x)'
