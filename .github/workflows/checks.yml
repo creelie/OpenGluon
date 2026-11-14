@@ -35,3 +35,9 @@ jobs:
           python3 anaxia.py diophantine /tmp/anaxia-modular.json --verify
           python3 anaxia.py challenge run --profile quick --output /tmp/anaxia-challenges
           python3 anaxia.py audit examples/audit/synthetic-claims.json --output /tmp/anaxia-audits
+      - name: Replay the exact D4 packing calculations
+        run: |
+          python3 scripts/audit_d4_radial_reduction.py
+          python3 scripts/verify_d4_grid.py
+          python3 scripts/verify_d4_vacancy.py --output data/d4-vacancy.json
+          git diff --exit-code -- data/d4-radial-audit.json data/d4-grid.json data/d4-vacancy.json

@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "scope": "Finite exact checks for the fixed-grid proofs. The unrestricted 24-cell and density questions are outside this result.",
+  "local_reference_cell": {
+    "root_vertices": 24,
+    "short_neighbor_counts": {
+      "4": 24,
+      "6": 96
+    },
+    "facet_centers": 24,
+    "reference_volume_from_orthant_decomposition": 8
+  },
+  "tiles": {
+    "H": {
+      "cosets": 4,
+      "pairs_checked": 6,
+      "diameter_squared": 2,
+      "representatives": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          1
+        ]
+      ],
+      "covolume": 8,
+      "minimum_sublattice_distance_squared": 4
+    },
+    "2D4": {
+      "cosets": 16,
+      "pairs_checked": 120,
+      "diameter_squared": 6,
+      "representatives": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          -1
+        ],
+        [
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          1,
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          -1
+        ],
+        [
+          0,
+          -1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          -1
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          -1
+        ]
+      ],
+      "covolume": 32,
+      "minimum_sublattice_distance_squared": 8
+    }
+  }
+}

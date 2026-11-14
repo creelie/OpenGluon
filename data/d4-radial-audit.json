@@ -1,0 +1,179 @@
+{
+  "source": "https://arxiv.org/html/2609.25120v2#S2.SS6",
+  "target": "packing feasibility of the all-contact radial reduction",
+  "centers": [
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "5/2",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "-5/2",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "3/2",
+      "2",
+      "0",
+      "0"
+    ],
+    [
+      "-3/2",
+      "-2",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "2",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "-2",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "2"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "-2"
+    ]
+  ],
+  "pairs_checked": 36,
+  "minimum_original_distance_squared": "4",
+  "active_neighbors": 8,
+  "original_voronoi_volume": "125/4",
+  "projected_centers": [
+    [
+      "2",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "-2",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "6/5",
+      "8/5",
+      "0",
+      "0"
+    ],
+    [
+      "-6/5",
+      "-8/5",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "2",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "-2",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "2"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "-2"
+    ]
+  ],
+  "overlapping_projected_pair": [
+    0,
+    2
+  ],
+  "projected_pair_distance_squared": "16/5",
+  "formal_contact_halfspace_volume": "20",
+  "minimum_volume_for_these_fixed_rays": "24",
+  "centers_attaining_minimum": [
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "2",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "-2",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "36/25",
+      "48/25",
+      "0",
+      "0"
+    ],
+    [
+      "-36/25",
+      "-48/25",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "2",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "-2",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "2"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "-2"
+    ]
+  ],
+  "result": "all_contact_reduction_not_packing_preserving",
+  "scope": "Counterexample to the feasible-corner conclusion for fixed directions. The 24-cell volume inequality is not refuted."
+}
