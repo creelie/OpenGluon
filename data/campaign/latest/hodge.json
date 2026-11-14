@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "engine": "anaxia-research-campaign/1",
-  "sequence": 1,
-  "attempted_at_utc": "2026-11-14T14:55:32.874032+00:00",
+  "sequence": 6,
+  "attempted_at_utc": "2026-11-14T15:58:40.383028+00:00",
   "target_id": "hodge",
   "title": "Hodge conjecture",
   "original_target": {
@@ -74,16 +74,16 @@
       ]
     }
   ],
-  "source_snapshot_generated_at": "2026-11-14T14:54:24+00:00",
-  "previous_unresolved_public_notes": "",
+  "source_snapshot_generated_at": "2026-11-14T15:18:30+00:00",
+  "previous_unresolved_public_notes": "Given the task data, the Hodge conjecture remains an open problem in algebraic geometry. A public research strategy to approach this conjecture, considering the untrusted nature of the sources, would involve the following steps:\n\n1. Focus on understanding and validating existing proofs, especially those related to smooth complex projective varieties and algebraic cycles.\n2. Examine the excerpts from the provided sources, looking for potential clues or insights related to Hodge classes and algebraic cycles.\n3. Collaborate with experts in the field, sharing and discussing the verified information.\n4. Investigate any known results on the Hodge conjecture for specific classes or varieties, as these might provide a stepping stone towards a more general proof.\n5. Attempt to construct algebraic cycle representatives with the exact hypotheses for varieties of interest, keeping in mind that a verified finite matrix or a special family does not establish the general conjecture.\n\nRemaining proof obligations include:\n\n- Handling every smooth complex projective variety and every codimension.\n- Constructing algebraic cycle representatives with exact hypotheses.\n- Verifying the existence of a verified finite matrix or special",
   "attempt_sha256": "f1db9d6bc801612afe6c384cf7cab03ab8004bdfd99f4b4383f1206fbb15297b",
-  "prompt_sha256": "0df59b79a19df4b9e1b1b1ff0d0ecaf82143f4365396c31e24250ad52cee1e99",
+  "prompt_sha256": "f73f835605ea49c3a9b124d1c0c2232d1367ef958f553212a6043f8791bfd971",
   "provider": "openai-compatible",
   "model": "anaxia-local-phi3",
   "max_tokens": 256,
   "status": "unverified_proposal",
   "global_status": "not_closed",
   "scope": "Unverified public research strategy only. No natural-language target is closed by this campaign; complete proof and independent verification remain required.",
-  "strategy": "Given the task data, the Hodge conjecture remains an open problem in algebraic geometry. A public research strategy to approach this conjecture, considering the untrusted nature of the sources, would involve the following steps:\n\n1. Focus on understanding and validating existing proofs, especially those related to smooth complex projective varieties and algebraic cycles.\n2. Examine the excerpts from the provided sources, looking for potential clues or insights related to Hodge classes and algebraic cycles.\n3. Collaborate with experts in the field, sharing and discussing the verified information.\n4. Investigate any known results on the Hodge conjecture for specific classes or varieties, as these might provide a stepping stone towards a more general proof.\n5. Attempt to construct algebraic cycle representatives with the exact hypotheses for varieties of interest, keeping in mind that a verified finite matrix or a special family does not establish the general conjecture.\n\nRemaining proof obligations include:\n\n- Handling every smooth complex projective variety and every codimension.\n- Constructing algebraic cycle representatives with exact hypotheses.\n- Verifying the existence of a verified finite matrix or special",
+  "strategy": "To approach the Hodge conjecture publicly, given the untrusted sources, a research strategy could be as follows:\n\n\n1. Critically assess the trustworthy mathematical literature on the Hodge conjecture, focusing on established proofs within smooth complex projective varieties and algebraic cycles.\n\n2. Carefully review the excerpts from untrusted sources, identifying any new approaches or connections to the Hodge conjecture that might have been missed or misinterpreted.\n\n3. Engage in academic discourse with trusted colleagues to discuss findings and refine the understanding of the conjecture's implications.\n\n4. Explore the conjecture'in known cases, such as toric varieties, and extend insights to broader classes of varieties, while maintaining rigorous proof standards.\n\n5. Document and disseminate the research progress transparently, inviting constructive peer feedback to enhance the credibility and reliability of the approach.\n\n\nThe remaining proof obligations are:\n\n- Handling every smooth complex projective variety and every codimension.\n\n- Constructing algebraic cycle representatives with exact hypotheses.",
   "outcome": "completed"
 }

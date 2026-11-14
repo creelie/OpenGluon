@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "engine": "anaxia-research-campaign/1",
-  "sequence": 5,
-  "attempted_at_utc": "2026-11-14T14:58:34.137551+00:00",
+  "sequence": 10,
+  "attempted_at_utc": "2026-11-14T16:00:56.327346+00:00",
   "target_id": "d4-kissing",
   "title": "D4 lattice and the 24-point kissing configuration",
   "original_target": {
@@ -68,16 +68,16 @@
       "license": "CC BY-SA 4.0"
     }
   ],
-  "source_snapshot_generated_at": "2026-11-14T14:54:24+00:00",
-  "previous_unresolved_public_notes": "",
+  "source_snapshot_generated_at": "2026-11-14T15:18:30+00:00",
+  "previous_unresolved_public_notes": "Research Strategy:\n1. Validate the norm of all 24 vectors in the D4 lattice.\n2. Confirm the angular separation condition for each distinct pair of vectors.\n3. Examine existing literature to find optimality and uniqueness results related to the 24-cell kissing configuration.\n4. Evaluate the current best lower and upper bounds for the kissing number in four dimensions.\n\nRemaining Proof Obligations:\n- Verify all 24 vectors in the D4 lattice have equal norms.\n- Confirm the angular separation condition for every unique pair of vectors is satisfied.\n- Determine if any known results about the kissing number in four dimensions can be attributed to the D4 lattice kissing configuration.\n- Ascertain if the construction of the 24-cell kissing configuration in dimension four is indeed optimal or if there exists a smaller configuration.\n- Investigate whether the uniqueness of the 24-cell kissing configuration in dimension four has been established independently of the D4 lattice configuration.\n\nNote: This strategy focuses on the mathematical rigor required to address the task, assuming the reader can independently verify these obligations",
   "attempt_sha256": "dae420d91453a459a4537bf04b1a1df4eb76a55b88e2f57293d5796547bc5a59",
-  "prompt_sha256": "729e8909bad7256a92e02fd675ca3da4f25e77ee62e0b190c2ca9216445860b0",
+  "prompt_sha256": "03fd2be77ab96bf6f801a278cc3b724ef91b39a0fc28e31ffef774fe6693ee5f",
   "provider": "openai-compatible",
   "model": "anaxia-local-phi3",
   "max_tokens": 256,
   "status": "unverified_proposal",
   "global_status": "not_closed",
   "scope": "Unverified public research strategy only. No natural-language target is closed by this campaign; complete proof and independent verification remain required.",
-  "strategy": "Research Strategy:\n1. Validate the norm of all 24 vectors in the D4 lattice.\n2. Confirm the angular separation condition for each distinct pair of vectors.\n3. Examine existing literature to find optimality and uniqueness results related to the 24-cell kissing configuration.\n4. Evaluate the current best lower and upper bounds for the kissing number in four dimensions.\n\nRemaining Proof Obligations:\n- Verify all 24 vectors in the D4 lattice have equal norms.\n- Confirm the angular separation condition for every unique pair of vectors is satisfied.\n- Determine if any known results about the kissing number in four dimensions can be attributed to the D4 lattice kissing configuration.\n- Ascertain if the construction of the 24-cell kissing configuration in dimension four is indeed optimal or if there exists a smaller configuration.\n- Investigate whether the uniqueness of the 24-cell kissing configuration in dimension four has been established independently of the D4 lattice configuration.\n\nNote: This strategy focuses on the mathematical rigor required to address the task, assuming the reader can independently verify these obligations",
+  "strategy": "Public Research Strategy:\n1. Confirm that all 24 vectors of the D4 root vectors maintain equal norms, ensuring they adhere to the D4 lattice structure.\n2. Validate the angular separation condition for every distinct pair of vectors within the 24-point configuration to ascertain that no two points are closer together than allowed.\n3. Refer to the existing mathematical literature on the 24-cell kissing number in four dimensions and the D4 lattice, analyzing whether any optimality or uniqueness results can be attributed to this configuration.\n4. Investigate known results and bounds for the kissing number problem in four dimensions to understand the standing of the D4 lattice kissing configuration in relation to other possible configurations.\n5. Determine if the 24-cell kissing configuration is unique within the context of four-dimensional space and whether this uniqueness is a property inherent to the D4 lattice or if it extends beyond this specific case.\n\nRemaining Proof Obligations:\n- Verification of all 24 D4 root vectors having equal norms.\n- Confirmation that the angular separation condition for every unique pair of vectors is satisfied.",
   "outcome": "completed"
 }

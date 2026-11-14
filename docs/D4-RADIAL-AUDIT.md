@@ -36,6 +36,18 @@ $$
 
 Each width in the first plane is half the sum of its opposite radii. The remaining two widths are at least $2$ each, and the determinant is $4/5$. Consequently the volume is at least $24$. This is attained with radius $2$ on the first line, $12/5$ on the second line, and $2$ on the two orthogonal axes. The feasible minimum for these fixed rays is $24$. The formal all-contact value is $20$.
 
+## Exact minimum for the two-line family
+
+Take two distinct lines with unit directions $u,v$ in a plane. Orient the directions so that $c=\langle u,v\rangle\in[0,1)$. Take two mutually orthogonal axes in the perpendicular plane. Place one neighbor on each of the eight rays, subject to unit-ball packing and with no upper bound on radii. The minimum Voronoi volume at the origin is
+
+$$
+\frac{4\max(4,8c)}{\sqrt{1-c^2}}.
+$$
+
+For either same-sign pair of plane rays, packing implies $r^2+s^2-2cp\ge4$ for $p=rs$. Since $r,s\ge2$, the inequality $r^2+s^2\le4+p^2/4$ gives $p\ge8c$. Thus each same-sign product is at least $\max(4,8c)$. The width-product argument above applies with that bound and determinant $\sqrt{1-c^2}$. For equality use radii $2$ on the first line, $\max(2,4c)$ on the second line, and $2$ on the other axes. When $c\le1/2$, all radii equal $2$ and the same-sign squared separation is $8(1-c)\ge4$. When $c>1/2$, the same-sign squared separation at the stated radii is exactly $4$. All other pairs have either nonpositive inner product or opposite directions, so they satisfy the packing constraint. Every choice of positive widths defines a bounded box in the four normal coordinates.
+
+For $c>1/2$ the feasible volume is $2c$ times the volume of the infeasible all-contact intersection. The displayed minimizers are inside the strict shell of radius $2\sqrt2$ when $c<1/\sqrt2$. The formula treats eight specified neighbors and does not bound the volume after adding other cutting neighbors.
+
 ## When the reduction works
 
 For unit directions $u_i$ and radii $r_i$, the selected centers form a packing with the origin if $r_i\ge 2$ and each pair satisfies

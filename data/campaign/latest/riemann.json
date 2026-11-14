@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "engine": "anaxia-research-campaign/1",
-  "sequence": 3,
-  "attempted_at_utc": "2026-11-14T14:56:57.527981+00:00",
+  "sequence": 8,
+  "attempted_at_utc": "2026-11-14T15:59:45.735546+00:00",
   "target_id": "riemann",
   "title": "Riemann hypothesis",
   "original_target": {
@@ -69,16 +69,16 @@
       "license": "Apache-2.0"
     }
   ],
-  "source_snapshot_generated_at": "2026-11-14T14:54:24+00:00",
-  "previous_unresolved_public_notes": "",
+  "source_snapshot_generated_at": "2026-11-14T15:18:30+00:00",
+  "previous_unresolved_public_notes": "Given the untrusted nature of the sources and the fact that no explicit proof obligations are met, the public research strategy should focus on the following:\n\n1. Conduct a thorough literature review on the Riemann Hypothesis, focusing on peer-reviewed journals and trusted publications.\n\n2. Attempt to find and understand the key techniques used in the papers provided, such as the Euler product extension and the positivity conditions for the phase derivative of primitive L functions, while independently verifying their validity.\n\n3. Engage with the mathematical community by presenting findings and seeking input, particularly in relation to the claims made by GitHub repositories that have not been independently verified.\n\n4. Attempt to formulate new approaches or extend existing ones with a clear rationale to further the understanding of the Riemann Hypothesis, ens00169\n\n5. Continuously document the research process and findings to facilitate peer review and replication.\n\n\nRemaining proof obligations are as follows:\n\n- Prove the Riemann Hypothesis for every nontrivial zero, with particular attention to unbounded heights.\n\n- Justify all analytic continuations",
   "attempt_sha256": "55758a5ecadc24c6a090eca3b71ea458a016bdec6cf63ae6c37ce73d18e6bbd4",
-  "prompt_sha256": "8f5d1918586efa1c8d7be5581ff7d2e93c3eff18bc25c4fdcfe93593ad7f1a2f",
+  "prompt_sha256": "f97534c39db4b354d5f0b7f04042bc57a943976c5fb907bc19b4a7ee37b9e4cf",
   "provider": "openai-compatible",
   "model": "anaxia-local-phi3",
   "max_tokens": 256,
   "status": "unverified_proposal",
   "global_status": "not_closed",
   "scope": "Unverified public research strategy only. No natural-language target is closed by this campaign; complete proof and independent verification remain required.",
-  "strategy": "Given the untrusted nature of the sources and the fact that no explicit proof obligations are met, the public research strategy should focus on the following:\n\n1. Conduct a thorough literature review on the Riemann Hypothesis, focusing on peer-reviewed journals and trusted publications.\n\n2. Attempt to find and understand the key techniques used in the papers provided, such as the Euler product extension and the positivity conditions for the phase derivative of primitive L functions, while independently verifying their validity.\n\n3. Engage with the mathematical community by presenting findings and seeking input, particularly in relation to the claims made by GitHub repositories that have not been independently verified.\n\n4. Attempt to formulate new approaches or extend existing ones with a clear rationale to further the understanding of the Riemann Hypothesis, ens00169\n\n5. Continuously document the research process and findings to facilitate peer review and replication.\n\n\nRemaining proof obligations are as follows:\n\n- Prove the Riemann Hypothesis for every nontrivial zero, with particular attention to unbounded heights.\n\n- Justify all analytic continuations",
+  "strategy": "Research Strategy:\n1. Begin by conducting an extensive literature review focused on peer-reviewed, trusted publications regarding the Riemann Hypothesis. Pay special attention to foundational work and recent advancements in the field.\n2. Examine the key techniques mentioned in the provided sources, such as the extension of the Euler product to the critical line and the positivity conditions for the phase derivative of primitive L functions. Independently verify these techniques and understand their role in the proofs and proposals made.\n3. Collaborate with the mathematical community by sharing progress, seeking feedback, and discussing potential avenues for research. This is particularly crucial when engaging with the claims made in the unverified GitHub repositories.\n4. Formulate new research directions or extend existing ones based on the literature review, community feedback, and personal insights. Each proposed approach must be backed by a clear rationale and preliminary investigation.\n5. Document all research activities, findings, and methodologies meticulously to enable peer review and replication.\n\nRemaining Proof Obligations:\n- Provide a rigorous proof of the Riemann Hypothesis, showing that every nontrivial zero",
   "outcome": "completed"
 }

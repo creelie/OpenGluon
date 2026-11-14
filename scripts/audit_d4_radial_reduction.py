@@ -18,6 +18,24 @@ def require(condition, message):
         raise AssertionError(message)
 
 
+def check_family_cosine(cosine):
+    """Check attainment for a rational cosine using squared distances."""
+    second_radius = max(F(2), 4 * cosine)
+    product = 2 * second_radius
+    squared_separation = 4 + second_radius**2 - 2 * cosine * product
+    require(product == max(F(4), 8 * cosine), 'attaining product differs from lower bound')
+    require(squared_separation >= 4, 'same-sign rays at the displayed radii overlap')
+    denominator = 1 - cosine**2
+    return {
+        'cosine': str(cosine),
+        'radii_on_plane_lines': ['2', str(second_radius)],
+        'minimum_volume_squared': str(16 * product**2 / denominator),
+        'same_sign_pair_distance_squared': str(squared_separation),
+        'all_contact_feasible': cosine <= F(1, 2),
+        'extremal_radii_inside_strict_shell': second_radius**2 < 8,
+    }
+
+
 def audit():
     origin = (0, 0, 0, 0)
     neighbors = [
@@ -74,6 +92,8 @@ def audit():
         'formal_contact_halfspace_volume': str(formal_contact_cell_volume),
         'minimum_volume_for_these_fixed_rays': str(feasible_minimum),
         'centers_attaining_minimum': [[str(x) for x in y] for y in [origin, *extremal]],
+        'two_line_family_examples': [check_family_cosine(cosine)
+                                    for cosine in (F(0), F(1, 2), F(3, 5), F(3, 4))],
         'result': 'all_contact_reduction_not_packing_preserving',
         'scope': 'Counterexample to the feasible-corner conclusion for fixed directions. The 24-cell volume inequality is not refuted.',
     }

@@ -48,3 +48,15 @@ In either partition, each tile has an anchor in the corresponding sublattice. Ti
 Suppose each packing center is within $\varepsilon$ of an assigned site in the translated, scaled grid. Assign the center to the tile of that site. Any two centers assigned to one tile have separation at most $\mu d+2\varepsilon$, where $d=\sqrt2$ for the $H$ tiling and $d=\sqrt6$ for the $2D_4$ tiling. The same density bound therefore holds under arbitrary bounded displacements whenever $\mu d+2\varepsilon<2$. The local Voronoi proof concerns centers exactly on the unscaled grid.
 
 Run `python scripts/verify_d4_grid.py` to check both short-neighbor shells and the pair distances and coset distinctions in both tiles. The arguments above supply the continuous and asymptotic steps. [Exact check record](../data/d4-grid.json)
+
+## How close an extra center can come to a D4 contact shell
+
+For a separate local result, place unit-ball centers at the origin and at all 24 points $\sqrt2(\pm e_i\pm e_j)$. Any additional center $x$, whether on a lattice or not, has norm at least $2\sqrt2$. To see this, let $a\ge b\ge c\ge d$ be its absolute coordinates and write $r=\lVert x\rVert$. Among the contact centers, the largest dot product with $x$ is $\sqrt2(a+b)$. The separation condition from that contact gives $r^2\ge2\sqrt2(a+b)$. Since $r^2\le a^2+3b^2\le(a+b)^2$, division by $r>0$ gives the claimed gap. Equality in the two estimates requires either $b=0$ or $a=b=c=d$. At radius $2\sqrt2$ these directions give the eight axis points and sixteen equal-magnitude points of the next D4 shell.
+
+The gap persists under perturbations. Suppose the origin remains a center and 24 other centers each lie within distance $\varepsilon$ of their corresponding exact D4 contacts after a common rotation or reflection. Each extra center must be at distance at least $2-\varepsilon$ from every exact contact. Hence $r^2-2\sqrt2 r+4\varepsilon-\varepsilon^2\ge0$. For $0\le\varepsilon<2-\sqrt2$, this quadratic has two real roots and $r\ge2$ excludes the smaller branch, so
+
+$$
+r\ge \sqrt2+\sqrt{2-4\varepsilon+\varepsilon^2}.
+$$
+
+In particular, if $\varepsilon<2-\sqrt{10-4\sqrt3}$, the right side exceeds $\sqrt6$. This certifies the absence of a 25th center within the $\sqrt6$ shell under the stated correspondence and error tolerance. It supplies no volume estimate for the Voronoi cell formed by the perturbed neighbors.

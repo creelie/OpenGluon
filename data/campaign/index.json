@@ -4,8 +4,8 @@
   "status": "unverified_proposal",
   "global_status": "not_closed",
   "next_cursor": 0,
-  "sequence": 5,
-  "recent_attempts": 5,
+  "sequence": 10,
+  "recent_attempts": 10,
   "targets": [
     {
       "id": "hodge",
@@ -32,8 +32,8 @@
     "hodge": {
       "target_id": "hodge",
       "title": "Hodge conjecture",
-      "sequence": 1,
-      "attempted_at_utc": "2026-11-14T14:55:32.874032+00:00",
+      "sequence": 6,
+      "attempted_at_utc": "2026-11-14T15:58:40.383028+00:00",
       "status": "unverified_proposal",
       "global_status": "not_closed",
       "outcome": "completed",
@@ -42,8 +42,8 @@
     "yang-mills": {
       "target_id": "yang-mills",
       "title": "Yang-Mills existence and mass gap",
-      "sequence": 2,
-      "attempted_at_utc": "2026-11-14T14:56:15.695806+00:00",
+      "sequence": 7,
+      "attempted_at_utc": "2026-11-14T15:59:13.197120+00:00",
       "status": "unverified_proposal",
       "global_status": "not_closed",
       "outcome": "completed",
@@ -52,8 +52,8 @@
     "riemann": {
       "target_id": "riemann",
       "title": "Riemann hypothesis",
-      "sequence": 3,
-      "attempted_at_utc": "2026-11-14T14:56:57.527981+00:00",
+      "sequence": 8,
+      "attempted_at_utc": "2026-11-14T15:59:45.735546+00:00",
       "status": "unverified_proposal",
       "global_status": "not_closed",
       "outcome": "completed",
@@ -62,8 +62,8 @@
     "d4-descent": {
       "target_id": "d4-descent",
       "title": "Reflexive-polytope descent D4 and proposed bound 24",
-      "sequence": 4,
-      "attempted_at_utc": "2026-11-14T14:57:45.394773+00:00",
+      "sequence": 9,
+      "attempted_at_utc": "2026-11-14T16:00:20.850525+00:00",
       "status": "unverified_proposal",
       "global_status": "not_closed",
       "outcome": "completed",
@@ -72,8 +72,8 @@
     "d4-kissing": {
       "target_id": "d4-kissing",
       "title": "D4 lattice and the 24-point kissing configuration",
-      "sequence": 5,
-      "attempted_at_utc": "2026-11-14T14:58:34.137551+00:00",
+      "sequence": 10,
+      "attempted_at_utc": "2026-11-14T16:00:56.327346+00:00",
       "status": "unverified_proposal",
       "global_status": "not_closed",
       "outcome": "completed",
