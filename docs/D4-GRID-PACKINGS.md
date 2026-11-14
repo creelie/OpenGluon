@@ -26,16 +26,19 @@ The remaining squared norms are 4 and 6, since the packing gives $\|y\|^2\ge4$ a
 
 The 24 listed neighbors define precisely the coordinate and sign inequalities of $P$. If a listed neighbor $y_0$ is absent, $x_0=y_0/2$ belongs to its boundary plane and has norm 1. It satisfies all the other neighboring-center inequalities of squared norm 4 strictly by Cauchy–Schwarz, whose equality at the bound requires $y=y_0$. There are finitely many such neighbors. The inequalities from all more distant neighbors hold throughout the ball of radius $\sqrt6/2>1$ by Cauchy–Schwarz. A sufficiently small open neighborhood of $x_0$ is therefore in the Voronoi cell and extends outside $P$, giving strictly larger volume.
 
-## Sharp density on two scale intervals
+## Sharp density by grid spacing
 
 Let centers lie in a translate of $\mu D_4$, where $\mu>0$.
 
 | Range of $\mu$ | Sharp upper density | Attaining center set, up to translation |
 | --- | ---: | --- |
 | $1/\sqrt2\le \mu<\sqrt{2/3}$ | $\pi^2/(64\mu^4)$ | $2\mu D_4$ |
+| $\sqrt{2/3}\le \mu<1$ | $\pi^2/(36\mu^4)$ | $\mu T D_4$ for an integer similarity $T$ with $T^\top T=3I$ |
 | $1\le \mu<\sqrt2$ | $\pi^2/(16\mu^4)$ | $\mu H$ |
 
-Here $H=2\mathbb Z^4\cup((1,1,1,1)+2\mathbb Z^4)$ is a sublattice with covolume 8 and minimum squared norm 4. For the second interval, the four points $0,e_1+e_2,e_1+e_3,e_1+e_4$ represent distinct $H$-cosets in $D_4$. Two parity patterns in the same $H$-coset are equal or complementary. The four representatives are pairwise at distance at most $\sqrt2$. Their $H$-translates partition $D_4$, and each scaled tile contains at most one packing center. The set $\mu H$ meets the distance requirement and attains the resulting bound. The similarity $(a,b,c,d)\mapsto(a+b,a-b,c+d,c-d)$ sends $D_4$ onto $H$, so $H$ is isometric to $\sqrt2 D_4$.
+The [intermediate-grid proof](D4-INTERMEDIATE-GRID.md) gives the explicit matrix $T$, derives the middle bound by a weighted spectral estimate, and extends the estimate to nonperiodic selections of sites.
+
+For the highest listed interval, let $H=2\mathbb Z^4\cup((1,1,1,1)+2\mathbb Z^4)$, a sublattice with covolume 8 and minimum squared norm 4. The four points $0,e_1+e_2,e_1+e_3,e_1+e_4$ represent distinct $H$-cosets in $D_4$. Two parity patterns in the same $H$-coset are equal or complementary. The four representatives are pairwise at distance at most $\sqrt2$. Their $H$-translates partition $D_4$, and each scaled tile contains at most one packing center. The set $\mu H$ meets the distance requirement and attains the resulting bound. The similarity $(a,b,c,d)\mapsto(a+b,a-b,c+d,c-d)$ sends $D_4$ onto $H$, so $H$ is isometric to $\sqrt2 D_4$.
 
 For the first interval, use the index-16 sublattice $2D_4$, of covolume 32. The representatives are zero, $2e_1$, $u=(1,1,1,1)$, $v=(1,1,1,-1)$, and one root from each antipodal pair. Choose its sign so that its first coordinate, dot product with $u$, and dot product with $v$ are all nonnegative. Such a choice exists. Make coordinate 1 positive if it is in the support. If coordinate 1 is absent but 4 is in the support, make the other coordinate positive. In the remaining case, choose the sign so the two coordinates sum to a nonnegative number.
 

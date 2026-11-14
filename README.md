@@ -51,8 +51,10 @@ The saved test results and the supported task format are documented in the [expe
 
 | Target | Recorded evidence |
 | --- | --- |
-| Four-dimensional sphere packing | An exact counterexample shows that moving all neighbors into contact can destroy a valid packing. Sharp bounds hold for packings on a fixed D4 grid. The unrestricted question remains open. [Radial audit](docs/D4-RADIAL-AUDIT.md) · [Fixed-grid proof](docs/D4-GRID-PACKINGS.md) |
-| Hodge conjecture, Yang–Mills mass gap, Riemann hypothesis | Local models generated strategies. The general proof obligations remain open. [Attempt ledger](data/campaign/README.md) |
+| Four-dimensional sphere packing | A sharp density bound covers the intermediate $D_4$ grid spacings, including nonperiodic selections of sites. The local arguments also classify which sets of 21 exact contacts guarantee containment of the 24-cell and handle a radial shell with one inner neighbor along a Voronoi vertex ray. [Grid bounds](docs/D4-GRID-PACKINGS.md) · [Contact classification](docs/D4-PARTIAL-CONTACTS.md) · [Radial shell](docs/D4-RADIAL-SHELL.md) |
+| Riemann hypothesis | A reciprocal approximation of error $\varepsilon$ requires coefficient mass and support size of order at least $\varepsilon^{-2}$. Convergence remains open. [Coefficient bound](docs/RH-RECIPROCAL-COEFFICIENTS.md) |
+| Yang–Mills existence and mass gap | A conditional criterion works with a smaller torus window and a larger allowed pressure. A separate calculation gives gapped and gapless spectra with identical finite correlator samples. [One-scale criterion](docs/YANG-MILLS-ONE-SCALE.md) · [Correlation samples](docs/YANG-MILLS-THERMAL-GAP.md) |
+| Hodge conjecture | A dense elliptic isogeny orbit has unbounded graph degrees. A finite list of Hilbert polynomials for cycle representatives on dense fibers would suffice for a spreading argument. [Degree obstruction](docs/HODGE-DEGREE-OBSTRUCTION.md) |
 | Reflexive-polytope descent in dimension four | The coverage calculation counts cases where the pair-bound method needs stronger certificates to reach 24. [Coverage report](data/d4-coverage.json) |
 | $D_4$ kissing configuration | Exact checks verify the 24 roots and all 276 pair distances. This gives a lower bound for the kissing number. [Certificate](data/challenges/d4-kissing.json) |
 | Local changes to the $D_4$ packing | Every off-grid insertion conflicts with at least six lattice centers. The proof also rules out gaining a ball by removing six or fewer. [Vacancy proof](docs/D4-VACANCY.md) |

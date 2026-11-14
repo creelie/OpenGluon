@@ -131,6 +131,25 @@
         "https://arxiv.org/abs/math/0309430",
         "https://arxiv.org/abs/2404.18794"
       ]
+    },
+    {
+      "id": "d4-packing",
+      "title": "Four-dimensional sphere packing and the 24-cell bound",
+      "global_status": "not_closed",
+      "status": "inconclusive",
+      "backend": "research_proposal",
+      "proof_obligations": [
+        "Cover arbitrary centers in R^4, including nonperiodic packings and centers off a fixed grid.",
+        "For a Voronoi proof, justify passing to saturated packings and a uniform lower bound of 8 for every central cell, including nonroot directions and multiple extra centers.",
+        "For a density proof using a different method, control the asymptotic density uniformly over translated windows."
+      ],
+      "source_urls": [
+        "https://arxiv.org/abs/2609.25120",
+        "https://github.com/creelie/d4-voronoi-cells",
+        "https://github.com/creelie/Anaxia/blob/main/docs/D4-GRID-PACKINGS.md",
+        "https://github.com/creelie/Anaxia/blob/main/docs/D4-PARTIAL-CONTACTS.md",
+        "https://github.com/creelie/Anaxia/blob/main/docs/D4-RADIAL-SHELL.md"
+      ]
     }
   ]
 }

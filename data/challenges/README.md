@@ -21,6 +21,7 @@ Every executable result below was independently rechecked using integer arithmet
 | Riemann hypothesis | inconclusive; no new full proof verified |
 | Reflexive-polytope descent D4 and proposed bound 24 | inconclusive; no new full proof verified |
 | D4 lattice and the 24-point kissing configuration | configuration_only; no new full proof verified |
+| Four-dimensional sphere packing and the 24-cell bound | inconclusive; no new full proof verified |
 
 See [proof obligations](../../docs/CHALLENGES.md) and the [local research campaign](../campaign/README.md).
 

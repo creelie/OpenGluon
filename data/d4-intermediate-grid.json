@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "scope": "Fixed D4 grid, sqrt(2/3) <= mu < 1. Does not settle unrestricted packing.",
+  "similarity_matrix": [
+    [
+      1,
+      -1,
+      -1,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      1,
+      -1
+    ],
+    [
+      0,
+      -1,
+      1,
+      1
+    ]
+  ],
+  "sublattice_index": 9,
+  "weighted_degree": 72,
+  "period_six_frequency": [
+    1,
+    1,
+    1,
+    3
+  ],
+  "minimum_eigenvalue": -9,
+  "twenty_seven_times_polynomial_coefficients": [
+    135,
+    -216,
+    108,
+    -16
+  ],
+  "torus_vertices": 648,
+  "attaining_lattice_vertices": 72,
+  "optimal_grid_fraction": "1/9",
+  "sharp_density": "pi^2/(36*mu^4)"
+}

@@ -35,9 +35,13 @@ jobs:
           python3 anaxia.py diophantine /tmp/anaxia-modular.json --verify
           python3 anaxia.py challenge run --profile quick --output /tmp/anaxia-challenges
           python3 anaxia.py audit examples/audit/synthetic-claims.json --output /tmp/anaxia-audits
-      - name: Replay the exact D4 packing calculations
+      - name: Replay exact calculations for the research notes
         run: |
           python3 scripts/audit_d4_radial_reduction.py
           python3 scripts/verify_d4_grid.py
+          python3 scripts/verify_d4_intermediate_grid.py --output data/d4-intermediate-grid.json
+          python3 scripts/verify_d4_partial_contacts.py
           python3 scripts/verify_d4_vacancy.py --output data/d4-vacancy.json
-          git diff --exit-code -- data/d4-radial-audit.json data/d4-grid.json data/d4-vacancy.json
+          python3 scripts/check_rh_reciprocal_coefficients.py
+          python3 scripts/check_thermal_gap_identifiability.py
+          git diff --exit-code -- data/d4-radial-audit.json data/d4-grid.json data/d4-intermediate-grid.json data/d4-vacancy.json

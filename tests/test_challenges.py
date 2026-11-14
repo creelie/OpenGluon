@@ -84,7 +84,7 @@ class ChallengeEvidenceTests(unittest.TestCase):
             self.assertEqual(result['global_closures'], 0)
             self.assertFalse(result['paper_eligible'])
             self.assertEqual({r['id'] for r in result['research_targets']},
-                             {'hodge', 'yang-mills', 'riemann', 'd4-descent', 'd4-kissing'})
+                             {'hodge', 'yang-mills', 'riemann', 'd4-descent', 'd4-kissing', 'd4-packing'})
             self.assertTrue((Path(temporary)/'README.md').exists())
             for path in Path(temporary).glob('*.json'):
                 if path.name != 'index.json':
