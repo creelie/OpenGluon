@@ -113,11 +113,11 @@ The **Research radar** workflow polls hourly at minute 37 UTC and reruns registe
 
 <!-- ANAXIA:RADAR:START -->
 
-**Public metadata capture · 2026\-11\-14T14:54:24\+00:00**
+**Public metadata capture · 2026\-11\-14T15:18:30\+00:00**
 
 | Repositories | Papers | Community questions | Blog posts | Review candidates | Sources refreshed |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 481 | 111 | 80 | 16 | 14 | 10 |
+| 480 | 111 | 80 | 16 | 14 | 10 |
 
 Configured, bounded sources; candidate language and community answer flags do not establish that a conjecture is open or solved.
 
