@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-14T14:18:03+00:00",
+  "generated_at_utc": "2026-11-14T14:24:26+00:00",
   "mode": "live",
   "scope": "Bounded configured public metadata searches, not exhaustive global coverage. Candidate language requires human review.",
   "sources": [
@@ -11,7 +11,7 @@
       "query": "creelie",
       "per_page": 100,
       "max_pages": 5,
-      "attempted_at_utc": "2026-11-14T14:18:03+00:00",
+      "attempted_at_utc": "2026-11-14T14:24:26+00:00",
       "reported_total": null,
       "truncated": false,
       "incomplete_results": false,
@@ -2316,16 +2316,26 @@
           "id": "github:1441857800",
           "provider": "github",
           "kind": "repository",
-          "name": "creelie/OpenGluon",
-          "url": "https://github.com/creelie/OpenGluon",
-          "description": "Mathematical constructions, exact certificates and automatically synchronized quantum software.",
-          "updated_at": "2026-11-12T12:04:29Z",
-          "pushed_at": "2026-11-14T10:27:11Z",
+          "name": "creelie/Anaxia",
+          "url": "https://github.com/creelie/Anaxia",
+          "description": "Mathematics research workbench: GitHub/arXiv discovery, exact certificates, bounded experiments and optional Claude assistance.",
+          "updated_at": "2026-11-14T14:23:08Z",
+          "pushed_at": "2026-11-14T14:24:01Z",
           "default_branch": "main",
           "stars": 3,
           "archived": false,
           "fork": false,
-          "topics": [],
+          "topics": [
+            "arxiv",
+            "claude-api",
+            "conjectures",
+            "exact-arithmetic",
+            "mathematics",
+            "research",
+            "research-tools",
+            "sum-of-squares",
+            "theorem-proving"
+          ],
           "license": "MIT"
         },
         {
@@ -3194,7 +3204,7 @@
         }
       ],
       "status": "ok",
-      "last_success_at_utc": "2026-11-14T14:18:03+00:00",
+      "last_success_at_utc": "2026-11-14T14:24:26+00:00",
       "error": null
     },
     {
@@ -3204,8 +3214,8 @@
       "query": "topic:theorem-proving archived:false",
       "per_page": 50,
       "max_pages": 2,
-      "attempted_at_utc": "2026-11-14T14:18:03+00:00",
-      "reported_total": 1014,
+      "attempted_at_utc": "2026-11-14T14:24:26+00:00",
+      "reported_total": 1015,
       "truncated": true,
       "incomplete_results": false,
       "pages_read": 2,
@@ -3710,36 +3720,6 @@
           "license": "MPL-2.0"
         },
         {
-          "id": "github:1228255550",
-          "provider": "github",
-          "kind": "repository",
-          "name": "Daham-Mustaf/odrl-grounded-benchmark",
-          "url": "https://github.com/Daham-Mustaf/odrl-grounded-benchmark",
-          "description": "Three-Valued, Open-World Conflict Detection for Externally-Grounded ODRL Policies",
-          "updated_at": "2026-11-12T14:59:59Z",
-          "pushed_at": "2026-11-12T14:48:07Z",
-          "default_branch": "main",
-          "stars": 0,
-          "archived": false,
-          "fork": false,
-          "topics": [
-            "automated-reasoning",
-            "conflict-detection",
-            "data-spaces",
-            "denotational-semantics",
-            "externally-grounded",
-            "knowledge-graphs",
-            "odrl",
-            "open-world-assumption",
-            "policy-reasoning",
-            "semantic-web",
-            "smtplib",
-            "theorem-proving",
-            "tptp"
-          ],
-          "license": ""
-        },
-        {
           "id": "github:1232989066",
           "provider": "github",
           "kind": "repository",
@@ -4018,7 +3998,7 @@
           "url": "https://github.com/the-omega-institute/trureturing",
           "description": "A library for discovering truth: questions, computation, reusable proofs, and an open frontier.",
           "updated_at": "2026-11-13T17:24:20Z",
-          "pushed_at": "2026-11-14T14:12:34Z",
+          "pushed_at": "2026-11-14T14:23:29Z",
           "default_branch": "dev",
           "stars": 15,
           "archived": false,
@@ -4226,29 +4206,6 @@
           "license": "MIT"
         },
         {
-          "id": "github:1338298561",
-          "provider": "github",
-          "kind": "repository",
-          "name": "dongxuelian2/math-research-agent",
-          "url": "https://github.com/dongxuelian2/math-research-agent",
-          "description": "Agentic system for automated mathematical proof research, verification, and campaign orchestration.",
-          "updated_at": "2026-11-12T13:02:33Z",
-          "pushed_at": "2026-11-12T12:02:28Z",
-          "default_branch": "main",
-          "stars": 2,
-          "archived": false,
-          "fork": false,
-          "topics": [
-            "agentic-ai",
-            "automated-reasoning",
-            "llm-agents",
-            "mathematics",
-            "multi-agent",
-            "theorem-proving"
-          ],
-          "license": "MIT"
-        },
-        {
           "id": "github:1338305906",
           "provider": "github",
           "kind": "repository",
@@ -4428,7 +4385,7 @@
           "url": "https://github.com/competemath/tengoku",
           "description": "An AI-first formal mathematics library for Lean 4 agentic theorem provers.",
           "updated_at": "2026-11-13T16:01:45Z",
-          "pushed_at": "2026-11-14T14:08:53Z",
+          "pushed_at": "2026-11-14T14:18:50Z",
           "default_branch": "main",
           "stars": 6,
           "archived": false,
@@ -5216,6 +5173,31 @@
           "license": "MIT"
         },
         {
+          "id": "github:1439620239",
+          "provider": "github",
+          "kind": "repository",
+          "name": "jieliu-maths/AI-Research-Workflow",
+          "url": "https://github.com/jieliu-maths/AI-Research-Workflow",
+          "description": "AI4Math-first research workflow with proof ledgers, independent review, and human-approved results. Experimental AI4S profile included.",
+          "updated_at": "2026-10-30T12:55:49Z",
+          "pushed_at": "2026-11-14T14:20:58Z",
+          "default_branch": "main",
+          "stars": 1,
+          "archived": false,
+          "fork": false,
+          "topics": [
+            "ai-for-science",
+            "ai4math",
+            "human-in-the-loop",
+            "mathematical-research",
+            "multi-agent-systems",
+            "reproducible-research",
+            "research-workflow",
+            "theorem-proving"
+          ],
+          "license": "MIT"
+        },
+        {
           "id": "github:1439981993",
           "provider": "github",
           "kind": "repository",
@@ -5298,6 +5280,32 @@
             "z3-solver"
           ],
           "license": "MPL-2.0"
+        },
+        {
+          "id": "github:1441857800",
+          "provider": "github",
+          "kind": "repository",
+          "name": "creelie/Anaxia",
+          "url": "https://github.com/creelie/Anaxia",
+          "description": "Mathematics research workbench: GitHub/arXiv discovery, exact certificates, bounded experiments and optional Claude assistance.",
+          "updated_at": "2026-11-14T14:23:08Z",
+          "pushed_at": "2026-11-14T14:24:01Z",
+          "default_branch": "main",
+          "stars": 3,
+          "archived": false,
+          "fork": false,
+          "topics": [
+            "arxiv",
+            "claude-api",
+            "conjectures",
+            "exact-arithmetic",
+            "mathematics",
+            "research",
+            "research-tools",
+            "sum-of-squares",
+            "theorem-proving"
+          ],
+          "license": "MIT"
         },
         {
           "id": "github:1443835547",
@@ -5869,7 +5877,7 @@
         }
       ],
       "status": "ok",
-      "last_success_at_utc": "2026-11-14T14:18:03+00:00",
+      "last_success_at_utc": "2026-11-14T14:24:26+00:00",
       "error": null
     },
     {
@@ -5879,7 +5887,7 @@
       "query": "topic:formal-verification topic:mathematics archived:false",
       "per_page": 50,
       "max_pages": 2,
-      "attempted_at_utc": "2026-11-14T14:18:03+00:00",
+      "attempted_at_utc": "2026-11-14T14:24:26+00:00",
       "reported_total": 216,
       "truncated": true,
       "incomplete_results": false,
@@ -6431,7 +6439,7 @@
           "url": "https://github.com/the-omega-institute/trureturing",
           "description": "A library for discovering truth: questions, computation, reusable proofs, and an open frontier.",
           "updated_at": "2026-11-13T17:24:20Z",
-          "pushed_at": "2026-11-14T14:12:34Z",
+          "pushed_at": "2026-11-14T14:23:29Z",
           "default_branch": "dev",
           "stars": 15,
           "archived": false,
@@ -8690,7 +8698,7 @@
         }
       ],
       "status": "ok",
-      "last_success_at_utc": "2026-11-14T14:18:03+00:00",
+      "last_success_at_utc": "2026-11-14T14:24:26+00:00",
       "error": null
     },
     {
@@ -8700,7 +8708,7 @@
       "query": "topic:mathematics topic:artificial-intelligence archived:false",
       "per_page": 50,
       "max_pages": 2,
-      "attempted_at_utc": "2026-11-14T14:18:03+00:00",
+      "attempted_at_utc": "2026-11-14T14:24:26+00:00",
       "reported_total": 221,
       "truncated": true,
       "incomplete_results": false,
@@ -11598,7 +11606,7 @@
         }
       ],
       "status": "ok",
-      "last_success_at_utc": "2026-11-14T14:18:03+00:00",
+      "last_success_at_utc": "2026-11-14T14:24:26+00:00",
       "error": null
     },
     {
@@ -11608,7 +11616,7 @@
       "query": "cat:math.* AND (all:conjecture OR all:\"open problem\")",
       "per_page": 30,
       "max_pages": 2,
-      "attempted_at_utc": "2026-11-14T14:18:03+00:00",
+      "attempted_at_utc": "2026-11-14T14:24:26+00:00",
       "reported_total": 62374,
       "truncated": true,
       "pages_read": 2,
@@ -12792,7 +12800,7 @@
         }
       ],
       "status": "ok",
-      "last_success_at_utc": "2026-11-14T14:18:03+00:00",
+      "last_success_at_utc": "2026-11-14T14:24:26+00:00",
       "error": null
     }
   ],
@@ -12823,7 +12831,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1003790061",
@@ -12863,7 +12871,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1007374801",
@@ -12888,7 +12896,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1011308764",
@@ -12914,7 +12922,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1020709951",
@@ -12954,7 +12962,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1030020767",
@@ -12981,7 +12989,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1034999079",
@@ -13022,7 +13030,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1039659881",
@@ -13052,7 +13060,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1042919735",
@@ -13083,7 +13091,7 @@
         "github:query:14e8d08cbf934397",
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1046734289",
@@ -13112,7 +13120,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1065396734",
@@ -13147,7 +13155,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1068269744",
@@ -13172,7 +13180,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1069323463",
@@ -13213,7 +13221,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1093996102",
@@ -13248,7 +13256,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1109376783",
@@ -13281,7 +13289,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1122743781",
@@ -13314,7 +13322,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1125556021",
@@ -13355,7 +13363,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:112847221",
@@ -13389,7 +13397,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1132149928",
@@ -13417,7 +13425,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1133852396",
@@ -13450,7 +13458,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1135416905",
@@ -13470,7 +13478,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1140648200",
@@ -13501,7 +13509,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1140873304",
@@ -13540,7 +13548,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1141419687",
@@ -13560,7 +13568,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1145405438",
@@ -13592,7 +13600,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1147043917",
@@ -13612,7 +13620,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1148666672",
@@ -13648,7 +13656,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1149023093",
@@ -13688,7 +13696,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1149866054",
@@ -13727,7 +13735,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1156582666",
@@ -13763,7 +13771,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1161012792",
@@ -13791,7 +13799,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1168922741",
@@ -13820,7 +13828,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1170967207",
@@ -13844,7 +13852,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1175073429",
@@ -13878,7 +13886,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1176678872",
@@ -13917,7 +13925,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1178494429",
@@ -13958,7 +13966,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1180223547",
@@ -13988,7 +13996,7 @@
         "github:query:14e8d08cbf934397",
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:118506495",
@@ -14029,7 +14037,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1187318878",
@@ -14070,7 +14078,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1189849655",
@@ -14097,7 +14105,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1189849683",
@@ -14125,7 +14133,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1189849704",
@@ -14153,7 +14161,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1190192362",
@@ -14189,7 +14197,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1193319096",
@@ -14221,7 +14229,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1193319312",
@@ -14251,7 +14259,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1193463313",
@@ -14277,7 +14285,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1197772382",
@@ -14318,7 +14326,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1200140683",
@@ -14343,7 +14351,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1205343145",
@@ -14382,7 +14390,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1207779515",
@@ -14423,7 +14431,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1209158545",
@@ -14451,7 +14459,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1210503162",
@@ -14479,7 +14487,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1210612014",
@@ -14507,7 +14515,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1212836871",
@@ -14537,7 +14545,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1213751937",
@@ -14578,7 +14586,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1216545797",
@@ -14606,7 +14614,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1217292128",
@@ -14646,7 +14654,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1220279427",
@@ -14687,7 +14695,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1221768420",
@@ -14728,7 +14736,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1222443446",
@@ -14755,7 +14763,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1225446523",
@@ -14781,41 +14789,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
-    },
-    {
-      "id": "github:1228255550",
-      "provider": "github",
-      "kind": "repository",
-      "name": "Daham-Mustaf/odrl-grounded-benchmark",
-      "url": "https://github.com/Daham-Mustaf/odrl-grounded-benchmark",
-      "description": "Three-Valued, Open-World Conflict Detection for Externally-Grounded ODRL Policies",
-      "updated_at": "2026-11-12T14:59:59Z",
-      "pushed_at": "2026-11-12T14:48:07Z",
-      "default_branch": "main",
-      "stars": 0,
-      "archived": false,
-      "fork": false,
-      "topics": [
-        "automated-reasoning",
-        "conflict-detection",
-        "data-spaces",
-        "denotational-semantics",
-        "externally-grounded",
-        "knowledge-graphs",
-        "odrl",
-        "open-world-assumption",
-        "policy-reasoning",
-        "semantic-web",
-        "smtplib",
-        "theorem-proving",
-        "tptp"
-      ],
-      "license": "",
-      "sources": [
-        "github:query:14e8d08cbf934397"
-      ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:122889681",
@@ -14852,7 +14826,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1232989066",
@@ -14877,7 +14851,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1234204025",
@@ -14904,7 +14878,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1235168970",
@@ -14933,7 +14907,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1241471821",
@@ -14960,7 +14934,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1241777078",
@@ -14993,7 +14967,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1246932342",
@@ -15021,7 +14995,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1247024443",
@@ -15045,7 +15019,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1247281838",
@@ -15073,7 +15047,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1252861538",
@@ -15103,7 +15077,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1256536865",
@@ -15128,7 +15102,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1257864963",
@@ -15157,7 +15131,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1259451999",
@@ -15186,7 +15160,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1260129197",
@@ -15212,7 +15186,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1269588275",
@@ -15242,7 +15216,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1273991387",
@@ -15270,7 +15244,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1275491049",
@@ -15308,7 +15282,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1275757107",
@@ -15336,7 +15310,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1276362964",
@@ -15364,7 +15338,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1280931364",
@@ -15392,7 +15366,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1282058267",
@@ -15429,7 +15403,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1286726564",
@@ -15470,7 +15444,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1286726640",
@@ -15511,7 +15485,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1296799024",
@@ -15521,7 +15495,7 @@
       "url": "https://github.com/the-omega-institute/trureturing",
       "description": "A library for discovering truth: questions, computation, reusable proofs, and an open frontier.",
       "updated_at": "2026-11-13T17:24:20Z",
-      "pushed_at": "2026-11-14T14:12:34Z",
+      "pushed_at": "2026-11-14T14:23:29Z",
       "default_branch": "dev",
       "stars": 15,
       "archived": false,
@@ -15539,7 +15513,7 @@
         "github:query:14e8d08cbf934397",
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1297101232",
@@ -15580,7 +15554,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1298700105",
@@ -15611,7 +15585,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1299254777",
@@ -15641,7 +15615,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1300969197",
@@ -15672,7 +15646,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1303430559",
@@ -15708,7 +15682,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1304097431",
@@ -15737,7 +15711,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1304330688",
@@ -15767,7 +15741,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1304844444",
@@ -15803,7 +15777,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1308980095",
@@ -15834,7 +15808,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1309811257",
@@ -15860,7 +15834,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1310437271",
@@ -15901,7 +15875,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1310660328",
@@ -15933,7 +15907,7 @@
         "github:query:4688f57616d31ac7",
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1310901706",
@@ -15958,7 +15932,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1311594862",
@@ -15991,7 +15965,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1311975799",
@@ -16022,7 +15996,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1315489162",
@@ -16050,7 +16024,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1318000403",
@@ -16091,7 +16065,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1318873959",
@@ -16117,7 +16091,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1319853777",
@@ -16146,7 +16120,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1323589908",
@@ -16187,7 +16161,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1330324138",
@@ -16221,7 +16195,7 @@
         "github:query:4688f57616d31ac7",
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1332431248",
@@ -16255,34 +16229,7 @@
         "github:query:14e8d08cbf934397",
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
-    },
-    {
-      "id": "github:1338298561",
-      "provider": "github",
-      "kind": "repository",
-      "name": "dongxuelian2/math-research-agent",
-      "url": "https://github.com/dongxuelian2/math-research-agent",
-      "description": "Agentic system for automated mathematical proof research, verification, and campaign orchestration.",
-      "updated_at": "2026-11-12T13:02:33Z",
-      "pushed_at": "2026-11-12T12:02:28Z",
-      "default_branch": "main",
-      "stars": 2,
-      "archived": false,
-      "fork": false,
-      "topics": [
-        "agentic-ai",
-        "automated-reasoning",
-        "llm-agents",
-        "mathematics",
-        "multi-agent",
-        "theorem-proving"
-      ],
-      "license": "MIT",
-      "sources": [
-        "github:query:14e8d08cbf934397"
-      ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1338305906",
@@ -16311,7 +16258,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1339491989",
@@ -16344,7 +16291,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1340101109",
@@ -16376,7 +16323,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1340232166",
@@ -16412,7 +16359,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1340520542",
@@ -16441,7 +16388,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1342172881",
@@ -16472,7 +16419,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1343187374",
@@ -16503,7 +16450,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1344125087",
@@ -16529,7 +16476,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1344379987",
@@ -16556,7 +16503,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1348273292",
@@ -16593,7 +16540,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1348840063",
@@ -16619,7 +16566,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1350980370",
@@ -16660,7 +16607,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1351055062",
@@ -16701,7 +16648,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1351360623",
@@ -16732,7 +16679,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1351657630",
@@ -16759,7 +16706,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1351658247",
@@ -16784,7 +16731,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1353971073",
@@ -16811,7 +16758,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1354168279",
@@ -16838,7 +16785,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1356328527",
@@ -16868,7 +16815,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1358916571",
@@ -16895,7 +16842,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1360012805",
@@ -16924,7 +16871,7 @@
         "github:query:14e8d08cbf934397",
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1360621744",
@@ -16954,7 +16901,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1363577125",
@@ -16982,7 +16929,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1364204218",
@@ -16992,7 +16939,7 @@
       "url": "https://github.com/competemath/tengoku",
       "description": "An AI-first formal mathematics library for Lean 4 agentic theorem provers.",
       "updated_at": "2026-11-13T16:01:45Z",
-      "pushed_at": "2026-11-14T14:08:53Z",
+      "pushed_at": "2026-11-14T14:18:50Z",
       "default_branch": "main",
       "stars": 6,
       "archived": false,
@@ -17008,7 +16955,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1365302990",
@@ -17037,7 +16984,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1366349524",
@@ -17062,7 +17009,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1368128950",
@@ -17098,7 +17045,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1368245377",
@@ -17136,7 +17083,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1369325837",
@@ -17165,7 +17112,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1371181725",
@@ -17189,7 +17136,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1371671591",
@@ -17223,7 +17170,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1372454573",
@@ -17254,7 +17201,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1372469671",
@@ -17283,7 +17230,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1373145749",
@@ -17316,7 +17263,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1375045742",
@@ -17344,7 +17291,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1375278247",
@@ -17364,7 +17311,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1376491211",
@@ -17393,7 +17340,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1376732708",
@@ -17433,7 +17380,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1377159",
@@ -17458,7 +17405,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1378399098",
@@ -17489,7 +17436,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1378937491",
@@ -17509,7 +17456,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1379090499",
@@ -17538,7 +17485,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1383708351",
@@ -17578,7 +17525,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1384814959",
@@ -17598,7 +17545,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1386832250",
@@ -17618,7 +17565,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1387768934",
@@ -17651,7 +17598,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1391181498",
@@ -17677,7 +17624,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1392179231",
@@ -17716,7 +17663,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1396648478",
@@ -17736,7 +17683,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1396651040",
@@ -17756,7 +17703,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1396654422",
@@ -17776,7 +17723,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1396767270",
@@ -17799,7 +17746,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1396925472",
@@ -17819,7 +17766,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1397523966",
@@ -17839,7 +17786,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1397805676",
@@ -17870,7 +17817,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1400796308",
@@ -17896,7 +17843,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1401588232",
@@ -17916,7 +17863,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1401925410",
@@ -17936,7 +17883,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1402536177",
@@ -17956,7 +17903,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1404558423",
@@ -17976,7 +17923,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1407225801",
@@ -18003,7 +17950,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1407328635",
@@ -18037,7 +17984,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1408163588",
@@ -18066,7 +18013,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1408384078",
@@ -18099,7 +18046,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1408475497",
@@ -18129,7 +18076,7 @@
         "github:query:4688f57616d31ac7",
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1408803911",
@@ -18149,7 +18096,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1408841897",
@@ -18169,7 +18116,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1409536402",
@@ -18189,7 +18136,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1409618563",
@@ -18216,7 +18163,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1409717342",
@@ -18236,7 +18183,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1409742483",
@@ -18256,7 +18203,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1409743018",
@@ -18276,7 +18223,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1409825248",
@@ -18296,7 +18243,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1410137722",
@@ -18322,7 +18269,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1410175525",
@@ -18342,7 +18289,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1410268835",
@@ -18362,7 +18309,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1410605024",
@@ -18382,7 +18329,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1410674374",
@@ -18402,7 +18349,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1410873885",
@@ -18422,7 +18369,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1411187122",
@@ -18442,7 +18389,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1411259169",
@@ -18462,7 +18409,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1411267080",
@@ -18503,7 +18450,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1411727070",
@@ -18523,7 +18470,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1411728308",
@@ -18543,7 +18490,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1411729292",
@@ -18563,7 +18510,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1412090327",
@@ -18583,7 +18530,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1412464212",
@@ -18619,7 +18566,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1412650667",
@@ -18639,7 +18586,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1412662468",
@@ -18659,7 +18606,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1412979320",
@@ -18679,7 +18626,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1413001284",
@@ -18699,7 +18646,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1413045882",
@@ -18719,7 +18666,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1413155847",
@@ -18739,7 +18686,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1413156634",
@@ -18759,7 +18706,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1413157372",
@@ -18779,7 +18726,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1413274516",
@@ -18799,7 +18746,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1413316086",
@@ -18819,7 +18766,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1413414364",
@@ -18839,7 +18786,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1413416096",
@@ -18859,7 +18806,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1413450318",
@@ -18879,7 +18826,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1413457551",
@@ -18899,7 +18846,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1413479783",
@@ -18924,7 +18871,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1413562477",
@@ -18944,7 +18891,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1413820126",
@@ -18966,7 +18913,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1413820461",
@@ -18986,7 +18933,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1413820731",
@@ -19006,7 +18953,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1413820999",
@@ -19026,7 +18973,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1413821228",
@@ -19046,7 +18993,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1414094666",
@@ -19071,7 +19018,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1414661778",
@@ -19100,7 +19047,7 @@
         "github:query:14e8d08cbf934397",
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1414870312",
@@ -19120,7 +19067,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1414873774",
@@ -19140,7 +19087,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1414874114",
@@ -19160,7 +19107,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1414874416",
@@ -19180,7 +19127,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1414874708",
@@ -19200,7 +19147,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1414924520",
@@ -19220,7 +19167,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1414924919",
@@ -19240,7 +19187,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1414925389",
@@ -19260,7 +19207,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1414925812",
@@ -19280,7 +19227,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1414926217",
@@ -19300,7 +19247,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1415719384",
@@ -19320,7 +19267,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1415720253",
@@ -19340,7 +19287,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1415856020",
@@ -19381,7 +19328,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1415999577",
@@ -19410,7 +19357,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1416178322",
@@ -19430,7 +19377,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1416205546",
@@ -19461,7 +19408,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1416882613",
@@ -19481,7 +19428,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1416883185",
@@ -19501,7 +19448,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1416883644",
@@ -19524,7 +19471,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1416884089",
@@ -19544,7 +19491,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1416884566",
@@ -19564,7 +19511,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1417809026",
@@ -19592,7 +19539,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1419264428",
@@ -19625,7 +19572,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1419758059",
@@ -19645,7 +19592,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1419762949",
@@ -19665,7 +19612,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1420018030",
@@ -19696,7 +19643,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1420483103",
@@ -19716,7 +19663,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1420485883",
@@ -19744,7 +19691,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1420608225",
@@ -19785,7 +19732,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1420662340",
@@ -19813,7 +19760,7 @@
         "github:query:14e8d08cbf934397",
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1421811259",
@@ -19836,7 +19783,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1421943460",
@@ -19867,7 +19814,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1422706219",
@@ -19897,7 +19844,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1422871175",
@@ -19922,7 +19869,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1422871338",
@@ -19947,7 +19894,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1422884619",
@@ -19973,7 +19920,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1423055089",
@@ -20004,7 +19951,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1423313273",
@@ -20024,7 +19971,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1423784179",
@@ -20047,7 +19994,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1424903264",
@@ -20067,7 +20014,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1424903506",
@@ -20087,7 +20034,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1424903698",
@@ -20107,7 +20054,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1424903862",
@@ -20127,7 +20074,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1424904042",
@@ -20147,7 +20094,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1424904259",
@@ -20167,7 +20114,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1424904481",
@@ -20187,7 +20134,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1424904678",
@@ -20207,7 +20154,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1424905340",
@@ -20227,7 +20174,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1424905788",
@@ -20247,7 +20194,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1424940144",
@@ -20282,7 +20229,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1424978517",
@@ -20302,7 +20249,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1424978724",
@@ -20322,7 +20269,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1424978922",
@@ -20342,7 +20289,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1424979324",
@@ -20362,7 +20309,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1424981602",
@@ -20382,7 +20329,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1425410741",
@@ -20402,7 +20349,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1425411287",
@@ -20422,7 +20369,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1425411927",
@@ -20442,7 +20389,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1425668672",
@@ -20462,7 +20409,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1425669374",
@@ -20482,7 +20429,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1425718099",
@@ -20502,7 +20449,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1425718804",
@@ -20522,7 +20469,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1425719451",
@@ -20542,7 +20489,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1425961303",
@@ -20562,7 +20509,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1425964634",
@@ -20582,7 +20529,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1426197183",
@@ -20609,7 +20556,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1426317779",
@@ -20650,7 +20597,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1426379040",
@@ -20679,7 +20626,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1426652829",
@@ -20709,7 +20656,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1426786993",
@@ -20741,7 +20688,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1426918732",
@@ -20761,7 +20708,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1426999293",
@@ -20794,7 +20741,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1427008841",
@@ -20823,7 +20770,7 @@
         "github:query:4688f57616d31ac7",
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1427022342",
@@ -20843,7 +20790,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1427034329",
@@ -20873,7 +20820,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1427595520",
@@ -20900,7 +20847,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1427737020",
@@ -20920,7 +20867,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1427739275",
@@ -20940,7 +20887,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1427741172",
@@ -20960,7 +20907,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1427755759",
@@ -20980,7 +20927,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1427835730",
@@ -21008,7 +20955,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1427944450",
@@ -21035,7 +20982,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1428350208",
@@ -21063,7 +21010,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1428873019",
@@ -21096,7 +21043,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1428924267",
@@ -21116,7 +21063,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1429113317",
@@ -21145,7 +21092,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1429158376",
@@ -21180,7 +21127,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1429436544",
@@ -21200,7 +21147,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1429803184",
@@ -21220,7 +21167,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1431151430",
@@ -21240,7 +21187,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1431478150",
@@ -21260,7 +21207,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1431682479",
@@ -21282,7 +21229,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1431711348",
@@ -21302,7 +21249,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1431726986",
@@ -21322,7 +21269,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1431806756",
@@ -21342,7 +21289,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1431807097",
@@ -21362,7 +21309,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1431807406",
@@ -21382,7 +21329,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1431813255",
@@ -21402,7 +21349,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1431813544",
@@ -21422,7 +21369,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1431813797",
@@ -21442,7 +21389,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1431814046",
@@ -21462,7 +21409,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1431814304",
@@ -21485,7 +21432,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1432645222",
@@ -21526,7 +21473,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1432801498",
@@ -21561,7 +21508,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1432801581",
@@ -21596,7 +21543,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1433688003",
@@ -21627,7 +21574,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1433998303",
@@ -21656,7 +21603,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1434379203",
@@ -21681,7 +21628,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1434474411",
@@ -21714,7 +21661,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1434511005",
@@ -21755,7 +21702,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1434542727",
@@ -21794,7 +21741,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1434648150",
@@ -21836,7 +21783,7 @@
         "github:query:4688f57616d31ac7",
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1434731845",
@@ -21877,7 +21824,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1434841388",
@@ -21916,7 +21863,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1435030644",
@@ -21942,7 +21889,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1435379101",
@@ -21974,7 +21921,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1435431972",
@@ -22003,7 +21950,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1435843164",
@@ -22030,7 +21977,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1436200853",
@@ -22061,7 +22008,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1436273565",
@@ -22081,7 +22028,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1436487488",
@@ -22111,7 +22058,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1436546428",
@@ -22131,7 +22078,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1437120656",
@@ -22163,7 +22110,7 @@
         "github:query:14e8d08cbf934397",
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1437150403",
@@ -22195,7 +22142,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1437246792",
@@ -22237,7 +22184,7 @@
         "github:query:4688f57616d31ac7",
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1437858905",
@@ -22265,7 +22212,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1437931965",
@@ -22292,7 +22239,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1438042261",
@@ -22324,7 +22271,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1438343659",
@@ -22357,7 +22304,36 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
+    },
+    {
+      "id": "github:1439620239",
+      "provider": "github",
+      "kind": "repository",
+      "name": "jieliu-maths/AI-Research-Workflow",
+      "url": "https://github.com/jieliu-maths/AI-Research-Workflow",
+      "description": "AI4Math-first research workflow with proof ledgers, independent review, and human-approved results. Experimental AI4S profile included.",
+      "updated_at": "2026-10-30T12:55:49Z",
+      "pushed_at": "2026-11-14T14:20:58Z",
+      "default_branch": "main",
+      "stars": 1,
+      "archived": false,
+      "fork": false,
+      "topics": [
+        "ai-for-science",
+        "ai4math",
+        "human-in-the-loop",
+        "mathematical-research",
+        "multi-agent-systems",
+        "reproducible-research",
+        "research-workflow",
+        "theorem-proving"
+      ],
+      "license": "MIT",
+      "sources": [
+        "github:query:14e8d08cbf934397"
+      ],
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1439744237",
@@ -22394,7 +22370,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1439758129",
@@ -22421,7 +22397,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1439918962",
@@ -22441,7 +22417,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1439981993",
@@ -22469,7 +22445,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1440679218",
@@ -22496,7 +22472,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1440910911",
@@ -22516,7 +22492,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1440912305",
@@ -22536,7 +22512,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1440943059",
@@ -22561,7 +22537,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1441352890",
@@ -22602,7 +22578,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1441387611",
@@ -22643,7 +22619,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1441796584",
@@ -22663,7 +22639,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1441816032",
@@ -22683,7 +22659,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1441816414",
@@ -22703,7 +22679,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1441816781",
@@ -22723,7 +22699,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1441817092",
@@ -22743,7 +22719,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1441817382",
@@ -22763,7 +22739,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1441817820",
@@ -22783,7 +22759,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1441818220",
@@ -22803,7 +22779,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1441818560",
@@ -22823,7 +22799,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1441819162",
@@ -22843,27 +22819,38 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1441857800",
       "provider": "github",
       "kind": "repository",
-      "name": "creelie/OpenGluon",
-      "url": "https://github.com/creelie/OpenGluon",
-      "description": "Mathematical constructions, exact certificates and automatically synchronized quantum software.",
-      "updated_at": "2026-11-12T12:04:29Z",
-      "pushed_at": "2026-11-14T10:27:11Z",
+      "name": "creelie/Anaxia",
+      "url": "https://github.com/creelie/Anaxia",
+      "description": "Mathematics research workbench: GitHub/arXiv discovery, exact certificates, bounded experiments and optional Claude assistance.",
+      "updated_at": "2026-11-14T14:23:08Z",
+      "pushed_at": "2026-11-14T14:24:01Z",
       "default_branch": "main",
       "stars": 3,
       "archived": false,
       "fork": false,
-      "topics": [],
+      "topics": [
+        "arxiv",
+        "claude-api",
+        "conjectures",
+        "exact-arithmetic",
+        "mathematics",
+        "research",
+        "research-tools",
+        "sum-of-squares",
+        "theorem-proving"
+      ],
       "license": "MIT",
       "sources": [
-        "github:owner:creelie"
+        "github:owner:creelie",
+        "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1441948263",
@@ -22883,7 +22870,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1443482802",
@@ -22916,7 +22903,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1443732431",
@@ -22957,7 +22944,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1443835547",
@@ -22986,7 +22973,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1443997215",
@@ -23027,7 +23014,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1443999600",
@@ -23068,7 +23055,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1444002360",
@@ -23109,7 +23096,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1444003301",
@@ -23150,7 +23137,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1444004327",
@@ -23191,7 +23178,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1444410206",
@@ -23211,7 +23198,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1444684426",
@@ -23241,7 +23228,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1444817550",
@@ -23261,7 +23248,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1444953046",
@@ -23281,7 +23268,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1447411529",
@@ -23313,7 +23300,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1448305046",
@@ -23333,7 +23320,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1449007059",
@@ -23364,7 +23351,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1449063819",
@@ -23397,7 +23384,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1449802319",
@@ -23424,7 +23411,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1449883926",
@@ -23444,7 +23431,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1450022027",
@@ -23474,7 +23461,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1450084251",
@@ -23494,7 +23481,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1450156905",
@@ -23514,7 +23501,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1450261107",
@@ -23549,7 +23536,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1450293604",
@@ -23569,7 +23556,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1450293673",
@@ -23589,7 +23576,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1450376932",
@@ -23609,7 +23596,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1450980319",
@@ -23635,7 +23622,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1451059961",
@@ -23662,7 +23649,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1451900307",
@@ -23682,7 +23669,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1451934038",
@@ -23723,7 +23710,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1451949527",
@@ -23743,7 +23730,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1452026442",
@@ -23763,7 +23750,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1452467530",
@@ -23796,7 +23783,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1453326135",
@@ -23816,7 +23803,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1453326508",
@@ -23836,7 +23823,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1453326869",
@@ -23856,7 +23843,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1453353247",
@@ -23882,7 +23869,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1453357265",
@@ -23902,7 +23889,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1453359305",
@@ -23922,7 +23909,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1453395582",
@@ -23942,7 +23929,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1453395967",
@@ -23962,7 +23949,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1453400113",
@@ -23982,7 +23969,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1453424311",
@@ -24002,7 +23989,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1453424641",
@@ -24022,7 +24009,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1453502831",
@@ -24042,7 +24029,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1453518539",
@@ -24062,7 +24049,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1453518892",
@@ -24082,7 +24069,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1453519233",
@@ -24102,7 +24089,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1453546386",
@@ -24134,7 +24121,7 @@
       "sources": [
         "github:query:9515f55a0262a4d1"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1453553638",
@@ -24154,7 +24141,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1453570502",
@@ -24174,7 +24161,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1453570828",
@@ -24194,7 +24181,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1453571104",
@@ -24214,7 +24201,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1453571334",
@@ -24234,7 +24221,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1453571682",
@@ -24254,7 +24241,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1453685813",
@@ -24274,7 +24261,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1453717115",
@@ -24294,7 +24281,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1454796430",
@@ -24314,7 +24301,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1454835244",
@@ -24334,7 +24321,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1455374067",
@@ -24354,7 +24341,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1455734409",
@@ -24384,7 +24371,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1455759436",
@@ -24411,7 +24398,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1455948281",
@@ -24431,7 +24418,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1455974561",
@@ -24458,7 +24445,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1456095964",
@@ -24478,7 +24465,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1456155019",
@@ -24498,7 +24485,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1456155474",
@@ -24518,7 +24505,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1456155780",
@@ -24538,7 +24525,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1456156089",
@@ -24558,7 +24545,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1456156347",
@@ -24578,7 +24565,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1456156638",
@@ -24598,7 +24585,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1456159121",
@@ -24618,7 +24605,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1456285710",
@@ -24650,7 +24637,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1456460384",
@@ -24679,7 +24666,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1456701166",
@@ -24708,7 +24695,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1457143257",
@@ -24728,7 +24715,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1457164374",
@@ -24748,7 +24735,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1457164641",
@@ -24768,7 +24755,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1457179622",
@@ -24794,7 +24781,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1457386104",
@@ -24824,7 +24811,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:1457802920",
@@ -24844,7 +24831,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:18411972",
@@ -24878,7 +24865,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:203072234",
@@ -24911,7 +24898,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:230237409",
@@ -24952,7 +24939,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:23556724",
@@ -24982,7 +24969,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:259112673",
@@ -25019,7 +25006,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:291299282",
@@ -25056,7 +25043,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:353685",
@@ -25080,7 +25067,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:427918562",
@@ -25114,7 +25101,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:494927973",
@@ -25147,7 +25134,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:563586980",
@@ -25172,7 +25159,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:6138801",
@@ -25200,7 +25187,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:638031304",
@@ -25236,7 +25223,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:643380693",
@@ -25277,7 +25264,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:684154221",
@@ -25308,7 +25295,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:684776900",
@@ -25338,7 +25325,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:70537263",
@@ -25379,7 +25366,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:743195419",
@@ -25406,7 +25393,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:780986879",
@@ -25432,7 +25419,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:787574978",
@@ -25456,7 +25443,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:900366700",
@@ -25495,7 +25482,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:908032793",
@@ -25534,7 +25521,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:926019069",
@@ -25560,7 +25547,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:944341196",
@@ -25594,7 +25581,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:949517755",
@@ -25624,7 +25611,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:959005755",
@@ -25664,7 +25651,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:963715057",
@@ -25693,7 +25680,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:965223336",
@@ -25717,7 +25704,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:966207689",
@@ -25745,7 +25732,7 @@
       "sources": [
         "github:query:14e8d08cbf934397"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:988545923",
@@ -25765,7 +25752,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:994104380",
@@ -25803,7 +25790,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:998074265",
@@ -25823,7 +25810,7 @@
       "sources": [
         "github:owner:creelie"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "github:998440634",
@@ -25860,7 +25847,7 @@
       "sources": [
         "github:query:4688f57616d31ac7"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     }
   ],
   "papers": [
@@ -25888,7 +25875,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2410.07371",
@@ -25912,7 +25899,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2504.21597",
@@ -25937,7 +25924,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2505.04429",
@@ -25961,7 +25948,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2506.15396",
@@ -25985,7 +25972,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2506.16992",
@@ -26009,7 +25996,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2604.03735",
@@ -26036,7 +26023,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2605.29671",
@@ -26059,7 +26046,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2606.20051",
@@ -26083,7 +26070,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2607.03315",
@@ -26106,7 +26093,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2609.14023",
@@ -26129,7 +26116,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2610.10673",
@@ -26153,7 +26140,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2610.14509",
@@ -26176,7 +26163,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2610.20916",
@@ -26200,7 +26187,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2610.34743",
@@ -26223,7 +26210,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2610.39883",
@@ -26245,7 +26232,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2610.40863",
@@ -26267,7 +26254,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.02323",
@@ -26292,7 +26279,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.09753",
@@ -26316,7 +26303,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.14506",
@@ -26338,7 +26325,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.16231",
@@ -26362,7 +26349,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.16279",
@@ -26384,7 +26371,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.16283",
@@ -26408,7 +26395,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.16338",
@@ -26432,7 +26419,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.16377",
@@ -26455,7 +26442,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.16443",
@@ -26479,7 +26466,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.16470",
@@ -26504,7 +26491,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.16518",
@@ -26527,7 +26514,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.16547",
@@ -26549,7 +26536,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.16613",
@@ -26574,7 +26561,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.16616",
@@ -26597,7 +26584,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.16649",
@@ -26621,7 +26608,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.16672",
@@ -26646,7 +26633,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.16680",
@@ -26670,7 +26657,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.16682",
@@ -26697,7 +26684,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.16688",
@@ -26720,7 +26707,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.16768",
@@ -26743,7 +26730,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.16784",
@@ -26767,7 +26754,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.16819",
@@ -26790,7 +26777,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.16834",
@@ -26813,7 +26800,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.16847",
@@ -26836,7 +26823,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.16858",
@@ -26858,7 +26845,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.16898",
@@ -26882,7 +26869,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.16899",
@@ -26905,7 +26892,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.16911",
@@ -26929,7 +26916,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.16938",
@@ -26952,7 +26939,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.16957",
@@ -26976,7 +26963,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.16960",
@@ -26998,7 +26985,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.16997",
@@ -27022,7 +27009,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.17000",
@@ -27044,7 +27031,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.17022",
@@ -27067,7 +27054,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.17124",
@@ -27092,7 +27079,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.17164",
@@ -27115,7 +27102,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.17183",
@@ -27139,7 +27126,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.17197",
@@ -27161,7 +27148,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.17236",
@@ -27184,7 +27171,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.17243",
@@ -27208,7 +27195,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.17259",
@@ -27232,7 +27219,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.17282",
@@ -27257,7 +27244,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     },
     {
       "id": "arxiv:2611.17317",
@@ -27279,7 +27266,7 @@
       "sources": [
         "arxiv:query:36eac0042a46f9e8"
       ],
-      "observed_at_utc": "2026-11-14T14:18:03+00:00"
+      "observed_at_utc": "2026-11-14T14:24:26+00:00"
     }
   ],
   "candidates": [
@@ -27481,299 +27468,15 @@
     }
   ],
   "summary": {
-    "repositories": 482,
+    "repositories": 481,
     "papers": 60,
     "candidates": 14,
     "sources_ok": 5,
     "sources_stale_or_error": 0,
     "sources_truncated": 4,
-    "new_records": 285
+    "new_records": 1
   },
   "new_record_ids": [
-    "github:1001617016",
-    "github:1003790061",
-    "github:1007374801",
-    "github:1011308764",
-    "github:1020709951",
-    "github:1030020767",
-    "github:1034999079",
-    "github:1039659881",
-    "github:1042919735",
-    "github:1046734289",
-    "github:1065396734",
-    "github:1068269744",
-    "github:1069323463",
-    "github:1093996102",
-    "github:1109376783",
-    "github:1122743781",
-    "github:1125556021",
-    "github:112847221",
-    "github:1132149928",
-    "github:1133852396",
-    "github:1140648200",
-    "github:1140873304",
-    "github:1145405438",
-    "github:1148666672",
-    "github:1149023093",
-    "github:1149866054",
-    "github:1156582666",
-    "github:1161012792",
-    "github:1168922741",
-    "github:1170967207",
-    "github:1175073429",
-    "github:1176678872",
-    "github:1178494429",
-    "github:1180223547",
-    "github:118506495",
-    "github:1187318878",
-    "github:1189849655",
-    "github:1189849683",
-    "github:1189849704",
-    "github:1190192362",
-    "github:1193319096",
-    "github:1193319312",
-    "github:1193463313",
-    "github:1197772382",
-    "github:1200140683",
-    "github:1205343145",
-    "github:1207779515",
-    "github:1209158545",
-    "github:1210503162",
-    "github:1210612014",
-    "github:1212836871",
-    "github:1213751937",
-    "github:1216545797",
-    "github:1217292128",
-    "github:1220279427",
-    "github:1221768420",
-    "github:1222443446",
-    "github:1225446523",
-    "github:1228255550",
-    "github:122889681",
-    "github:1232989066",
-    "github:1234204025",
-    "github:1235168970",
-    "github:1241471821",
-    "github:1241777078",
-    "github:1246932342",
-    "github:1247024443",
-    "github:1247281838",
-    "github:1252861538",
-    "github:1256536865",
-    "github:1257864963",
-    "github:1259451999",
-    "github:1260129197",
-    "github:1269588275",
-    "github:1273991387",
-    "github:1275491049",
-    "github:1275757107",
-    "github:1276362964",
-    "github:1280931364",
-    "github:1282058267",
-    "github:1286726564",
-    "github:1286726640",
-    "github:1296799024",
-    "github:1297101232",
-    "github:1298700105",
-    "github:1299254777",
-    "github:1300969197",
-    "github:1303430559",
-    "github:1304097431",
-    "github:1304330688",
-    "github:1304844444",
-    "github:1308980095",
-    "github:1309811257",
-    "github:1310437271",
-    "github:1310660328",
-    "github:1310901706",
-    "github:1311594862",
-    "github:1311975799",
-    "github:1315489162",
-    "github:1318000403",
-    "github:1318873959",
-    "github:1319853777",
-    "github:1323589908",
-    "github:1330324138",
-    "github:1332431248",
-    "github:1338298561",
-    "github:1338305906",
-    "github:1339491989",
-    "github:1340101109",
-    "github:1340232166",
-    "github:1340520542",
-    "github:1342172881",
-    "github:1343187374",
-    "github:1344125087",
-    "github:1344379987",
-    "github:1348273292",
-    "github:1348840063",
-    "github:1350980370",
-    "github:1351055062",
-    "github:1351360623",
-    "github:1351657630",
-    "github:1351658247",
-    "github:1353971073",
-    "github:1354168279",
-    "github:1356328527",
-    "github:1358916571",
-    "github:1360012805",
-    "github:1360621744",
-    "github:1363577125",
-    "github:1364204218",
-    "github:1365302990",
-    "github:1366349524",
-    "github:1368128950",
-    "github:1368245377",
-    "github:1369325837",
-    "github:1371671591",
-    "github:1372454573",
-    "github:1372469671",
-    "github:1373145749",
-    "github:1375045742",
-    "github:1376491211",
-    "github:1376732708",
-    "github:1377159",
-    "github:1378399098",
-    "github:1379090499",
-    "github:1383708351",
-    "github:1387768934",
-    "github:1391181498",
-    "github:1392179231",
-    "github:1397805676",
-    "github:1400796308",
-    "github:1407225801",
-    "github:1407328635",
-    "github:1408163588",
-    "github:1408384078",
-    "github:1408475497",
-    "github:1409618563",
-    "github:1410137722",
-    "github:1411267080",
-    "github:1412464212",
-    "github:1413479783",
-    "github:1414094666",
-    "github:1414661778",
-    "github:1415856020",
-    "github:1415999577",
-    "github:1416205546",
-    "github:1417809026",
-    "github:1419264428",
-    "github:1420018030",
-    "github:1420485883",
-    "github:1420608225",
-    "github:1420662340",
-    "github:1421943460",
-    "github:1422706219",
-    "github:1422871175",
-    "github:1422871338",
-    "github:1422884619",
-    "github:1423055089",
-    "github:1424940144",
-    "github:1426197183",
-    "github:1426317779",
-    "github:1426379040",
-    "github:1426652829",
-    "github:1426786993",
-    "github:1426999293",
-    "github:1427008841",
-    "github:1427034329",
-    "github:1427595520",
-    "github:1427835730",
-    "github:1427944450",
-    "github:1428350208",
-    "github:1428873019",
-    "github:1429113317",
-    "github:1429158376",
-    "github:1432645222",
-    "github:1432801498",
-    "github:1432801581",
-    "github:1433688003",
-    "github:1433998303",
-    "github:1434379203",
-    "github:1434474411",
-    "github:1434511005",
-    "github:1434542727",
-    "github:1434648150",
-    "github:1434731845",
-    "github:1434841388",
-    "github:1435030644",
-    "github:1435379101",
-    "github:1435431972",
-    "github:1435843164",
-    "github:1436200853",
-    "github:1436487488",
-    "github:1437120656",
-    "github:1437150403",
-    "github:1437246792",
-    "github:1437858905",
-    "github:1437931965",
-    "github:1438042261",
-    "github:1438343659",
-    "github:1439744237",
-    "github:1439758129",
-    "github:1439981993",
-    "github:1440679218",
-    "github:1440943059",
-    "github:1441352890",
-    "github:1441387611",
-    "github:1443482802",
-    "github:1443732431",
-    "github:1443835547",
-    "github:1443997215",
-    "github:1443999600",
-    "github:1444002360",
-    "github:1444003301",
-    "github:1444004327",
-    "github:1444684426",
-    "github:1447411529",
-    "github:1449007059",
-    "github:1449063819",
-    "github:1449802319",
-    "github:1450022027",
-    "github:1450261107",
-    "github:1450980319",
-    "github:1451059961",
-    "github:1451934038",
-    "github:1452467530",
-    "github:1453353247",
-    "github:1453546386",
-    "github:1455734409",
-    "github:1455759436",
-    "github:1455974561",
-    "github:1456285710",
-    "github:1456460384",
-    "github:1456701166",
-    "github:1457179622",
-    "github:1457386104",
-    "github:18411972",
-    "github:203072234",
-    "github:230237409",
-    "github:23556724",
-    "github:259112673",
-    "github:291299282",
-    "github:353685",
-    "github:427918562",
-    "github:494927973",
-    "github:563586980",
-    "github:6138801",
-    "github:638031304",
-    "github:643380693",
-    "github:684154221",
-    "github:684776900",
-    "github:70537263",
-    "github:743195419",
-    "github:780986879",
-    "github:787574978",
-    "github:900366700",
-    "github:908032793",
-    "github:926019069",
-    "github:944341196",
-    "github:949517755",
-    "github:959005755",
-    "github:963715057",
-    "github:965223336",
-    "github:966207689",
-    "github:994104380",
-    "github:998440634"
+    "github:1439620239"
   ]
 }

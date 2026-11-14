@@ -1,10 +1,10 @@
 # Anaxia research radar
 
-**Public metadata capture · 2026\-11\-14T14:18:03\+00:00**
+**Public metadata capture · 2026\-11\-14T14:24:26\+00:00**
 
 | Repositories | Papers | Review candidates | Sources refreshed |
 | ---: | ---: | ---: | ---: |
-| 482 | 60 | 14 | 5 |
+| 481 | 60 | 14 | 5 |
 
 Configured, bounded searches; candidate language does not establish that a conjecture is open or solved.
 
@@ -22,11 +22,11 @@ Coverage: 0 source(s) stale/unavailable; 4 source(s) reached a limit or reported
 
 | Source | State | Last successful capture | Records | Limited |
 | --- | --- | --- | ---: | --- |
-| github: creelie | ok | 2026\-11\-14T14:18:03\+00:00 | 197 | False |
-| github: topic:theorem\-proving archived:false | ok | 2026\-11\-14T14:18:03\+00:00 | 100 | True |
-| github: topic:formal\-verification topic:mathematics archived:false | ok | 2026\-11\-14T14:18:03\+00:00 | 100 | True |
-| github: topic:mathematics topic:artificial\-intelligence archived:false | ok | 2026\-11\-14T14:18:03\+00:00 | 100 | True |
-| arxiv: cat:math.\* AND \(all:conjecture OR all:"open problem"\) | ok | 2026\-11\-14T14:18:03\+00:00 | 60 | True |
+| github: creelie | ok | 2026\-11\-14T14:24:26\+00:00 | 197 | False |
+| github: topic:theorem\-proving archived:false | ok | 2026\-11\-14T14:24:26\+00:00 | 100 | True |
+| github: topic:formal\-verification topic:mathematics archived:false | ok | 2026\-11\-14T14:24:26\+00:00 | 100 | True |
+| github: topic:mathematics topic:artificial\-intelligence archived:false | ok | 2026\-11\-14T14:24:26\+00:00 | 100 | True |
+| arxiv: cat:math.\* AND \(all:conjecture OR all:"open problem"\) | ok | 2026\-11\-14T14:24:26\+00:00 | 60 | True |
 
 ## Conjecture review queue
 
@@ -120,6 +120,7 @@ An abstract may discuss a problem already resolved elsewhere or use open-problem
 
 | Repository | Last update reported by GitHub | License reported by GitHub |
 | --- | --- | --- |
+| [creelie/Anaxia](https://github.com/creelie/Anaxia) | 2026\-11\-14T14:23:08Z | MIT |
 | [hyperpolymath/mathesis](https://github.com/hyperpolymath/mathesis) | 2026\-11\-14T14:01:51Z | MPL\-2.0 |
 | [creelie/colibri](https://github.com/creelie/colibri) | 2026\-11\-14T13:53:12Z | Apache\-2.0 |
 | [fabio\-rovai/open\-ontologies](https://github.com/fabio-rovai/open-ontologies) | 2026\-11\-14T13:39:30Z | MIT |
@@ -159,4 +160,3 @@ An abstract may discuss a problem already resolved elsewhere or use open-problem
 | [the\-omega\-institute/trureturing](https://github.com/the-omega-institute/trureturing) | 2026\-11\-13T17:24:20Z | Apache\-2.0 |
 | [CakeML/cakeml](https://github.com/CakeML/cakeml) | 2026\-11\-13T17:01:08Z | BSD\-3\-Clause |
 | [thomas\-falk\-research/lean\-oscillatory](https://github.com/thomas-falk-research/lean-oscillatory) | 2026\-11\-13T16:47:26Z | Apache\-2.0 |
-| [SMC17/logic\-zig](https://github.com/SMC17/logic-zig) | 2026\-11\-13T16:02:17Z | Apache\-2.0 |

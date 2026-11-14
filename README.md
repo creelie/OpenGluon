@@ -97,11 +97,11 @@ Configure scope and limits in [`config/research-watch.json`](config/research-wat
 
 <!-- ANAXIA:RADAR:START -->
 
-**Public metadata capture · 2026\-11\-14T14:18:03\+00:00**
+**Public metadata capture · 2026\-11\-14T14:24:26\+00:00**
 
 | Repositories | Papers | Review candidates | Sources refreshed |
 | ---: | ---: | ---: | ---: |
-| 482 | 60 | 14 | 5 |
+| 481 | 60 | 14 | 5 |
 
 Configured, bounded searches; candidate language does not establish that a conjecture is open or solved.
 
